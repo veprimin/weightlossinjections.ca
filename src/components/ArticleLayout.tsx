@@ -1,4 +1,4 @@
-import { FelixSidebar } from "./FelixAd";
+import PartnersSidebar from "./PartnersSidebar";
 import Link from "next/link";
 
 interface RelatedArticle {
@@ -19,7 +19,7 @@ export default function ArticleLayout({ children, toc, related }: ArticleLayoutP
     <div className="max-w-7xl mx-auto px-4 sm:px-6 py-12 grid grid-cols-1 lg:grid-cols-[1fr_320px] gap-14 items-start">
       <article className="min-w-0">{children}</article>
       <aside className="lg:sticky lg:top-20 flex flex-col gap-6">
-        <FelixSidebar />
+        <PartnersSidebar />
         {toc && toc.length > 0 && (
           <div className="bg-gray-50 border border-gray-200 rounded-xl p-5">
             <p className="text-[10.5px] font-bold uppercase tracking-widest text-gray-400 mb-3 pb-2.5 border-b border-gray-200">In This Article</p>
