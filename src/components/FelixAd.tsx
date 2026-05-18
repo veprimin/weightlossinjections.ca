@@ -11,7 +11,7 @@ export function FelixBanner() {
         <div className="absolute -right-10 -top-10 w-52 h-52 rounded-full bg-white/5 pointer-events-none" />
         <p className="text-xs font-semibold tracking-widest uppercase text-white/60 mb-2">Sponsored · Felix Health</p>
         <h3 className="text-2xl font-bold text-white mb-3 max-w-md leading-snug" style={{ fontFamily: "Georgia, serif" }}>
-          Canadians Can Now Get Ozempic Delivered to Their Door — at No Extra Cost
+          Canadians Can Now Get Ozempic Delivered to Their Door - at No Extra Cost
         </h3>
         <p className="text-white/85 text-[15px] font-light leading-relaxed mb-6 max-w-sm">
           A licensed Canadian provider reviews your eligibility in minutes. No clinic visit. No waiting rooms.
@@ -85,7 +85,7 @@ export function FelixInline() {
     >
       <div className="flex-1">
         <p className="font-semibold text-white mb-1.5 text-[15px]">Find out if you qualify for GLP-1 treatment</p>
-        <p className="text-sm text-white/90 leading-relaxed">Felix matches you with a licensed Canadian provider in minutes — no clinic visit needed.</p>
+        <p className="text-sm text-white/90 leading-relaxed">Felix matches you with a licensed Canadian provider in minutes - no clinic visit needed.</p>
       </div>
       <a
         href={FELIX_LINK}

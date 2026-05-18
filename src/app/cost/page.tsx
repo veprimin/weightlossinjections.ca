@@ -55,14 +55,14 @@ export default function CostPage() {
         readTime="8 min read"
         date="May 2025"
         headline="How Much Do Weight Loss Injections Cost in Canada? Province-by-Province Breakdown"
-        standfirst="The cost of GLP-1 medications in Canada varies by drug, dose, province, and insurance coverage. Here is everything you need to budget for treatment — and how to reduce what you pay."
+        standfirst="The cost of GLP-1 medications in Canada varies by drug, dose, province, and insurance coverage. Here is everything you need to budget for treatment - and how to reduce what you pay."
         heroEmoji="💰"
         heroGradient="linear-gradient(135deg,#92400E,#F59E0B)"
       />
 
       <div className="prose-editorial">
         <p>
-          The cost of weight loss injections in Canada is one of the biggest practical barriers to access. Without insurance, monthly expenses can run into the hundreds of dollars — but with the right coverage, patient support programs, and the arrival of generic semaglutide, the picture is changing quickly.
+          The cost of weight loss injections in Canada is one of the biggest practical barriers to access. Without insurance, monthly expenses can run into the hundreds of dollars - but with the right coverage, patient support programs, and the arrival of generic semaglutide, the picture is changing quickly.
         </p>
 
         <h2 id="overview">Cost Overview at a Glance</h2>
@@ -140,7 +140,7 @@ export default function CostPage() {
           The Health Canada approval of generic semaglutide (from Dr. Reddy's Laboratories and Apotex) in 2025 is the most significant cost event in the GLP-1 market since these medications launched. Generics are typically priced <strong>45–90% below the brand-name equivalent</strong>.
         </p>
         <p>
-          If this pricing pattern holds — and historical generic drug markets suggest it will — a monthly supply of injectable semaglutide could fall from ~$300–$400 to <strong>$30–$150 per month</strong> once generics reach full market penetration. This timeline typically takes 12–24 months after initial approval.
+          If this pricing pattern holds - and historical generic drug markets suggest it will - a monthly supply of injectable semaglutide could fall from ~$300–$400 to <strong>$30–$150 per month</strong> once generics reach full market penetration. This timeline typically takes 12–24 months after initial approval.
         </p>
         <p>
           The practical advice: if cost has been a barrier, the window to access cheaper semaglutide is opening. Platforms like Felix can help you get on treatment now at current prices, positioning you to benefit from price reductions as they materialize.
@@ -153,7 +153,7 @@ export default function CostPage() {
         <ul>
           <li><strong>Provincial drug plans:</strong> Cover Ozempic for type 2 diabetes in most provinces. Submit your prescription to your provincial plan before paying out-of-pocket.</li>
           <li><strong>Private employer benefits:</strong> Many employer drug plans cover GLP-1 medications, sometimes even for weight management. Review your benefits booklet or contact your HR department.</li>
-          <li><strong>Personal health insurance:</strong> Plans purchased individually (e.g., through Blue Cross or Manulife) vary in GLP-1 coverage — check your policy details.</li>
+          <li><strong>Personal health insurance:</strong> Plans purchased individually (e.g., through Blue Cross or Manulife) vary in GLP-1 coverage - check your policy details.</li>
         </ul>
         <p>See our detailed <Link href="/insurance-coverage">insurance coverage guide</Link> for province-by-province details and tips for getting prior authorization approved.</p>
 
@@ -172,7 +172,7 @@ export default function CostPage() {
           One of the most practical recent developments: <strong>home delivery of semaglutide is now available at the same price as picking up from a pharmacy</strong> in most provinces. This is enabled through the Novo Nordisk Care Rx program and pharmacy delivery services.
         </p>
         <p>
-          Virtual care platforms like <a href="https://afflat3e1.com/trk/lnk/9AC89778-AF07-4236-94B8-94E9519B0116/?o=29537&c=918271&a=776838&k=9244A3303B13F605EF0D210C5B870AF8&l=33492" target="_blank" rel="noopener sponsored">Felix Health</a> coordinate the entire process — assessment, prescription, and delivery — from a single platform at no premium over standard dispensing prices.
+          Virtual care platforms like <a href="https://afflat3e1.com/trk/lnk/9AC89778-AF07-4236-94B8-94E9519B0116/?o=29537&c=918271&a=776838&k=9244A3303B13F605EF0D210C5B870AF8&l=33492" target="_blank" rel="noopener sponsored">Felix Health</a> coordinate the entire process - assessment, prescription, and delivery - from a single platform at no premium over standard dispensing prices.
         </p>
 
         <div className="bg-gray-50 border border-gray-200 rounded-xl p-5 mt-10 text-xs text-gray-500 leading-relaxed">

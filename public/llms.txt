@@ -1,6 +1,6 @@
 # WeightLossInjections.ca
 
-> Canada's independent editorial guide to GLP-1 weight loss injections — Ozempic, Wegovy, Mounjaro, and more.
+> Canada's independent editorial guide to GLP-1 weight loss injections - Ozempic, Wegovy, Mounjaro, and more.
 
 WeightLossInjections.ca provides independent, evidence-based editorial coverage of GLP-1 receptor agonist medications available in Canada. Content is written for Canadian patients and healthcare consumers seeking accurate information about weight loss medications, eligibility, costs, and access by province.
 
@@ -11,7 +11,7 @@ WeightLossInjections.ca provides independent, evidence-based editorial coverage 
 - Always consult a qualified healthcare provider before starting any medication
 - Information applies to Canadian residents only
 - Online prescriptions are available in 9 provinces only (not Quebec or territories)
-- Site contains sponsored content and affiliate links — all clearly disclosed
+- Site contains sponsored content and affiliate links - all clearly disclosed
 
 ## Province Availability
 
@@ -32,7 +32,7 @@ NOT available in: Quebec, Northwest Territories, Nunavut, Yukon
 
 - [Home](https://weightlossinjections.ca/): Overview of GLP-1 weight loss injections available in Canada
 - [Semaglutide Guide](https://weightlossinjections.ca/semaglutide): Complete guide to semaglutide (Ozempic & Wegovy) including Health Canada approval, generics, eligibility, cost by province, and side effects
-- [Tirzepatide Guide](https://weightlossinjections.ca/tirzepatide): Guide to tirzepatide (Mounjaro) — dual GLP-1/GIP receptor agonist, clinical evidence, and Canadian access
+- [Tirzepatide Guide](https://weightlossinjections.ca/tirzepatide): Guide to tirzepatide (Mounjaro) - dual GLP-1/GIP receptor agonist, clinical evidence, and Canadian access
 - [Medication Comparison](https://weightlossinjections.ca/compare): Head-to-head comparison of Ozempic vs Wegovy vs Mounjaro vs Rybelsus
 - [Cost Guide](https://weightlossinjections.ca/cost): Province-by-province pricing for GLP-1 medications in Canada (2025)
 - [Insurance Coverage](https://weightlossinjections.ca/insurance-coverage): Which Canadian insurance plans cover Ozempic, Wegovy, and Mounjaro
@@ -58,7 +58,7 @@ Machine-readable JSON data for AI and developer use:
 
 ## Editorial Standards
 
-- Independent editorial coverage — not affiliated with Novo Nordisk, Eli Lilly, or any manufacturer
+- Independent editorial coverage - not affiliated with Novo Nordisk, Eli Lilly, or any manufacturer
 - All sponsored content and affiliate relationships clearly disclosed
 - Sources: Health Canada, peer-reviewed clinical trials (SUSTAIN, STEP, SURMOUNT series), provincial drug formularies
 - Content reviewed and updated regularly by the editorial team
@@ -67,5 +67,5 @@ Machine-readable JSON data for AI and developer use:
 
 Website: https://weightlossinjections.ca
 Affiliate partner: Felix Health (clearly disclosed on all relevant pages)
-Language: English (Canadian) — en-CA
+Language: English (Canadian) - en-CA
 Country: Canada

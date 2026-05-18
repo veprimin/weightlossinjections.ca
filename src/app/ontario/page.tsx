@@ -6,7 +6,7 @@ import Link from "next/link";
 import { SITE_URL } from "@/lib/constants";
 
 export const metadata: Metadata = {
-  title: "Weight Loss Injections in Ontario — ODB, OHIP+ & Access Guide 2025",
+  title: "Weight Loss Injections in Ontario - ODB, OHIP+ & Access Guide 2025",
   description:
     "Ontario's complete guide to Ozempic, Wegovy, and Mounjaro: ODB coverage criteria, private insurance, virtual care access, and how to get GLP-1 medications delivered to your home in Ontario.",
   alternates: {
@@ -41,14 +41,14 @@ export default function OntarioPage() {
         readTime="8 min read"
         date="May 2025"
         headline="Weight Loss Injections in Ontario: Access, ODB Coverage & How to Get Started"
-        standfirst="Ontario has the largest GLP-1 patient population in Canada — and some of the most complex access pathways. Here is a complete guide for Ontario residents."
+        standfirst="Ontario has the largest GLP-1 patient population in Canada - and some of the most complex access pathways. Here is a complete guide for Ontario residents."
         heroEmoji="🍁"
         heroGradient="linear-gradient(135deg,#991B1B,#DC2626)"
       />
 
       <div className="prose-editorial">
         <p>
-          Ontario is home to more than 14 million residents and approximately 1.3 million people living with diagnosed type 2 diabetes — one of the highest rates in Canada. The province has a significant population using or seeking GLP-1 medications, and its public drug program (ODB) is among the most detailed in terms of coverage criteria.
+          Ontario is home to more than 14 million residents and approximately 1.3 million people living with diagnosed type 2 diabetes - one of the highest rates in Canada. The province has a significant population using or seeking GLP-1 medications, and its public drug program (ODB) is among the most detailed in terms of coverage criteria.
         </p>
         <p>
           Whether you're looking to access Ozempic, Wegovy, Mounjaro, or a generic alternative, this guide explains exactly how the Ontario system works and how to navigate it effectively.
@@ -74,7 +74,7 @@ export default function OntarioPage() {
 
         <h2 id="odb-coverage">ODB Coverage for Ozempic in Ontario</h2>
         <p>
-          The Ontario Drug Benefit (ODB) program covers Ozempic (semaglutide 0.5 mg and 1 mg) for eligible Ontarians with type 2 diabetes. Coverage requires <strong>Limited Use (LU) authorization</strong> — a specific prescription code that your physician must include when submitting the prescription.
+          The Ontario Drug Benefit (ODB) program covers Ozempic (semaglutide 0.5 mg and 1 mg) for eligible Ontarians with type 2 diabetes. Coverage requires <strong>Limited Use (LU) authorization</strong> - a specific prescription code that your physician must include when submitting the prescription.
         </p>
         <p>
           The LU criteria for Ozempic (semaglutide) under ODB (as of 2025) include:
@@ -91,7 +91,7 @@ export default function OntarioPage() {
         <div className="bg-blue-50 border border-blue-200 rounded-xl p-5 my-6">
           <p className="text-[11px] font-bold uppercase tracking-widest text-blue-700 mb-2">💡 ODB Tip for Ontario Patients</p>
           <p className="text-sm text-gray-700">
-            When your physician submits the Ozempic prescription, they must include the Limited Use code (LU). This is a specific code that tells the ODB system the clinical reason for the prescription. Without it, the claim will be rejected. Make sure your physician knows to include the LU code — your pharmacist can also assist in identifying the correct one.
+            When your physician submits the Ozempic prescription, they must include the Limited Use code (LU). This is a specific code that tells the ODB system the clinical reason for the prescription. Without it, the claim will be rejected. Make sure your physician knows to include the LU code - your pharmacist can also assist in identifying the correct one.
           </p>
         </div>
 
@@ -100,10 +100,10 @@ export default function OntarioPage() {
           Wegovy (semaglutide 2.4 mg, approved for weight management) is <strong>not listed on the ODB formulary</strong> for weight management as of May 2025. This means public coverage for Wegovy in Ontario is not available for patients without a diabetes diagnosis.
         </p>
         <p>
-          Ontario Trillium Drug Program (TDP) — the program for Ontarians with high drug costs relative to income — may partially cover Wegovy costs after the deductible is met, but this depends on individual income and household drug expenses.
+          Ontario Trillium Drug Program (TDP) - the program for Ontarians with high drug costs relative to income - may partially cover Wegovy costs after the deductible is met, but this depends on individual income and household drug expenses.
         </p>
         <p>
-          Advocates including Obesity Canada and the Canadian Medical Association are actively lobbying for provincial formulary inclusion of Wegovy for weight management. This is an evolving policy space — check Ontario's formulary updates regularly.
+          Advocates including Obesity Canada and the Canadian Medical Association are actively lobbying for provincial formulary inclusion of Wegovy for weight management. This is an evolving policy space - check Ontario's formulary updates regularly.
         </p>
 
         <FelixInline />
@@ -115,8 +115,8 @@ export default function OntarioPage() {
         <ul>
           <li><strong>Major employer plans (Sun Life, Manulife, Great-West Life/Canada Life):</strong> Many have added GLP-1 coverage for weight management in 2023–2025. Check your benefits booklet or call your plan administrator.</li>
           <li><strong>Prior authorization requirements:</strong> Almost all plans require PA for GLP-1 medications. Your physician or their office staff submits the PA form with clinical documentation.</li>
-          <li><strong>Annual maximums:</strong> Watch for drug benefit maximums — a $1,500/year cap is quickly exhausted at $400/month. Many employers are increasing these caps as GLP-1 use grows.</li>
-          <li><strong>OHIP+:</strong> Ontario's OHIP+ program covers eligible individuals under 25 — but GLP-1 medications for weight management are not covered by OHIP+.</li>
+          <li><strong>Annual maximums:</strong> Watch for drug benefit maximums - a $1,500/year cap is quickly exhausted at $400/month. Many employers are increasing these caps as GLP-1 use grows.</li>
+          <li><strong>OHIP+:</strong> Ontario's OHIP+ program covers eligible individuals under 25 - but GLP-1 medications for weight management are not covered by OHIP+.</li>
         </ul>
 
         <h2 id="access-online">Getting a Prescription in Ontario Without a Clinic Visit</h2>
@@ -128,9 +128,9 @@ export default function OntarioPage() {
         </p>
         <ol>
           <li>Complete an online medical assessment (5–10 minutes) including your health history, current medications, and weight goals</li>
-          <li>A licensed Ontario physician reviews your assessment — typically within a few hours during business days</li>
+          <li>A licensed Ontario physician reviews your assessment - typically within a few hours during business days</li>
           <li>If appropriate, the physician issues a prescription and forwards it to a pharmacy of your choice or coordinates home delivery</li>
-          <li>Your medication arrives at your door — at the same price as in-store dispensing</li>
+          <li>Your medication arrives at your door - at the same price as in-store dispensing</li>
         </ol>
         <p>
           This approach is fully compliant with Ontario's Telemedicine Act and the College of Physicians and Surgeons of Ontario's standards for virtual care.
@@ -138,10 +138,10 @@ export default function OntarioPage() {
 
         <h2 id="home-delivery">Home Delivery in Ontario</h2>
         <p>
-          The Novo Nordisk Care Rx program is fully operational in Ontario, enabling home delivery of Ozempic and Wegovy at no extra cost compared to pharmacy pickup. Major Ontario pharmacies — including Rexall, Shoppers Drug Mart, Costco Pharmacy, and many independents — now offer home delivery of prescription medications.
+          The Novo Nordisk Care Rx program is fully operational in Ontario, enabling home delivery of Ozempic and Wegovy at no extra cost compared to pharmacy pickup. Major Ontario pharmacies - including Rexall, Shoppers Drug Mart, Costco Pharmacy, and many independents - now offer home delivery of prescription medications.
         </p>
         <p>
-          When using Felix Health, the entire workflow is handled online — assessment, prescription, and coordinated delivery to your Ontario address.
+          When using Felix Health, the entire workflow is handled online - assessment, prescription, and coordinated delivery to your Ontario address.
         </p>
 
         <h2 id="cost-ontario">Cost in Ontario Without Coverage</h2>

@@ -6,7 +6,7 @@ import Link from "next/link";
 import { SITE_URL } from "@/lib/constants";
 
 export const metadata: Metadata = {
-  title: "Tirzepatide (Mounjaro) in Canada — Complete Guide 2025",
+  title: "Tirzepatide (Mounjaro) in Canada - Complete Guide 2025",
   description:
     "Everything Canadians need to know about tirzepatide (Mounjaro & Zepbound): how the dual GLP-1/GIP mechanism works, clinical evidence, cost, availability, and how to get a prescription.",
   alternates: {
@@ -42,14 +42,14 @@ export default function TirzepatidePage() {
         readTime="10 min read"
         date="May 2025"
         headline="Tirzepatide (Mounjaro) in Canada: The Dual-Action Weight Loss Injection"
-        standfirst="Tirzepatide targets two gut hormones simultaneously — and it is producing weight-loss results that surprised even its developers. Here is what Canadians need to know."
+        standfirst="Tirzepatide targets two gut hormones simultaneously - and it is producing weight-loss results that surprised even its developers. Here is what Canadians need to know."
         heroEmoji="⚗️"
         heroGradient="linear-gradient(135deg,#0F766E,#2DD4BF)"
       />
 
       <div className="prose-editorial">
         <p>
-          Tirzepatide — sold under the brand names <strong>Mounjaro</strong> (for type 2 diabetes) and <strong>Zepbound</strong> (for weight management, approved in the US) — represents a new generation of GLP-1 based medications. By activating two receptor pathways instead of one, it has produced weight-loss results in clinical trials that exceed those of semaglutide, the previous benchmark.
+          Tirzepatide - sold under the brand names <strong>Mounjaro</strong> (for type 2 diabetes) and <strong>Zepbound</strong> (for weight management, approved in the US) - represents a new generation of GLP-1 based medications. By activating two receptor pathways instead of one, it has produced weight-loss results in clinical trials that exceed those of semaglutide, the previous benchmark.
         </p>
 
         <h2 id="what-is">What Is Tirzepatide?</h2>
@@ -70,7 +70,7 @@ export default function TirzepatidePage() {
           <li><strong>Combined effect:</strong> Greater reduction in food intake and greater improvement in metabolic markers than semaglutide alone in head-to-head trials</li>
         </ul>
         <p>
-          Interestingly, GIP alone does not suppress appetite — but when combined with GLP-1 receptor activation, the appetite-suppressing effect appears amplified. The exact mechanism continues to be an active area of research.
+          Interestingly, GIP alone does not suppress appetite - but when combined with GLP-1 receptor activation, the appetite-suppressing effect appears amplified. The exact mechanism continues to be an active area of research.
         </p>
 
         <h2 id="evidence">Clinical Evidence: The SURMOUNT Trials</h2>
@@ -82,10 +82,10 @@ export default function TirzepatidePage() {
             <strong>SURMOUNT-1</strong> (non-diabetic adults with obesity or overweight plus comorbidities): Participants on the highest dose (15 mg) lost an average of <strong>20.9% of body weight</strong> over 72 weeks vs. 3.1% on placebo. Nearly half achieved ≥20% weight loss.
           </li>
           <li>
-            <strong>SURMOUNT-2</strong> (adults with type 2 diabetes): Average weight loss of <strong>14.7%</strong> on 15 mg — again markedly better than earlier-generation medications.
+            <strong>SURMOUNT-2</strong> (adults with type 2 diabetes): Average weight loss of <strong>14.7%</strong> on 15 mg - again markedly better than earlier-generation medications.
           </li>
           <li>
-            <strong>SURMOUNT-4</strong> (maintenance phase): Patients who continued tirzepatide maintained their weight loss; those who switched to placebo regained weight — consistent with findings across GLP-1 medications.
+            <strong>SURMOUNT-4</strong> (maintenance phase): Patients who continued tirzepatide maintained their weight loss; those who switched to placebo regained weight - consistent with findings across GLP-1 medications.
           </li>
         </ul>
 
@@ -123,7 +123,7 @@ export default function TirzepatidePage() {
           Mounjaro (tirzepatide) has been available in Canada since late 2023 for type 2 diabetes. It is stocked at most major pharmacy chains.
         </p>
         <p>
-          Unlike in the United States — where Eli Lilly launched Zepbound as a separate brand specifically for weight management — Canada has not received a separate weight-management approval as of mid-2025. Canadian physicians prescribe Mounjaro off-label for weight management, which is legal and common.
+          Unlike in the United States - where Eli Lilly launched Zepbound as a separate brand specifically for weight management - Canada has not received a separate weight-management approval as of mid-2025. Canadian physicians prescribe Mounjaro off-label for weight management, which is legal and common.
         </p>
         <p>
           Supply has generally been more stable than early Ozempic availability, though spot shortages can occur.
@@ -137,7 +137,7 @@ export default function TirzepatidePage() {
         </ul>
 
         <h2 id="side-effects">Side Effects</h2>
-        <p>The side effect profile is very similar to semaglutide — primarily gastrointestinal and dose-dependent:</p>
+        <p>The side effect profile is very similar to semaglutide - primarily gastrointestinal and dose-dependent:</p>
         <ul>
           <li>Nausea (most common early on)</li>
           <li>Diarrhea, constipation, vomiting</li>
@@ -145,7 +145,7 @@ export default function TirzepatidePage() {
           <li>Fatigue, particularly in the dose-escalation phase</li>
         </ul>
         <p>
-          Tirzepatide uses the same slow titration approach as semaglutide — typically starting at 2.5 mg weekly and increasing by 2.5 mg every 4 weeks to a maximum of 15 mg. GI symptoms in SURMOUNT trials were comparable to or slightly more common than semaglutide at equivalent weight-loss doses.
+          Tirzepatide uses the same slow titration approach as semaglutide - typically starting at 2.5 mg weekly and increasing by 2.5 mg every 4 weeks to a maximum of 15 mg. GI symptoms in SURMOUNT trials were comparable to or slightly more common than semaglutide at equivalent weight-loss doses.
         </p>
 
         <h2 id="cost">Cost of Tirzepatide in Canada</h2>

@@ -4,7 +4,7 @@ export const FELIX_LINK =
 export const SITE_URL = "https://weightlossinjections.ca";
 export const SITE_NAME = "WeightLossInjections.ca";
 export const SITE_DESCRIPTION =
-  "Canada's independent editorial guide to GLP-1 weight loss injections — Ozempic, Wegovy, Mounjaro, and more.";
+  "Canada's independent editorial guide to GLP-1 weight loss injections - Ozempic, Wegovy, Mounjaro, and more.";
 
 export const MEDICAL_DISCLAIMER =
   "Content on this site is for informational purposes only and does not constitute medical advice, diagnosis, or treatment. Always consult a licensed healthcare provider before starting any medication. GLP-1 medications require a valid prescription from a licensed Canadian physician.";

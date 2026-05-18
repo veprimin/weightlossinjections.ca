@@ -8,7 +8,7 @@ import { SITE_URL } from "@/lib/constants";
 export const metadata: Metadata = {
   title: "Does Insurance Cover Ozempic and Wegovy in Canada? (2025 Guide)",
   description:
-    "A complete guide to Canadian insurance coverage for GLP-1 weight loss medications — provincial drug plans, private employer benefits, prior authorization, and tips for getting coverage approved.",
+    "A complete guide to Canadian insurance coverage for GLP-1 weight loss medications - provincial drug plans, private employer benefits, prior authorization, and tips for getting coverage approved.",
   alternates: {
     canonical: `${SITE_URL}/insurance-coverage`,
     languages: { "en-CA": `${SITE_URL}/insurance-coverage` },
@@ -41,7 +41,7 @@ export default function InsurancePage() {
         readTime="9 min read"
         date="May 2025"
         headline="Does Insurance Cover Ozempic and Wegovy in Canada?"
-        standfirst="Coverage for GLP-1 medications in Canada is fragmented, inconsistent, and actively evolving. Here is the complete picture — and how to maximize your chances of getting covered."
+        standfirst="Coverage for GLP-1 medications in Canada is fragmented, inconsistent, and actively evolving. Here is the complete picture - and how to maximize your chances of getting covered."
         heroEmoji="🛡️"
         heroGradient="linear-gradient(135deg,#1e3a5f,#2563EB)"
       />
@@ -66,7 +66,7 @@ export default function InsurancePage() {
             <tbody>
               {[
                 { drug: "Ozempic",   ind: "Type 2 diabetes",     prov: "✅ Covered in most provinces (criteria apply)", priv: "✅ Usually covered for diabetes" },
-                { drug: "Ozempic",   ind: "Weight management (off-label)", prov: "❌ Not covered (no weight indication)", priv: "⚠️ Variable — often denied" },
+                { drug: "Ozempic",   ind: "Weight management (off-label)", prov: "❌ Not covered (no weight indication)", priv: "⚠️ Variable - often denied" },
                 { drug: "Wegovy",    ind: "Weight management",    prov: "❌ Not on any provincial formulary",           priv: "⚠️ Growing; still inconsistent" },
                 { drug: "Mounjaro",  ind: "Type 2 diabetes",     prov: "⚠️ Some coverage with authorization",          priv: "⚠️ Variable by plan" },
                 { drug: "Rybelsus",  ind: "Type 2 diabetes",     prov: "✅ Covered in several provinces",              priv: "✅ Usually covered for diabetes" },
@@ -105,7 +105,7 @@ export default function InsurancePage() {
 
         <h2 id="private-insurance">Private Insurance</h2>
         <p>
-          Private drug insurance — whether through an employer group benefits plan or individually purchased — is the most likely source of coverage for weight-management GLP-1 use.
+          Private drug insurance - whether through an employer group benefits plan or individually purchased - is the most likely source of coverage for weight-management GLP-1 use.
         </p>
         <p>
           Coverage varies enormously by plan. Factors that affect whether your plan covers Wegovy or off-label Ozempic for weight management include:
@@ -139,8 +139,8 @@ export default function InsurancePage() {
           A denial is not the end. Most drug plans have a formal appeals process:
         </p>
         <ol>
-          <li><strong>Request the denial in writing</strong> with the specific reason — you need to know exactly what criterion was not met.</li>
-          <li><strong>Address the specific reason</strong> in your appeal — if denied for lack of a comorbidity, document all relevant conditions.</li>
+          <li><strong>Request the denial in writing</strong> with the specific reason - you need to know exactly what criterion was not met.</li>
+          <li><strong>Address the specific reason</strong> in your appeal - if denied for lack of a comorbidity, document all relevant conditions.</li>
           <li><strong>Involve a specialist:</strong> A letter from an endocrinologist or obesity specialist often changes the outcome on appeal.</li>
           <li><strong>Consider a different plan option:</strong> If on an employer plan, open enrollment may allow you to switch to a plan with better formulary coverage.</li>
           <li><strong>Use patient support programs</strong> (see below) while you appeal.</li>
@@ -155,7 +155,7 @@ export default function InsurancePage() {
           <li><strong>Mounjaro Patient Support (Lilly):</strong> Lilly Cares provides co-pay assistance for qualifying patients; eligibility and terms vary.</li>
         </ul>
         <p>
-          Ask your prescribing provider or pharmacist to connect you with these programs — they can significantly reduce out-of-pocket costs while you navigate coverage.
+          Ask your prescribing provider or pharmacist to connect you with these programs - they can significantly reduce out-of-pocket costs while you navigate coverage.
         </p>
 
         <h2 id="province-table">Province-by-Province Provincial Plan Coverage</h2>
@@ -198,8 +198,8 @@ export default function InsurancePage() {
         <h3>Does my employer benefits plan cover Wegovy?</h3>
         <p>It depends entirely on your specific plan. Review your benefits booklet for GLP-1 medications or contact your plan administrator. Many major employer plans have added Wegovy coverage in 2023–2025 as obesity medicine evolves.</p>
 
-        <h3>My plan denied Wegovy — can I still get it?</h3>
-        <p>Yes. You can pay out-of-pocket, appeal the decision, enrol in a manufacturer support program, or — if you have type 2 diabetes — explore whether Ozempic for diabetes is covered instead. Some patients also access coverage under a different clinical justification (e.g., cardiovascular risk reduction following the SELECT trial).</p>
+        <h3>My plan denied Wegovy - can I still get it?</h3>
+        <p>Yes. You can pay out-of-pocket, appeal the decision, enrol in a manufacturer support program, or - if you have type 2 diabetes - explore whether Ozempic for diabetes is covered instead. Some patients also access coverage under a different clinical justification (e.g., cardiovascular risk reduction following the SELECT trial).</p>
 
         <h3>Will national pharmacare cover GLP-1 medications?</h3>
         <p>The federal government's pharmacare legislation (Bill C-64) is currently focused on diabetes medications and contraceptives. GLP-1 coverage for weight management under a national plan is not imminent as of 2025, though it is an active advocacy issue.</p>

@@ -6,7 +6,7 @@ import Link from "next/link";
 import { SITE_URL } from "@/lib/constants";
 
 export const metadata: Metadata = {
-  title: "Oral GLP-1 Medications in Canada — Rybelsus & Beyond",
+  title: "Oral GLP-1 Medications in Canada - Rybelsus & Beyond",
   description:
     "A complete guide to oral GLP-1 medications in Canada, including Rybelsus (oral semaglutide), how it compares to injectable options, who it's best for, and what it costs.",
   alternates: {
@@ -42,7 +42,7 @@ export default function OralGlp1Page() {
         readTime="8 min read"
         date="May 2025"
         headline="Oral GLP-1 Medications in Canada: Rybelsus and the No-Needle Option"
-        standfirst="For Canadians who want the benefits of GLP-1 therapy without injections, oral semaglutide is already available — and the next generation of oral GLP-1 pills is on the horizon."
+        standfirst="For Canadians who want the benefits of GLP-1 therapy without injections, oral semaglutide is already available - and the next generation of oral GLP-1 pills is on the horizon."
         heroEmoji="💊"
         heroGradient="linear-gradient(135deg,#334155,#64748B)"
       />
@@ -57,7 +57,7 @@ export default function OralGlp1Page() {
           GLP-1 receptor agonists were historically available only as injections, because the GLP-1 molecule is a peptide that is rapidly degraded in the gut before it can be absorbed. Oral formulations require specialized drug delivery technology to survive the digestive tract and reach the bloodstream intact.
         </p>
         <p>
-          Novo Nordisk solved this challenge for semaglutide using a technology called <strong>SNAC (sodium N-[8-(2-hydroxybenzoyl) aminocaprylate])</strong> — an absorption enhancer that protects semaglutide from enzymatic digestion in the stomach and facilitates absorption through the gastric lining, bypassing the small intestine where digestion would otherwise destroy it.
+          Novo Nordisk solved this challenge for semaglutide using a technology called <strong>SNAC (sodium N-[8-(2-hydroxybenzoyl) aminocaprylate])</strong> - an absorption enhancer that protects semaglutide from enzymatic digestion in the stomach and facilitates absorption through the gastric lining, bypassing the small intestine where digestion would otherwise destroy it.
         </p>
 
         <h2 id="rybelsus">Rybelsus (Oral Semaglutide) in Canada</h2>
@@ -66,7 +66,7 @@ export default function OralGlp1Page() {
         </p>
         <p>Available doses: <strong>3 mg</strong> (starting), <strong>7 mg</strong>, and <strong>14 mg</strong> (maximum).</p>
         <p>
-          Rybelsus must be taken on an empty stomach with a small amount of plain water (no more than 120 mL / half a cup), and the patient must wait at least 30 minutes before eating or taking other medications. This fasting requirement relates to how SNAC absorption works — food and larger fluid volumes significantly reduce bioavailability.
+          Rybelsus must be taken on an empty stomach with a small amount of plain water (no more than 120 mL / half a cup), and the patient must wait at least 30 minutes before eating or taking other medications. This fasting requirement relates to how SNAC absorption works - food and larger fluid volumes significantly reduce bioavailability.
         </p>
 
         <div className="bg-amber-50 border border-amber-200 rounded-xl p-5 my-6">
@@ -74,9 +74,9 @@ export default function OralGlp1Page() {
           <ul className="space-y-1.5">
             {[
               "Take on a completely empty stomach, first thing in the morning",
-              "Use no more than ½ cup (120 mL) of plain water only — no coffee, tea, or juice",
+              "Use no more than ½ cup (120 mL) of plain water only - no coffee, tea, or juice",
               "Wait at least 30 minutes before eating, drinking anything else, or taking other medications",
-              "Swallow tablet whole — do not crush, chew, or split",
+              "Swallow tablet whole - do not crush, chew, or split",
               "Consistent daily timing improves effectiveness",
             ].map((f) => (
               <li key={f} className="flex gap-2 text-sm text-gray-700">
@@ -88,12 +88,12 @@ export default function OralGlp1Page() {
 
         <h2 id="how-it-differs">How Oral Semaglutide Differs From Injectable</h2>
         <p>
-          The active molecule is the same semaglutide — but the route of administration creates meaningful pharmacokinetic differences:
+          The active molecule is the same semaglutide - but the route of administration creates meaningful pharmacokinetic differences:
         </p>
         <ul>
           <li><strong>Bioavailability:</strong> Oral semaglutide has approximately 1% bioavailability (compared to ~89% for injectable). The tablet contains a much larger dose (3–14 mg vs. 0.25–2 mg injectable) to compensate.</li>
           <li><strong>Weight loss effectiveness:</strong> Rybelsus 14 mg produces meaningful but generally somewhat lower weight loss than injectable semaglutide at equivalent efficacy doses. In the PIONEER trials, Rybelsus achieved 4–5% weight reduction vs. ~9–15% for injectable Wegovy.</li>
-          <li><strong>Convenience:</strong> Daily pill vs. weekly injection — depending on the patient, either might be preferred. Some find the daily discipline of an oral drug with strict timing requirements more challenging than a single weekly injection.</li>
+          <li><strong>Convenience:</strong> Daily pill vs. weekly injection - depending on the patient, either might be preferred. Some find the daily discipline of an oral drug with strict timing requirements more challenging than a single weekly injection.</li>
           <li><strong>Approval status:</strong> Rybelsus is approved for diabetes only. It is not currently approved for weight management in Canada, though it is prescribed off-label.</li>
         </ul>
 
@@ -104,7 +104,7 @@ export default function OralGlp1Page() {
         <ul>
           <li><strong>PIONEER 1:</strong> Rybelsus 14 mg reduced body weight by 4.1 kg over 26 weeks vs. 0.9 kg on placebo in adults with type 2 diabetes</li>
           <li><strong>PIONEER 10:</strong> In Japanese patients with type 2 diabetes, Rybelsus 14 mg showed 3.8 kg weight reduction</li>
-          <li><strong>OASIS 1</strong> (ongoing, non-diabetic adults with obesity): Early data showed ~15% weight loss with a higher-dose oral semaglutide formulation (25 mg and 50 mg investigational doses) — suggesting the gap with injections may narrow significantly with higher doses</li>
+          <li><strong>OASIS 1</strong> (ongoing, non-diabetic adults with obesity): Early data showed ~15% weight loss with a higher-dose oral semaglutide formulation (25 mg and 50 mg investigational doses) - suggesting the gap with injections may narrow significantly with higher doses</li>
         </ul>
         <p>
           Novo Nordisk has developed a higher-dose oral semaglutide formulation (25 mg and 50 mg) designed specifically for weight management. These higher doses are in or have completed Phase 3 trials globally and may receive Health Canada review in 2025–2026.
@@ -130,7 +130,7 @@ export default function OralGlp1Page() {
 
         <h2 id="side-effects">Side Effects</h2>
         <p>
-          The side effect profile is similar to injectable semaglutide — primarily gastrointestinal — but some patients find GI symptoms with oral semaglutide slightly different in character due to gastric-level absorption:
+          The side effect profile is similar to injectable semaglutide - primarily gastrointestinal - but some patients find GI symptoms with oral semaglutide slightly different in character due to gastric-level absorption:
         </p>
         <ul>
           <li>Nausea (common, especially at dose increases)</li>
@@ -141,7 +141,7 @@ export default function OralGlp1Page() {
 
         <h2 id="cost">Cost in Canada</h2>
         <p>
-          Rybelsus costs approximately <strong>$200–$350 per month</strong> depending on dose and province — broadly comparable to or slightly below Ozempic injectable. It is covered by some provincial formularies for type 2 diabetes (subject to eligibility criteria), and by many private drug plans.
+          Rybelsus costs approximately <strong>$200–$350 per month</strong> depending on dose and province - broadly comparable to or slightly below Ozempic injectable. It is covered by some provincial formularies for type 2 diabetes (subject to eligibility criteria), and by many private drug plans.
         </p>
 
         <h2 id="future">The Future of Oral GLP-1s in Canada</h2>
@@ -151,7 +151,7 @@ export default function OralGlp1Page() {
         <ul>
           <li><strong>Higher-dose oral semaglutide (25 mg / 50 mg):</strong> Novo Nordisk's Phase 3 OASIS programme data showed weight loss comparable to injectable Wegovy. A Health Canada submission is likely in the near future.</li>
           <li><strong>Oral tirzepatide:</strong> Eli Lilly is developing oral tirzepatide (SURPASS/OWL programme). Early Phase 2 data is promising.</li>
-          <li><strong>Orforglipron (oral small-molecule GLP-1):</strong> Eli Lilly's orforglipron does not require SNAC technology, can be taken with food, and Phase 3 data showed ~15% weight loss — potentially a game-changer for accessibility. Regulatory submissions are expected.</li>
+          <li><strong>Orforglipron (oral small-molecule GLP-1):</strong> Eli Lilly's orforglipron does not require SNAC technology, can be taken with food, and Phase 3 data showed ~15% weight loss - potentially a game-changer for accessibility. Regulatory submissions are expected.</li>
         </ul>
 
         <h2 id="faq">Frequently Asked Questions</h2>

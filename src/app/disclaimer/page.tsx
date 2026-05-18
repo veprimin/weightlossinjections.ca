@@ -81,8 +81,8 @@ export default function DisclaimerPage() {
             </h2>
             <p className="text-gray-700 leading-relaxed mb-4">
               {SITE_NAME} is an independent editorial publication. We are <strong>not</strong> a medical clinic,
-              pharmacy, or healthcare provider. Nothing published on this website — including articles, guides,
-              comparison tables, cost estimates, or sponsored content — constitutes medical advice, a clinical
+              pharmacy, or healthcare provider. Nothing published on this website - including articles, guides,
+              comparison tables, cost estimates, or sponsored content - constitutes medical advice, a clinical
               recommendation, or a substitute for professional medical consultation.
             </p>
             <p className="text-gray-700 leading-relaxed mb-4">
