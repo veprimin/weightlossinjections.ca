@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { FelixBanner } from "@/components/FelixAd";
+import ProviderCards from "@/components/ProviderCards";
 import ProvinceGrid from "@/components/ProvinceGrid";
 import { SITE_URL } from "@/lib/constants";
 
@@ -264,17 +264,13 @@ export default function ComparePage() {
           ))}
         </div>
 
-        {/* Felix Banner */}
-        <div className="mb-4">
+        {/* Sponsored Partners */}
+        <div className="mb-12">
           <p className="text-center text-[11px] font-semibold uppercase tracking-widest text-gray-400 mb-5 flex items-center gap-3 before:flex-1 before:h-px before:bg-gray-200 after:flex-1 after:h-px after:bg-gray-200">
-            Sponsored Partner
+            Recommended Providers
           </p>
-          <FelixBanner />
+          <ProviderCards />
         </div>
-
-        <p className="text-xs text-gray-400 text-center mt-4 mb-12">
-          Sponsored by Felix Health. This content contains affiliate links. A licensed provider will help determine which medication is right for you.
-        </p>
       </div>
 
       <ProvinceGrid />

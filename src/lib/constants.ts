@@ -1,6 +1,9 @@
 export const FELIX_LINK =
   "https://afflat3e1.com/trk/lnk/9AC89778-AF07-4236-94B8-94E9519B0116/?o=29537&c=918271&a=776838&k=9244A3303B13F605EF0D210C5B870AF8&l=33492";
 
+export const DIRECT_MEDS_LINK =
+  "https://ca.directmeds.com/dm-lb-ca-hp/?oid=7&affid=659&source_id=explore_treatments_com_canada";
+
 export const SITE_URL = "https://weightlossinjections.ca";
 export const SITE_NAME = "WeightLossInjections.ca";
 export const SITE_DESCRIPTION =

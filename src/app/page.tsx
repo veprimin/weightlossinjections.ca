@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { FelixBanner } from "@/components/FelixAd";
+import ProviderCards from "@/components/ProviderCards";
 import ProvinceGrid from "@/components/ProvinceGrid";
 import { FELIX_LINK, SITE_URL } from "@/lib/constants";
 
@@ -184,12 +185,12 @@ export default function HomePage() {
 
       <ProvinceGrid />
 
-      {/* Felix Banner */}
+      {/* Sponsored Partners */}
       <section className="max-w-4xl mx-auto px-4 sm:px-6 py-14">
         <p className="text-[11px] font-semibold uppercase tracking-widest text-gray-400 mb-5 flex items-center gap-3 before:flex-1 before:h-px before:bg-gray-200 after:flex-1 after:h-px after:bg-gray-200">
-          Sponsored Partner
+          Recommended Providers
         </p>
-        <FelixBanner />
+        <ProviderCards />
       </section>
 
       {/* Stay Informed */}
