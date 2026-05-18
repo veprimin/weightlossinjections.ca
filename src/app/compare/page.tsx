@@ -2,11 +2,16 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { FelixBanner } from "@/components/FelixAd";
 import ProvinceGrid from "@/components/ProvinceGrid";
+import { SITE_URL } from "@/lib/constants";
 
 export const metadata: Metadata = {
-  title: "Ozempic vs Wegovy vs Mounjaro vs Rybelsus — Compare Weight Loss Injections Canada",
+  title: "Ozempic vs Wegovy vs Mounjaro vs Rybelsus - Compare Weight Loss Injections Canada",
   description:
     "Side-by-side comparison of all major GLP-1 weight loss medications available in Canada: Ozempic, Wegovy, Mounjaro, Rybelsus, and generic semaglutide. Compare efficacy, cost, dosing, and approval status.",
+  alternates: {
+    canonical: `${SITE_URL}/compare`,
+    languages: { "en-CA": `${SITE_URL}/compare` },
+  },
 };
 
 const drugs = [
@@ -17,7 +22,7 @@ const drugs = [
     form: "Injectable (pen)",
     frequency: "Once weekly",
     doses: "0.5 mg → 1 mg → 2 mg",
-    approvalCA: "2018 — Type 2 diabetes",
+    approvalCA: "2018 - Type 2 diabetes",
     weightLoss: "~9–13%",
     cost: "$200–$450/mo",
     oDbCovered: "✅ For T2D (LU code)",
@@ -39,7 +44,7 @@ const drugs = [
     form: "Injectable (pen)",
     frequency: "Once weekly",
     doses: "0.25 → 0.5 → 1 → 1.7 → 2.4 mg",
-    approvalCA: "2021 — Chronic weight management",
+    approvalCA: "2021 - Chronic weight management",
     weightLoss: "~15%",
     cost: "$385–$430/mo",
     oDbCovered: "❌ Not listed for weight mgmt",
@@ -61,10 +66,10 @@ const drugs = [
     form: "Injectable (autoinjector)",
     frequency: "Once weekly",
     doses: "2.5 → 5 → 7.5 → 10 → 12.5 → 15 mg",
-    approvalCA: "2023 — Type 2 diabetes",
+    approvalCA: "2023 - Type 2 diabetes",
     weightLoss: "~15–21%",
     cost: "$400–$620+/mo",
-    oDbCovered: "⚠️ Limited — T2D with auth.",
+    oDbCovered: "⚠️ Limited - T2D with auth.",
     heroColor: "#0F766E",
     emoji: "⚗️",
     href: "/tirzepatide",
@@ -83,7 +88,7 @@ const drugs = [
     form: "Oral tablet",
     frequency: "Once daily",
     doses: "3 mg → 7 mg → 14 mg",
-    approvalCA: "2020 — Type 2 diabetes",
+    approvalCA: "2020 - Type 2 diabetes",
     weightLoss: "~4–5%",
     cost: "$200–$350/mo",
     oDbCovered: "✅ For T2D in several provinces",
@@ -92,7 +97,7 @@ const drugs = [
     href: "/oral-glp1",
     keyFacts: [
       "World's first approved oral GLP-1 receptor agonist",
-      "No needles — daily tablet",
+      "No needles - daily tablet",
       "Must be taken fasted, with ≤120 mL plain water, 30 min before eating",
       "Less weight loss than injectable at approved doses",
       "Higher-dose versions (25–50 mg) in trials; may close gap with injectable",
@@ -126,7 +131,7 @@ export default function ComparePage() {
             Ozempic vs. Wegovy vs. Mounjaro vs. Rybelsus
           </h1>
           <p className="text-lg text-gray-300 font-light max-w-2xl leading-relaxed">
-            A complete side-by-side comparison of all major GLP-1 weight loss medications available in Canada — efficacy, cost, dosing, and coverage.
+            A complete side-by-side comparison of all major GLP-1 weight loss medications available in Canada - efficacy, cost, dosing, and coverage.
           </p>
         </div>
       </div>
