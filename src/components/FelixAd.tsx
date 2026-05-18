@@ -84,8 +84,8 @@ export function FelixInline() {
       style={{ background: "linear-gradient(135deg,#063D2B,#0F6E56)" }}
     >
       <div className="flex-1">
-        <p className="font-semibold text-white mb-1.5 text-[15px]">Find out if you qualify for GLP-1 treatment</p>
-        <p className="text-sm text-white/90 leading-relaxed">Felix matches you with a licensed Canadian provider in minutes - no clinic visit needed.</p>
+        <p className="font-semibold mb-1.5 text-[15px]" style={{ color: "#ffffff" }}>Find out if you qualify for GLP-1 treatment</p>
+        <p className="text-sm leading-relaxed" style={{ color: "rgba(255,255,255,0.9)" }}>Felix matches you with a licensed Canadian provider in minutes - no clinic visit needed.</p>
       </div>
       <a
         href={FELIX_LINK}
