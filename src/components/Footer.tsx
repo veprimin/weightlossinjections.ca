@@ -53,21 +53,6 @@ export default function Footer() {
               <li><Link href="/" className="text-sm hover:text-white transition-colors">Home</Link></li>
               <li><Link href="/compare" className="text-sm hover:text-white transition-colors">Drug Comparison</Link></li>
               <li><Link href="/disclaimer" className="text-sm hover:text-white transition-colors">Disclaimer &amp; Disclosures</Link></li>
-              <li>
-                <a href="/api/medications" className="text-sm hover:text-white transition-colors" aria-label="Medications data API">
-                  API: Medications
-                </a>
-              </li>
-              <li>
-                <a href="/api/provinces" className="text-sm hover:text-white transition-colors" aria-label="Provinces data API">
-                  API: Provinces
-                </a>
-              </li>
-              <li>
-                <a href="/llms.txt" className="text-sm hover:text-white transition-colors" aria-label="LLMs.txt for AI">
-                  llms.txt
-                </a>
-              </li>
             </ul>
           </div>
         </div>
@@ -80,8 +65,6 @@ export default function Footer() {
             <p className="text-gray-600">© {new Date().getFullYear()} {SITE_NAME}. All rights reserved. Canada · en-CA</p>
             <div className="flex gap-4 sm:text-right">
               <Link href="/disclaimer" className="text-gray-500 hover:text-[#5DCAA5] transition-colors">Disclaimer</Link>
-              <a href="/sitemap.xml" className="text-gray-500 hover:text-[#5DCAA5] transition-colors">Sitemap</a>
-              <a href="/llms.txt" className="text-gray-500 hover:text-[#5DCAA5] transition-colors">llms.txt</a>
             </div>
           </div>
         </div>
