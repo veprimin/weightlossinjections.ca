@@ -3,11 +3,16 @@ import ArticleLayout from "@/components/ArticleLayout";
 import ArticleHeader from "@/components/ArticleHeader";
 import { FelixInline } from "@/components/FelixAd";
 import Link from "next/link";
+import { SITE_URL } from "@/lib/constants";
 
 export const metadata: Metadata = {
   title: "Tirzepatide (Mounjaro) in Canada — Complete Guide 2025",
   description:
     "Everything Canadians need to know about tirzepatide (Mounjaro & Zepbound): how the dual GLP-1/GIP mechanism works, clinical evidence, cost, availability, and how to get a prescription.",
+  alternates: {
+    canonical: `${SITE_URL}/tirzepatide`,
+    languages: { "en-CA": `${SITE_URL}/tirzepatide` },
+  },
 };
 
 const toc = [

@@ -1,0 +1,71 @@
+# WeightLossInjections.ca
+
+> Canada's independent editorial guide to GLP-1 weight loss injections — Ozempic, Wegovy, Mounjaro, and more.
+
+WeightLossInjections.ca provides independent, evidence-based editorial coverage of GLP-1 receptor agonist medications available in Canada. Content is written for Canadian patients and healthcare consumers seeking accurate information about weight loss medications, eligibility, costs, and access by province.
+
+## Important Medical & Legal Disclaimers
+
+- This website does NOT provide medical advice, diagnosis, or treatment
+- GLP-1 medications require a valid prescription from a licensed Canadian physician
+- Always consult a qualified healthcare provider before starting any medication
+- Information applies to Canadian residents only
+- Online prescriptions are available in 9 provinces only (not Quebec or territories)
+- Site contains sponsored content and affiliate links — all clearly disclosed
+
+## Province Availability
+
+Online GLP-1 prescriptions (via affiliate partner Felix Health) are available in:
+- Alberta (AB)
+- British Columbia (BC)
+- Manitoba (MB)
+- New Brunswick (NB)
+- Newfoundland & Labrador (NL)
+- Nova Scotia (NS)
+- Ontario (ON)
+- Prince Edward Island (PE)
+- Saskatchewan (SK)
+
+NOT available in: Quebec, Northwest Territories, Nunavut, Yukon
+
+## Content Pages
+
+- [Home](https://weightlossinjections.ca/): Overview of GLP-1 weight loss injections available in Canada
+- [Semaglutide Guide](https://weightlossinjections.ca/semaglutide): Complete guide to semaglutide (Ozempic & Wegovy) including Health Canada approval, generics, eligibility, cost by province, and side effects
+- [Tirzepatide Guide](https://weightlossinjections.ca/tirzepatide): Guide to tirzepatide (Mounjaro) — dual GLP-1/GIP receptor agonist, clinical evidence, and Canadian access
+- [Medication Comparison](https://weightlossinjections.ca/compare): Head-to-head comparison of Ozempic vs Wegovy vs Mounjaro vs Rybelsus
+- [Cost Guide](https://weightlossinjections.ca/cost): Province-by-province pricing for GLP-1 medications in Canada (2025)
+- [Insurance Coverage](https://weightlossinjections.ca/insurance-coverage): Which Canadian insurance plans cover Ozempic, Wegovy, and Mounjaro
+- [Ontario Guide](https://weightlossinjections.ca/ontario): Ontario-specific access guide including ODB coverage and private plan information
+- [Oral GLP-1](https://weightlossinjections.ca/oral-glp1): Guide to oral GLP-1 medications including Rybelsus (oral semaglutide)
+- [Disclaimer](https://weightlossinjections.ca/disclaimer): Full medical disclaimer, affiliate disclosure, editorial standards, and province availability
+
+## Structured Data API Endpoints
+
+Machine-readable JSON data for AI and developer use:
+- [Medications API](https://weightlossinjections.ca/api/medications): Structured data on all GLP-1 medications covered
+- [Provinces API](https://weightlossinjections.ca/api/provinces): Province-by-province availability, coverage, and pricing data
+- [Site Info API](https://weightlossinjections.ca/api/site-info): Site metadata, content index, and editorial information
+
+## Key Clinical Facts (Canadian Context)
+
+- Semaglutide (Ozempic/Wegovy): Health Canada approved; ~15% average body weight loss
+- Tirzepatide (Mounjaro): Health Canada approved; ~20% average body weight loss
+- Generic semaglutide: First approved by Health Canada in 2025; expect 45–90% cost reduction
+- Rybelsus: Oral semaglutide tablet, approved for type 2 diabetes in Canada
+- Monthly out-of-pocket cost (without coverage): $250–$500+ CAD for branded; less for generics
+- Telehealth prescriptions: Available in 9 of 10 provinces via licensed Canadian physicians
+
+## Editorial Standards
+
+- Independent editorial coverage — not affiliated with Novo Nordisk, Eli Lilly, or any manufacturer
+- All sponsored content and affiliate relationships clearly disclosed
+- Sources: Health Canada, peer-reviewed clinical trials (SUSTAIN, STEP, SURMOUNT series), provincial drug formularies
+- Content reviewed and updated regularly by the editorial team
+
+## Contact
+
+Website: https://weightlossinjections.ca
+Affiliate partner: Felix Health (clearly disclosed on all relevant pages)
+Language: English (Canadian) — en-CA
+Country: Canada

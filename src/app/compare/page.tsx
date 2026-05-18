@@ -2,11 +2,16 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { FelixBanner } from "@/components/FelixAd";
 import ProvinceGrid from "@/components/ProvinceGrid";
+import { SITE_URL } from "@/lib/constants";
 
 export const metadata: Metadata = {
   title: "Ozempic vs Wegovy vs Mounjaro vs Rybelsus — Compare Weight Loss Injections Canada",
   description:
     "Side-by-side comparison of all major GLP-1 weight loss medications available in Canada: Ozempic, Wegovy, Mounjaro, Rybelsus, and generic semaglutide. Compare efficacy, cost, dosing, and approval status.",
+  alternates: {
+    canonical: `${SITE_URL}/compare`,
+    languages: { "en-CA": `${SITE_URL}/compare` },
+  },
 };
 
 const drugs = [

@@ -3,11 +3,16 @@ import ArticleLayout from "@/components/ArticleLayout";
 import ArticleHeader from "@/components/ArticleHeader";
 import { FelixInline } from "@/components/FelixAd";
 import Link from "next/link";
+import { SITE_URL } from "@/lib/constants";
 
 export const metadata: Metadata = {
   title: "Oral GLP-1 Medications in Canada — Rybelsus & Beyond",
   description:
     "A complete guide to oral GLP-1 medications in Canada, including Rybelsus (oral semaglutide), how it compares to injectable options, who it's best for, and what it costs.",
+  alternates: {
+    canonical: `${SITE_URL}/oral-glp1`,
+    languages: { "en-CA": `${SITE_URL}/oral-glp1` },
+  },
 };
 
 const toc = [

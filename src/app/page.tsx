@@ -2,12 +2,16 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { FelixBanner } from "@/components/FelixAd";
 import ProvinceGrid from "@/components/ProvinceGrid";
-import { FELIX_LINK } from "@/lib/constants";
+import { FELIX_LINK, SITE_URL } from "@/lib/constants";
 
 export const metadata: Metadata = {
   title: "Best Weight Loss Injections in Canada — Ozempic, Wegovy, Mounjaro Guide",
   description:
-    "Canada's independent editorial guide to GLP-1 weight loss injections. Expert coverage of Ozempic, Wegovy, Mounjaro, and generic semaglutide.",
+    "Canada's independent editorial guide to GLP-1 weight loss injections. Expert coverage of Ozempic, Wegovy, Mounjaro, and generic semaglutide — province-by-province access, cost, and eligibility.",
+  alternates: {
+    canonical: SITE_URL,
+    languages: { "en-CA": SITE_URL, "x-default": SITE_URL },
+  },
 };
 
 const featuredArticles = [

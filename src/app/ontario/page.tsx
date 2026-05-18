@@ -3,11 +3,16 @@ import ArticleLayout from "@/components/ArticleLayout";
 import ArticleHeader from "@/components/ArticleHeader";
 import { FelixInline } from "@/components/FelixAd";
 import Link from "next/link";
+import { SITE_URL } from "@/lib/constants";
 
 export const metadata: Metadata = {
   title: "Weight Loss Injections in Ontario — ODB, OHIP+ & Access Guide 2025",
   description:
     "Ontario's complete guide to Ozempic, Wegovy, and Mounjaro: ODB coverage criteria, private insurance, virtual care access, and how to get GLP-1 medications delivered to your home in Ontario.",
+  alternates: {
+    canonical: `${SITE_URL}/ontario`,
+    languages: { "en-CA": `${SITE_URL}/ontario` },
+  },
 };
 
 const toc = [

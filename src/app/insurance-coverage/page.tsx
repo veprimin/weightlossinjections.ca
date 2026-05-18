@@ -3,11 +3,16 @@ import ArticleLayout from "@/components/ArticleLayout";
 import ArticleHeader from "@/components/ArticleHeader";
 import { FelixInline } from "@/components/FelixAd";
 import Link from "next/link";
+import { SITE_URL } from "@/lib/constants";
 
 export const metadata: Metadata = {
   title: "Does Insurance Cover Ozempic and Wegovy in Canada? (2025 Guide)",
   description:
     "A complete guide to Canadian insurance coverage for GLP-1 weight loss medications — provincial drug plans, private employer benefits, prior authorization, and tips for getting coverage approved.",
+  alternates: {
+    canonical: `${SITE_URL}/insurance-coverage`,
+    languages: { "en-CA": `${SITE_URL}/insurance-coverage` },
+  },
 };
 
 const toc = [

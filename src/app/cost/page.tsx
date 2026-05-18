@@ -3,11 +3,16 @@ import ArticleLayout from "@/components/ArticleLayout";
 import ArticleHeader from "@/components/ArticleHeader";
 import { FelixInline } from "@/components/FelixAd";
 import Link from "next/link";
+import { SITE_URL } from "@/lib/constants";
 
 export const metadata: Metadata = {
   title: "How Much Do Weight Loss Injections Cost in Canada? (2025 Province Guide)",
   description:
     "Province-by-province breakdown of Ozempic, Wegovy, and Mounjaro costs in Canada, including insurance coverage, out-of-pocket estimates, and what generic semaglutide will mean for prices.",
+  alternates: {
+    canonical: `${SITE_URL}/cost`,
+    languages: { "en-CA": `${SITE_URL}/cost` },
+  },
 };
 
 const toc = [
