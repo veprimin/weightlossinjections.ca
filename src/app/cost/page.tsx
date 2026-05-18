@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import ArticleLayout from "@/components/ArticleLayout";
 import ArticleHeader from "@/components/ArticleHeader";
 import { FelixInline } from "@/components/FelixAd";
@@ -30,7 +31,7 @@ const toc = [
 const related = [
   { href: "/insurance-coverage", emoji: "🛡️", title: "Insurance Coverage Guide",              date: "May 2025" },
   { href: "/semaglutide",        emoji: "💉", title: "Semaglutide (Ozempic & Wegovy) Guide",   date: "May 2025" },
-  { href: "/ontario",            emoji: "🍁", title: "Ontario Guide: ODB & Private Plans",     date: "May 2025" },
+  { href: "/ontario",            emoji: <Image src="/Maple_Leaf.svg.png" width={20} height={20} alt="Ontario" />, title: "Ontario Guide: ODB & Private Plans",     date: "May 2025" },
   { href: "/compare",            emoji: "⚖️", title: "Compare All Medications",                date: "May 2025" },
 ];
 
