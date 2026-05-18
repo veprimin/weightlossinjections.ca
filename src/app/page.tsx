@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import Link from "next/link";
 import { FelixBanner } from "@/components/FelixAd";
 import ProviderCards from "@/components/ProviderCards";
@@ -106,17 +107,14 @@ export default function HomePage() {
 
             {/* Maple leaf - desktop only */}
             <div className="hidden lg:flex items-center justify-center">
-              <svg
-                viewBox="0 0 100 115"
-                xmlns="http://www.w3.org/2000/svg"
-                className="w-72 xl:w-80 h-auto opacity-85"
+              <Image
+                src="/Maple_Leaf.svg.png"
+                width={320}
+                height={320}
+                alt=""
                 aria-hidden="true"
-              >
-                <path
-                  d="M50,3 L53,23 L67,13 L62,31 L82,24 L73,41 L90,40 L80,55 L96,56 L70,71 L74,71 L54,100 L54,112 L46,112 L46,100 L26,71 L30,71 L4,56 L20,55 L10,40 L27,41 L18,24 L38,31 L33,13 L47,23 Z"
-                  fill="#FF0000"
-                />
-              </svg>
+                className="w-72 xl:w-80 h-auto opacity-85"
+              />
             </div>
           </div>
 

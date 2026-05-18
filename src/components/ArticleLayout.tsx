@@ -4,7 +4,7 @@ import Link from "next/link";
 interface RelatedArticle {
   href: string;
   title: string;
-  emoji: string;
+  emoji: React.ReactNode;
   date: string;
 }
 
