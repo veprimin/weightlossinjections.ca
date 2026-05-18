@@ -72,34 +72,57 @@ export default function HomePage() {
       {/* Hero */}
       <section className="relative overflow-hidden px-4 sm:px-6 py-16 sm:py-24 bg-[#063D2B]">
         <div className="max-w-7xl mx-auto">
-          <div className="max-w-3xl">
-            <p className="text-[11px] font-semibold uppercase tracking-widest text-[#5DCAA5] mb-6">
-              Canada&rsquo;s GLP-1 Resource
-            </p>
-            <h1
-              className="text-4xl sm:text-5xl xl:text-[3.75rem] font-black text-white leading-[1.1] mb-6"
-              style={{ fontFamily: "var(--font-playfair, Georgia, serif)", letterSpacing: "-0.01em" }}
-            >
-              The straight facts on weight loss injections in Canada.
-            </h1>
-            <p className="text-lg text-white/75 max-w-2xl leading-relaxed mb-10" style={{ fontFamily: "var(--font-source-serif, Georgia, serif)" }}>
-              Independent editorial coverage of Ozempic, Wegovy, Mounjaro, and generic semaglutide - what the research actually shows, how much they cost, and how to access them in your province.
-            </p>
-            <div className="flex flex-wrap gap-4">
-              <Link
-                href="/compare"
-                className="inline-flex items-center gap-2 bg-white text-[#0F6E56] font-semibold text-sm px-6 py-3.5 rounded-lg hover:bg-[#E1F5EE] transition-colors"
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+            <div>
+              <p className="text-[11px] font-semibold uppercase tracking-widest text-[#5DCAA5] mb-6">
+                Canada&rsquo;s GLP-1 Resource
+              </p>
+              <h1
+                className="text-4xl sm:text-5xl xl:text-[3.75rem] font-black text-white leading-[1.1] mb-6"
+                style={{ fontFamily: "var(--font-playfair, Georgia, serif)", letterSpacing: "-0.01em" }}
               >
-                Compare medications →
-              </Link>
-              <a
-                href={FELIX_LINK}
-                target="_blank"
-                rel="noopener sponsored"
-                className="inline-flex items-center gap-2 border border-white/25 text-white/80 text-sm font-medium px-6 py-3.5 rounded-lg hover:bg-white/10 hover:border-white/50 transition-colors"
+                The straight facts on weight loss injections in Canada.
+              </h1>
+              <p className="text-lg text-white/75 max-w-2xl leading-relaxed mb-10" style={{ fontFamily: "var(--font-source-serif, Georgia, serif)" }}>
+                Independent editorial coverage of Ozempic, Wegovy, Mounjaro, and generic semaglutide - what the research actually shows, how much they cost, and how to access them in your province.
+              </p>
+              <div className="flex flex-wrap gap-4">
+                <Link
+                  href="/compare"
+                  className="inline-flex items-center gap-2 bg-white text-[#0F6E56] font-semibold text-sm px-6 py-3.5 rounded-lg hover:bg-[#E1F5EE] transition-colors"
+                >
+                  Compare medications →
+                </Link>
+                <a
+                  href={FELIX_LINK}
+                  target="_blank"
+                  rel="noopener sponsored"
+                  className="inline-flex items-center gap-2 border border-white/25 text-white/80 text-sm font-medium px-6 py-3.5 rounded-lg hover:bg-white/10 hover:border-white/50 transition-colors"
+                >
+                  Check eligibility with Felix
+                </a>
+              </div>
+            </div>
+
+            {/* Maple leaf - desktop only */}
+            <div className="hidden lg:flex items-center justify-center">
+              <svg
+                viewBox="0 0 100 100"
+                xmlns="http://www.w3.org/2000/svg"
+                className="w-72 xl:w-80 h-auto drop-shadow-2xl"
+                aria-hidden="true"
               >
-                Check eligibility with Felix
-              </a>
+                <path
+                  d="M50,2 L55,26 L72,14 L66,34 L88,28 L78,46 L92,46 L72,64 L76,64 L50,98 L24,64 L28,64 L8,46 L22,46 L12,28 L34,34 L28,14 L45,26 Z"
+                  fill="none"
+                  stroke="rgba(93,202,165,0.25)"
+                  strokeWidth="1"
+                />
+                <path
+                  d="M50,2 L55,26 L72,14 L66,34 L88,28 L78,46 L92,46 L72,64 L76,64 L50,98 L24,64 L28,64 L8,46 L22,46 L12,28 L34,34 L28,14 L45,26 Z"
+                  fill="rgba(93,202,165,0.08)"
+                />
+              </svg>
             </div>
           </div>
 
