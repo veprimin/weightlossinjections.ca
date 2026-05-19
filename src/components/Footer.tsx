@@ -9,7 +9,7 @@ export default function Footer() {
 
         {/* Province notice bar */}
         <div className="bg-gray-800 border border-gray-700 rounded-xl px-5 py-4 mb-10 flex gap-3">
-          <Image src="/Maple_Leaf.svg.png" width={20} height={20} alt="" aria-hidden="true" className="shrink-0 mt-0.5" />
+          <Image src="/Maple_Leaf.svg.png" width={20} height={20} alt="" aria-hidden="true" className="shrink-0 self-start mt-0.5" />
           <div>
             <p className="text-[11.5px] font-semibold text-white uppercase tracking-wider mb-1">Province Availability Notice</p>
             <p className="text-[12.5px] text-gray-400 leading-relaxed">{PROVINCE_DISCLAIMER}</p>
