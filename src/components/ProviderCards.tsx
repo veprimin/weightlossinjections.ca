@@ -4,6 +4,7 @@ const providers = [
   {
     rank: 1,
     name: "Direct Meds",
+    logo: "https://assets.efusercontent.com/2994/assets/logo/57f89939-7407-2795-30d5-b694919d50d3.png",
     url: DIRECT_MEDS_LINK,
     tagline: "Online prescriptions and brand-name GLP-1 injections delivered to your door",
     startingPrice: "From $99/month",
@@ -20,6 +21,7 @@ const providers = [
   {
     rank: 2,
     name: "Felix Health",
+    logo: "https://cdn.prod.website-files.com/6517f6cdafa18ec4281f8b18/65590110de12de54c5d6ae83_felix%20logo-svg.svg",
     url: FELIX_LINK,
     tagline: "Canada-wide digital-first healthcare with home delivery included",
     startingPrice: "From $39/month",
@@ -57,12 +59,15 @@ export default function ProviderCards() {
             >
               {p.rank}
             </span>
-            <span className="text-sm font-bold text-black" style={{ fontFamily: "var(--font-playfair, Georgia, serif)" }}>
-              {p.name}
-            </span>
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img
+              src={p.logo}
+              alt={p.name}
+              className="h-7 w-auto object-contain"
+            />
             {p.badge && (
               <span
-                className="ml-1 inline-flex items-center rounded-full px-2 py-0.5 text-xs font-semibold uppercase tracking-wider text-white"
+                className="ml-auto inline-flex items-center rounded-full px-2 py-0.5 text-xs font-semibold uppercase tracking-wider text-white"
                 style={{ background: p.accentColor }}
               >
                 {p.badge}
@@ -94,7 +99,7 @@ export default function ProviderCards() {
                 className="inline-flex items-center justify-center gap-1.5 rounded-lg px-5 py-2.5 text-sm font-semibold text-white shadow-sm whitespace-nowrap"
                 style={{ background: p.accentColor }}
               >
-                {p.cta} &rarr;
+                {p.cta} →
               </span>
             </div>
           </div>
