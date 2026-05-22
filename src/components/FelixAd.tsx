@@ -36,7 +36,7 @@ export function FelixSidebar() {
             href={DIRECT_MEDS_LINK}
             target="_blank"
             rel="noopener sponsored"
-            className="flex items-center justify-center bg-white/10 text-white font-semibold text-sm py-2 rounded-lg hover:bg-white/20 transition-colors border border-white/20"
+            className="flex items-center justify-center bg-transparent text-white font-semibold text-sm py-2 rounded-lg hover:bg-white/10 transition-colors border border-white"
           >
             Direct Meds &rarr;
           </a>
@@ -69,7 +69,7 @@ export function FelixInline() {
           href={DIRECT_MEDS_LINK}
           target="_blank"
           rel="noopener sponsored"
-          className="bg-white/10 text-white font-semibold text-sm px-5 py-2.5 rounded-lg hover:bg-white/20 transition-colors border border-white/20 whitespace-nowrap"
+          className="bg-transparent text-white font-semibold text-sm px-5 py-2.5 rounded-lg hover:bg-white/10 transition-colors border border-white whitespace-nowrap"
         >
           Direct Meds &rarr;
         </a>
