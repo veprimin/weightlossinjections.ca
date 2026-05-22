@@ -77,10 +77,10 @@ export default function HomePage() {
               Weight Loss Injections in{" "}
               <span className="text-[#0F6E56]">Canada</span>
             </h1>
-            <p className="mt-3 text-xl font-semibold tracking-tight text-gray-500 sm:text-2xl">
+            <p className="mt-3 text-xl font-semibold tracking-tight text-gray-800 sm:text-2xl">
               Ozempic. Wegovy. Mounjaro. Rybelsus.
             </p>
-            <p className="mx-auto mt-4 max-w-xl text-base text-gray-600 sm:text-lg">
+            <p className="mx-auto mt-4 max-w-xl text-base text-gray-800 sm:text-lg">
               Independent editorial coverage written for Canadians - real costs, province-by-province access, and clinical evidence without the marketing spin.
             </p>
           </div>
@@ -166,7 +166,7 @@ export default function HomePage() {
               </div>
               <div>
                 <p className="text-sm font-bold text-gray-900">Researching your options?</p>
-                <p className="mt-0.5 text-sm text-gray-600">Browse our medication guides below</p>
+                <p className="mt-0.5 text-sm text-gray-800">Browse our medication guides below</p>
               </div>
             </Link>
             <a
@@ -183,7 +183,7 @@ export default function HomePage() {
               </div>
               <div>
                 <p className="text-sm font-bold text-gray-900">Ready to get a prescription?</p>
-                <p className="mt-0.5 text-sm text-gray-600">See licensed Canadian telehealth providers</p>
+                <p className="mt-0.5 text-sm text-gray-800">See licensed Canadian telehealth providers</p>
               </div>
             </a>
           </div>
@@ -225,7 +225,7 @@ export default function HomePage() {
               >
                 Medication Guides
               </h2>
-              <p className="mt-1 text-sm text-gray-500">
+              <p className="mt-1 text-sm text-gray-800">
                 Evidence-based guides written for Canadians.
               </p>
             </div>
@@ -267,7 +267,7 @@ export default function HomePage() {
                 >
                   {a.title}
                 </h3>
-                <p className="flex-1 text-sm leading-relaxed text-gray-600">{a.excerpt}</p>
+                <p className="flex-1 text-sm leading-relaxed text-gray-800">{a.excerpt}</p>
                 <span className="mt-auto inline-flex items-center gap-1 text-[13px] font-semibold" style={{ color: a.accentColor }}>
                   Read the guide
                   <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
@@ -350,7 +350,7 @@ export default function HomePage() {
                 </div>
                 <p className="mb-2 text-xs font-semibold uppercase tracking-wider text-[#0F6E56]">Step {item.step}</p>
                 <h3 className="mb-2 text-base font-semibold text-gray-900">{item.title}</h3>
-                <p className="text-sm leading-relaxed text-gray-500">{item.desc}</p>
+                <p className="text-sm leading-relaxed text-gray-800">{item.desc}</p>
               </div>
             ))}
           </div>
@@ -374,7 +374,7 @@ export default function HomePage() {
                 >
                   Generic semaglutide is now available in Canada
                 </h2>
-                <p className="mt-1 text-sm text-gray-600">
+                <p className="mt-1 text-sm text-gray-800">
                   Health Canada has approved 2 manufacturers. Prices expected to drop 45-90% vs. brand-name Ozempic.
                 </p>
               </div>
@@ -406,7 +406,7 @@ export default function HomePage() {
               >
                 Recommended Online Providers
               </h2>
-              <p className="mt-1 text-sm text-gray-500">
+              <p className="mt-1 text-sm text-gray-800">
                 Licensed Canadian telehealth. Prescriptions and delivery included.
               </p>
             </div>

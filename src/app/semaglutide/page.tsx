@@ -87,7 +87,7 @@ export default function SemaglutidePage() {
               "Blood pressure, cholesterol, and HbA1c improvements alongside weight loss",
               "Effects are sustained with continued treatment; most weight is regained after stopping",
             ].map((f) => (
-              <li key={f} className="flex gap-2 text-sm text-gray-700">
+              <li key={f} className="flex gap-2 text-sm text-gray-900">
                 <span className="text-[#1D9E75] font-bold shrink-0">✓</span> {f}
               </li>
             ))}

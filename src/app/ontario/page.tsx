@@ -90,7 +90,7 @@ export default function OntarioPage() {
 
         <div className="bg-[#F2FAF7] border border-[rgba(15,110,86,0.2)] rounded-xl p-5 my-6">
           <p className="text-[11px] font-bold uppercase tracking-widest text-[#0F6E56] mb-2">ODB Tip for Ontario Patients</p>
-          <p className="text-sm text-gray-700">
+          <p className="text-sm text-gray-900">
             When your physician submits the Ozempic prescription, they must include the Limited Use code (LU). This is a specific code that tells the ODB system the clinical reason for the prescription. Without it, the claim will be rejected. Make sure your physician knows to include the LU code - your pharmacist can also assist in identifying the correct one.
           </p>
         </div>

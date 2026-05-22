@@ -44,7 +44,7 @@ export default function PartnersSidebar() {
                 {p.price}
               </span>
             </div>
-            <p className="text-[12px] text-gray-500 mb-2.5 leading-snug">{p.tagline}</p>
+            <p className="text-[12px] text-gray-800 mb-2.5 leading-snug">{p.tagline}</p>
             <a
               href={p.url}
               target="_blank"

@@ -73,9 +73,9 @@ export default function InsurancePage() {
               ].map((row, i) => (
                 <tr key={i} className={i % 2 === 0 ? "bg-white" : "bg-gray-50"}>
                   <td className="px-4 py-3 font-medium text-gray-900 border-b border-gray-200">{row.drug}</td>
-                  <td className="px-4 py-3 text-gray-600 border-b border-gray-200 text-xs">{row.ind}</td>
-                  <td className="px-4 py-3 text-gray-700 border-b border-gray-200 text-xs">{row.prov}</td>
-                  <td className="px-4 py-3 text-gray-700 border-b border-gray-200 text-xs">{row.priv}</td>
+                  <td className="px-4 py-3 text-gray-900 border-b border-gray-200 text-xs">{row.ind}</td>
+                  <td className="px-4 py-3 text-gray-900 border-b border-gray-200 text-xs">{row.prov}</td>
+                  <td className="px-4 py-3 text-gray-900 border-b border-gray-200 text-xs">{row.priv}</td>
                 </tr>
               ))}
             </tbody>
@@ -184,9 +184,9 @@ export default function InsurancePage() {
               ].map((row, i) => (
                 <tr key={row.prov} className={i % 2 === 0 ? "bg-white" : "bg-gray-50"}>
                   <td className="px-4 py-3 font-medium text-gray-900 border-b border-gray-200">{row.prov}</td>
-                  <td className="px-4 py-3 text-gray-600 border-b border-gray-200 text-xs">{row.plan}</td>
-                  <td className="px-4 py-3 text-gray-700 border-b border-gray-200 text-xs">{row.ozempic}</td>
-                  <td className="px-4 py-3 text-gray-700 border-b border-gray-200 text-xs">{row.weight}</td>
+                  <td className="px-4 py-3 text-gray-900 border-b border-gray-200 text-xs">{row.plan}</td>
+                  <td className="px-4 py-3 text-gray-900 border-b border-gray-200 text-xs">{row.ozempic}</td>
+                  <td className="px-4 py-3 text-gray-900 border-b border-gray-200 text-xs">{row.weight}</td>
                 </tr>
               ))}
             </tbody>

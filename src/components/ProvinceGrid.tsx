@@ -10,7 +10,7 @@ export default function ProvinceGrid() {
         >
           Start your assessment by province
         </h2>
-        <p className="mt-1 text-sm text-gray-500">
+        <p className="mt-1 text-sm text-gray-800">
           Felix connects you with a licensed Canadian provider online - no clinic visit required.
         </p>
         <div className="mt-5 flex flex-wrap gap-2">

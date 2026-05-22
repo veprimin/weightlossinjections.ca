@@ -31,13 +31,13 @@ export default function ArticleHeader({
       </div>
 
       <p
-        className="text-xl text-gray-600 leading-relaxed mb-6 max-w-2xl"
+        className="text-xl text-gray-900 leading-relaxed mb-6 max-w-2xl"
         style={{ fontFamily: "var(--font-source-serif, Georgia, serif)", fontWeight: 300 }}
       >
         {standfirst}
       </p>
 
-      <div className="flex items-center gap-3 text-sm text-gray-500">
+      <div className="flex items-center gap-3 text-sm text-gray-700">
         <span>By the editorial team at WeightLossInjections.ca</span>
         <span className="w-1 h-1 rounded-full bg-gray-300" />
         <span>Medically reviewed</span>

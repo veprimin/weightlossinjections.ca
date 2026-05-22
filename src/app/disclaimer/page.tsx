@@ -79,19 +79,19 @@ export default function DisclaimerPage() {
             <h2 className="text-xl font-bold text-gray-900 mb-3" style={{ fontFamily: "Georgia, serif" }}>
               Medical Disclaimer
             </h2>
-            <p className="text-gray-700 leading-relaxed mb-4">
+            <p className="text-gray-900 leading-relaxed mb-4">
               {SITE_NAME} is an independent editorial publication. We are <strong>not</strong> a medical clinic,
               pharmacy, or healthcare provider. Nothing published on this website - including articles, guides,
               comparison tables, cost estimates, or sponsored content - constitutes medical advice, a clinical
               recommendation, or a substitute for professional medical consultation.
             </p>
-            <p className="text-gray-700 leading-relaxed mb-4">
+            <p className="text-gray-900 leading-relaxed mb-4">
               GLP-1 receptor agonists (including semaglutide, tirzepatide, and oral semaglutide) are
               <strong> prescription medications</strong> in Canada. They may only be obtained through a valid
               prescription issued by a licensed Canadian physician or nurse practitioner following a proper
               clinical assessment. Eligibility criteria, dosing, and appropriateness vary by individual.
             </p>
-            <p className="text-gray-700 leading-relaxed">
+            <p className="text-gray-900 leading-relaxed">
               Always consult a qualified healthcare professional before starting, stopping, or modifying any
               medication. If you experience adverse effects, contact your prescriber or call Health Link 811
               (available in most provinces).
@@ -106,7 +106,7 @@ export default function DisclaimerPage() {
             <div className="bg-[#E1F5EE] border border-[rgba(15,110,86,0.25)] rounded-xl p-5 mb-5">
               <p className="text-[#063D2B] text-sm leading-relaxed">{PROVINCE_DISCLAIMER}</p>
             </div>
-            <p className="text-gray-700 leading-relaxed mb-4">
+            <p className="text-gray-900 leading-relaxed mb-4">
               Online prescription services for GLP-1 medications through our affiliate partner{" "}
               <strong>Felix Health</strong> are currently available to residents of the following provinces:
             </p>
@@ -141,18 +141,18 @@ export default function DisclaimerPage() {
             <h2 className="text-xl font-bold text-gray-900 mb-3" style={{ fontFamily: "Georgia, serif" }}>
               Affiliate &amp; Sponsored Content Disclosure
             </h2>
-            <p className="text-gray-700 leading-relaxed mb-4">
+            <p className="text-gray-900 leading-relaxed mb-4">
               {SITE_NAME} has an affiliate relationship with{" "}
               <strong>Felix Health</strong>, a licensed Canadian telehealth provider. When you click an affiliate
               link on this site and complete an assessment or purchase through Felix, we may receive a commission
               at no additional cost to you.
             </p>
-            <p className="text-gray-700 leading-relaxed mb-4">
+            <p className="text-gray-900 leading-relaxed mb-4">
               All sponsored and affiliate content is clearly labelled with disclosures such as{" "}
               <em>"Sponsored · Felix Health"</em> or <em>"Sponsored Partner."</em> Sponsored content does not
               influence our independent editorial coverage, cost estimates, clinical summaries, or comparisons.
             </p>
-            <p className="text-gray-700 leading-relaxed">
+            <p className="text-gray-900 leading-relaxed">
               We are <strong>not</strong> affiliated with, endorsed by, or compensated by Novo Nordisk (maker
               of Ozempic/Wegovy/Rybelsus), Eli Lilly (maker of Mounjaro), or any other pharmaceutical
               manufacturer.
@@ -164,7 +164,7 @@ export default function DisclaimerPage() {
             <h2 className="text-xl font-bold text-gray-900 mb-3" style={{ fontFamily: "Georgia, serif" }}>
               Editorial Standards &amp; Sources
             </h2>
-            <p className="text-gray-700 leading-relaxed mb-4">
+            <p className="text-gray-900 leading-relaxed mb-4">
               Editorial content on {SITE_NAME} is produced by our independent editorial team. We aim to present
               accurate, up-to-date information drawn from authoritative sources including:
             </p>
@@ -176,7 +176,7 @@ export default function DisclaimerPage() {
               <li>Canadian Diabetes Care Guidelines</li>
               <li>Obesity Canada clinical practice guidelines</li>
             </ul>
-            <p className="text-gray-700 leading-relaxed">
+            <p className="text-gray-900 leading-relaxed">
               Despite our best efforts, drug coverage, pricing, and availability change frequently. Always
               verify current information with your pharmacist, provincial drug plan, or healthcare provider
               before making medical or financial decisions.
@@ -188,13 +188,13 @@ export default function DisclaimerPage() {
             <h2 className="text-xl font-bold text-gray-900 mb-3" style={{ fontFamily: "Georgia, serif" }}>
               Regulatory Notice
             </h2>
-            <p className="text-gray-700 leading-relaxed mb-4">
+            <p className="text-gray-900 leading-relaxed mb-4">
               All medications referenced on this site are regulated by <strong>Health Canada</strong>. Only
               medications approved by Health Canada may be legally prescribed and dispensed in Canada.
               Importation of prescription medications from other countries without Health Canada authorization
               is illegal and potentially dangerous.
             </p>
-            <p className="text-gray-700 leading-relaxed">
+            <p className="text-gray-900 leading-relaxed">
               Telehealth prescribers featured via our affiliate links are licensed by the appropriate provincial
               College of Physicians and Surgeons and are required to follow Canadian prescribing standards,
               including conducting a medically appropriate assessment before issuing any prescription.

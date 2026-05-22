@@ -129,7 +129,7 @@ export default function ComparePage() {
               Ozempic vs. Wegovy vs. Mounjaro vs. Rybelsus
             </h1>
           </div>
-          <p className="text-lg text-gray-600 font-light max-w-2xl leading-relaxed">
+          <p className="text-lg text-gray-800 font-light max-w-2xl leading-relaxed">
             A complete side-by-side comparison of all major GLP-1 weight loss medications available in Canada - efficacy, cost, dosing, and coverage.
           </p>
           <div className="flex items-center gap-4 mt-5 text-sm text-gray-500">
@@ -288,7 +288,7 @@ export default function ComparePage() {
                   <p className="text-xs font-semibold text-gray-500 uppercase tracking-wider mb-1">If:</p>
                   <p className="text-sm font-semibold text-gray-900 mb-2">{s.condition}</p>
                   <p className="text-sm font-bold text-[#0F6E56] mb-1">&rarr; {s.recommendation}</p>
-                  <p className="text-xs text-gray-600 leading-relaxed">{s.reasoning}</p>
+                  <p className="text-xs text-gray-800 leading-relaxed">{s.reasoning}</p>
                 </div>
               </div>
             </div>

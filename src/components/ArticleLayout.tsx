@@ -28,7 +28,7 @@ export default function ArticleLayout({ children, toc, related }: ArticleLayoutP
                 <li key={item.id}>
                   <a
                     href={`#${item.id}`}
-                    className="block text-[13px] text-gray-600 hover:text-[#0F6E56] py-1 pl-3 border-l-2 border-transparent hover:border-[#1D9E75] transition-colors"
+                    className="block text-[13px] text-gray-800 hover:text-[#0F6E56] py-1 pl-3 border-l-2 border-transparent hover:border-[#1D9E75] transition-colors"
                   >
                     {item.label}
                   </a>

@@ -76,7 +76,7 @@ export default function ProviderCards() {
               <p className="mb-3 text-[13.5px] font-semibold text-gray-800">{p.tagline}</p>
               <ul className="space-y-1.5">
                 {p.features.map((f) => (
-                  <li key={f} className="flex gap-2 text-[12.5px] text-gray-600 leading-snug">
+                  <li key={f} className="flex gap-2 text-[12.5px] text-gray-800 leading-snug">
                     <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke={p.accentColor} strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true" className="mt-0.5 shrink-0">
                       <circle cx="12" cy="12" r="10"/><path d="m9 12 2 2 4-4"/>
                     </svg>

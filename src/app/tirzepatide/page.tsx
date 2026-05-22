@@ -98,7 +98,7 @@ export default function TirzepatidePage() {
               "Significant reductions in waist circumference, blood pressure, and lipids",
               "Greater weight loss than any GLP-1 medication previously approved",
             ].map((f) => (
-              <li key={f} className="flex gap-2 text-sm text-gray-700">
+              <li key={f} className="flex gap-2 text-sm text-gray-900">
                 <span className="text-teal-600 font-bold shrink-0">✓</span> {f}
               </li>
             ))}

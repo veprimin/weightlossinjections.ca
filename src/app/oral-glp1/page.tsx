@@ -79,7 +79,7 @@ export default function OralGlp1Page() {
               "Swallow tablet whole - do not crush, chew, or split",
               "Consistent daily timing improves effectiveness",
             ].map((f) => (
-              <li key={f} className="flex gap-2 text-sm text-gray-700">
+              <li key={f} className="flex gap-2 text-sm text-gray-900">
                 <span className="text-amber-600 font-bold shrink-0">•</span> {f}
               </li>
             ))}
