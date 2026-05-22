@@ -8,8 +8,12 @@ const routes: { path: string; priority: number; changeFrequency: MetadataRoute.S
   { path: "/compare",            priority: 0.8, changeFrequency: "monthly" },
   { path: "/cost",               priority: 0.8, changeFrequency: "weekly"  },
   { path: "/insurance-coverage", priority: 0.7, changeFrequency: "monthly" },
-  { path: "/ontario",            priority: 0.7, changeFrequency: "monthly" },
+  { path: "/ontario",             priority: 0.8, changeFrequency: "monthly" },
+  { path: "/british-columbia",   priority: 0.8, changeFrequency: "monthly" },
+  { path: "/alberta",            priority: 0.8, changeFrequency: "monthly" },
   { path: "/oral-glp1",          priority: 0.7, changeFrequency: "monthly" },
+  { path: "/generic-semaglutide",priority: 0.9, changeFrequency: "weekly"  },
+  { path: "/online-prescription", priority: 0.8, changeFrequency: "monthly" },
   { path: "/disclaimer",         priority: 0.4, changeFrequency: "yearly"  },
 ];
 
