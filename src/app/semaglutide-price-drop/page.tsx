@@ -198,9 +198,10 @@ export default function SemaglutidePriceDropPage() {
             href={FELIX_LINK}
             target="_blank"
             rel="noopener sponsored"
-            className="inline-block bg-[#0F6E56] text-white text-sm font-semibold px-5 py-2.5 rounded-lg hover:bg-[#063D2B] transition-colors"
+            style={{ textDecoration: "none" }}
+            className="inline-block bg-[#063D2B] text-white no-underline text-sm font-semibold px-5 py-2.5 rounded-lg hover:bg-black transition-colors"
           >
-            See if you qualify at Felix Health
+            See if you qualify at Felix Health &rarr;
           </a>
           <p className="text-xs text-[#0F6E56] mt-2">Sponsored link - Felix Health is an affiliate partner.</p>
         </div>
