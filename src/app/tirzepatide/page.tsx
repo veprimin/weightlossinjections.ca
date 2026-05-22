@@ -6,7 +6,7 @@ import Link from "next/link";
 import { SITE_URL } from "@/lib/constants";
 
 export const metadata: Metadata = {
-  title: "Tirzepatide (Mounjaro) in Canada - Complete Guide 2025",
+  title: "Tirzepatide (Mounjaro) in Canada - Complete Guide 2026",
   description:
     "Everything Canadians need to know about tirzepatide (Mounjaro & Zepbound): how the dual GLP-1/GIP mechanism works, clinical evidence, cost, availability, and how to get a prescription.",
   alternates: {
@@ -28,10 +28,10 @@ const toc = [
 ];
 
 const related = [
-  { href: "/semaglutide",        emoji: "💉", title: "Semaglutide (Ozempic & Wegovy) Guide", date: "May 2025" },
-  { href: "/compare",            emoji: "⚖️", title: "Compare All Weight Loss Injections",    date: "May 2025" },
-  { href: "/cost",               emoji: "💰", title: "Province-by-Province Cost Guide",       date: "May 2025" },
-  { href: "/insurance-coverage", emoji: "🛡️", title: "Insurance Coverage Guide",             date: "May 2025" },
+  { href: "/semaglutide",        emoji: "💉", title: "Semaglutide (Ozempic & Wegovy) Guide", date: "May 2026" },
+  { href: "/compare",            emoji: "⚖️", title: "Compare All Weight Loss Injections",    date: "May 2026" },
+  { href: "/cost",               emoji: "💰", title: "Province-by-Province Cost Guide",       date: "May 2026" },
+  { href: "/insurance-coverage", emoji: "🛡️", title: "Insurance Coverage Guide",             date: "May 2026" },
 ];
 
 export default function TirzepatidePage() {
@@ -40,7 +40,7 @@ export default function TirzepatidePage() {
       <ArticleHeader
         category="Medication Guide"
         readTime="10 min read"
-        date="May 2025"
+        date="May 2026"
         headline="Tirzepatide (Mounjaro) in Canada: The Dual-Action Weight Loss Injection"
         standfirst="Tirzepatide targets two gut hormones simultaneously - and it is producing weight-loss results that surprised even its developers. Here is what Canadians need to know."
         heroEmoji="⚗️"
@@ -90,7 +90,7 @@ export default function TirzepatidePage() {
         </ul>
 
         <div className="bg-[#F0FDFA] border border-teal-200 rounded-xl p-5 my-6">
-          <p className="text-[11px] font-bold uppercase tracking-widest text-teal-700 mb-3">📊 SURMOUNT-1 Highlights (15 mg dose)</p>
+          <p className="text-xs font-bold uppercase tracking-widest text-teal-700 mb-3">SURMOUNT-1 Highlights (15 mg dose)</p>
           <ul className="space-y-2">
             {[
               "20.9% average body weight reduction over 72 weeks",
@@ -98,7 +98,7 @@ export default function TirzepatidePage() {
               "Significant reductions in waist circumference, blood pressure, and lipids",
               "Greater weight loss than any GLP-1 medication previously approved",
             ].map((f) => (
-              <li key={f} className="flex gap-2 text-sm text-gray-700">
+              <li key={f} className="flex gap-2 text-sm text-black">
                 <span className="text-teal-600 font-bold shrink-0">✓</span> {f}
               </li>
             ))}
@@ -167,7 +167,7 @@ export default function TirzepatidePage() {
         <h3>Does Zepbound exist in Canada?</h3>
         <p>As of 2025, Zepbound has not received a separate Health Canada approval. Mounjaro (the same molecule, approved for diabetes) is available and frequently prescribed off-label for weight management.</p>
 
-        <div className="bg-gray-50 border border-gray-200 rounded-xl p-5 mt-10 text-xs text-gray-500 leading-relaxed">
+        <div className="bg-gray-50 border border-gray-200 rounded-xl p-5 mt-10 text-xs text-black leading-relaxed">
           <strong>Medical disclaimer:</strong> This article is for informational purposes only and does not constitute medical advice. Tirzepatide requires a prescription from a licensed healthcare provider. Off-label prescribing is at the discretion of the treating physician.
         </div>
       </div>

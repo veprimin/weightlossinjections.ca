@@ -141,7 +141,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         />
       </head>
       <body
-        className="min-h-screen flex flex-col antialiased bg-white text-gray-900"
+        className="min-h-screen flex flex-col antialiased bg-white text-black"
         style={{ fontFamily: "var(--font-source-serif, Georgia, serif)" }}
       >
         <Header />

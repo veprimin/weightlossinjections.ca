@@ -66,7 +66,7 @@ export async function GET() {
       data: medications,
       meta: {
         count: medications.length,
-        lastUpdated: "2026-05-18",
+        lastUpdated: "2026-05-22",
         source: `${SITE_URL} editorial team`,
         country: "Canada",
         currency: "CAD",

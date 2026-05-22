@@ -1,13 +1,12 @@
 import type { Metadata } from "next";
-import Image from "next/image";
 import ArticleLayout from "@/components/ArticleLayout";
 import ArticleHeader from "@/components/ArticleHeader";
 import { FelixInline } from "@/components/FelixAd";
 import Link from "next/link";
-import { SITE_URL } from "@/lib/constants";
+import { SITE_URL, FELIX_LINK } from "@/lib/constants";
 
 export const metadata: Metadata = {
-  title: "How Much Do Weight Loss Injections Cost in Canada? (2025 Province Guide)",
+  title: "How Much Do Weight Loss Injections Cost in Canada? (2026 Province Guide)",
   description:
     "Province-by-province breakdown of Ozempic, Wegovy, and Mounjaro costs in Canada, including insurance coverage, out-of-pocket estimates, and what generic semaglutide will mean for prices.",
   alternates: {
@@ -29,10 +28,10 @@ const toc = [
 ];
 
 const related = [
-  { href: "/insurance-coverage", emoji: "🛡️", title: "Insurance Coverage Guide",              date: "May 2025" },
-  { href: "/semaglutide",        emoji: "💉", title: "Semaglutide (Ozempic & Wegovy) Guide",   date: "May 2025" },
-  { href: "/ontario",            emoji: <Image src="/Maple_Leaf.svg.png" width={20} height={20} alt="Ontario" />, title: "Ontario Guide: ODB & Private Plans",     date: "May 2025" },
-  { href: "/compare",            emoji: "⚖️", title: "Compare All Medications",                date: "May 2025" },
+  { href: "/insurance-coverage", emoji: "🛡️", title: "Insurance Coverage Guide",              date: "May 2026" },
+  { href: "/semaglutide",        emoji: "💉", title: "Semaglutide (Ozempic & Wegovy) Guide",   date: "May 2026" },
+  { href: "/ontario",            emoji: "🍁", title: "Ontario Guide: ODB & Private Plans",     date: "May 2026" },
+  { href: "/compare",            emoji: "⚖️", title: "Compare All Medications",                date: "May 2026" },
 ];
 
 const provinceData = [
@@ -54,7 +53,7 @@ export default function CostPage() {
       <ArticleHeader
         category="Cost Guide"
         readTime="8 min read"
-        date="May 2025"
+        date="May 2026"
         headline="How Much Do Weight Loss Injections Cost in Canada? Province-by-Province Breakdown"
         standfirst="The cost of GLP-1 medications in Canada varies by drug, dose, province, and insurance coverage. Here is everything you need to budget for treatment - and how to reduce what you pay."
         heroEmoji="💰"
@@ -75,14 +74,14 @@ export default function CostPage() {
             { drug: "Rybelsus",dose: "7–14 mg",   cost: "$200–$350", sub: "per month" },
           ].map((d) => (
             <div key={d.drug} className="bg-gray-50 border border-gray-200 rounded-xl p-4 text-center">
-              <p className="text-xs font-bold text-gray-500 uppercase tracking-wider mb-1">{d.drug}</p>
-              <p className="text-2xl font-bold text-[#0F6E56]" style={{ fontFamily: "Georgia, serif" }}>{d.cost}</p>
-              <p className="text-xs text-gray-500 mt-0.5">{d.sub}</p>
-              <p className="text-[10px] text-gray-400 mt-1">{d.dose}</p>
+              <p className="text-xs font-bold text-black uppercase tracking-wider mb-1">{d.drug}</p>
+              <p className="text-2xl font-bold text-[#1B3A6B]" style={{ fontFamily: "Georgia, serif" }}>{d.cost}</p>
+              <p className="text-xs text-black mt-0.5">{d.sub}</p>
+              <p className="text-xs text-black mt-1">{d.dose}</p>
             </div>
           ))}
         </div>
-        <p className="text-sm text-gray-500 -mt-2 mb-6">Prices are approximate list prices without insurance. Actual costs vary by province, pharmacy, and plan. Generics will reduce these figures significantly.</p>
+        <p className="text-sm text-black -mt-2 mb-6">Prices are approximate list prices without insurance. Actual costs vary by province, pharmacy, and plan. Generics will reduce these figures significantly.</p>
 
         <h2 id="ozempic-cost">Ozempic Cost by Province</h2>
         <p>
@@ -92,7 +91,7 @@ export default function CostPage() {
         <div className="overflow-x-auto my-6 not-prose">
           <table className="w-full text-sm border-collapse border border-gray-200 rounded-xl overflow-hidden">
             <thead>
-              <tr className="bg-gray-900 text-white">
+              <tr className="text-white" style={{ background: "#1B3A6B" }}>
                 <th className="text-left px-4 py-3 text-xs font-semibold">Province</th>
                 <th className="text-left px-4 py-3 text-xs font-semibold">Ozempic / month</th>
                 <th className="text-left px-4 py-3 text-xs font-semibold">Wegovy / month</th>
@@ -102,16 +101,16 @@ export default function CostPage() {
             <tbody>
               {provinceData.map((row, i) => (
                 <tr key={row.prov} className={i % 2 === 0 ? "bg-white" : "bg-gray-50"}>
-                  <td className="px-4 py-3 font-medium text-gray-900 border-b border-gray-200">{row.prov}</td>
-                  <td className="px-4 py-3 text-gray-600 border-b border-gray-200">{row.ozempic}</td>
-                  <td className="px-4 py-3 text-gray-600 border-b border-gray-200">{row.wegovy}</td>
-                  <td className="px-4 py-3 text-gray-500 border-b border-gray-200 text-xs">{row.notes}</td>
+                  <td className="px-4 py-3 font-medium text-black border-b border-gray-200">{row.prov}</td>
+                  <td className="px-4 py-3 text-black border-b border-gray-200">{row.ozempic}</td>
+                  <td className="px-4 py-3 text-black border-b border-gray-200">{row.wegovy}</td>
+                  <td className="px-4 py-3 text-black border-b border-gray-200 text-xs">{row.notes}</td>
                 </tr>
               ))}
             </tbody>
           </table>
         </div>
-        <p className="text-xs text-gray-400">Source: Pharmacy list prices, provincial formularies, and patient reports as of May 2025. Prices are approximate and subject to change. Consult your pharmacy for exact current pricing.</p>
+        <p className="text-xs text-black">Source: Pharmacy list prices, provincial formularies, and patient reports as of May 2026. Prices are approximate and subject to change. Consult your pharmacy for exact current pricing.</p>
 
         <h2 id="wegovy-cost">Wegovy Cost in Canada</h2>
         <p>
@@ -173,11 +172,11 @@ export default function CostPage() {
           One of the most practical recent developments: <strong>home delivery of semaglutide is now available at the same price as picking up from a pharmacy</strong> in most provinces. This is enabled through the Novo Nordisk Care Rx program and pharmacy delivery services.
         </p>
         <p>
-          Virtual care platforms like <a href="https://afflat3e1.com/trk/lnk/9AC89778-AF07-4236-94B8-94E9519B0116/?o=29537&c=918271&a=776838&k=9244A3303B13F605EF0D210C5B870AF8&l=33492" target="_blank" rel="noopener sponsored">Felix Health</a> coordinate the entire process - assessment, prescription, and delivery - from a single platform at no premium over standard dispensing prices.
+          Virtual care platforms like <a href={FELIX_LINK} target="_blank" rel="noopener sponsored">Felix Health</a> coordinate the entire process - assessment, prescription, and delivery - from a single platform at no premium over standard dispensing prices.
         </p>
 
-        <div className="bg-gray-50 border border-gray-200 rounded-xl p-5 mt-10 text-xs text-gray-500 leading-relaxed">
-          <strong>Note on prices:</strong> All costs are approximate and based on list prices as of May 2025. Actual prices may vary by pharmacy, province, and plan. Contact your pharmacy or insurance provider for exact current pricing. Generic pricing is based on typical market patterns and may differ once products fully launch.
+        <div className="bg-gray-50 border border-gray-200 rounded-xl p-5 mt-10 text-xs text-black leading-relaxed">
+          <strong>Note on prices:</strong> All costs are approximate and based on list prices as of May 2026. Actual prices may vary by pharmacy, province, and plan. Contact your pharmacy or insurance provider for exact current pricing. Generic pricing is based on typical market patterns and may differ once products fully launch.
         </div>
       </div>
     </ArticleLayout>

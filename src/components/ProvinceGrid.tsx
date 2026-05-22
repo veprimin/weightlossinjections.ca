@@ -1,33 +1,43 @@
-import { FELIX_LINK, PROVINCES } from "@/lib/constants";
+import Link from "next/link";
+
+const provinceLinks = [
+  { name: "Ontario",                 href: "/ontario"          },
+  { name: "British Columbia",        href: "/british-columbia" },
+  { name: "Alberta",                 href: "/alberta"          },
+  { name: "Manitoba",                href: "/manitoba"         },
+  { name: "New Brunswick",           href: "/new-brunswick"    },
+  { name: "Newfoundland & Labrador", href: "/newfoundland"     },
+  { name: "Nova Scotia",             href: "/nova-scotia"      },
+  { name: "PEI",                     href: "/pei"              },
+  { name: "Saskatchewan",            href: "/saskatchewan"     },
+];
 
 export default function ProvinceGrid() {
   return (
-    <section className="py-14 px-4 sm:px-6 border-y border-gray-200">
-      <div className="max-w-7xl mx-auto">
-        <div className="mb-8">
-          <p className="text-[10.5px] font-bold uppercase tracking-widest text-[#0F6E56] mb-2">Available Across Canada</p>
-          <h2 className="text-2xl font-bold text-gray-900 mb-1" style={{ fontFamily: "Georgia, serif" }}>
-            Start your assessment in your province
-          </h2>
-          <p className="text-sm text-gray-500">
-            Felix connects you with a licensed Canadian healthcare provider online. No clinic visit required.
-          </p>
-        </div>
-        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-2">
-          {PROVINCES.map((p) => (
-            <a
+    <section className="border-b border-gray-100 bg-white py-10 sm:py-12">
+      <div className="mx-auto max-w-5xl px-4 sm:px-6 lg:px-8">
+        <h2
+          className="text-xl font-bold text-black sm:text-2xl"
+          style={{ fontFamily: "var(--font-playfair, Georgia, serif)" }}
+        >
+          Province guides
+        </h2>
+        <p className="mt-1 text-sm text-black">
+          Coverage criteria, drug plan details, and access options for each province.
+        </p>
+        <div className="mt-5 flex flex-wrap gap-2">
+          {provinceLinks.map((p) => (
+            <Link
               key={p.name}
-              href={FELIX_LINK}
-              target="_blank"
-              rel="noopener sponsored"
-              className="flex items-center gap-2.5 border border-gray-200 rounded-lg px-4 py-3 text-[13.5px] font-medium text-gray-700 hover:border-[#0F6E56] hover:text-[#0F6E56] hover:bg-[#F2FAF7] transition-all bg-white"
+              href={p.href}
+              className="inline-flex items-center rounded-full border border-gray-200 bg-gray-50 px-4 py-1.5 text-sm font-medium text-black transition-colors hover:border-[#1B3A6B] hover:bg-[#E8EFFF] hover:text-[#1B3A6B]"
             >
-              <span className="w-1.5 h-1.5 rounded-full bg-[#1D9E75] shrink-0" />
+              <span className="mr-1.5 h-1.5 w-1.5 rounded-full bg-[#2D5FA8]" aria-hidden="true" />
               {p.name}
-            </a>
+            </Link>
           ))}
         </div>
-        <p className="text-xs text-gray-400 mt-5">
+        <p className="mt-4 text-xs text-black">
           Not available in Quebec or Canadian territories. A licensed provider will confirm eligibility after your assessment.
         </p>
       </div>

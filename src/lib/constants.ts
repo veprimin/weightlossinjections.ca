@@ -18,11 +18,10 @@ export const PROVINCE_DISCLAIMER =
 export const NAV_LINKS = [
   { label: "Semaglutide", href: "/semaglutide" },
   { label: "Tirzepatide", href: "/tirzepatide" },
-  { label: "Oral GLP-1", href: "/oral-glp1" },
   { label: "Cost", href: "/cost" },
-  { label: "Insurance", href: "/insurance-coverage" },
-  { label: "Ontario", href: "/ontario" },
+  { label: "Insurance Checker", href: "/insurance-checker" },
   { label: "Compare", href: "/compare" },
+  { label: "Ontario", href: "/ontario" },
 ];
 
 export const PROVINCES = [

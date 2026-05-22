@@ -3,7 +3,7 @@ import ArticleLayout from "@/components/ArticleLayout";
 import ArticleHeader from "@/components/ArticleHeader";
 import { FelixInline } from "@/components/FelixAd";
 import Link from "next/link";
-import { SITE_URL } from "@/lib/constants";
+import { SITE_URL, FELIX_LINK } from "@/lib/constants";
 
 export const metadata: Metadata = {
   title: "Semaglutide in Canada - Complete Guide to Ozempic & Wegovy",
@@ -28,10 +28,10 @@ const toc = [
 ];
 
 const related = [
-  { href: "/tirzepatide",      emoji: "⚗️", title: "Tirzepatide (Mounjaro) Guide",         date: "May 2025" },
-  { href: "/compare",          emoji: "⚖️", title: "Compare All Weight Loss Injections",     date: "May 2025" },
-  { href: "/cost",             emoji: "💰", title: "Province-by-Province Cost Breakdown",    date: "May 2025" },
-  { href: "/insurance-coverage", emoji: "🛡️", title: "Does Insurance Cover Ozempic?",       date: "May 2025" },
+  { href: "/tirzepatide",      emoji: "⚗️", title: "Tirzepatide (Mounjaro) Guide",         date: "May 2026" },
+  { href: "/compare",          emoji: "⚖️", title: "Compare All Weight Loss Injections",     date: "May 2026" },
+  { href: "/cost",             emoji: "💰", title: "Province-by-Province Cost Breakdown",    date: "May 2026" },
+  { href: "/insurance-coverage", emoji: "🛡️", title: "Does Insurance Cover Ozempic?",       date: "May 2026" },
 ];
 
 export default function SemaglutidePage() {
@@ -40,11 +40,11 @@ export default function SemaglutidePage() {
       <ArticleHeader
         category="In-Depth Guide"
         readTime="12 min read"
-        date="May 2025"
+        date="May 2026"
         headline="Semaglutide in Canada: The Complete Guide to Ozempic & Wegovy"
         standfirst="Semaglutide has transformed weight management globally. Here is everything Canadians need to know - from the biology to the pharmacy counter."
         heroEmoji="💉"
-        heroGradient="linear-gradient(135deg,#0F6E56,#2DB88A)"
+        heroGradient="linear-gradient(135deg,#1B3A6B,#2DB88A)"
       />
 
       <div className="prose-editorial">
@@ -77,8 +77,8 @@ export default function SemaglutidePage() {
           <li><strong>SELECT trial (2023):</strong> Semaglutide 2.4 mg reduced major cardiovascular events by <strong>20%</strong> in adults with overweight/obesity and established cardiovascular disease - a landmark finding that expanded its clinical relevance far beyond aesthetics</li>
         </ul>
 
-        <div className="bg-[#F2FAF7] border border-[rgba(15,110,86,0.2)] rounded-xl p-5 my-6">
-          <p className="text-[11px] font-bold uppercase tracking-widest text-[#0F6E56] mb-3 flex items-center gap-2">📊 Key Clinical Numbers</p>
+        <div className="bg-[#EEF3FF] border border-[rgba(27,58,107,0.2)] rounded-xl p-5 my-6">
+          <p className="text-xs font-bold uppercase tracking-widest text-[#1B3A6B] mb-3">Key Clinical Numbers</p>
           <ul className="space-y-2">
             {[
               "~15% average body weight loss over 68 weeks (STEP 1)",
@@ -87,8 +87,8 @@ export default function SemaglutidePage() {
               "Blood pressure, cholesterol, and HbA1c improvements alongside weight loss",
               "Effects are sustained with continued treatment; most weight is regained after stopping",
             ].map((f) => (
-              <li key={f} className="flex gap-2 text-sm text-gray-700">
-                <span className="text-[#1D9E75] font-bold shrink-0">✓</span> {f}
+              <li key={f} className="flex gap-2 text-sm text-black">
+                <span className="text-[#2D5FA8] font-bold shrink-0">✓</span> {f}
               </li>
             ))}
           </ul>
@@ -138,7 +138,7 @@ export default function SemaglutidePage() {
         <p>Three main pathways exist:</p>
         <ol>
           <li><strong>Your family physician:</strong> The traditional route - potentially the most seamless if your GP is familiar with GLP-1 medications and comfortable prescribing them. Wait times and prescribing habits vary widely by physician and province.</li>
-          <li><strong>Online virtual care:</strong> Platforms like <a href="https://afflat3e1.com/trk/lnk/9AC89778-AF07-4236-94B8-94E9519B0116/?o=29537&c=918271&a=776838&k=9244A3303B13F605EF0D210C5B870AF8&l=33492" target="_blank" rel="noopener sponsored">Felix Health</a> connect you with a licensed Canadian physician online. You complete a medical intake form, a physician reviews and responds within hours, and if appropriate, issues a prescription that can be delivered to your home. Many patients find this significantly faster and more convenient.</li>
+          <li><strong>Online virtual care:</strong> Platforms like <a href={FELIX_LINK} target="_blank" rel="noopener sponsored">Felix Health</a> connect you with a licensed Canadian physician online. You complete a medical intake form, a physician reviews and responds within hours, and if appropriate, issues a prescription that can be delivered to your home. Many patients find this significantly faster and more convenient.</li>
           <li><strong>Obesity specialist / endocrinologist:</strong> For complex cases or when a GP referral is required. Often involves a longer wait but provides more comprehensive metabolic management.</li>
         </ol>
 
@@ -182,7 +182,7 @@ export default function SemaglutidePage() {
         <h3>Can I use semaglutide while pregnant or breastfeeding?</h3>
         <p>No. Semaglutide is contraindicated in pregnancy. Women of childbearing potential should use effective contraception during treatment and for at least 2 months after the last dose.</p>
 
-        <div className="bg-gray-50 border border-gray-200 rounded-xl p-5 mt-10 text-xs text-gray-500 leading-relaxed">
+        <div className="bg-gray-50 border border-gray-200 rounded-xl p-5 mt-10 text-xs text-black leading-relaxed">
           <strong>Medical disclaimer:</strong> This article is for informational purposes only and does not constitute medical advice. Semaglutide requires a valid prescription from a licensed healthcare provider. Always consult a qualified clinician before starting or changing any medication.
         </div>
       </div>
