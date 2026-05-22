@@ -1,5 +1,4 @@
 import type { Metadata } from "next";
-import Image from "next/image";
 import ArticleLayout from "@/components/ArticleLayout";
 import ArticleHeader from "@/components/ArticleHeader";
 import { FelixInline } from "@/components/FelixAd";
@@ -29,7 +28,7 @@ const toc = [
 
 const related = [
   { href: "/cost",        emoji: "💰", title: "Cost Guide by Province",              date: "May 2025" },
-  { href: "/ontario",     emoji: <Image src="/Maple_Leaf.svg.png" width={20} height={20} alt="Ontario" />, title: "Ontario: ODB & Coverage Details",     date: "May 2025" },
+  { href: "/ontario",     emoji: "🍁", title: "Ontario: ODB & Coverage Details",     date: "May 2025" },
   { href: "/semaglutide", emoji: "💉", title: "Semaglutide Complete Guide",          date: "May 2025" },
   { href: "/compare",     emoji: "⚖️", title: "Compare All Medications",             date: "May 2025" },
 ];
@@ -57,7 +56,7 @@ export default function InsurancePage() {
         <div className="overflow-x-auto my-6 not-prose">
           <table className="w-full text-sm border-collapse border border-gray-200 rounded-xl overflow-hidden">
             <thead>
-              <tr className="bg-gray-900 text-white">
+              <tr className="text-white" style={{ background: "#0F6E56" }}>
                 <th className="text-left px-4 py-3 text-xs font-semibold">Drug</th>
                 <th className="text-left px-4 py-3 text-xs font-semibold">Indication</th>
                 <th className="text-left px-4 py-3 text-xs font-semibold">Provincial Plans</th>
@@ -163,7 +162,7 @@ export default function InsurancePage() {
         <div className="overflow-x-auto my-6 not-prose">
           <table className="w-full text-sm border-collapse border border-gray-200 rounded-xl overflow-hidden">
             <thead>
-              <tr className="bg-gray-900 text-white">
+              <tr className="text-white" style={{ background: "#0F6E56" }}>
                 <th className="text-left px-4 py-3 text-xs font-semibold">Province</th>
                 <th className="text-left px-4 py-3 text-xs font-semibold">Public Plan</th>
                 <th className="text-left px-4 py-3 text-xs font-semibold">Ozempic Coverage (Diabetes)</th>

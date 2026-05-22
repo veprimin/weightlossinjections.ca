@@ -78,7 +78,7 @@ export default function SemaglutidePage() {
         </ul>
 
         <div className="bg-[#F2FAF7] border border-[rgba(15,110,86,0.2)] rounded-xl p-5 my-6">
-          <p className="text-[11px] font-bold uppercase tracking-widest text-[#0F6E56] mb-3 flex items-center gap-2">📊 Key Clinical Numbers</p>
+          <p className="text-[11px] font-bold uppercase tracking-widest text-[#0F6E56] mb-3">Key Clinical Numbers</p>
           <ul className="space-y-2">
             {[
               "~15% average body weight loss over 68 weeks (STEP 1)",

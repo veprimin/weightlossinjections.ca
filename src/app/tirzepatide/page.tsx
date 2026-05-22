@@ -90,7 +90,7 @@ export default function TirzepatidePage() {
         </ul>
 
         <div className="bg-[#F0FDFA] border border-teal-200 rounded-xl p-5 my-6">
-          <p className="text-[11px] font-bold uppercase tracking-widest text-teal-700 mb-3">📊 SURMOUNT-1 Highlights (15 mg dose)</p>
+          <p className="text-[11px] font-bold uppercase tracking-widest text-teal-700 mb-3">SURMOUNT-1 Highlights (15 mg dose)</p>
           <ul className="space-y-2">
             {[
               "20.9% average body weight reduction over 72 weeks",

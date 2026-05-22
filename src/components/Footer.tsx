@@ -86,7 +86,7 @@ export default function Footer() {
             &copy; {new Date().getFullYear()} {SITE_NAME}. All rights reserved. Not affiliated with any pharmaceutical manufacturer.
           </p>
           <p className="mt-2 flex items-center gap-1 text-xs text-gray-400">
-            🍁 Canadian content only &mdash; all prices in CAD
+            🍁 Canadian content only - all prices in CAD
           </p>
         </div>
       </div>

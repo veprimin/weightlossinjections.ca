@@ -88,8 +88,8 @@ export default function OntarioPage() {
           If you qualify, ODB covers the full cost of Ozempic subject to your regular ODB co-payment (which is income-based for most eligible Ontarians, typically $0–$6.11 per prescription for those on OW/ODSP, and a $100 annual deductible plus 25% co-pay for seniors).
         </p>
 
-        <div className="bg-blue-50 border border-blue-200 rounded-xl p-5 my-6">
-          <p className="text-[11px] font-bold uppercase tracking-widest text-blue-700 mb-2">💡 ODB Tip for Ontario Patients</p>
+        <div className="bg-[#F2FAF7] border border-[rgba(15,110,86,0.2)] rounded-xl p-5 my-6">
+          <p className="text-[11px] font-bold uppercase tracking-widest text-[#0F6E56] mb-2">ODB Tip for Ontario Patients</p>
           <p className="text-sm text-gray-700">
             When your physician submits the Ozempic prescription, they must include the Limited Use code (LU). This is a specific code that tells the ODB system the clinical reason for the prescription. Without it, the claim will be rejected. Make sure your physician knows to include the LU code - your pharmacist can also assist in identifying the correct one.
           </p>

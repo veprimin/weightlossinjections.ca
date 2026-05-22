@@ -1,5 +1,4 @@
 import type { Metadata } from "next";
-import Image from "next/image";
 import ArticleLayout from "@/components/ArticleLayout";
 import ArticleHeader from "@/components/ArticleHeader";
 import { FelixInline } from "@/components/FelixAd";
@@ -31,7 +30,7 @@ const toc = [
 const related = [
   { href: "/insurance-coverage", emoji: "🛡️", title: "Insurance Coverage Guide",              date: "May 2025" },
   { href: "/semaglutide",        emoji: "💉", title: "Semaglutide (Ozempic & Wegovy) Guide",   date: "May 2025" },
-  { href: "/ontario",            emoji: <Image src="/Maple_Leaf.svg.png" width={20} height={20} alt="Ontario" />, title: "Ontario Guide: ODB & Private Plans",     date: "May 2025" },
+  { href: "/ontario",            emoji: "🍁", title: "Ontario Guide: ODB & Private Plans",     date: "May 2025" },
   { href: "/compare",            emoji: "⚖️", title: "Compare All Medications",                date: "May 2025" },
 ];
 
@@ -92,7 +91,7 @@ export default function CostPage() {
         <div className="overflow-x-auto my-6 not-prose">
           <table className="w-full text-sm border-collapse border border-gray-200 rounded-xl overflow-hidden">
             <thead>
-              <tr className="bg-gray-900 text-white">
+              <tr className="text-white" style={{ background: "#0F6E56" }}>
                 <th className="text-left px-4 py-3 text-xs font-semibold">Province</th>
                 <th className="text-left px-4 py-3 text-xs font-semibold">Ozempic / month</th>
                 <th className="text-left px-4 py-3 text-xs font-semibold">Wegovy / month</th>

@@ -73,7 +73,7 @@ export default function DisclaimerPage() {
           {/* Medical Disclaimer */}
           <section id="medical">
             <div className="bg-amber-50 border border-amber-200 rounded-xl p-5 mb-6">
-              <p className="text-sm font-semibold text-amber-800 uppercase tracking-wide mb-2">⚕ Medical Disclaimer</p>
+              <p className="text-sm font-semibold text-amber-800 uppercase tracking-wide mb-2">Medical Disclaimer</p>
               <p className="text-amber-900 text-sm leading-relaxed">{MEDICAL_DISCLAIMER}</p>
             </div>
             <h2 className="text-xl font-bold text-gray-900 mb-3" style={{ fontFamily: "Georgia, serif" }}>

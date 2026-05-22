@@ -70,7 +70,7 @@ export default function OralGlp1Page() {
         </p>
 
         <div className="bg-amber-50 border border-amber-200 rounded-xl p-5 my-6">
-          <p className="text-[11px] font-bold uppercase tracking-widest text-amber-700 mb-2">⚠️ Important: How to Take Rybelsus Correctly</p>
+          <p className="text-[11px] font-bold uppercase tracking-widest text-amber-700 mb-2">Important: How to Take Rybelsus Correctly</p>
           <ul className="space-y-1.5">
             {[
               "Take on a completely empty stomach, first thing in the morning",
