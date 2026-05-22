@@ -251,13 +251,14 @@ export default function InsuranceCheckerClient() {
   const [step, setStep] = useState<Step>("employment");
   const [answers, setAnswers] = useState<Answers>({});
 
-  function setAnswer(key: keyof Answers, value: string) {
-    setAnswers((prev) => ({ ...prev, [key]: value }));
-  }
-
   function next(nextStep: Step) {
     setStep(nextStep);
     window.scrollTo({ top: 0, behavior: "smooth" });
+  }
+
+  function select(key: keyof Answers, value: string, nextStep: Step) {
+    setAnswers((prev) => ({ ...prev, [key]: value }));
+    setTimeout(() => next(nextStep), 350);
   }
 
   function reset() {
@@ -291,22 +292,13 @@ export default function InsuranceCheckerClient() {
           <div>
             <h2 className="text-lg font-bold text-gray-900 mb-1">What is your employment situation?</h2>
             <p className="text-sm text-gray-700 mb-5">This determines which coverage pathways are available to you.</p>
-            <div className="space-y-3 mb-6">
-              <OptionButton label="Employed at a large company (50+ employees)" description="You likely have group benefits through an employer plan" selected={answers.employment === "employed-large"} onClick={() => setAnswer("employment", "employed-large")} />
-              <OptionButton label="Employed at a small business or part-time" description="Benefits may be limited or unavailable" selected={answers.employment === "employed-small"} onClick={() => setAnswer("employment", "employed-small")} />
-              <OptionButton label="Self-employed or freelance" description="You would have individual insurance if any" selected={answers.employment === "self-employed"} onClick={() => setAnswer("employment", "self-employed")} />
-              <OptionButton label="Retired (65+)" description="Provincial seniors pharmacare programs may apply" selected={answers.employment === "retired"} onClick={() => setAnswer("employment", "retired")} />
-              <OptionButton label="Receiving social assistance or disability support" description="Public drug programs typically cover GLP-1s for eligible conditions" selected={answers.employment === "social-assistance"} onClick={() => setAnswer("employment", "social-assistance")} />
+            <div className="space-y-3">
+              <OptionButton label="Employed at a large company (50+ employees)" description="You likely have group benefits through an employer plan" selected={answers.employment === "employed-large"} onClick={() => select("employment", "employed-large", "province")} />
+              <OptionButton label="Employed at a small business or part-time" description="Benefits may be limited or unavailable" selected={answers.employment === "employed-small"} onClick={() => select("employment", "employed-small", "province")} />
+              <OptionButton label="Self-employed or freelance" description="You would have individual insurance if any" selected={answers.employment === "self-employed"} onClick={() => select("employment", "self-employed", "province")} />
+              <OptionButton label="Retired (65+)" description="Provincial seniors pharmacare programs may apply" selected={answers.employment === "retired"} onClick={() => select("employment", "retired", "province")} />
+              <OptionButton label="Receiving social assistance or disability support" description="Public drug programs typically cover GLP-1s for eligible conditions" selected={answers.employment === "social-assistance"} onClick={() => select("employment", "social-assistance", "province")} />
             </div>
-            <button
-              type="button"
-              disabled={!answers.employment}
-              onClick={() => next("province")}
-              className="w-full rounded-lg py-3 font-semibold text-white transition-opacity disabled:opacity-40"
-              style={{ background: "#1B3A6B" }}
-            >
-              Continue &rarr;
-            </button>
           </div>
         )}
 
@@ -330,7 +322,7 @@ export default function InsuranceCheckerClient() {
                 <button
                   key={p.value}
                   type="button"
-                  onClick={() => setAnswer("province", p.value)}
+                  onClick={() => select("province", p.value, needsPlanStep ? "plan" : "indication")}
                   className="rounded-xl border-2 px-4 py-3 text-sm font-semibold text-gray-900 text-left transition-all"
                   style={{
                     borderColor: answers.province === p.value ? "#1B3A6B" : "#E5E7EB",
@@ -342,7 +334,7 @@ export default function InsuranceCheckerClient() {
               ))}
               <button
                 type="button"
-                onClick={() => setAnswer("province", "other")}
+                onClick={() => select("province", "other", needsPlanStep ? "plan" : "indication")}
                 className="rounded-xl border-2 px-4 py-3 text-sm font-semibold text-gray-900 text-left transition-all col-span-2"
                 style={{
                   borderColor: answers.province === "other" ? "#1B3A6B" : "#E5E7EB",
@@ -352,30 +344,13 @@ export default function InsuranceCheckerClient() {
                 Quebec / Territory (GLP-1 access varies)
               </button>
             </div>
-            <div className="flex gap-3">
-              <button
-                type="button"
-                onClick={() => setStep("employment")}
-                className="flex-1 rounded-lg border border-gray-300 py-3 font-semibold text-gray-900 transition-colors hover:bg-gray-50"
-              >
-                &larr; Back
-              </button>
-              <button
-                type="button"
-                disabled={!answers.province}
-                onClick={() => {
-                  if (needsPlanStep) {
-                    next("plan");
-                  } else {
-                    next("indication");
-                  }
-                }}
-                className="flex-1 rounded-lg py-3 font-semibold text-white transition-opacity disabled:opacity-40"
-                style={{ background: "#1B3A6B" }}
-              >
-                Continue &rarr;
-              </button>
-            </div>
+            <button
+              type="button"
+              onClick={() => setStep("employment")}
+              className="rounded-lg border border-gray-300 px-5 py-2.5 text-sm font-semibold text-gray-900 transition-colors hover:bg-gray-50"
+            >
+              &larr; Back
+            </button>
           </div>
         )}
 
@@ -385,28 +360,17 @@ export default function InsuranceCheckerClient() {
             <h2 className="text-lg font-bold text-gray-900 mb-1">Do you have private drug insurance?</h2>
             <p className="text-sm text-gray-700 mb-5">Check your employment contract or ask your HR department if unsure.</p>
             <div className="space-y-3 mb-6">
-              <OptionButton label="Yes - comprehensive group plan" description="E.g. Blue Cross, Manulife, Sun Life, Great-West Life, Canada Life" selected={answers.plan === "yes-comprehensive"} onClick={() => setAnswer("plan", "yes-comprehensive")} />
-              <OptionButton label="Yes - but it's a basic or limited plan" description="Small employer, minimal benefits, or low annual drug maximum" selected={answers.plan === "yes-limited"} onClick={() => setAnswer("plan", "yes-limited")} />
-              <OptionButton label="No drug insurance" description="No benefits or I waived drug coverage" selected={answers.plan === "none"} onClick={() => setAnswer("plan", "none")} />
+              <OptionButton label="Yes - comprehensive group plan" description="E.g. Blue Cross, Manulife, Sun Life, Great-West Life, Canada Life" selected={answers.plan === "yes-comprehensive"} onClick={() => select("plan", "yes-comprehensive", "indication")} />
+              <OptionButton label="Yes - but it's a basic or limited plan" description="Small employer, minimal benefits, or low annual drug maximum" selected={answers.plan === "yes-limited"} onClick={() => select("plan", "yes-limited", "indication")} />
+              <OptionButton label="No drug insurance" description="No benefits or I waived drug coverage" selected={answers.plan === "none"} onClick={() => select("plan", "none", "indication")} />
             </div>
-            <div className="flex gap-3">
-              <button
-                type="button"
-                onClick={() => setStep("province")}
-                className="flex-1 rounded-lg border border-gray-300 py-3 font-semibold text-gray-900 transition-colors hover:bg-gray-50"
-              >
-                &larr; Back
-              </button>
-              <button
-                type="button"
-                disabled={!answers.plan}
-                onClick={() => next("indication")}
-                className="flex-1 rounded-lg py-3 font-semibold text-white transition-opacity disabled:opacity-40"
-                style={{ background: "#1B3A6B" }}
-              >
-                Continue &rarr;
-              </button>
-            </div>
+            <button
+              type="button"
+              onClick={() => setStep("province")}
+              className="rounded-lg border border-gray-300 px-5 py-2.5 text-sm font-semibold text-gray-900 transition-colors hover:bg-gray-50"
+            >
+              &larr; Back
+            </button>
           </div>
         )}
 
@@ -416,28 +380,17 @@ export default function InsuranceCheckerClient() {
             <h2 className="text-lg font-bold text-gray-900 mb-1">Why are you seeking GLP-1 treatment?</h2>
             <p className="text-sm text-gray-700 mb-5">Coverage rules differ significantly based on the medical indication.</p>
             <div className="space-y-3 mb-6">
-              <OptionButton label="Type 2 diabetes management" description="Ozempic is widely covered for T2D with prior authorization across Canada" selected={answers.indication === "diabetes"} onClick={() => setAnswer("indication", "diabetes")} />
-              <OptionButton label="Weight management / obesity" description="Wegovy/Mounjaro for weight - fewer plans cover this indication" selected={answers.indication === "weight"} onClick={() => setAnswer("indication", "weight")} />
-              <OptionButton label="Both - I have T2D and want to lose weight" description="Ozempic may cover both benefits under the diabetes indication" selected={answers.indication === "both"} onClick={() => setAnswer("indication", "both")} />
+              <OptionButton label="Type 2 diabetes management" description="Ozempic is widely covered for T2D with prior authorization across Canada" selected={answers.indication === "diabetes"} onClick={() => select("indication", "diabetes", "result")} />
+              <OptionButton label="Weight management / obesity" description="Wegovy/Mounjaro for weight - fewer plans cover this indication" selected={answers.indication === "weight"} onClick={() => select("indication", "weight", "result")} />
+              <OptionButton label="Both - I have T2D and want to lose weight" description="Ozempic may cover both benefits under the diabetes indication" selected={answers.indication === "both"} onClick={() => select("indication", "both", "result")} />
             </div>
-            <div className="flex gap-3">
-              <button
-                type="button"
-                onClick={() => setStep(needsPlanStep ? "plan" : "province")}
-                className="flex-1 rounded-lg border border-gray-300 py-3 font-semibold text-gray-900 transition-colors hover:bg-gray-50"
-              >
-                &larr; Back
-              </button>
-              <button
-                type="button"
-                disabled={!answers.indication}
-                onClick={() => next("result")}
-                className="flex-1 rounded-lg py-3 font-semibold text-white transition-opacity disabled:opacity-40"
-                style={{ background: "#1B3A6B" }}
-              >
-                See my results &rarr;
-              </button>
-            </div>
+            <button
+              type="button"
+              onClick={() => setStep(needsPlanStep ? "plan" : "province")}
+              className="rounded-lg border border-gray-300 px-5 py-2.5 text-sm font-semibold text-gray-900 transition-colors hover:bg-gray-50"
+            >
+              &larr; Back
+            </button>
           </div>
         )}
 
