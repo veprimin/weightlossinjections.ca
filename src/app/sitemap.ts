@@ -24,6 +24,7 @@ const routes: { path: string; priority: number; changeFrequency: MetadataRoute.S
   { path: "/pei",                   priority: 0.8, changeFrequency: "monthly" },
   { path: "/oral-glp1",             priority: 0.7, changeFrequency: "monthly" },
   { path: "/generic-semaglutide",   priority: 0.9, changeFrequency: "weekly"  },
+  { path: "/semaglutide-price-drop", priority: 0.9, changeFrequency: "weekly"  },
   { path: "/online-prescription",   priority: 0.8, changeFrequency: "monthly" },
   { path: "/side-effects",          priority: 0.8, changeFrequency: "monthly" },
   { path: "/dosing",                priority: 0.8, changeFrequency: "monthly" },
