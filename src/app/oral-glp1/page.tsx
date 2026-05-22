@@ -28,10 +28,10 @@ const toc = [
 ];
 
 const related = [
-  { href: "/semaglutide",   emoji: "💉", title: "Semaglutide Guide (Ozempic & Wegovy)", date: "May 2025" },
-  { href: "/tirzepatide",   emoji: "⚗️", title: "Tirzepatide (Mounjaro) Guide",          date: "May 2025" },
-  { href: "/compare",       emoji: "⚖️", title: "Compare All Weight Loss Medications",   date: "May 2025" },
-  { href: "/cost",          emoji: "💰", title: "Cost Guide by Province",                date: "May 2025" },
+  { href: "/semaglutide",   emoji: "💉", title: "Semaglutide Guide (Ozempic & Wegovy)", date: "May 2026" },
+  { href: "/tirzepatide",   emoji: "⚗️", title: "Tirzepatide (Mounjaro) Guide",          date: "May 2026" },
+  { href: "/compare",       emoji: "⚖️", title: "Compare All Weight Loss Medications",   date: "May 2026" },
+  { href: "/cost",          emoji: "💰", title: "Cost Guide by Province",                date: "May 2026" },
 ];
 
 export default function OralGlp1Page() {
@@ -40,7 +40,7 @@ export default function OralGlp1Page() {
       <ArticleHeader
         category="Medication Guide"
         readTime="8 min read"
-        date="May 2025"
+        date="May 2026"
         headline="Oral GLP-1 Medications in Canada: Rybelsus and the No-Needle Option"
         standfirst="For Canadians who want the benefits of GLP-1 therapy without injections, oral semaglutide is already available - and the next generation of oral GLP-1 pills is on the horizon."
         heroEmoji="💊"
@@ -70,7 +70,7 @@ export default function OralGlp1Page() {
         </p>
 
         <div className="bg-amber-50 border border-amber-200 rounded-xl p-5 my-6">
-          <p className="text-[11px] font-bold uppercase tracking-widest text-amber-700 mb-2">Important: How to Take Rybelsus Correctly</p>
+          <p className="text-xs font-bold uppercase tracking-widest text-amber-700 mb-2">Important: How to Take Rybelsus Correctly</p>
           <ul className="space-y-1.5">
             {[
               "Take on a completely empty stomach, first thing in the morning",

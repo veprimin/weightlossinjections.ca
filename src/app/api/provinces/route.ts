@@ -114,7 +114,7 @@ export async function GET() {
     {
       data: { provinces, territories },
       meta: {
-        lastUpdated: "2026-05-18",
+        lastUpdated: "2026-05-22",
         source: `${SITE_URL} editorial team`,
         country: "Canada",
         disclaimer: `${MEDICAL_DISCLAIMER} Coverage information changes frequently. Always verify with your provincial drug plan and healthcare provider.`,

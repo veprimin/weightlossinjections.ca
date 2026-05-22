@@ -26,10 +26,10 @@ const toc = [
 ];
 
 const related = [
-  { href: "/compare",      emoji: "⚖️", title: "Compare All GLP-1 Medications",       date: "May 2025" },
-  { href: "/tirzepatide",  emoji: "⚗️", title: "Mounjaro (Tirzepatide) Complete Guide", date: "May 2025" },
-  { href: "/semaglutide",  emoji: "💉", title: "Semaglutide Complete Guide",            date: "May 2025" },
-  { href: "/cost",         emoji: "💰", title: "Province-by-Province Cost Breakdown",   date: "May 2025" },
+  { href: "/compare",      emoji: "⚖️", title: "Compare All GLP-1 Medications",       date: "May 2026" },
+  { href: "/tirzepatide",  emoji: "⚗️", title: "Mounjaro (Tirzepatide) Complete Guide", date: "May 2026" },
+  { href: "/semaglutide",  emoji: "💉", title: "Semaglutide Complete Guide",            date: "May 2026" },
+  { href: "/cost",         emoji: "💰", title: "Province-by-Province Cost Breakdown",   date: "May 2026" },
 ];
 
 export default function OzempicVsMounjaroPage() {
@@ -38,7 +38,7 @@ export default function OzempicVsMounjaroPage() {
       <ArticleHeader
         category="Comparison Guide"
         readTime="5 min read"
-        date="May 2025"
+        date="May 2026"
         headline="Ozempic vs. Mounjaro: Which GLP-1 Works Better for Weight Loss in Canada?"
         standfirst="Ozempic (semaglutide) and Mounjaro (tirzepatide) are different molecules with different mechanisms. Mounjaro wins on weight loss; Ozempic wins on cost and coverage."
       />
@@ -65,7 +65,7 @@ export default function OzempicVsMounjaroPage() {
           ].map((stat) => (
             <div key={stat.label} className="bg-gray-50 border border-gray-200 rounded-xl p-4 text-center">
               <p className="text-2xl font-black text-[#1B3A6B]" style={{ fontFamily: "var(--font-playfair, Georgia, serif)" }}>{stat.value}</p>
-              <p className="text-[11px] text-gray-700 mt-1 leading-snug">{stat.label}</p>
+              <p className="text-xs text-gray-700 mt-1 leading-snug">{stat.label}</p>
             </div>
           ))}
         </div>
@@ -84,7 +84,7 @@ export default function OzempicVsMounjaroPage() {
         </p>
 
         <div className="bg-[#EEF3FF] border border-[rgba(27,58,107,0.2)] rounded-xl p-5 my-6">
-          <p className="text-[11px] font-bold uppercase tracking-widest text-[#1B3A6B] mb-2">Trial Highlight</p>
+          <p className="text-xs font-bold uppercase tracking-widest text-[#1B3A6B] mb-2">Trial Highlight</p>
           <p className="text-sm text-gray-900 leading-relaxed">
             In SURMOUNT-1, participants on tirzepatide 15 mg lost an average of 20.9% of body weight - comparable to outcomes historically associated with bariatric surgery. No other approved weekly injectable had achieved this before.
           </p>
@@ -153,7 +153,7 @@ export default function OzempicVsMounjaroPage() {
             { category: "GI tolerability",      winner: "Roughly equal", detail: "Both cause similar GI side effects. Mounjaro may be marginally better tolerated at equivalent weight-loss doses, though evidence is limited." },
           ].map((row) => (
             <div key={row.category} className="bg-white border border-gray-200 rounded-xl p-5">
-              <p className="text-[10px] font-bold uppercase tracking-widest text-gray-700 mb-1">{row.category}</p>
+              <p className="text-xs font-bold uppercase tracking-widest text-gray-700 mb-1">{row.category}</p>
               <p className="text-base font-black text-[#1B3A6B] mb-2" style={{ fontFamily: "var(--font-playfair, Georgia, serif)" }}>{row.winner}</p>
               <p className="text-xs text-gray-700 leading-relaxed">{row.detail}</p>
             </div>
@@ -192,7 +192,7 @@ export default function OzempicVsMounjaroPage() {
         </p>
 
         <div className="bg-gray-50 border border-gray-200 rounded-xl p-5 mt-10 text-xs text-gray-500 leading-relaxed">
-          <strong>Medical disclaimer:</strong> This article is for informational purposes only and does not constitute medical advice. Drug costs, coverage criteria, and clinical data reflect information available as of May 2025. Always consult a licensed Canadian physician or pharmacist before starting, switching, or stopping any prescription medication.
+          <strong>Medical disclaimer:</strong> This article is for informational purposes only and does not constitute medical advice. Drug costs, coverage criteria, and clinical data reflect information available as of May 2026. Always consult a licensed Canadian physician or pharmacist before starting, switching, or stopping any prescription medication.
         </div>
       </div>
     </ArticleLayout>

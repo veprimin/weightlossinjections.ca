@@ -25,36 +25,39 @@ export default function PartnersSidebar() {
   return (
     <div className="rounded-xl border border-gray-200 overflow-hidden bg-white">
       <div className="px-4 py-3 bg-gray-50 border-b border-gray-200">
-        <p className="text-[10px] font-bold uppercase tracking-widest text-gray-600">
+        <p className="text-xs font-bold uppercase tracking-widest text-gray-600">
           Sponsored Partners
         </p>
       </div>
       <div className="divide-y divide-gray-100">
         {partners.map((p) => (
-          <div key={p.name} className="p-4">
+          <a
+            key={p.name}
+            href={p.url}
+            target="_blank"
+            rel="noopener sponsored"
+            className="block p-4 transition-colors hover:bg-gray-50"
+          >
             <div className="flex items-center gap-2 mb-1.5">
               <span
-                className="w-4 h-4 rounded-full flex items-center justify-center text-[9px] font-bold text-white shrink-0"
+                className="w-4 h-4 rounded-full flex items-center justify-center text-xs font-bold text-white shrink-0"
                 style={{ background: p.accentColor }}
               >
                 {p.rank}
               </span>
-              <span className="text-[13px] font-bold text-gray-900">{p.name}</span>
-              <span className="ml-auto text-[11px] font-semibold" style={{ color: p.accentColor }}>
+              <span className="text-sm font-bold text-gray-900">{p.name}</span>
+              <span className="ml-auto text-xs font-semibold" style={{ color: p.accentColor }}>
                 {p.price}
               </span>
             </div>
-            <p className="text-[12px] text-gray-800 mb-2.5 leading-snug">{p.tagline}</p>
-            <a
-              href={p.url}
-              target="_blank"
-              rel="noopener sponsored"
-              className="flex items-center justify-center text-white text-[12px] font-semibold px-3 py-2 rounded-lg hover:opacity-90 transition-opacity"
+            <p className="text-xs text-gray-800 mb-2.5 leading-snug">{p.tagline}</p>
+            <span
+              className="flex items-center justify-center text-white text-xs font-semibold px-3 py-2 rounded-lg"
               style={{ background: p.accentColor }}
             >
               {p.cta} &rarr;
-            </a>
-          </div>
+            </span>
+          </a>
         ))}
       </div>
     </div>

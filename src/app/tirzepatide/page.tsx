@@ -28,10 +28,10 @@ const toc = [
 ];
 
 const related = [
-  { href: "/semaglutide",        emoji: "💉", title: "Semaglutide (Ozempic & Wegovy) Guide", date: "May 2025" },
-  { href: "/compare",            emoji: "⚖️", title: "Compare All Weight Loss Injections",    date: "May 2025" },
-  { href: "/cost",               emoji: "💰", title: "Province-by-Province Cost Guide",       date: "May 2025" },
-  { href: "/insurance-coverage", emoji: "🛡️", title: "Insurance Coverage Guide",             date: "May 2025" },
+  { href: "/semaglutide",        emoji: "💉", title: "Semaglutide (Ozempic & Wegovy) Guide", date: "May 2026" },
+  { href: "/compare",            emoji: "⚖️", title: "Compare All Weight Loss Injections",    date: "May 2026" },
+  { href: "/cost",               emoji: "💰", title: "Province-by-Province Cost Guide",       date: "May 2026" },
+  { href: "/insurance-coverage", emoji: "🛡️", title: "Insurance Coverage Guide",             date: "May 2026" },
 ];
 
 export default function TirzepatidePage() {
@@ -40,7 +40,7 @@ export default function TirzepatidePage() {
       <ArticleHeader
         category="Medication Guide"
         readTime="10 min read"
-        date="May 2025"
+        date="May 2026"
         headline="Tirzepatide (Mounjaro) in Canada: The Dual-Action Weight Loss Injection"
         standfirst="Tirzepatide targets two gut hormones simultaneously - and it is producing weight-loss results that surprised even its developers. Here is what Canadians need to know."
         heroEmoji="⚗️"
@@ -90,7 +90,7 @@ export default function TirzepatidePage() {
         </ul>
 
         <div className="bg-[#F0FDFA] border border-teal-200 rounded-xl p-5 my-6">
-          <p className="text-[11px] font-bold uppercase tracking-widest text-teal-700 mb-3">SURMOUNT-1 Highlights (15 mg dose)</p>
+          <p className="text-xs font-bold uppercase tracking-widest text-teal-700 mb-3">SURMOUNT-1 Highlights (15 mg dose)</p>
           <ul className="space-y-2">
             {[
               "20.9% average body weight reduction over 72 weeks",

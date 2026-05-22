@@ -26,10 +26,10 @@ const toc = [
 ];
 
 const related = [
-  { href: "/pei",               emoji: "🏝️", title: "PEI: Pharmacare Guide",               date: "May 2025" },
-  { href: "/insurance-coverage",emoji: "🛡️", title: "National Insurance Coverage Guide",   date: "May 2025" },
-  { href: "/cost",              emoji: "💰", title: "Province-by-Province Cost Guide",     date: "May 2025" },
-  { href: "/generic-semaglutide",emoji: "🔬", title: "Generic Semaglutide in Canada",      date: "May 2025" },
+  { href: "/pei",               emoji: "🏝️", title: "PEI: Pharmacare Guide",               date: "May 2026" },
+  { href: "/insurance-coverage",emoji: "🛡️", title: "National Insurance Coverage Guide",   date: "May 2026" },
+  { href: "/cost",              emoji: "💰", title: "Province-by-Province Cost Guide",     date: "May 2026" },
+  { href: "/generic-semaglutide",emoji: "🔬", title: "Generic Semaglutide in Canada",      date: "May 2026" },
 ];
 
 export default function NewfoundlandPage() {
@@ -38,7 +38,7 @@ export default function NewfoundlandPage() {
       <ArticleHeader
         category="Province Guide"
         readTime="6 min read"
-        date="May 2025"
+        date="May 2026"
         headline="Weight Loss Injections in Newfoundland & Labrador: NL Drug Plan & Access Guide"
         standfirst="Newfoundland & Labrador has one of Canada's highest rates of obesity and type 2 diabetes. Here is a complete guide to GLP-1 medication access and coverage for NL residents."
       />
@@ -81,7 +81,7 @@ export default function NewfoundlandPage() {
         </p>
 
         <div className="bg-[#EEF3FF] border border-[rgba(27,58,107,0.2)] rounded-xl p-5 my-6">
-          <p className="text-[11px] font-bold uppercase tracking-widest text-[#1B3A6B] mb-2">NL Virtual Care Note</p>
+          <p className="text-xs font-bold uppercase tracking-widest text-[#1B3A6B] mb-2">NL Virtual Care Note</p>
           <p className="text-sm text-gray-900">
             Many NL communities - particularly on the island and in Labrador - face significant physician shortage challenges. Virtual care platforms like Felix Health are especially valuable in NL, allowing residents in rural and remote communities to access GLP-1 assessments and prescriptions without the barrier of finding a local prescriber. Delivery is available province-wide.
           </p>
@@ -111,7 +111,7 @@ export default function NewfoundlandPage() {
         </p>
 
         <h2 id="cost-nl">Cost in NL Without Coverage</h2>
-        <p>Without insurance in Newfoundland and Labrador, approximate monthly costs as of May 2025:</p>
+        <p>Without insurance in Newfoundland and Labrador, approximate monthly costs as of May 2026:</p>
         <ul>
           <li><strong>Ozempic (0.5–2 mg):</strong> ~$240–$425/month</li>
           <li><strong>Wegovy (2.4 mg):</strong> ~$405–$435/month</li>
@@ -129,7 +129,7 @@ export default function NewfoundlandPage() {
         <p>Yes. Felix Health serves all NL communities with internet access. The online assessment requires no local physician, and medication can be delivered by mail to any NL address - including rural and remote communities.</p>
 
         <div className="bg-gray-50 border border-gray-200 rounded-xl p-5 mt-10 text-xs text-gray-700 leading-relaxed">
-          NL PDP eligibility and formulary listings change periodically. This information reflects policies as of May 2025. Contact NL Health Services (1-888-687-2657) for current eligibility and Access Plan criteria.
+          NL PDP eligibility and formulary listings change periodically. This information reflects policies as of May 2026. Contact NL Health Services (1-888-687-2657) for current eligibility and Access Plan criteria.
         </div>
       </div>
     </ArticleLayout>

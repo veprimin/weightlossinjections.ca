@@ -27,10 +27,10 @@ const toc = [
 ];
 
 const related = [
-  { href: "/insurance-coverage", emoji: "🛡️", title: "National Insurance Coverage Guide", date: "May 2025" },
-  { href: "/cost",               emoji: "💰", title: "Cost Guide by Province",             date: "May 2025" },
-  { href: "/semaglutide",        emoji: "💉", title: "Semaglutide Complete Guide",         date: "May 2025" },
-  { href: "/compare",            emoji: "⚖️", title: "Compare All Medications",            date: "May 2025" },
+  { href: "/insurance-coverage", emoji: "🛡️", title: "National Insurance Coverage Guide", date: "May 2026" },
+  { href: "/cost",               emoji: "💰", title: "Cost Guide by Province",             date: "May 2026" },
+  { href: "/semaglutide",        emoji: "💉", title: "Semaglutide Complete Guide",         date: "May 2026" },
+  { href: "/compare",            emoji: "⚖️", title: "Compare All Medications",            date: "May 2026" },
 ];
 
 export default function OntarioPage() {
@@ -39,7 +39,7 @@ export default function OntarioPage() {
       <ArticleHeader
         category="Ontario Guide"
         readTime="8 min read"
-        date="May 2025"
+        date="May 2026"
         headline="Weight Loss Injections in Ontario: Access, ODB Coverage & How to Get Started"
         standfirst="Ontario has the largest GLP-1 patient population in Canada - and some of the most complex access pathways. Here is a complete guide for Ontario residents."
         heroEmoji="🍁"
@@ -89,7 +89,7 @@ export default function OntarioPage() {
         </p>
 
         <div className="bg-[#EEF3FF] border border-[rgba(27,58,107,0.2)] rounded-xl p-5 my-6">
-          <p className="text-[11px] font-bold uppercase tracking-widest text-[#1B3A6B] mb-2">ODB Tip for Ontario Patients</p>
+          <p className="text-xs font-bold uppercase tracking-widest text-[#1B3A6B] mb-2">ODB Tip for Ontario Patients</p>
           <p className="text-sm text-gray-900">
             When your physician submits the Ozempic prescription, they must include the Limited Use code (LU). This is a specific code that tells the ODB system the clinical reason for the prescription. Without it, the claim will be rejected. Make sure your physician knows to include the LU code - your pharmacist can also assist in identifying the correct one.
           </p>
@@ -97,7 +97,7 @@ export default function OntarioPage() {
 
         <h2 id="wegovy-ontario">Wegovy in Ontario</h2>
         <p>
-          Wegovy (semaglutide 2.4 mg, approved for weight management) is <strong>not listed on the ODB formulary</strong> for weight management as of May 2025. This means public coverage for Wegovy in Ontario is not available for patients without a diabetes diagnosis.
+          Wegovy (semaglutide 2.4 mg, approved for weight management) is <strong>not listed on the ODB formulary</strong> for weight management as of May 2026. This means public coverage for Wegovy in Ontario is not available for patients without a diabetes diagnosis.
         </p>
         <p>
           Ontario Trillium Drug Program (TDP) - the program for Ontarians with high drug costs relative to income - may partially cover Wegovy costs after the deductible is met, but this depends on individual income and household drug expenses.
@@ -145,7 +145,7 @@ export default function OntarioPage() {
         </p>
 
         <h2 id="cost-ontario">Cost in Ontario Without Coverage</h2>
-        <p>Without any insurance in Ontario, approximate monthly costs (list price) as of May 2025:</p>
+        <p>Without any insurance in Ontario, approximate monthly costs (list price) as of May 2026:</p>
         <ul>
           <li><strong>Ozempic 0.5 mg:</strong> ~$220–$260/month</li>
           <li><strong>Ozempic 1 mg:</strong> ~$320–$360/month</li>
@@ -173,7 +173,7 @@ export default function OntarioPage() {
         <p>There is no indication that ODB will expand coverage to include generic semaglutide for weight management (without diabetes) in the near term. Coverage for generics on ODB is tied to approved indications, which does not yet include weight management alone.</p>
 
         <div className="bg-gray-50 border border-gray-200 rounded-xl p-5 mt-10 text-xs text-gray-700 leading-relaxed">
-          Ontario ODB criteria and formulary listings are subject to change. This information reflects publicly available policy as of May 2025. Verify current criteria with your physician, pharmacist, or the Ontario Drug Benefit formulary database.
+          Ontario ODB criteria and formulary listings are subject to change. This information reflects publicly available policy as of May 2026. Verify current criteria with your physician, pharmacist, or the Ontario Drug Benefit formulary database.
         </div>
       </div>
     </ArticleLayout>

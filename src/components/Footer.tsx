@@ -61,8 +61,8 @@ export default function Footer() {
 
         {/* Province notice */}
         <div className="mt-8 rounded-lg border border-gray-200 bg-white px-5 py-4">
-          <p className="text-[11px] font-semibold uppercase tracking-wider text-gray-700 mb-1">Province Availability Notice</p>
-          <p className="text-[12px] text-gray-700 leading-relaxed">{PROVINCE_DISCLAIMER}</p>
+          <p className="text-xs font-semibold uppercase tracking-wider text-gray-700 mb-1">Province Availability Notice</p>
+          <p className="text-xs text-gray-700 leading-relaxed">{PROVINCE_DISCLAIMER}</p>
         </div>
 
         {/* Disclaimers */}

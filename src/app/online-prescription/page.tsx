@@ -28,10 +28,10 @@ const toc = [
 ];
 
 const related = [
-  { href: "/semaglutide",       emoji: "💉", title: "Semaglutide Complete Guide",          date: "May 2025" },
-  { href: "/generic-semaglutide",emoji: "🔬", title: "Generic Semaglutide: Plosbrio & Poviztra", date: "May 2025" },
-  { href: "/cost",              emoji: "💰", title: "Province-by-Province Cost Guide",     date: "May 2025" },
-  { href: "/insurance-coverage",emoji: "🛡️", title: "Insurance Coverage Guide",            date: "May 2025" },
+  { href: "/semaglutide",       emoji: "💉", title: "Semaglutide Complete Guide",          date: "May 2026" },
+  { href: "/generic-semaglutide",emoji: "🔬", title: "Generic Semaglutide: Plosbrio & Poviztra", date: "May 2026" },
+  { href: "/cost",              emoji: "💰", title: "Province-by-Province Cost Guide",     date: "May 2026" },
+  { href: "/insurance-coverage",emoji: "🛡️", title: "Insurance Coverage Guide",            date: "May 2026" },
 ];
 
 export default function OnlinePrescriptionPage() {
@@ -40,7 +40,7 @@ export default function OnlinePrescriptionPage() {
       <ArticleHeader
         category="Access Guide"
         readTime="7 min read"
-        date="May 2025"
+        date="May 2026"
         headline="How to Get a GLP-1 Prescription Online in Canada"
         standfirst="Virtual care has made GLP-1 prescriptions accessible from home in most Canadian provinces. Here is exactly how the online process works - from your first assessment to medication at your door."
       />

@@ -26,10 +26,10 @@ const toc = [
 ];
 
 const related = [
-  { href: "/compare",     emoji: "⚖️", title: "Compare All GLP-1 Medications",        date: "May 2025" },
-  { href: "/tirzepatide", emoji: "⚗️", title: "Mounjaro (Tirzepatide) Complete Guide", date: "May 2025" },
-  { href: "/semaglutide", emoji: "💉", title: "Semaglutide Complete Guide",            date: "May 2025" },
-  { href: "/cost",        emoji: "💰", title: "Province-by-Province Cost Breakdown",   date: "May 2025" },
+  { href: "/compare",     emoji: "⚖️", title: "Compare All GLP-1 Medications",        date: "May 2026" },
+  { href: "/tirzepatide", emoji: "⚗️", title: "Mounjaro (Tirzepatide) Complete Guide", date: "May 2026" },
+  { href: "/semaglutide", emoji: "💉", title: "Semaglutide Complete Guide",            date: "May 2026" },
+  { href: "/cost",        emoji: "💰", title: "Province-by-Province Cost Breakdown",   date: "May 2026" },
 ];
 
 export default function WegovyVsMounjaroPage() {
@@ -38,7 +38,7 @@ export default function WegovyVsMounjaroPage() {
       <ArticleHeader
         category="Comparison Guide"
         readTime="5 min read"
-        date="May 2025"
+        date="May 2026"
         headline="Wegovy vs. Mounjaro in Canada: Which Delivers More Weight Loss?"
         standfirst="Wegovy (semaglutide 2.4 mg) and Mounjaro (tirzepatide 15 mg) are the two most powerful weight-loss drugs available in Canada. Mounjaro wins on efficacy; cost and generic access favour semaglutide."
       />
@@ -68,7 +68,7 @@ export default function WegovyVsMounjaroPage() {
           ].map((stat) => (
             <div key={stat.label} className="bg-gray-50 border border-gray-200 rounded-xl p-4 text-center">
               <p className="text-2xl font-black text-[#1B3A6B]" style={{ fontFamily: "var(--font-playfair, Georgia, serif)" }}>{stat.value}</p>
-              <p className="text-[11px] text-gray-700 mt-1 leading-snug">{stat.label}</p>
+              <p className="text-xs text-gray-700 mt-1 leading-snug">{stat.label}</p>
             </div>
           ))}
         </div>
@@ -88,7 +88,7 @@ export default function WegovyVsMounjaroPage() {
         </p>
 
         <div className="bg-[#EEF3FF] border border-[rgba(27,58,107,0.2)] rounded-xl p-5 my-6">
-          <p className="text-[11px] font-bold uppercase tracking-widest text-[#1B3A6B] mb-2">The Efficacy Gap</p>
+          <p className="text-xs font-bold uppercase tracking-widest text-[#1B3A6B] mb-2">The Efficacy Gap</p>
           <p className="text-sm text-gray-900 leading-relaxed">
             Both drugs represent a step change over older weight-loss medications. Mounjaro's advantage of roughly 5-6 percentage points of body weight over Wegovy is clinically meaningful - but Wegovy remains highly effective. A patient who responds well to semaglutide may achieve outcomes that rival average tirzepatide results.
           </p>
@@ -143,7 +143,7 @@ export default function WegovyVsMounjaroPage() {
         </p>
 
         <div className="bg-[#EEF3FF] border border-[rgba(27,58,107,0.2)] rounded-xl p-5 my-6">
-          <p className="text-[11px] font-bold uppercase tracking-widest text-[#1B3A6B] mb-2">Generic Consideration</p>
+          <p className="text-xs font-bold uppercase tracking-widest text-[#1B3A6B] mb-2">Generic Consideration</p>
           <p className="text-sm text-gray-900 leading-relaxed">
             Generic semaglutide (approved 2025) will likely be 45-90% cheaper than brand-name Wegovy. For budget-conscious patients, generic semaglutide plus the modest additional efficacy gap may represent better value than paying full price for Mounjaro. Your physician and pharmacist can advise on current generic pricing in your province.
           </p>
@@ -197,7 +197,7 @@ export default function WegovyVsMounjaroPage() {
         </p>
 
         <div className="bg-gray-50 border border-gray-200 rounded-xl p-5 mt-10 text-xs text-gray-500 leading-relaxed">
-          <strong>Medical disclaimer:</strong> This article is for informational purposes only and does not constitute medical advice. Drug costs, coverage criteria, and approval status reflect information available as of May 2025. Always consult a licensed Canadian physician or pharmacist before starting, switching, or stopping any prescription medication.
+          <strong>Medical disclaimer:</strong> This article is for informational purposes only and does not constitute medical advice. Drug costs, coverage criteria, and approval status reflect information available as of May 2026. Always consult a licensed Canadian physician or pharmacist before starting, switching, or stopping any prescription medication.
         </div>
       </div>
     </ArticleLayout>

@@ -26,10 +26,10 @@ const toc = [
 ];
 
 const related = [
-  { href: "/alberta",            emoji: "🏔️", title: "Alberta: Blue Cross Coverage Guide",  date: "May 2025" },
-  { href: "/insurance-coverage", emoji: "🛡️", title: "National Insurance Coverage Guide",   date: "May 2025" },
-  { href: "/cost",               emoji: "💰", title: "Province-by-Province Cost Guide",     date: "May 2025" },
-  { href: "/generic-semaglutide",emoji: "🔬", title: "Generic Semaglutide in Canada",       date: "May 2025" },
+  { href: "/alberta",            emoji: "🏔️", title: "Alberta: Blue Cross Coverage Guide",  date: "May 2026" },
+  { href: "/insurance-coverage", emoji: "🛡️", title: "National Insurance Coverage Guide",   date: "May 2026" },
+  { href: "/cost",               emoji: "💰", title: "Province-by-Province Cost Guide",     date: "May 2026" },
+  { href: "/generic-semaglutide",emoji: "🔬", title: "Generic Semaglutide in Canada",       date: "May 2026" },
 ];
 
 export default function SaskatchewanPage() {
@@ -38,7 +38,7 @@ export default function SaskatchewanPage() {
       <ArticleHeader
         category="Province Guide"
         readTime="6 min read"
-        date="May 2025"
+        date="May 2026"
         headline="Weight Loss Injections in Saskatchewan: SK Drug Plan & Access Guide"
         standfirst="Saskatchewan's Drug Plan covers Ozempic for type 2 diabetes with special authorization. Here is what Saskatchewan residents need to know about access and coverage for GLP-1 medications."
       />
@@ -84,7 +84,7 @@ export default function SaskatchewanPage() {
         </p>
 
         <div className="bg-[#EEF3FF] border border-[rgba(27,58,107,0.2)] rounded-xl p-5 my-6">
-          <p className="text-[11px] font-bold uppercase tracking-widest text-[#1B3A6B] mb-2">Saskatchewan Note</p>
+          <p className="text-xs font-bold uppercase tracking-widest text-[#1B3A6B] mb-2">Saskatchewan Note</p>
           <p className="text-sm text-gray-900">
             Saskatchewan also has the Family Health Benefits program for low-income families with children who do not qualify for social assistance but have low household income. This program includes drug coverage and may apply to some residents seeking GLP-1 coverage. Contact SK Health Authority to determine eligibility.
           </p>
@@ -113,7 +113,7 @@ export default function SaskatchewanPage() {
         </p>
 
         <h2 id="cost-sk">Cost in Saskatchewan Without Coverage</h2>
-        <p>Without insurance in Saskatchewan, approximate monthly costs as of May 2025:</p>
+        <p>Without insurance in Saskatchewan, approximate monthly costs as of May 2026:</p>
         <ul>
           <li><strong>Ozempic (0.5–2 mg):</strong> ~$225–$410/month</li>
           <li><strong>Wegovy (2.4 mg):</strong> ~$395–$425/month</li>
@@ -131,7 +131,7 @@ export default function SaskatchewanPage() {
         <p>Yes. Felix Health operates province-wide in Saskatchewan and can prescribe GLP-1 medications and arrange delivery to any Saskatchewan address.</p>
 
         <div className="bg-gray-50 border border-gray-200 rounded-xl p-5 mt-10 text-xs text-gray-700 leading-relaxed">
-          SK Drug Plan criteria change periodically. This information reflects policies as of May 2025. Verify current special authorization criteria at saskatchewandrug plan.ca or by calling 1-800-667-7581.
+          SK Drug Plan criteria change periodically. This information reflects policies as of May 2026. Verify current special authorization criteria at saskatchewandrug plan.ca or by calling 1-800-667-7581.
         </div>
       </div>
     </ArticleLayout>

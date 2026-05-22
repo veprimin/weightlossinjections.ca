@@ -24,10 +24,10 @@ const toc = [
 ];
 
 const related = [
-  { href: "/semaglutide",       emoji: "💉", title: "Semaglutide (Ozempic & Wegovy) Guide",  date: "May 2025" },
-  { href: "/tirzepatide",       emoji: "⚗️", title: "Tirzepatide (Mounjaro) Guide",           date: "May 2025" },
-  { href: "/insurance-coverage",emoji: "🛡️", title: "Insurance Coverage Guide",               date: "May 2025" },
-  { href: "/side-effects",      emoji: "📋", title: "GLP-1 Side Effects Complete Guide",      date: "May 2025" },
+  { href: "/semaglutide",       emoji: "💉", title: "Semaglutide (Ozempic & Wegovy) Guide",  date: "May 2026" },
+  { href: "/tirzepatide",       emoji: "⚗️", title: "Tirzepatide (Mounjaro) Guide",           date: "May 2026" },
+  { href: "/insurance-coverage",emoji: "🛡️", title: "Insurance Coverage Guide",               date: "May 2026" },
+  { href: "/side-effects",      emoji: "📋", title: "GLP-1 Side Effects Complete Guide",      date: "May 2026" },
 ];
 
 export default function FaqPage() {
@@ -36,7 +36,7 @@ export default function FaqPage() {
       <ArticleHeader
         category="FAQ"
         readTime="14 min read"
-        date="May 2025"
+        date="May 2026"
         headline="GLP-1 Medications FAQ: Your Questions Answered"
         standfirst="From getting a prescription to managing side effects - answers to the 20+ most common questions Canadians ask about Ozempic, Wegovy, Mounjaro, and GLP-1 medications."
         heroEmoji="❓"
@@ -176,7 +176,7 @@ export default function FaqPage() {
         <h2 id="quick-reference">Quick Reference</h2>
 
         <div className="bg-[#EEF3FF] border border-[rgba(27,58,107,0.2)] rounded-xl p-5 my-6">
-          <p className="text-[11px] font-bold uppercase tracking-widest text-[#1B3A6B] mb-4">GLP-1 Medications at a Glance</p>
+          <p className="text-xs font-bold uppercase tracking-widest text-[#1B3A6B] mb-4">GLP-1 Medications at a Glance</p>
           <div className="overflow-x-auto">
             <table className="w-full text-sm border-collapse">
               <thead>

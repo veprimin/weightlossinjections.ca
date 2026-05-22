@@ -14,11 +14,11 @@ export default function ArticleHeader({
   return (
     <header className="mb-10 pb-8 border-b border-gray-200">
       <div className="flex items-center gap-3 mb-5">
-        <span className="text-[10.5px] font-bold uppercase tracking-widest text-[#1B3A6B]">{category}</span>
+        <span className="text-xs font-bold uppercase tracking-widest text-[#1B3A6B]">{category}</span>
         <span className="w-1 h-1 rounded-full bg-gray-300" />
-        <span className="text-[12px] text-gray-600">{date}</span>
+        <span className="text-xs text-gray-600">{date}</span>
         <span className="w-1 h-1 rounded-full bg-gray-300" />
-        <span className="text-[12px] text-gray-600">{readTime} read</span>
+        <span className="text-xs text-gray-600">{readTime} read</span>
       </div>
 
       <div className="border-l-4 border-[#1B3A6B] pl-5 mb-6">

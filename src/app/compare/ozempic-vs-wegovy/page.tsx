@@ -26,10 +26,10 @@ const toc = [
 ];
 
 const related = [
-  { href: "/compare",             emoji: "⚖️", title: "Compare All Weight Loss Injections",  date: "May 2025" },
-  { href: "/semaglutide",         emoji: "💉", title: "Complete Semaglutide Guide",           date: "May 2025" },
-  { href: "/insurance-coverage",  emoji: "🛡️", title: "Does Insurance Cover Ozempic?",        date: "May 2025" },
-  { href: "/cost",                emoji: "💰", title: "Province-by-Province Cost Breakdown",   date: "May 2025" },
+  { href: "/compare",             emoji: "⚖️", title: "Compare All Weight Loss Injections",  date: "May 2026" },
+  { href: "/semaglutide",         emoji: "💉", title: "Complete Semaglutide Guide",           date: "May 2026" },
+  { href: "/insurance-coverage",  emoji: "🛡️", title: "Does Insurance Cover Ozempic?",        date: "May 2026" },
+  { href: "/cost",                emoji: "💰", title: "Province-by-Province Cost Breakdown",   date: "May 2026" },
 ];
 
 export default function OzempicVsWegovyPage() {
@@ -38,7 +38,7 @@ export default function OzempicVsWegovyPage() {
       <ArticleHeader
         category="Comparison Guide"
         readTime="5 min read"
-        date="May 2025"
+        date="May 2026"
         headline="Ozempic vs Wegovy: Same Molecule, Very Different Coverage"
         standfirst="Both drugs contain semaglutide. The difference - indication, dose ceiling, and insurance eligibility - matters enormously for Canadian patients."
       />
@@ -63,7 +63,7 @@ export default function OzempicVsWegovyPage() {
           ].map((s) => (
             <div key={s.label} className="bg-white rounded-lg border border-gray-200 p-4 text-center">
               <span className="block text-2xl font-black text-[#1B3A6B] mb-1" style={{ fontFamily: "Georgia, serif" }}>{s.value}</span>
-              <span className="block text-[11px] text-gray-700 font-medium">{s.label}</span>
+              <span className="block text-xs text-gray-700 font-medium">{s.label}</span>
             </div>
           ))}
         </div>
@@ -132,7 +132,7 @@ export default function OzempicVsWegovyPage() {
         </p>
 
         <div className="bg-[#EEF3FF] border border-[rgba(27,58,107,0.2)] rounded-xl p-5 my-6">
-          <p className="text-[11px] font-bold uppercase tracking-widest text-[#1B3A6B] mb-2">Coverage Note</p>
+          <p className="text-xs font-bold uppercase tracking-widest text-[#1B3A6B] mb-2">Coverage Note</p>
           <p className="text-sm text-gray-900 leading-relaxed">
             If you have T2D, Ozempic is almost always the better financial choice. If you do not have T2D, ask your insurer specifically whether Wegovy is listed under your drug plan before assuming it will be covered. See our full <Link href="/insurance-coverage" className="underline text-[#1B3A6B]">insurance coverage guide</Link> for province-by-province details.
           </p>
@@ -171,7 +171,7 @@ export default function OzempicVsWegovyPage() {
       </div>
 
       <div className="not-prose bg-[#EEF3FF] border border-[rgba(27,58,107,0.2)] rounded-xl p-5 my-6">
-        <p className="text-[11px] font-bold uppercase tracking-widest text-[#1B3A6B] mb-2">Medical Disclaimer</p>
+        <p className="text-xs font-bold uppercase tracking-widest text-[#1B3A6B] mb-2">Medical Disclaimer</p>
         <p className="text-sm text-gray-900 leading-relaxed">
           This article is for informational purposes only and does not constitute medical advice. Drug availability, coverage criteria, and pricing change frequently. Always consult a licensed Canadian physician or pharmacist before starting, switching, or stopping any prescription medication. Felix Health (sponsored) can connect you with a licensed provider for an online assessment.
         </p>

@@ -24,10 +24,10 @@ const toc = [
 ];
 
 const related = [
-  { href: "/dosing",      emoji: "📋", title: "Dosing Schedules Guide",         date: "May 2025" },
-  { href: "/semaglutide", emoji: "💉", title: "Complete Semaglutide Guide",      date: "May 2025" },
-  { href: "/tirzepatide", emoji: "🔬", title: "Mounjaro: Tirzepatide Guide",      date: "May 2025" },
-  { href: "/compare",     emoji: "⚖️", title: "Drug Comparison Table",           date: "May 2025" },
+  { href: "/dosing",      emoji: "📋", title: "Dosing Schedules Guide",         date: "May 2026" },
+  { href: "/semaglutide", emoji: "💉", title: "Complete Semaglutide Guide",      date: "May 2026" },
+  { href: "/tirzepatide", emoji: "🔬", title: "Mounjaro: Tirzepatide Guide",      date: "May 2026" },
+  { href: "/compare",     emoji: "⚖️", title: "Drug Comparison Table",           date: "May 2026" },
 ];
 
 export default function SideEffectsPage() {
@@ -36,7 +36,7 @@ export default function SideEffectsPage() {
       <ArticleHeader
         category="Reference Guide"
         readTime="7 min read"
-        date="May 2025"
+        date="May 2026"
         headline="GLP-1 Side Effects: Complete Guide for Canadian Patients"
         standfirst="Nausea affects roughly 30-44% of GLP-1 users, but most see significant improvement after the first 4-8 weeks. The titration schedule exists specifically to minimize discomfort. Here is what to expect."
       />
@@ -94,7 +94,7 @@ export default function SideEffectsPage() {
         </ul>
 
         <div className="bg-[#EEF3FF] border border-[rgba(27,58,107,0.2)] rounded-xl p-5 my-6">
-          <p className="text-[11px] font-bold uppercase tracking-widest text-[#1B3A6B] mb-2">Key Principle</p>
+          <p className="text-xs font-bold uppercase tracking-widest text-[#1B3A6B] mb-2">Key Principle</p>
           <p className="text-sm text-gray-900">
             The titration schedule is medicine's way of letting your body adjust. Never skip doses and never rush to the next level if you are experiencing significant nausea. Slow titration produces the same long-term results with far fewer side effects.
           </p>

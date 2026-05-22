@@ -26,10 +26,10 @@ const toc = [
 ];
 
 const related = [
-  { href: "/ontario",            emoji: "🍁", title: "Ontario: ODB Coverage Guide",         date: "May 2025" },
-  { href: "/british-columbia",   emoji: "🌲", title: "BC: PharmaCare Coverage Guide",       date: "May 2025" },
-  { href: "/insurance-coverage", emoji: "🛡️", title: "National Insurance Coverage Guide",   date: "May 2025" },
-  { href: "/cost",               emoji: "💰", title: "Province-by-Province Cost Guide",     date: "May 2025" },
+  { href: "/ontario",            emoji: "🍁", title: "Ontario: ODB Coverage Guide",         date: "May 2026" },
+  { href: "/british-columbia",   emoji: "🌲", title: "BC: PharmaCare Coverage Guide",       date: "May 2026" },
+  { href: "/insurance-coverage", emoji: "🛡️", title: "National Insurance Coverage Guide",   date: "May 2026" },
+  { href: "/cost",               emoji: "💰", title: "Province-by-Province Cost Guide",     date: "May 2026" },
 ];
 
 export default function AlbertaPage() {
@@ -38,7 +38,7 @@ export default function AlbertaPage() {
       <ArticleHeader
         category="Province Guide"
         readTime="7 min read"
-        date="May 2025"
+        date="May 2026"
         headline="Weight Loss Injections in Alberta: Alberta Blue Cross & Access Guide"
         standfirst="Alberta has one of the highest rates of type 2 diabetes in Canada. Here is a complete guide for Alberta residents navigating GLP-1 medication coverage, costs, and access pathways."
       />
@@ -86,7 +86,7 @@ export default function AlbertaPage() {
         </p>
 
         <div className="bg-[#EEF3FF] border border-[rgba(27,58,107,0.2)] rounded-xl p-5 my-6">
-          <p className="text-[11px] font-bold uppercase tracking-widest text-[#1B3A6B] mb-2">Alberta Coverage Note</p>
+          <p className="text-xs font-bold uppercase tracking-widest text-[#1B3A6B] mb-2">Alberta Coverage Note</p>
           <p className="text-sm text-gray-900">
             Alberta does not have a universal pharmacare program for working-age adults. If you are not enrolled in a government-sponsored benefit program and do not have employer benefits, you will pay full list price for GLP-1 medications. This makes Alberta one of the provinces where patient support programs and generic semaglutide access is most important.
           </p>
@@ -94,7 +94,7 @@ export default function AlbertaPage() {
 
         <h2 id="wegovy-ab">Wegovy in Alberta</h2>
         <p>
-          Wegovy (semaglutide 2.4 mg) is <strong>not listed</strong> on any Alberta government drug benefit program for weight management as of May 2025. This is consistent with all other Canadian provinces.
+          Wegovy (semaglutide 2.4 mg) is <strong>not listed</strong> on any Alberta government drug benefit program for weight management as of May 2026. This is consistent with all other Canadian provinces.
         </p>
         <p>
           Private employer plans are increasingly covering Wegovy for weight management, particularly at larger Alberta employers (oil and gas, government, healthcare). Check your benefits booklet or contact your plan administrator to confirm coverage.
@@ -129,7 +129,7 @@ export default function AlbertaPage() {
         </ol>
 
         <h2 id="cost-ab">Cost in Alberta Without Coverage</h2>
-        <p>Without insurance in Alberta, approximate monthly costs (list price) as of May 2025:</p>
+        <p>Without insurance in Alberta, approximate monthly costs (list price) as of May 2026:</p>
         <ul>
           <li><strong>Ozempic 0.5 mg:</strong> ~$225–$265/month</li>
           <li><strong>Ozempic 1 mg:</strong> ~$325–$370/month</li>
@@ -157,7 +157,7 @@ export default function AlbertaPage() {
         <p>Step therapy requirements vary by plan. If your plan requires evidence of prior treatment failure with metformin, your physician can provide documentation of your clinical history. Felix Health can assist in preparing prior authorization documentation for Alberta plans.</p>
 
         <div className="bg-gray-50 border border-gray-200 rounded-xl p-5 mt-10 text-xs text-gray-700 leading-relaxed">
-          Alberta drug benefit criteria and employer plan formularies are subject to change. This information reflects general policies as of May 2025. Verify current coverage with Alberta Blue Cross (1-800-661-6995) or your employer plan administrator.
+          Alberta drug benefit criteria and employer plan formularies are subject to change. This information reflects general policies as of May 2026. Verify current coverage with Alberta Blue Cross (1-800-661-6995) or your employer plan administrator.
         </div>
       </div>
     </ArticleLayout>

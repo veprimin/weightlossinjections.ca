@@ -120,7 +120,7 @@ export default function ComparePage() {
       {/* Editorial Page Header */}
       <div className="border-b border-gray-200 bg-gradient-to-b from-[#E8EFFF]/40 to-white px-4 sm:px-6 py-12">
         <div className="max-w-7xl mx-auto">
-          <span className="text-[10.5px] font-bold uppercase tracking-widest text-[#1B3A6B]">Drug Comparison</span>
+          <span className="text-xs font-bold uppercase tracking-widest text-[#1B3A6B]">Drug Comparison</span>
           <div className="border-l-4 border-[#1B3A6B] pl-5 my-4">
             <h1
               className="text-3xl sm:text-4xl font-black text-gray-900 leading-tight"
@@ -133,7 +133,7 @@ export default function ComparePage() {
             A complete side-by-side comparison of all major GLP-1 weight loss medications available in Canada - efficacy, cost, dosing, and coverage.
           </p>
           <div className="flex items-center gap-4 mt-5 text-sm text-gray-700">
-            <span>Updated May 2025</span>
+            <span>Updated May 2026</span>
             <span className="w-1 h-1 rounded-full bg-gray-300" />
             <span>4 medications compared</span>
             <span className="w-1 h-1 rounded-full bg-gray-300" />
@@ -164,12 +164,12 @@ export default function ComparePage() {
                   </div>
                   <div>
                     <h3
-                      className="text-[15px] font-bold text-gray-900"
+                      className="text-sm font-bold text-gray-900"
                       style={{ fontFamily: "var(--font-playfair, Georgia, serif)" }}
                     >
                       {d.name}
                     </h3>
-                    <p className="text-[11px] text-gray-600">{d.generic} &middot; {d.manufacturer}</p>
+                    <p className="text-xs text-gray-600">{d.generic} &middot; {d.manufacturer}</p>
                   </div>
                 </div>
                 <div className="space-y-2 mb-4">
@@ -281,7 +281,7 @@ export default function ComparePage() {
           ].map((s) => (
             <div key={s.condition} className="bg-white border border-gray-200 rounded-xl p-5">
               <div className="flex gap-3 items-start">
-                <span className="flex h-6 w-6 shrink-0 items-center justify-center rounded-full text-[11px] font-bold text-white bg-[#1B3A6B]">
+                <span className="flex h-6 w-6 shrink-0 items-center justify-center rounded-full text-xs font-bold text-white bg-[#1B3A6B]">
                   {s.num}
                 </span>
                 <div>
@@ -297,7 +297,7 @@ export default function ComparePage() {
 
         {/* Sponsored Partners */}
         <div className="mb-12">
-          <p className="text-center text-[11px] font-semibold uppercase tracking-widest text-gray-600 mb-5 flex items-center gap-3 before:flex-1 before:h-px before:bg-gray-200 after:flex-1 after:h-px after:bg-gray-200">
+          <p className="text-center text-xs font-semibold uppercase tracking-widest text-gray-600 mb-5 flex items-center gap-3 before:flex-1 before:h-px before:bg-gray-200 after:flex-1 after:h-px after:bg-gray-200">
             Recommended Providers
           </p>
           <ProviderCards />

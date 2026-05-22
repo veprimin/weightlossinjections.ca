@@ -27,10 +27,10 @@ const toc = [
 ];
 
 const related = [
-  { href: "/ontario",           emoji: "🍁", title: "Ontario: ODB Coverage Guide",         date: "May 2025" },
-  { href: "/alberta",           emoji: "🏔️", title: "Alberta: Blue Cross Coverage Guide",  date: "May 2025" },
-  { href: "/insurance-coverage",emoji: "🛡️", title: "National Insurance Coverage Guide",   date: "May 2025" },
-  { href: "/cost",              emoji: "💰", title: "Province-by-Province Cost Guide",     date: "May 2025" },
+  { href: "/ontario",           emoji: "🍁", title: "Ontario: ODB Coverage Guide",         date: "May 2026" },
+  { href: "/alberta",           emoji: "🏔️", title: "Alberta: Blue Cross Coverage Guide",  date: "May 2026" },
+  { href: "/insurance-coverage",emoji: "🛡️", title: "National Insurance Coverage Guide",   date: "May 2026" },
+  { href: "/cost",              emoji: "💰", title: "Province-by-Province Cost Guide",     date: "May 2026" },
 ];
 
 export default function BritishColumbiaPage() {
@@ -39,7 +39,7 @@ export default function BritishColumbiaPage() {
       <ArticleHeader
         category="Province Guide"
         readTime="7 min read"
-        date="May 2025"
+        date="May 2026"
         headline="Weight Loss Injections in British Columbia: BC PharmaCare & Access Guide"
         standfirst="British Columbia has a well-established Special Authority process for GLP-1 medications. Here is a complete guide for BC residents navigating Ozempic, Wegovy, and Mounjaro coverage."
       />
@@ -101,7 +101,7 @@ export default function BritishColumbiaPage() {
         </p>
 
         <div className="bg-[#EEF3FF] border border-[rgba(27,58,107,0.2)] rounded-xl p-5 my-6">
-          <p className="text-[11px] font-bold uppercase tracking-widest text-[#1B3A6B] mb-2">BC PharmaCare Tip</p>
+          <p className="text-xs font-bold uppercase tracking-widest text-[#1B3A6B] mb-2">BC PharmaCare Tip</p>
           <p className="text-sm text-gray-900">
             BC PharmaCare's Fair PharmaCare plan automatically registers BC residents when they file their taxes. If you have not checked your PharmaCare deductible and coverage level recently, you can verify your status at the BC government's Health Insurance BC (HIBC) portal or by calling 1-800-663-7100.
           </p>
@@ -109,7 +109,7 @@ export default function BritishColumbiaPage() {
 
         <h2 id="wegovy-bc">Wegovy in British Columbia</h2>
         <p>
-          Wegovy (semaglutide 2.4 mg, approved for chronic weight management) is <strong>not currently listed on the BC PharmaCare formulary</strong> for weight management as of May 2025. This mirrors the situation in other provinces - no provincial drug plan covers Wegovy for weight management alone.
+          Wegovy (semaglutide 2.4 mg, approved for chronic weight management) is <strong>not currently listed on the BC PharmaCare formulary</strong> for weight management as of May 2026. This mirrors the situation in other provinces - no provincial drug plan covers Wegovy for weight management alone.
         </p>
         <p>
           BC residents who need Wegovy will either pay out-of-pocket, access coverage through private employer benefits, or explore patient support programs from Novo Nordisk.
@@ -143,7 +143,7 @@ export default function BritishColumbiaPage() {
         </ol>
 
         <h2 id="cost-bc">Cost in BC Without Coverage</h2>
-        <p>Without insurance in British Columbia, approximate monthly costs (list price) as of May 2025:</p>
+        <p>Without insurance in British Columbia, approximate monthly costs (list price) as of May 2026:</p>
         <ul>
           <li><strong>Ozempic 0.5 mg:</strong> ~$210–$250/month</li>
           <li><strong>Ozempic 1 mg:</strong> ~$310–$350/month</li>
@@ -171,7 +171,7 @@ export default function BritishColumbiaPage() {
         <p>Generic semaglutide (Plosbrio and Poviztra) approved by Health Canada in 2025 will eventually be listed on the BC PharmaCare formulary for type 2 diabetes, subject to the same Special Authority criteria as Ozempic. Formulary listing typically follows Health Canada approval within 6–18 months.</p>
 
         <div className="bg-gray-50 border border-gray-200 rounded-xl p-5 mt-10 text-xs text-gray-700 leading-relaxed">
-          BC PharmaCare criteria and formulary listings are subject to change. This information reflects publicly available policy as of May 2025. Verify current Special Authority criteria with your physician, pharmacist, or BC PharmaCare (1-800-663-7100).
+          BC PharmaCare criteria and formulary listings are subject to change. This information reflects publicly available policy as of May 2026. Verify current Special Authority criteria with your physician, pharmacist, or BC PharmaCare (1-800-663-7100).
         </div>
       </div>
     </ArticleLayout>

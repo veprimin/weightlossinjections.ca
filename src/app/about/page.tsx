@@ -24,10 +24,10 @@ const toc = [
 ];
 
 const related = [
-  { href: "/disclaimer",        emoji: "📄", title: "Medical Disclaimer",                        date: "May 2025" },
-  { href: "/insurance-coverage", emoji: "🛡️", title: "Insurance Coverage Guide",                date: "May 2025" },
-  { href: "/cost",              emoji: "💰", title: "Province-by-Province Cost Breakdown",        date: "May 2025" },
-  { href: "/semaglutide",       emoji: "💉", title: "Semaglutide (Ozempic & Wegovy) Guide",      date: "May 2025" },
+  { href: "/disclaimer",        emoji: "📄", title: "Medical Disclaimer",                        date: "May 2026" },
+  { href: "/insurance-coverage", emoji: "🛡️", title: "Insurance Coverage Guide",                date: "May 2026" },
+  { href: "/cost",              emoji: "💰", title: "Province-by-Province Cost Breakdown",        date: "May 2026" },
+  { href: "/semaglutide",       emoji: "💉", title: "Semaglutide (Ozempic & Wegovy) Guide",      date: "May 2026" },
 ];
 
 export default function AboutPage() {
@@ -36,7 +36,7 @@ export default function AboutPage() {
       <ArticleHeader
         category="About This Site"
         readTime="4 min read"
-        date="May 2025"
+        date="May 2026"
         headline="About WeightLossInjections.ca"
         standfirst="An independent Canadian editorial resource for GLP-1 medication information - coverage, cost, and access."
         heroEmoji="📰"
@@ -119,7 +119,7 @@ export default function AboutPage() {
         </p>
 
         <div className="bg-[#EEF3FF] border border-[rgba(27,58,107,0.2)] rounded-xl p-5 my-6">
-          <p className="text-[11px] font-bold uppercase tracking-widest text-[#1B3A6B] mb-2">Contact</p>
+          <p className="text-xs font-bold uppercase tracking-widest text-[#1B3A6B] mb-2">Contact</p>
           <p className="text-sm text-gray-900">
             For factual corrections or editorial feedback, please reach out via our{" "}
             <a href="https://github.com" target="_blank" rel="noopener noreferrer">GitHub Issues</a>{" "}

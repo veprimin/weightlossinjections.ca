@@ -225,7 +225,7 @@ function ResultCard({ answers }: { answers: Answers }) {
         >
           Start free assessment with Felix →
         </a>
-        <p className="text-[10px] text-gray-600 mt-2">Sponsored · Felix Health</p>
+        <p className="text-xs text-gray-600 mt-2">Sponsored · Felix Health</p>
       </div>
 
       <div className="flex gap-3">
@@ -461,7 +461,7 @@ export default function InsuranceCheckerClient() {
 
         {/* Disclaimer */}
         <div className="mt-10 rounded-lg border border-gray-200 bg-gray-50 px-4 py-3">
-          <p className="text-[11px] text-gray-700 leading-relaxed">
+          <p className="text-xs text-gray-700 leading-relaxed">
             This tool provides general guidance only and does not constitute insurance or medical advice. Coverage eligibility depends on your specific plan documents and individual circumstances. Always verify coverage with your insurer and consult a licensed physician before starting any medication.
           </p>
         </div>

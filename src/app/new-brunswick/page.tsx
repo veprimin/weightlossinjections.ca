@@ -26,10 +26,10 @@ const toc = [
 ];
 
 const related = [
-  { href: "/nova-scotia",       emoji: "🦞", title: "Nova Scotia: NS Pharmacare Guide",    date: "May 2025" },
-  { href: "/insurance-coverage",emoji: "🛡️", title: "National Insurance Coverage Guide",  date: "May 2025" },
-  { href: "/cost",              emoji: "💰", title: "Province-by-Province Cost Guide",    date: "May 2025" },
-  { href: "/generic-semaglutide",emoji: "🔬", title: "Generic Semaglutide in Canada",     date: "May 2025" },
+  { href: "/nova-scotia",       emoji: "🦞", title: "Nova Scotia: NS Pharmacare Guide",    date: "May 2026" },
+  { href: "/insurance-coverage",emoji: "🛡️", title: "National Insurance Coverage Guide",  date: "May 2026" },
+  { href: "/cost",              emoji: "💰", title: "Province-by-Province Cost Guide",    date: "May 2026" },
+  { href: "/generic-semaglutide",emoji: "🔬", title: "Generic Semaglutide in Canada",     date: "May 2026" },
 ];
 
 export default function NewBrunswickPage() {
@@ -38,7 +38,7 @@ export default function NewBrunswickPage() {
       <ArticleHeader
         category="Province Guide"
         readTime="6 min read"
-        date="May 2025"
+        date="May 2026"
         headline="Weight Loss Injections in New Brunswick: NB Drug Plan & Access Guide"
         standfirst="New Brunswick's Prescription Drug Program covers Ozempic for eligible type 2 diabetes patients. Here is what New Brunswick residents need to know about accessing GLP-1 medications."
       />
@@ -84,7 +84,7 @@ export default function NewBrunswickPage() {
         </p>
 
         <div className="bg-[#EEF3FF] border border-[rgba(27,58,107,0.2)] rounded-xl p-5 my-6">
-          <p className="text-[11px] font-bold uppercase tracking-widest text-[#1B3A6B] mb-2">Bilingual Access Note</p>
+          <p className="text-xs font-bold uppercase tracking-widest text-[#1B3A6B] mb-2">Bilingual Access Note</p>
           <p className="text-sm text-gray-900">
             All NB PDP services and prior authorization processes are available in both English and French. Virtual care platforms including Felix Health can serve both francophone and anglophone New Brunswickers through their bilingual assessment process.
           </p>
@@ -113,7 +113,7 @@ export default function NewBrunswickPage() {
         </p>
 
         <h2 id="cost-nb">Cost in New Brunswick Without Coverage</h2>
-        <p>Without insurance in New Brunswick, approximate monthly costs as of May 2025:</p>
+        <p>Without insurance in New Brunswick, approximate monthly costs as of May 2026:</p>
         <ul>
           <li><strong>Ozempic (0.5–2 mg):</strong> ~$235–$420/month</li>
           <li><strong>Wegovy (2.4 mg):</strong> ~$400–$430/month</li>
@@ -131,7 +131,7 @@ export default function NewBrunswickPage() {
         <p>Yes. Felix Health provides services in both English and French, making it accessible to francophone New Brunswickers throughout the province.</p>
 
         <div className="bg-gray-50 border border-gray-200 rounded-xl p-5 mt-10 text-xs text-gray-700 leading-relaxed">
-          NB PDP criteria and formulary listings change periodically. This information reflects policies as of May 2025. Contact NB Prescription Drug Program (1-800-332-3692 / Service bilingue disponible) for current eligibility and coverage.
+          NB PDP criteria and formulary listings change periodically. This information reflects policies as of May 2026. Contact NB Prescription Drug Program (1-800-332-3692 / Service bilingue disponible) for current eligibility and coverage.
         </div>
       </div>
     </ArticleLayout>

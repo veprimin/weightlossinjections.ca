@@ -27,10 +27,10 @@ const toc = [
 ];
 
 const related = [
-  { href: "/cost",        emoji: "💰", title: "Cost Guide by Province",              date: "May 2025" },
-  { href: "/ontario",     emoji: "🍁", title: "Ontario: ODB & Coverage Details",     date: "May 2025" },
-  { href: "/semaglutide", emoji: "💉", title: "Semaglutide Complete Guide",          date: "May 2025" },
-  { href: "/compare",     emoji: "⚖️", title: "Compare All Medications",             date: "May 2025" },
+  { href: "/cost",        emoji: "💰", title: "Cost Guide by Province",              date: "May 2026" },
+  { href: "/ontario",     emoji: "🍁", title: "Ontario: ODB & Coverage Details",     date: "May 2026" },
+  { href: "/semaglutide", emoji: "💉", title: "Semaglutide Complete Guide",          date: "May 2026" },
+  { href: "/compare",     emoji: "⚖️", title: "Compare All Medications",             date: "May 2026" },
 ];
 
 export default function InsurancePage() {
@@ -39,7 +39,7 @@ export default function InsurancePage() {
       <ArticleHeader
         category="Insurance Guide"
         readTime="9 min read"
-        date="May 2025"
+        date="May 2026"
         headline="Does Insurance Cover Ozempic and Wegovy in Canada?"
         standfirst="Coverage for GLP-1 medications in Canada is fragmented, inconsistent, and actively evolving. Here is the complete picture - and how to maximize your chances of getting covered."
         heroEmoji="🛡️"
@@ -205,7 +205,7 @@ export default function InsurancePage() {
         <p>The federal government's pharmacare legislation (Bill C-64) is currently focused on diabetes medications and contraceptives. GLP-1 coverage for weight management under a national plan is not imminent as of 2025, though it is an active advocacy issue.</p>
 
         <div className="bg-gray-50 border border-gray-200 rounded-xl p-5 mt-10 text-xs text-gray-700 leading-relaxed">
-          Coverage information reflects general policies as of May 2025. Drug plan formularies change frequently. Confirm coverage with your provincial plan or private insurer before filling a prescription.
+          Coverage information reflects general policies as of May 2026. Drug plan formularies change frequently. Confirm coverage with your provincial plan or private insurer before filling a prescription.
         </div>
       </div>
     </ArticleLayout>

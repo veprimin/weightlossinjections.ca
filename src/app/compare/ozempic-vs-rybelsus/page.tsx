@@ -24,10 +24,10 @@ const toc = [
 ];
 
 const related = [
-  { href: "/compare",              emoji: "⚖️", title: "Full Drug Comparison: All 4 GLP-1s",  date: "May 2025" },
-  { href: "/semaglutide",          emoji: "💉", title: "Complete Semaglutide Guide",            date: "May 2025" },
-  { href: "/oral-glp1",            emoji: "💊", title: "Oral GLP-1: Rybelsus Guide",           date: "May 2025" },
-  { href: "/insurance-coverage",   emoji: "🛡️", title: "Insurance Coverage Guide",             date: "May 2025" },
+  { href: "/compare",              emoji: "⚖️", title: "Full Drug Comparison: All 4 GLP-1s",  date: "May 2026" },
+  { href: "/semaglutide",          emoji: "💉", title: "Complete Semaglutide Guide",            date: "May 2026" },
+  { href: "/oral-glp1",            emoji: "💊", title: "Oral GLP-1: Rybelsus Guide",           date: "May 2026" },
+  { href: "/insurance-coverage",   emoji: "🛡️", title: "Insurance Coverage Guide",             date: "May 2026" },
 ];
 
 export default function OzempicVsRybelsusPage() {
@@ -36,7 +36,7 @@ export default function OzempicVsRybelsusPage() {
       <ArticleHeader
         category="Comparison Guide"
         readTime="5 min read"
-        date="May 2025"
+        date="May 2026"
         headline="Ozempic vs Rybelsus: The Same Molecule, Injection vs Pill"
         standfirst="Ozempic and Rybelsus both contain semaglutide, but the route of administration changes their efficacy, dosing, and convenience significantly. Here is what Canadian patients need to know."
       />
@@ -115,7 +115,7 @@ export default function OzempicVsRybelsusPage() {
         </p>
 
         <div className="bg-[#EEF3FF] border border-[rgba(27,58,107,0.2)] rounded-xl p-5 my-6">
-          <p className="text-[11px] font-bold uppercase tracking-widest text-[#1B3A6B] mb-2">Rybelsus Fasting Requirement</p>
+          <p className="text-xs font-bold uppercase tracking-widest text-[#1B3A6B] mb-2">Rybelsus Fasting Requirement</p>
           <p className="text-sm text-gray-900">
             Rybelsus must be taken first thing in the morning with a maximum 120mL of water, at least 30 minutes before any food, beverage (other than plain water), or other medications. Taking Rybelsus with food reduces drug exposure by up to 75%.
           </p>
@@ -155,7 +155,7 @@ export default function OzempicVsRybelsusPage() {
         <p>No generic oral semaglutide is available in Canada as of 2025. Generic injectable semaglutide (Plosbrio and Poviztra) is available and significantly cheaper than brand-name Ozempic. See our <Link href="/generic-semaglutide">generic semaglutide guide</Link>.</p>
 
         <div className="bg-gray-50 border border-gray-200 rounded-xl p-5 mt-10 text-xs text-gray-700 leading-relaxed">
-          Drug pricing and formulary listings change periodically. This information reflects the situation as of May 2025. Consult your physician and pharmacist for current coverage and pricing.
+          Drug pricing and formulary listings change periodically. This information reflects the situation as of May 2026. Consult your physician and pharmacist for current coverage and pricing.
         </div>
       </div>
     </ArticleLayout>

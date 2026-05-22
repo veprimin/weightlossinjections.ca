@@ -24,10 +24,10 @@ const toc = [
 ];
 
 const related = [
-  { href: "/side-effects", emoji: "⚕️", title: "GLP-1 Side Effects Guide",         date: "May 2025" },
-  { href: "/semaglutide",  emoji: "💉", title: "Complete Semaglutide Guide",        date: "May 2025" },
-  { href: "/tirzepatide",  emoji: "🔬", title: "Mounjaro: Tirzepatide Guide",       date: "May 2025" },
-  { href: "/compare",      emoji: "⚖️", title: "Drug Comparison Table",            date: "May 2025" },
+  { href: "/side-effects", emoji: "⚕️", title: "GLP-1 Side Effects Guide",         date: "May 2026" },
+  { href: "/semaglutide",  emoji: "💉", title: "Complete Semaglutide Guide",        date: "May 2026" },
+  { href: "/tirzepatide",  emoji: "🔬", title: "Mounjaro: Tirzepatide Guide",       date: "May 2026" },
+  { href: "/compare",      emoji: "⚖️", title: "Drug Comparison Table",            date: "May 2026" },
 ];
 
 function DosingTable({ rows, headers }: { rows: string[][]; headers: string[] }) {
@@ -61,7 +61,7 @@ export default function DosingPage() {
       <ArticleHeader
         category="Reference Guide"
         readTime="6 min read"
-        date="May 2025"
+        date="May 2026"
         headline="GLP-1 Dosing Schedules: Ozempic, Wegovy, Mounjaro & Rybelsus"
         standfirst="GLP-1 medications use a slow titration schedule to minimize side effects. Understanding your dosing timeline helps set realistic expectations for when benefits will fully arrive."
       />
@@ -76,7 +76,7 @@ export default function DosingPage() {
         </p>
 
         <div className="bg-[#EEF3FF] border border-[rgba(27,58,107,0.2)] rounded-xl p-5 my-6">
-          <p className="text-[11px] font-bold uppercase tracking-widest text-[#1B3A6B] mb-2">Important</p>
+          <p className="text-xs font-bold uppercase tracking-widest text-[#1B3A6B] mb-2">Important</p>
           <p className="text-sm text-gray-900">
             Never increase your dose faster than your physician's schedule. If you experience significant nausea at a dose level, staying there for an additional 4 weeks is always appropriate. The titration schedule shown below is the minimum time at each dose, not the maximum.
           </p>
@@ -163,7 +163,7 @@ export default function DosingPage() {
         </ul>
 
         <div className="bg-gray-50 border border-gray-200 rounded-xl p-5 mt-10 text-xs text-gray-700 leading-relaxed">
-          Dosing information reflects Health Canada-approved product monographs as of May 2025. Always follow the specific instructions provided by your physician and pharmacist. Dosing protocols may differ for individual patients based on clinical factors.
+          Dosing information reflects Health Canada-approved product monographs as of May 2026. Always follow the specific instructions provided by your physician and pharmacist. Dosing protocols may differ for individual patients based on clinical factors.
         </div>
       </div>
     </ArticleLayout>

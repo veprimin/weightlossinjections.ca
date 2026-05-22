@@ -3,7 +3,7 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useState } from "react";
-import { NAV_LINKS, FELIX_LINK } from "@/lib/constants";
+import { NAV_LINKS } from "@/lib/constants";
 
 export default function Header() {
   const pathname = usePathname();
@@ -21,9 +21,6 @@ export default function Header() {
           >
             Weight Loss<span className="text-[#1B3A6B]">Injections.ca</span>
           </span>
-          <span className="ml-2 hidden sm:inline-flex items-center gap-1 rounded border border-gray-300 bg-white px-1.5 py-0.5 text-[10px] font-semibold uppercase tracking-wider text-gray-600">
-            🍁 Canada
-          </span>
         </Link>
 
         {/* Desktop nav */}
@@ -35,7 +32,7 @@ export default function Header() {
               className={`relative rounded-md px-3 py-2 text-sm font-medium transition-colors ${
                 pathname === link.href
                   ? "bg-[#E8EFFF] text-[#1B3A6B]"
-                  : "text-gray-600 hover:bg-gray-50 hover:text-gray-900"
+                  : "text-gray-700 hover:bg-gray-50 hover:text-gray-900"
               }`}
             >
               {link.label}
@@ -44,18 +41,16 @@ export default function Header() {
         </nav>
 
         <div className="flex items-center gap-3">
-          <a
-            href={FELIX_LINK}
-            target="_blank"
-            rel="noopener sponsored"
-            className="hidden sm:inline-flex items-center gap-1.5 rounded-lg bg-[#1B3A6B] px-4 py-2 text-[13px] font-semibold text-white transition-colors hover:bg-[#0F2547] whitespace-nowrap"
+          <Link
+            href="/#providers"
+            className="hidden sm:inline-flex items-center rounded-lg bg-[#1B3A6B] px-4 py-2 text-sm font-semibold text-white transition-colors hover:bg-[#0F2547] whitespace-nowrap"
           >
-            Check Eligibility &rarr;
-          </a>
+            Find a Provider &rarr;
+          </Link>
           {/* Mobile hamburger */}
           <button
             type="button"
-            className="inline-flex items-center justify-center rounded-md p-2.5 text-gray-600 hover:bg-gray-100 hover:text-gray-900 lg:hidden"
+            className="inline-flex items-center justify-center rounded-md p-2.5 text-gray-700 hover:bg-gray-100 hover:text-gray-900 lg:hidden"
             onClick={() => setOpen(!open)}
             aria-label="Toggle navigation"
             aria-expanded={open}
@@ -86,14 +81,13 @@ export default function Header() {
               {link.label}
             </Link>
           ))}
-          <a
-            href={FELIX_LINK}
-            target="_blank"
-            rel="noopener sponsored"
+          <Link
+            href="/#providers"
+            onClick={() => setOpen(false)}
             className="mt-2 flex items-center justify-center rounded-lg bg-[#1B3A6B] px-4 py-2.5 text-sm font-semibold text-white"
           >
-            Check Eligibility with Felix &rarr;
-          </a>
+            Find a Provider &rarr;
+          </Link>
         </nav>
       )}
     </header>

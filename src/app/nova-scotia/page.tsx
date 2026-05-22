@@ -26,10 +26,10 @@ const toc = [
 ];
 
 const related = [
-  { href: "/new-brunswick",     emoji: "🔔", title: "New Brunswick: NB PDP Guide",         date: "May 2025" },
-  { href: "/insurance-coverage",emoji: "🛡️", title: "National Insurance Coverage Guide",   date: "May 2025" },
-  { href: "/cost",              emoji: "💰", title: "Province-by-Province Cost Guide",     date: "May 2025" },
-  { href: "/generic-semaglutide",emoji: "🔬", title: "Generic Semaglutide in Canada",      date: "May 2025" },
+  { href: "/new-brunswick",     emoji: "🔔", title: "New Brunswick: NB PDP Guide",         date: "May 2026" },
+  { href: "/insurance-coverage",emoji: "🛡️", title: "National Insurance Coverage Guide",   date: "May 2026" },
+  { href: "/cost",              emoji: "💰", title: "Province-by-Province Cost Guide",     date: "May 2026" },
+  { href: "/generic-semaglutide",emoji: "🔬", title: "Generic Semaglutide in Canada",      date: "May 2026" },
 ];
 
 export default function NovaScotiaPage() {
@@ -38,7 +38,7 @@ export default function NovaScotiaPage() {
       <ArticleHeader
         category="Province Guide"
         readTime="6 min read"
-        date="May 2025"
+        date="May 2026"
         headline="Weight Loss Injections in Nova Scotia: NS Pharmacare & Access Guide"
         standfirst="Nova Scotia Pharmacare primarily covers seniors and social assistance recipients for GLP-1 medications. Here is what Nova Scotians need to know about coverage, costs, and how to access treatment."
       />
@@ -89,7 +89,7 @@ export default function NovaScotiaPage() {
         </p>
 
         <div className="bg-[#EEF3FF] border border-[rgba(27,58,107,0.2)] rounded-xl p-5 my-6">
-          <p className="text-[11px] font-bold uppercase tracking-widest text-[#1B3A6B] mb-2">Nova Scotia Coverage Note</p>
+          <p className="text-xs font-bold uppercase tracking-widest text-[#1B3A6B] mb-2">Nova Scotia Coverage Note</p>
           <p className="text-sm text-gray-900">
             Nova Scotia announced plans to expand pharmacare coverage in 2024-2025. Check the NS Health website for the most current program eligibility updates, as coverage for working-age low-income Nova Scotians may expand. Call 1-800-387-6665 for the NS Pharmacare information line.
           </p>
@@ -119,7 +119,7 @@ export default function NovaScotiaPage() {
         </p>
 
         <h2 id="cost-ns">Cost in Nova Scotia Without Coverage</h2>
-        <p>Without insurance in Nova Scotia, approximate monthly costs as of May 2025:</p>
+        <p>Without insurance in Nova Scotia, approximate monthly costs as of May 2026:</p>
         <ul>
           <li><strong>Ozempic (0.5–2 mg):</strong> ~$230–$415/month</li>
           <li><strong>Wegovy (2.4 mg):</strong> ~$400–$430/month</li>
@@ -137,7 +137,7 @@ export default function NovaScotiaPage() {
         <p>Yes. Felix Health operates province-wide in Nova Scotia including rural areas, and can arrange delivery to any NS address.</p>
 
         <div className="bg-gray-50 border border-gray-200 rounded-xl p-5 mt-10 text-xs text-gray-700 leading-relaxed">
-          NS Pharmacare eligibility and formulary listings change periodically. This information reflects policies as of May 2025. Contact NS Pharmacare (1-800-387-6665) for current eligibility and coverage details.
+          NS Pharmacare eligibility and formulary listings change periodically. This information reflects policies as of May 2026. Contact NS Pharmacare (1-800-387-6665) for current eligibility and coverage details.
         </div>
       </div>
     </ArticleLayout>

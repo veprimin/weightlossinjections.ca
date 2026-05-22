@@ -34,7 +34,7 @@ const routes: { path: string; priority: number; changeFrequency: MetadataRoute.S
 ];
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const now = new Date("2026-05-18");
+  const now = new Date("2026-05-22");
   return routes.map((route) => ({
     url: `${SITE_URL}${route.path}`,
     lastModified: now,

@@ -25,10 +25,10 @@ const toc = [
 ];
 
 const related = [
-  { href: "/semaglutide",        emoji: "💉", title: "Semaglutide (Ozempic & Wegovy) Guide",  date: "May 2025" },
-  { href: "/tirzepatide",        emoji: "⚗️", title: "Tirzepatide (Mounjaro) Guide",           date: "May 2025" },
-  { href: "/compare",            emoji: "⚖️", title: "Compare All Weight Loss Injections",      date: "May 2025" },
-  { href: "/generic-semaglutide", emoji: "🧪", title: "Generic Semaglutide in Canada",         date: "May 2025" },
+  { href: "/semaglutide",        emoji: "💉", title: "Semaglutide (Ozempic & Wegovy) Guide",  date: "May 2026" },
+  { href: "/tirzepatide",        emoji: "⚗️", title: "Tirzepatide (Mounjaro) Guide",           date: "May 2026" },
+  { href: "/compare",            emoji: "⚖️", title: "Compare All Weight Loss Injections",      date: "May 2026" },
+  { href: "/generic-semaglutide", emoji: "🧪", title: "Generic Semaglutide in Canada",         date: "May 2026" },
 ];
 
 export default function SaxendaPage() {
@@ -37,7 +37,7 @@ export default function SaxendaPage() {
       <ArticleHeader
         category="Medication Guide"
         readTime="8 min read"
-        date="May 2025"
+        date="May 2026"
         headline="Saxenda (Liraglutide) in Canada: Complete Guide"
         standfirst="Saxenda was Canada's first approved GLP-1 medication for weight management - but newer options like Wegovy and Mounjaro have largely superseded it for most patients."
         heroEmoji="💊"
@@ -54,7 +54,7 @@ export default function SaxendaPage() {
             { label: "Status",             value: "Available",          sub: "Being displaced by newer GLP-1s" },
           ].map((s) => (
             <div key={s.label} className="bg-[#EEF3FF] border border-[rgba(27,58,107,0.2)] rounded-xl p-4">
-              <p className="text-[11px] font-bold uppercase tracking-widest text-[#1B3A6B] mb-1">{s.label}</p>
+              <p className="text-xs font-bold uppercase tracking-widest text-[#1B3A6B] mb-1">{s.label}</p>
               <p className="text-base font-bold text-gray-900">{s.value}</p>
               <p className="text-xs text-gray-700 mt-0.5">{s.sub}</p>
             </div>

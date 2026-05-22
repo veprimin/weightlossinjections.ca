@@ -123,7 +123,7 @@ export default function DisclaimerPage() {
                 { code: "SK", name: "Saskatchewan" },
               ].map((p) => (
                 <div key={p.code} className="flex items-center gap-2 bg-white border border-[rgba(27,58,107,0.2)] rounded-lg px-3 py-2">
-                  <span className="text-[10px] font-bold text-[#1B3A6B] bg-[#E8EFFF] px-1.5 py-0.5 rounded">{p.code}</span>
+                  <span className="text-xs font-bold text-[#1B3A6B] bg-[#E8EFFF] px-1.5 py-0.5 rounded">{p.code}</span>
                   <span className="text-sm text-gray-700">{p.name}</span>
                 </div>
               ))}
@@ -168,7 +168,7 @@ export default function DisclaimerPage() {
               Editorial content on {SITE_NAME} is produced by our independent editorial team. We aim to present
               accurate, up-to-date information drawn from authoritative sources including:
             </p>
-            <ul className="list-disc list-inside text-gray-700 space-y-1 mb-4 text-[15px]">
+            <ul className="list-disc list-inside text-gray-700 space-y-1 mb-4 text-sm">
               <li>Health Canada drug approvals and monographs</li>
               <li>Peer-reviewed clinical trials (SUSTAIN, STEP, SURMOUNT series)</li>
               <li>Provincial drug formularies (ODB, PharmaCare, RAMQ, Alberta Blue Cross, etc.)</li>

@@ -26,10 +26,10 @@ const toc = [
 ];
 
 const related = [
-  { href: "/newfoundland",      emoji: "🌊", title: "Newfoundland & Labrador Guide",        date: "May 2025" },
-  { href: "/nova-scotia",       emoji: "🦞", title: "Nova Scotia: NS Pharmacare Guide",     date: "May 2025" },
-  { href: "/insurance-coverage",emoji: "🛡️", title: "National Insurance Coverage Guide",   date: "May 2025" },
-  { href: "/cost",              emoji: "💰", title: "Province-by-Province Cost Guide",     date: "May 2025" },
+  { href: "/newfoundland",      emoji: "🌊", title: "Newfoundland & Labrador Guide",        date: "May 2026" },
+  { href: "/nova-scotia",       emoji: "🦞", title: "Nova Scotia: NS Pharmacare Guide",     date: "May 2026" },
+  { href: "/insurance-coverage",emoji: "🛡️", title: "National Insurance Coverage Guide",   date: "May 2026" },
+  { href: "/cost",              emoji: "💰", title: "Province-by-Province Cost Guide",     date: "May 2026" },
 ];
 
 export default function PEIPage() {
@@ -38,7 +38,7 @@ export default function PEIPage() {
       <ArticleHeader
         category="Province Guide"
         readTime="5 min read"
-        date="May 2025"
+        date="May 2026"
         headline="Weight Loss Injections in Prince Edward Island: PEI Pharmacare & Access Guide"
         standfirst="PEI is Canada's smallest province by population but has above-average rates of obesity and diabetes. Here is what Islanders need to know about GLP-1 medication access and coverage."
       />
@@ -89,7 +89,7 @@ export default function PEIPage() {
         </p>
 
         <div className="bg-[#EEF3FF] border border-[rgba(27,58,107,0.2)] rounded-xl p-5 my-6">
-          <p className="text-[11px] font-bold uppercase tracking-widest text-[#1B3A6B] mb-2">PEI Access Note</p>
+          <p className="text-xs font-bold uppercase tracking-widest text-[#1B3A6B] mb-2">PEI Access Note</p>
           <p className="text-sm text-gray-900">
             The Catastrophic Drug Program is particularly valuable on PEI for Islanders who do not qualify for seniors or social assistance programs but face significant drug costs. If you are spending more than a set threshold on drugs relative to your income, contact PEI Health PEI at 1-800-321-5492 to check eligibility.
           </p>
@@ -119,7 +119,7 @@ export default function PEIPage() {
         </p>
 
         <h2 id="cost-pei">Cost on PEI Without Coverage</h2>
-        <p>Without insurance on PEI, approximate monthly costs as of May 2025:</p>
+        <p>Without insurance on PEI, approximate monthly costs as of May 2026:</p>
         <ul>
           <li><strong>Ozempic (0.5–2 mg):</strong> ~$235–$420/month</li>
           <li><strong>Wegovy (2.4 mg):</strong> ~$400–$430/month</li>
@@ -137,7 +137,7 @@ export default function PEIPage() {
         <p>Yes. Felix Health serves all of PEI and can arrange delivery to any island address.</p>
 
         <div className="bg-gray-50 border border-gray-200 rounded-xl p-5 mt-10 text-xs text-gray-700 leading-relaxed">
-          PEI Pharmacare eligibility and formulary listings change periodically. This information reflects policies as of May 2025. Contact Health PEI (1-800-321-5492) for current program eligibility and drug coverage details.
+          PEI Pharmacare eligibility and formulary listings change periodically. This information reflects policies as of May 2026. Contact Health PEI (1-800-321-5492) for current program eligibility and drug coverage details.
         </div>
       </div>
     </ArticleLayout>

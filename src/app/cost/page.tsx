@@ -28,10 +28,10 @@ const toc = [
 ];
 
 const related = [
-  { href: "/insurance-coverage", emoji: "🛡️", title: "Insurance Coverage Guide",              date: "May 2025" },
-  { href: "/semaglutide",        emoji: "💉", title: "Semaglutide (Ozempic & Wegovy) Guide",   date: "May 2025" },
-  { href: "/ontario",            emoji: "🍁", title: "Ontario Guide: ODB & Private Plans",     date: "May 2025" },
-  { href: "/compare",            emoji: "⚖️", title: "Compare All Medications",                date: "May 2025" },
+  { href: "/insurance-coverage", emoji: "🛡️", title: "Insurance Coverage Guide",              date: "May 2026" },
+  { href: "/semaglutide",        emoji: "💉", title: "Semaglutide (Ozempic & Wegovy) Guide",   date: "May 2026" },
+  { href: "/ontario",            emoji: "🍁", title: "Ontario Guide: ODB & Private Plans",     date: "May 2026" },
+  { href: "/compare",            emoji: "⚖️", title: "Compare All Medications",                date: "May 2026" },
 ];
 
 const provinceData = [
@@ -53,7 +53,7 @@ export default function CostPage() {
       <ArticleHeader
         category="Cost Guide"
         readTime="8 min read"
-        date="May 2025"
+        date="May 2026"
         headline="How Much Do Weight Loss Injections Cost in Canada? Province-by-Province Breakdown"
         standfirst="The cost of GLP-1 medications in Canada varies by drug, dose, province, and insurance coverage. Here is everything you need to budget for treatment - and how to reduce what you pay."
         heroEmoji="💰"
@@ -77,7 +77,7 @@ export default function CostPage() {
               <p className="text-xs font-bold text-gray-700 uppercase tracking-wider mb-1">{d.drug}</p>
               <p className="text-2xl font-bold text-[#1B3A6B]" style={{ fontFamily: "Georgia, serif" }}>{d.cost}</p>
               <p className="text-xs text-gray-700 mt-0.5">{d.sub}</p>
-              <p className="text-[10px] text-gray-600 mt-1">{d.dose}</p>
+              <p className="text-xs text-gray-600 mt-1">{d.dose}</p>
             </div>
           ))}
         </div>
@@ -110,7 +110,7 @@ export default function CostPage() {
             </tbody>
           </table>
         </div>
-        <p className="text-xs text-gray-600">Source: Pharmacy list prices, provincial formularies, and patient reports as of May 2025. Prices are approximate and subject to change. Consult your pharmacy for exact current pricing.</p>
+        <p className="text-xs text-gray-600">Source: Pharmacy list prices, provincial formularies, and patient reports as of May 2026. Prices are approximate and subject to change. Consult your pharmacy for exact current pricing.</p>
 
         <h2 id="wegovy-cost">Wegovy Cost in Canada</h2>
         <p>
@@ -176,7 +176,7 @@ export default function CostPage() {
         </p>
 
         <div className="bg-gray-50 border border-gray-200 rounded-xl p-5 mt-10 text-xs text-gray-700 leading-relaxed">
-          <strong>Note on prices:</strong> All costs are approximate and based on list prices as of May 2025. Actual prices may vary by pharmacy, province, and plan. Contact your pharmacy or insurance provider for exact current pricing. Generic pricing is based on typical market patterns and may differ once products fully launch.
+          <strong>Note on prices:</strong> All costs are approximate and based on list prices as of May 2026. Actual prices may vary by pharmacy, province, and plan. Contact your pharmacy or insurance provider for exact current pricing. Generic pricing is based on typical market patterns and may differ once products fully launch.
         </div>
       </div>
     </ArticleLayout>

@@ -28,10 +28,10 @@ const toc = [
 ];
 
 const related = [
-  { href: "/tirzepatide",      emoji: "⚗️", title: "Tirzepatide (Mounjaro) Guide",         date: "May 2025" },
-  { href: "/compare",          emoji: "⚖️", title: "Compare All Weight Loss Injections",     date: "May 2025" },
-  { href: "/cost",             emoji: "💰", title: "Province-by-Province Cost Breakdown",    date: "May 2025" },
-  { href: "/insurance-coverage", emoji: "🛡️", title: "Does Insurance Cover Ozempic?",       date: "May 2025" },
+  { href: "/tirzepatide",      emoji: "⚗️", title: "Tirzepatide (Mounjaro) Guide",         date: "May 2026" },
+  { href: "/compare",          emoji: "⚖️", title: "Compare All Weight Loss Injections",     date: "May 2026" },
+  { href: "/cost",             emoji: "💰", title: "Province-by-Province Cost Breakdown",    date: "May 2026" },
+  { href: "/insurance-coverage", emoji: "🛡️", title: "Does Insurance Cover Ozempic?",       date: "May 2026" },
 ];
 
 export default function SemaglutidePage() {
@@ -40,7 +40,7 @@ export default function SemaglutidePage() {
       <ArticleHeader
         category="In-Depth Guide"
         readTime="12 min read"
-        date="May 2025"
+        date="May 2026"
         headline="Semaglutide in Canada: The Complete Guide to Ozempic & Wegovy"
         standfirst="Semaglutide has transformed weight management globally. Here is everything Canadians need to know - from the biology to the pharmacy counter."
         heroEmoji="💉"
@@ -78,7 +78,7 @@ export default function SemaglutidePage() {
         </ul>
 
         <div className="bg-[#EEF3FF] border border-[rgba(27,58,107,0.2)] rounded-xl p-5 my-6">
-          <p className="text-[11px] font-bold uppercase tracking-widest text-[#1B3A6B] mb-3">Key Clinical Numbers</p>
+          <p className="text-xs font-bold uppercase tracking-widest text-[#1B3A6B] mb-3">Key Clinical Numbers</p>
           <ul className="space-y-2">
             {[
               "~15% average body weight loss over 68 weeks (STEP 1)",
