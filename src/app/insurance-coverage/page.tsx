@@ -56,7 +56,7 @@ export default function InsurancePage() {
         <div className="overflow-x-auto my-6 not-prose">
           <table className="w-full text-sm border-collapse border border-gray-200 rounded-xl overflow-hidden">
             <thead>
-              <tr className="text-white" style={{ background: "#0F6E56" }}>
+              <tr className="text-white" style={{ background: "#1B3A6B" }}>
                 <th className="text-left px-4 py-3 text-xs font-semibold">Drug</th>
                 <th className="text-left px-4 py-3 text-xs font-semibold">Indication</th>
                 <th className="text-left px-4 py-3 text-xs font-semibold">Provincial Plans</th>
@@ -162,7 +162,7 @@ export default function InsurancePage() {
         <div className="overflow-x-auto my-6 not-prose">
           <table className="w-full text-sm border-collapse border border-gray-200 rounded-xl overflow-hidden">
             <thead>
-              <tr className="text-white" style={{ background: "#0F6E56" }}>
+              <tr className="text-white" style={{ background: "#1B3A6B" }}>
                 <th className="text-left px-4 py-3 text-xs font-semibold">Province</th>
                 <th className="text-left px-4 py-3 text-xs font-semibold">Public Plan</th>
                 <th className="text-left px-4 py-3 text-xs font-semibold">Ozempic Coverage (Diabetes)</th>
@@ -204,7 +204,7 @@ export default function InsurancePage() {
         <h3>Will national pharmacare cover GLP-1 medications?</h3>
         <p>The federal government's pharmacare legislation (Bill C-64) is currently focused on diabetes medications and contraceptives. GLP-1 coverage for weight management under a national plan is not imminent as of 2025, though it is an active advocacy issue.</p>
 
-        <div className="bg-gray-50 border border-gray-200 rounded-xl p-5 mt-10 text-xs text-gray-500 leading-relaxed">
+        <div className="bg-gray-50 border border-gray-200 rounded-xl p-5 mt-10 text-xs text-gray-700 leading-relaxed">
           Coverage information reflects general policies as of May 2025. Drug plan formularies change frequently. Confirm coverage with your provincial plan or private insurer before filling a prescription.
         </div>
       </div>

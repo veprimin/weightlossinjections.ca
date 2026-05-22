@@ -24,8 +24,8 @@ const providers = [
     tagline: "Canada-wide digital-first healthcare with home delivery included",
     startingPrice: "From $39/month",
     badge: null,
-    accentColor: "#0F6E56",
-    accentLight: "#E1F5EE",
+    accentColor: "#1B3A6B",
+    accentLight: "#E8EFFF",
     features: [
       "Available in all 9 provinces served by our site",
       "Brand-name programs: Ozempic, Wegovy, Saxenda",
@@ -88,7 +88,7 @@ export default function ProviderCards() {
             <div className="shrink-0 flex flex-col items-start sm:items-end gap-3 sm:min-w-[170px]">
               <div className="text-left sm:text-right">
                 <p className="text-base font-bold text-gray-900">{p.startingPrice}</p>
-                <p className="text-[11px] text-gray-400">prescription included</p>
+                <p className="text-[11px] text-gray-600">prescription included</p>
               </div>
               <a
                 href={p.url}
@@ -103,7 +103,7 @@ export default function ProviderCards() {
           </div>
         </div>
       ))}
-      <p className="text-center text-[11px] text-gray-400">
+      <p className="text-center text-[11px] text-gray-600">
         Sponsored partners. Contains affiliate links. A licensed provider will confirm your eligibility.
       </p>
     </div>

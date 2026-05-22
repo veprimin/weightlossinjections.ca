@@ -60,9 +60,9 @@ export default function BritishColumbiaPage() {
             { label: "Home delivery",            value: "$0 extra", sub: "Via Novo Nordisk Care Rx" },
           ].map((s) => (
             <div key={s.label} className="bg-gray-50 border border-gray-200 rounded-xl p-4">
-              <p className="text-xl font-bold text-[#0F6E56]" style={{ fontFamily: "Georgia, serif" }}>{s.value}</p>
+              <p className="text-xl font-bold text-[#1B3A6B]" style={{ fontFamily: "Georgia, serif" }}>{s.value}</p>
               <p className="text-sm font-medium text-gray-900 mt-1">{s.label}</p>
-              <p className="text-xs text-gray-500 mt-0.5">{s.sub}</p>
+              <p className="text-xs text-gray-700 mt-0.5">{s.sub}</p>
             </div>
           ))}
         </div>
@@ -100,8 +100,8 @@ export default function BritishColumbiaPage() {
           If you are working with a virtual care provider like Felix Health, they are fully equipped to manage the SA submission process and can submit the request on your behalf after your online assessment.
         </p>
 
-        <div className="bg-[#F2FAF7] border border-[rgba(15,110,86,0.2)] rounded-xl p-5 my-6">
-          <p className="text-[11px] font-bold uppercase tracking-widest text-[#0F6E56] mb-2">BC PharmaCare Tip</p>
+        <div className="bg-[#EEF3FF] border border-[rgba(27,58,107,0.2)] rounded-xl p-5 my-6">
+          <p className="text-[11px] font-bold uppercase tracking-widest text-[#1B3A6B] mb-2">BC PharmaCare Tip</p>
           <p className="text-sm text-gray-900">
             BC PharmaCare's Fair PharmaCare plan automatically registers BC residents when they file their taxes. If you have not checked your PharmaCare deductible and coverage level recently, you can verify your status at the BC government's Health Insurance BC (HIBC) portal or by calling 1-800-663-7100.
           </p>
@@ -170,7 +170,7 @@ export default function BritishColumbiaPage() {
         <h3>Will BC PharmaCare cover generic semaglutide?</h3>
         <p>Generic semaglutide (Plosbrio and Poviztra) approved by Health Canada in 2025 will eventually be listed on the BC PharmaCare formulary for type 2 diabetes, subject to the same Special Authority criteria as Ozempic. Formulary listing typically follows Health Canada approval within 6–18 months.</p>
 
-        <div className="bg-gray-50 border border-gray-200 rounded-xl p-5 mt-10 text-xs text-gray-500 leading-relaxed">
+        <div className="bg-gray-50 border border-gray-200 rounded-xl p-5 mt-10 text-xs text-gray-700 leading-relaxed">
           BC PharmaCare criteria and formulary listings are subject to change. This information reflects publicly available policy as of May 2025. Verify current Special Authority criteria with your physician, pharmacist, or BC PharmaCare (1-800-663-7100).
         </div>
       </div>

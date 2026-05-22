@@ -20,9 +20,9 @@ export default function ProvinceGrid() {
               href={FELIX_LINK}
               target="_blank"
               rel="noopener sponsored"
-              className="inline-flex items-center rounded-full border border-gray-200 bg-gray-50 px-4 py-1.5 text-sm font-medium text-gray-700 transition-colors hover:border-[#0F6E56] hover:bg-[#E1F5EE] hover:text-[#0F6E56]"
+              className="inline-flex items-center rounded-full border border-gray-200 bg-gray-50 px-4 py-1.5 text-sm font-medium text-gray-700 transition-colors hover:border-[#1B3A6B] hover:bg-[#E8EFFF] hover:text-[#1B3A6B]"
             >
-              <span className="mr-1.5 h-1.5 w-1.5 rounded-full bg-[#1D9E75]" aria-hidden="true" />
+              <span className="mr-1.5 h-1.5 w-1.5 rounded-full bg-[#2D5FA8]" aria-hidden="true" />
               {p.name}
             </a>
           ))}

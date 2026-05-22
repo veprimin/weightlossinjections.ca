@@ -9,13 +9,13 @@ export default function AnnouncementBanner() {
   if (dismissed) return null;
 
   return (
-    <div className="flex h-9 items-center justify-center border-b border-[rgba(15,110,86,0.15)] bg-[#E1F5EE] px-4 text-xs sm:text-sm">
-      <p className="truncate text-[#063D2B]">
+    <div className="flex h-9 items-center justify-center border-b border-[rgba(27,58,107,0.15)] bg-[#E8EFFF] px-4 text-xs sm:text-sm">
+      <p className="truncate text-[#0F2547]">
         <span className="font-medium">Generic semaglutide update:</span>{" "}
         2 of 9 manufacturers now approved by Health Canada.{" "}
         <Link
           href="/semaglutide#generics"
-          className="inline-flex items-center font-semibold underline underline-offset-2 transition-colors hover:text-[#0F6E56]"
+          className="inline-flex items-center font-semibold underline underline-offset-2 transition-colors hover:text-[#1B3A6B]"
         >
           See what this means for prices&nbsp;&rarr;
         </Link>
@@ -23,7 +23,7 @@ export default function AnnouncementBanner() {
       <button
         type="button"
         onClick={() => setDismissed(true)}
-        className="ml-3 flex-shrink-0 rounded p-1.5 text-[#0F6E56] transition-colors hover:bg-[rgba(15,110,86,0.12)] min-h-[32px] min-w-[32px] flex items-center justify-center"
+        className="ml-3 flex-shrink-0 rounded p-1.5 text-[#1B3A6B] transition-colors hover:bg-[rgba(27,58,107,0.12)] min-h-[32px] min-w-[32px] flex items-center justify-center"
         aria-label="Dismiss banner"
       >
         <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">

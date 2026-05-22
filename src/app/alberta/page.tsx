@@ -59,9 +59,9 @@ export default function AlbertaPage() {
             { label: "Home delivery",           value: "$0 extra", sub: "Via Novo Nordisk Care Rx" },
           ].map((s) => (
             <div key={s.label} className="bg-gray-50 border border-gray-200 rounded-xl p-4">
-              <p className="text-xl font-bold text-[#0F6E56]" style={{ fontFamily: "Georgia, serif" }}>{s.value}</p>
+              <p className="text-xl font-bold text-[#1B3A6B]" style={{ fontFamily: "Georgia, serif" }}>{s.value}</p>
               <p className="text-sm font-medium text-gray-900 mt-1">{s.label}</p>
-              <p className="text-xs text-gray-500 mt-0.5">{s.sub}</p>
+              <p className="text-xs text-gray-700 mt-0.5">{s.sub}</p>
             </div>
           ))}
         </div>
@@ -85,8 +85,8 @@ export default function AlbertaPage() {
           <strong>Most working-age Albertans are not enrolled in government-sponsored Alberta Blue Cross.</strong> If you are employed, your drug coverage will typically come through an employer group benefits plan - which may or may not be administered by Alberta Blue Cross.
         </p>
 
-        <div className="bg-[#F2FAF7] border border-[rgba(15,110,86,0.2)] rounded-xl p-5 my-6">
-          <p className="text-[11px] font-bold uppercase tracking-widest text-[#0F6E56] mb-2">Alberta Coverage Note</p>
+        <div className="bg-[#EEF3FF] border border-[rgba(27,58,107,0.2)] rounded-xl p-5 my-6">
+          <p className="text-[11px] font-bold uppercase tracking-widest text-[#1B3A6B] mb-2">Alberta Coverage Note</p>
           <p className="text-sm text-gray-900">
             Alberta does not have a universal pharmacare program for working-age adults. If you are not enrolled in a government-sponsored benefit program and do not have employer benefits, you will pay full list price for GLP-1 medications. This makes Alberta one of the provinces where patient support programs and generic semaglutide access is most important.
           </p>
@@ -156,7 +156,7 @@ export default function AlbertaPage() {
         <h3>Will the step therapy requirement affect my Alberta employer plan?</h3>
         <p>Step therapy requirements vary by plan. If your plan requires evidence of prior treatment failure with metformin, your physician can provide documentation of your clinical history. Felix Health can assist in preparing prior authorization documentation for Alberta plans.</p>
 
-        <div className="bg-gray-50 border border-gray-200 rounded-xl p-5 mt-10 text-xs text-gray-500 leading-relaxed">
+        <div className="bg-gray-50 border border-gray-200 rounded-xl p-5 mt-10 text-xs text-gray-700 leading-relaxed">
           Alberta drug benefit criteria and employer plan formularies are subject to change. This information reflects general policies as of May 2025. Verify current coverage with Alberta Blue Cross (1-800-661-6995) or your employer plan administrator.
         </div>
       </div>

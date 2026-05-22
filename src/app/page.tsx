@@ -18,8 +18,8 @@ export const metadata: Metadata = {
 const featuredArticles = [
   {
     href: "/semaglutide",
-    accentColor: "#0F6E56",
-    accentLight: "#E1F5EE",
+    accentColor: "#1B3A6B",
+    accentLight: "#E8EFFF",
     category: "In-Depth Guide",
     readTime: "12 min",
     date: "May 2025",
@@ -64,10 +64,10 @@ export default function HomePage() {
       <AnnouncementBanner />
 
       {/* ── Hero ─────────────────────────────────────────────── */}
-      <section className="border-b border-gray-100 bg-gradient-to-b from-[#E1F5EE]/50 to-white">
+      <section className="border-b border-gray-100 bg-gradient-to-b from-[#E8EFFF]/50 to-white">
         <div className="mx-auto max-w-3xl px-4 pb-12 pt-10 sm:px-6 sm:pb-16 sm:pt-14 lg:px-8">
           <div className="mb-8 text-center">
-            <p className="mb-3 inline-flex items-center gap-1.5 rounded-full border border-[rgba(15,110,86,0.25)] bg-[#E1F5EE] px-3 py-1 text-xs font-medium text-[#0F6E56]">
+            <p className="mb-3 inline-flex items-center gap-1.5 rounded-full border border-[rgba(27,58,107,0.25)] bg-[#E8EFFF] px-3 py-1 text-xs font-medium text-[#1B3A6B]">
               Canada&rsquo;s independent GLP-1 editorial guide
             </p>
             <h1
@@ -75,7 +75,7 @@ export default function HomePage() {
               style={{ fontFamily: "var(--font-playfair, Georgia, serif)" }}
             >
               Weight Loss Injections in{" "}
-              <span className="text-[#0F6E56]">Canada</span>
+              <span className="text-[#1B3A6B]">Canada</span>
             </h1>
             <p className="mt-3 text-xl font-semibold tracking-tight text-gray-800 sm:text-2xl">
               Ozempic. Wegovy. Mounjaro. Rybelsus.
@@ -88,7 +88,7 @@ export default function HomePage() {
           <div className="flex flex-col items-stretch gap-3 sm:flex-row sm:items-center sm:justify-center">
             <Link
               href="/compare"
-              className="inline-flex items-center justify-center gap-2 rounded-lg bg-[#0F6E56] px-8 py-3.5 text-base font-bold text-white shadow-md transition-all hover:bg-[#063D2B] active:shadow-sm sm:w-auto"
+              className="inline-flex items-center justify-center gap-2 rounded-lg bg-[#1B3A6B] px-8 py-3.5 text-base font-bold text-white shadow-md transition-all hover:bg-[#0F2547] active:shadow-sm sm:w-auto"
             >
               <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
                 <path d="m10.5 20.5 10-10a4.95 4.95 0 1 0-7-7l-10 10a4.95 4.95 0 1 0 7 7Z"/><path d="m8.5 8.5 7 7"/>
@@ -117,7 +117,7 @@ export default function HomePage() {
           <div className="mt-3 text-center">
             <a
               href="#guides"
-              className="inline-flex items-center gap-1 py-3 text-sm font-semibold text-[#0F6E56] hover:text-[#063D2B]"
+              className="inline-flex items-center gap-1 py-3 text-sm font-semibold text-[#1B3A6B] hover:text-[#0F2547]"
             >
               Read our medication guides
               <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
@@ -128,20 +128,20 @@ export default function HomePage() {
 
           {/* Trust badges */}
           <div className="mt-6 flex flex-wrap items-center justify-center gap-x-6 gap-y-2">
-            <div className="flex items-center gap-1.5 text-[13px] text-gray-500">
-              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true" className="text-gray-400">
+            <div className="flex items-center gap-1.5 text-[13px] text-gray-700">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true" className="text-gray-600">
                 <path d="M3 12a9 9 0 0 1 9-9 9.75 9.75 0 0 1 6.74 2.74L21 8"/><path d="M21 3v5h-5"/><path d="M21 12a9 9 0 0 1-9 9 9.75 9.75 0 0 1-6.74-2.74L3 16"/><path d="M8 16H3v5"/>
               </svg>
               Updated monthly
             </div>
-            <div className="flex items-center gap-1.5 text-[13px] text-gray-500">
-              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true" className="text-gray-400">
+            <div className="flex items-center gap-1.5 text-[13px] text-gray-700">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true" className="text-gray-600">
                 <path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z"/>
               </svg>
               Independent - no pharma funding
             </div>
-            <div className="flex items-center gap-1.5 text-[13px] text-gray-500">
-              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true" className="text-gray-400">
+            <div className="flex items-center gap-1.5 text-[13px] text-gray-700">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true" className="text-gray-600">
                 <path d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0"/><circle cx="12" cy="10" r="3"/>
               </svg>
               Canadian content only
@@ -157,10 +157,10 @@ export default function HomePage() {
             <Link
               href="#guides"
               aria-label="Read our medication guides"
-              className="flex flex-1 items-start gap-4 rounded-xl border-2 border-[rgba(15,110,86,0.2)] bg-[#E1F5EE]/30 p-5 text-left transition-colors hover:border-[#0F6E56] hover:bg-[#E1F5EE]/60 focus:outline-none focus-visible:ring-2 focus-visible:ring-[#0F6E56] focus-visible:ring-offset-2"
+              className="flex flex-1 items-start gap-4 rounded-xl border-2 border-[rgba(27,58,107,0.2)] bg-[#E8EFFF]/30 p-5 text-left transition-colors hover:border-[#1B3A6B] hover:bg-[#E8EFFF]/60 focus:outline-none focus-visible:ring-2 focus-visible:ring-[#1B3A6B] focus-visible:ring-offset-2"
             >
-              <div className="flex h-10 w-10 flex-shrink-0 items-center justify-center rounded-lg bg-[#E1F5EE]">
-                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true" className="text-[#0F6E56]">
+              <div className="flex h-10 w-10 flex-shrink-0 items-center justify-center rounded-lg bg-[#E8EFFF]">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true" className="text-[#1B3A6B]">
                   <path d="M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H20v20H6.5a2.5 2.5 0 0 1 0-5H20"/>
                 </svg>
               </div>
@@ -207,7 +207,7 @@ export default function HomePage() {
                 >
                   {s.value}
                 </span>
-                <span className="mt-1 block text-[11.5px] leading-snug text-gray-500">{s.label}</span>
+                <span className="mt-1 block text-[11.5px] leading-snug text-gray-700">{s.label}</span>
               </div>
             ))}
           </div>
@@ -231,7 +231,7 @@ export default function HomePage() {
             </div>
             <Link
               href="/compare"
-              className="inline-flex items-center gap-1.5 text-sm font-medium text-[#0F6E56] hover:text-[#063D2B]"
+              className="inline-flex items-center gap-1.5 text-sm font-medium text-[#1B3A6B] hover:text-[#0F2547]"
             >
               See drug comparison
               <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
@@ -259,10 +259,10 @@ export default function HomePage() {
                   <span className="text-[10.5px] font-bold uppercase tracking-widest" style={{ color: a.accentColor }}>
                     {a.category}
                   </span>
-                  <span className="text-[11px] text-gray-400">{a.date} &middot; {a.readTime} read</span>
+                  <span className="text-[11px] text-gray-600">{a.date} &middot; {a.readTime} read</span>
                 </div>
                 <h3
-                  className="text-[17px] font-bold leading-snug text-gray-900 transition-colors group-hover:text-[#0F6E56]"
+                  className="text-[17px] font-bold leading-snug text-gray-900 transition-colors group-hover:text-[#1B3A6B]"
                   style={{ fontFamily: "var(--font-playfair, Georgia, serif)" }}
                 >
                   {a.title}
@@ -283,16 +283,16 @@ export default function HomePage() {
       {/* ── Quick Links ──────────────────────────────────────── */}
       <section className="border-b border-gray-100 bg-gray-50/60 py-10 sm:py-12">
         <div className="mx-auto max-w-5xl px-4 sm:px-6 lg:px-8">
-          <h2 className="mb-6 text-sm font-bold uppercase tracking-widest text-gray-400">Quick Guides</h2>
+          <h2 className="mb-6 text-sm font-bold uppercase tracking-widest text-gray-700">Quick Guides</h2>
           <div className="grid grid-cols-2 gap-5 md:grid-cols-4">
             {quickLinks.map((q) => (
               <Link
                 key={q.href}
                 href={q.href}
-                className="group flex flex-col gap-1 rounded-xl border border-gray-200 bg-white p-5 transition-all hover:border-[#0F6E56] hover:shadow-sm"
+                className="group flex flex-col gap-1 rounded-xl border border-gray-200 bg-white p-5 transition-all hover:border-[#1B3A6B] hover:shadow-sm"
               >
-                <p className="font-semibold text-gray-900 text-sm group-hover:text-[#0F6E56] transition-colors">{q.label}</p>
-                <p className="text-xs text-gray-500">{q.sub}</p>
+                <p className="font-semibold text-gray-900 text-sm group-hover:text-[#1B3A6B] transition-colors">{q.label}</p>
+                <p className="text-xs text-gray-700">{q.sub}</p>
               </Link>
             ))}
           </div>
@@ -309,7 +309,7 @@ export default function HomePage() {
             >
               How it works
             </h2>
-            <p className="mt-1.5 text-sm text-gray-500">From research to prescription, here&rsquo;s the typical path.</p>
+            <p className="mt-1.5 text-sm text-gray-700">From research to prescription, here&rsquo;s the typical path.</p>
           </div>
           <div className="grid gap-8 sm:grid-cols-3">
             {[
@@ -318,7 +318,7 @@ export default function HomePage() {
                 title: "Research your options",
                 desc: "Read our evidence-based guides to understand which medication may suit you - costs, side effects, eligibility by province.",
                 icon: (
-                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true" className="text-[#0F6E56]">
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true" className="text-[#1B3A6B]">
                     <circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/>
                   </svg>
                 ),
@@ -328,7 +328,7 @@ export default function HomePage() {
                 title: "Get a prescription online",
                 desc: "A licensed Canadian provider reviews your eligibility in minutes. No clinic visit, no waiting room. All done from home.",
                 icon: (
-                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true" className="text-[#0F6E56]">
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true" className="text-[#1B3A6B]">
                     <path d="M11 2v2"/><path d="M5 2v2"/><path d="M5 3H4a2 2 0 0 0-2 2v4a6 6 0 0 0 12 0V5a2 2 0 0 0-2-2h-1"/><path d="M8 15a6 6 0 0 0 12 0v-3"/><circle cx="20" cy="10" r="2"/>
                   </svg>
                 ),
@@ -338,17 +338,17 @@ export default function HomePage() {
                 title: "Medication delivered to you",
                 desc: "Your medication is dispensed by a licensed Canadian pharmacy and shipped directly to your door - often with free delivery.",
                 icon: (
-                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true" className="text-[#0F6E56]">
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true" className="text-[#1B3A6B]">
                     <path d="M19 5c-1.5 0-2.8 1.4-3 2-3.5-1.5-11-.3-11 5 0 1.8 0 3 2 4.5V20h4v-2h3v2h4v-4c1-.5 1.7-1 2-2h2v-4h-2c0-1-.5-1.5-1-2V5z"/><path d="M2 9v1c0 1.1.9 2 2 2h1"/><path d="M16 11h.01"/>
                   </svg>
                 ),
               },
             ].map((item) => (
               <div key={item.step} className="text-center">
-                <div className="mx-auto mb-4 flex h-12 w-12 items-center justify-center rounded-xl bg-[#E1F5EE]">
+                <div className="mx-auto mb-4 flex h-12 w-12 items-center justify-center rounded-xl bg-[#E8EFFF]">
                   {item.icon}
                 </div>
-                <p className="mb-2 text-xs font-semibold uppercase tracking-wider text-[#0F6E56]">Step {item.step}</p>
+                <p className="mb-2 text-xs font-semibold uppercase tracking-wider text-[#1B3A6B]">Step {item.step}</p>
                 <h3 className="mb-2 text-base font-semibold text-gray-900">{item.title}</h3>
                 <p className="text-sm leading-relaxed text-gray-800">{item.desc}</p>
               </div>
@@ -360,10 +360,10 @@ export default function HomePage() {
       {/* ── Savings Card CTA ─────────────────────────────────── */}
       <section className="border-b border-gray-100 bg-white py-10 sm:py-12">
         <div className="mx-auto max-w-5xl px-4 sm:px-6 lg:px-8">
-          <div className="rounded-xl border border-[rgba(15,110,86,0.2)] bg-[#E1F5EE]/30 p-6 shadow-sm sm:p-8">
+          <div className="rounded-xl border border-[rgba(27,58,107,0.2)] bg-[#E8EFFF]/30 p-6 shadow-sm sm:p-8">
             <div className="flex flex-col gap-5 sm:flex-row sm:items-center">
-              <div className="flex h-12 w-12 flex-shrink-0 items-center justify-center rounded-xl bg-[#E1F5EE]">
-                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true" className="text-[#0F6E56]">
+              <div className="flex h-12 w-12 flex-shrink-0 items-center justify-center rounded-xl bg-[#E8EFFF]">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true" className="text-[#1B3A6B]">
                   <rect width="20" height="14" x="2" y="5" rx="2"/><line x1="2" x2="22" y1="10" y2="10"/>
                 </svg>
               </div>
@@ -380,7 +380,7 @@ export default function HomePage() {
               </div>
               <Link
                 href="/semaglutide#generics"
-                className="inline-flex w-full items-center justify-center gap-1.5 rounded-lg bg-[#0F6E56] px-6 py-3 text-sm font-semibold text-white shadow-sm transition-colors hover:bg-[#063D2B] sm:w-auto sm:flex-shrink-0"
+                className="inline-flex w-full items-center justify-center gap-1.5 rounded-lg bg-[#1B3A6B] px-6 py-3 text-sm font-semibold text-white shadow-sm transition-colors hover:bg-[#0F2547] sm:w-auto sm:flex-shrink-0"
               >
                 Read the full update
                 <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
@@ -410,7 +410,7 @@ export default function HomePage() {
                 Licensed Canadian telehealth. Prescriptions and delivery included.
               </p>
             </div>
-            <span className="inline-flex items-center rounded-full border border-gray-200 bg-gray-50 px-3 py-1 text-[11px] font-medium text-gray-500">
+            <span className="inline-flex items-center rounded-full border border-gray-200 bg-gray-50 px-3 py-1 text-[11px] font-medium text-gray-700">
               Contains sponsored content
             </span>
           </div>
@@ -419,10 +419,10 @@ export default function HomePage() {
       </section>
 
       {/* ── Stay Informed ────────────────────────────────────── */}
-      <section className="bg-[#063D2B] py-14 sm:py-20">
+      <section className="bg-[#0F2547] py-14 sm:py-20">
         <div className="mx-auto max-w-xl px-4 sm:px-6 lg:px-8">
           <div className="mb-2 text-center">
-            <p className="text-sm font-medium text-[#5DCAA5]">Stay up to date</p>
+            <p className="text-sm font-medium text-[#4B7EC8]">Stay up to date</p>
           </div>
           <div className="rounded-xl border border-white/10 bg-white/5 px-6 py-8 sm:px-8">
             <div className="mb-6 text-center">
@@ -449,7 +449,7 @@ export default function HomePage() {
               </div>
               <button
                 type="submit"
-                className="flex w-full items-center justify-center gap-2 rounded-lg bg-[#0F6E56] px-4 py-3.5 text-base font-semibold text-white shadow-sm transition-colors hover:bg-[#1D9E75]"
+                className="flex w-full items-center justify-center gap-2 rounded-lg bg-[#1B3A6B] px-4 py-3.5 text-base font-semibold text-white shadow-sm transition-colors hover:bg-[#2D5FA8]"
               >
                 <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
                   <path d="M10.268 21a2 2 0 0 0 3.464 0"/><path d="M3.262 15.326A1 1 0 0 0 4 17h16a1 1 0 0 0 .74-1.673C19.41 13.956 18 12.499 18 8A6 6 0 0 0 6 8c0 4.499-1.411 5.956-2.738 7.326"/>

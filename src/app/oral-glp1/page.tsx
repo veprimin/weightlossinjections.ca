@@ -165,7 +165,7 @@ export default function OralGlp1Page() {
         <h3>Is there a generic oral semaglutide?</h3>
         <p>Not as of mid-2025. The Health Canada approvals for generic semaglutide announced in 2025 are for injectable formulations only. Generic oral semaglutide is likely years away.</p>
 
-        <div className="bg-gray-50 border border-gray-200 rounded-xl p-5 mt-10 text-xs text-gray-500 leading-relaxed">
+        <div className="bg-gray-50 border border-gray-200 rounded-xl p-5 mt-10 text-xs text-gray-700 leading-relaxed">
           <strong>Medical disclaimer:</strong> This article is for informational purposes only and does not constitute medical advice. Rybelsus requires a prescription from a licensed healthcare provider.
         </div>
       </div>

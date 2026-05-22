@@ -74,14 +74,14 @@ export default function CostPage() {
             { drug: "Rybelsus",dose: "7–14 mg",   cost: "$200–$350", sub: "per month" },
           ].map((d) => (
             <div key={d.drug} className="bg-gray-50 border border-gray-200 rounded-xl p-4 text-center">
-              <p className="text-xs font-bold text-gray-500 uppercase tracking-wider mb-1">{d.drug}</p>
-              <p className="text-2xl font-bold text-[#0F6E56]" style={{ fontFamily: "Georgia, serif" }}>{d.cost}</p>
-              <p className="text-xs text-gray-500 mt-0.5">{d.sub}</p>
-              <p className="text-[10px] text-gray-400 mt-1">{d.dose}</p>
+              <p className="text-xs font-bold text-gray-700 uppercase tracking-wider mb-1">{d.drug}</p>
+              <p className="text-2xl font-bold text-[#1B3A6B]" style={{ fontFamily: "Georgia, serif" }}>{d.cost}</p>
+              <p className="text-xs text-gray-700 mt-0.5">{d.sub}</p>
+              <p className="text-[10px] text-gray-600 mt-1">{d.dose}</p>
             </div>
           ))}
         </div>
-        <p className="text-sm text-gray-500 -mt-2 mb-6">Prices are approximate list prices without insurance. Actual costs vary by province, pharmacy, and plan. Generics will reduce these figures significantly.</p>
+        <p className="text-sm text-gray-700 -mt-2 mb-6">Prices are approximate list prices without insurance. Actual costs vary by province, pharmacy, and plan. Generics will reduce these figures significantly.</p>
 
         <h2 id="ozempic-cost">Ozempic Cost by Province</h2>
         <p>
@@ -91,7 +91,7 @@ export default function CostPage() {
         <div className="overflow-x-auto my-6 not-prose">
           <table className="w-full text-sm border-collapse border border-gray-200 rounded-xl overflow-hidden">
             <thead>
-              <tr className="text-white" style={{ background: "#0F6E56" }}>
+              <tr className="text-white" style={{ background: "#1B3A6B" }}>
                 <th className="text-left px-4 py-3 text-xs font-semibold">Province</th>
                 <th className="text-left px-4 py-3 text-xs font-semibold">Ozempic / month</th>
                 <th className="text-left px-4 py-3 text-xs font-semibold">Wegovy / month</th>
@@ -110,7 +110,7 @@ export default function CostPage() {
             </tbody>
           </table>
         </div>
-        <p className="text-xs text-gray-400">Source: Pharmacy list prices, provincial formularies, and patient reports as of May 2025. Prices are approximate and subject to change. Consult your pharmacy for exact current pricing.</p>
+        <p className="text-xs text-gray-600">Source: Pharmacy list prices, provincial formularies, and patient reports as of May 2025. Prices are approximate and subject to change. Consult your pharmacy for exact current pricing.</p>
 
         <h2 id="wegovy-cost">Wegovy Cost in Canada</h2>
         <p>
@@ -175,7 +175,7 @@ export default function CostPage() {
           Virtual care platforms like <a href="https://afflat3e1.com/trk/lnk/9AC89778-AF07-4236-94B8-94E9519B0116/?o=29537&c=918271&a=776838&k=9244A3303B13F605EF0D210C5B870AF8&l=33492" target="_blank" rel="noopener sponsored">Felix Health</a> coordinate the entire process - assessment, prescription, and delivery - from a single platform at no premium over standard dispensing prices.
         </p>
 
-        <div className="bg-gray-50 border border-gray-200 rounded-xl p-5 mt-10 text-xs text-gray-500 leading-relaxed">
+        <div className="bg-gray-50 border border-gray-200 rounded-xl p-5 mt-10 text-xs text-gray-700 leading-relaxed">
           <strong>Note on prices:</strong> All costs are approximate and based on list prices as of May 2025. Actual prices may vary by pharmacy, province, and plan. Contact your pharmacy or insurance provider for exact current pricing. Generic pricing is based on typical market patterns and may differ once products fully launch.
         </div>
       </div>

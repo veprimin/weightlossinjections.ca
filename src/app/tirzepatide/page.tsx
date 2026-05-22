@@ -167,7 +167,7 @@ export default function TirzepatidePage() {
         <h3>Does Zepbound exist in Canada?</h3>
         <p>As of 2025, Zepbound has not received a separate Health Canada approval. Mounjaro (the same molecule, approved for diabetes) is available and frequently prescribed off-label for weight management.</p>
 
-        <div className="bg-gray-50 border border-gray-200 rounded-xl p-5 mt-10 text-xs text-gray-500 leading-relaxed">
+        <div className="bg-gray-50 border border-gray-200 rounded-xl p-5 mt-10 text-xs text-gray-700 leading-relaxed">
           <strong>Medical disclaimer:</strong> This article is for informational purposes only and does not constitute medical advice. Tirzepatide requires a prescription from a licensed healthcare provider. Off-label prescribing is at the discretion of the treating physician.
         </div>
       </div>

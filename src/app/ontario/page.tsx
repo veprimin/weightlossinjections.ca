@@ -65,9 +65,9 @@ export default function OntarioPage() {
             { label: "Home delivery",        value: "$0 extra", sub: "Via Novo Nordisk Care Rx" },
           ].map((s) => (
             <div key={s.label} className="bg-gray-50 border border-gray-200 rounded-xl p-4">
-              <p className="text-xl font-bold text-[#0F6E56]" style={{ fontFamily: "Georgia, serif" }}>{s.value}</p>
+              <p className="text-xl font-bold text-[#1B3A6B]" style={{ fontFamily: "Georgia, serif" }}>{s.value}</p>
               <p className="text-sm font-medium text-gray-900 mt-1">{s.label}</p>
-              <p className="text-xs text-gray-500 mt-0.5">{s.sub}</p>
+              <p className="text-xs text-gray-700 mt-0.5">{s.sub}</p>
             </div>
           ))}
         </div>
@@ -88,8 +88,8 @@ export default function OntarioPage() {
           If you qualify, ODB covers the full cost of Ozempic subject to your regular ODB co-payment (which is income-based for most eligible Ontarians, typically $0–$6.11 per prescription for those on OW/ODSP, and a $100 annual deductible plus 25% co-pay for seniors).
         </p>
 
-        <div className="bg-[#F2FAF7] border border-[rgba(15,110,86,0.2)] rounded-xl p-5 my-6">
-          <p className="text-[11px] font-bold uppercase tracking-widest text-[#0F6E56] mb-2">ODB Tip for Ontario Patients</p>
+        <div className="bg-[#EEF3FF] border border-[rgba(27,58,107,0.2)] rounded-xl p-5 my-6">
+          <p className="text-[11px] font-bold uppercase tracking-widest text-[#1B3A6B] mb-2">ODB Tip for Ontario Patients</p>
           <p className="text-sm text-gray-900">
             When your physician submits the Ozempic prescription, they must include the Limited Use code (LU). This is a specific code that tells the ODB system the clinical reason for the prescription. Without it, the claim will be rejected. Make sure your physician knows to include the LU code - your pharmacist can also assist in identifying the correct one.
           </p>
@@ -172,7 +172,7 @@ export default function OntarioPage() {
         <h3>Will Ontario ODB cover generic semaglutide for weight loss?</h3>
         <p>There is no indication that ODB will expand coverage to include generic semaglutide for weight management (without diabetes) in the near term. Coverage for generics on ODB is tied to approved indications, which does not yet include weight management alone.</p>
 
-        <div className="bg-gray-50 border border-gray-200 rounded-xl p-5 mt-10 text-xs text-gray-500 leading-relaxed">
+        <div className="bg-gray-50 border border-gray-200 rounded-xl p-5 mt-10 text-xs text-gray-700 leading-relaxed">
           Ontario ODB criteria and formulary listings are subject to change. This information reflects publicly available policy as of May 2025. Verify current criteria with your physician, pharmacist, or the Ontario Drug Benefit formulary database.
         </div>
       </div>

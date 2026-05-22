@@ -54,8 +54,8 @@ export default function DisclaimerPage() {
 
       <div className="max-w-3xl mx-auto px-4 sm:px-6 py-14">
         {/* Breadcrumb */}
-        <nav className="text-sm text-gray-500 mb-8" aria-label="Breadcrumb">
-          <Link href="/" className="hover:text-[#0F6E56] transition-colors">Home</Link>
+        <nav className="text-sm text-gray-700 mb-8" aria-label="Breadcrumb">
+          <Link href="/" className="hover:text-[#1B3A6B] transition-colors">Home</Link>
           <span className="mx-2">›</span>
           <span className="text-gray-900">Disclaimer</span>
         </nav>
@@ -66,7 +66,7 @@ export default function DisclaimerPage() {
         >
           Disclaimer, Disclosures &amp; Editorial Standards
         </h1>
-        <p className="text-gray-500 text-sm mb-10">Last updated: May 18, 2026</p>
+        <p className="text-gray-700 text-sm mb-10">Last updated: May 18, 2026</p>
 
         <div className="prose-editorial space-y-10">
 
@@ -103,8 +103,8 @@ export default function DisclaimerPage() {
             <h2 className="text-xl font-bold text-gray-900 mb-3" style={{ fontFamily: "Georgia, serif" }}>
               Province &amp; Territory Availability
             </h2>
-            <div className="bg-[#E1F5EE] border border-[rgba(15,110,86,0.25)] rounded-xl p-5 mb-5">
-              <p className="text-[#063D2B] text-sm leading-relaxed">{PROVINCE_DISCLAIMER}</p>
+            <div className="bg-[#E8EFFF] border border-[rgba(15,110,86,0.25)] rounded-xl p-5 mb-5">
+              <p className="text-[#0F2547] text-sm leading-relaxed">{PROVINCE_DISCLAIMER}</p>
             </div>
             <p className="text-gray-900 leading-relaxed mb-4">
               Online prescription services for GLP-1 medications through our affiliate partner{" "}
@@ -122,8 +122,8 @@ export default function DisclaimerPage() {
                 { code: "PE", name: "Prince Edward Island" },
                 { code: "SK", name: "Saskatchewan" },
               ].map((p) => (
-                <div key={p.code} className="flex items-center gap-2 bg-white border border-[rgba(15,110,86,0.2)] rounded-lg px-3 py-2">
-                  <span className="text-[10px] font-bold text-[#0F6E56] bg-[#E1F5EE] px-1.5 py-0.5 rounded">{p.code}</span>
+                <div key={p.code} className="flex items-center gap-2 bg-white border border-[rgba(27,58,107,0.2)] rounded-lg px-3 py-2">
+                  <span className="text-[10px] font-bold text-[#1B3A6B] bg-[#E8EFFF] px-1.5 py-0.5 rounded">{p.code}</span>
                   <span className="text-sm text-gray-700">{p.name}</span>
                 </div>
               ))}
@@ -203,13 +203,13 @@ export default function DisclaimerPage() {
 
           {/* Contact */}
           <section id="contact" className="border-t border-gray-200 pt-8">
-            <p className="text-sm text-gray-500">
+            <p className="text-sm text-gray-700">
               Questions about this disclosure? Contact us at{" "}
-              <a href="mailto:editorial@weightlossinjections.ca" className="text-[#0F6E56] hover:underline">
+              <a href="mailto:editorial@weightlossinjections.ca" className="text-[#1B3A6B] hover:underline">
                 editorial@weightlossinjections.ca
               </a>
               . Return to{" "}
-              <Link href="/" className="text-[#0F6E56] hover:underline">
+              <Link href="/" className="text-[#1B3A6B] hover:underline">
                 WeightLossInjections.ca
               </Link>
               .

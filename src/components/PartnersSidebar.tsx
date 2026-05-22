@@ -16,7 +16,7 @@ const partners = [
     url: FELIX_LINK,
     price: "From $39/mo",
     tagline: "Online prescriptions. Home delivery across Canada.",
-    accentColor: "#0F6E56",
+    accentColor: "#1B3A6B",
     cta: "Check eligibility",
   },
 ];
@@ -25,7 +25,7 @@ export default function PartnersSidebar() {
   return (
     <div className="rounded-xl border border-gray-200 overflow-hidden bg-white">
       <div className="px-4 py-3 bg-gray-50 border-b border-gray-200">
-        <p className="text-[10px] font-bold uppercase tracking-widest text-gray-400">
+        <p className="text-[10px] font-bold uppercase tracking-widest text-gray-600">
           Sponsored Partners
         </p>
       </div>

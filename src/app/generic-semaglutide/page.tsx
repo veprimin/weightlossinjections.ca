@@ -76,12 +76,12 @@ export default function GenericSemaglutidePage() {
           ].map((g) => (
             <div key={g.brand} className="border border-gray-200 rounded-xl p-5 bg-white">
               <div className="flex items-center gap-2.5 mb-3">
-                <div className="w-8 h-8 rounded-lg bg-[#E1F5EE] flex items-center justify-center text-[#0F6E56] font-bold text-sm shrink-0">
+                <div className="w-8 h-8 rounded-lg bg-[#E8EFFF] flex items-center justify-center text-[#1B3A6B] font-bold text-sm shrink-0">
                   {g.brand.charAt(0)}
                 </div>
                 <div>
                   <h3 className="text-[15px] font-bold text-gray-900" style={{ fontFamily: "Georgia, serif" }}>{g.brand}</h3>
-                  <p className="text-[11px] text-gray-500">{g.manufacturer} &middot; {g.origin}</p>
+                  <p className="text-[11px] text-gray-700">{g.manufacturer} &middot; {g.origin}</p>
                 </div>
               </div>
               <p className="text-sm text-gray-800 leading-relaxed">{g.note}</p>
@@ -108,8 +108,8 @@ export default function GenericSemaglutidePage() {
           The practical implication: getting on semaglutide now at current (or slightly reduced) prices positions you to benefit from further price drops as the generic market matures. Switching between semaglutide products requires a new prescription, but no dose adjustment is typically needed.
         </p>
 
-        <div className="bg-[#F2FAF7] border border-[rgba(15,110,86,0.2)] rounded-xl p-5 my-6">
-          <p className="text-[11px] font-bold uppercase tracking-widest text-[#0F6E56] mb-3">Price Projection Summary</p>
+        <div className="bg-[#EEF3FF] border border-[rgba(27,58,107,0.2)] rounded-xl p-5 my-6">
+          <p className="text-[11px] font-bold uppercase tracking-widest text-[#1B3A6B] mb-3">Price Projection Summary</p>
           <ul className="space-y-2">
             {[
               "Brand-name Ozempic (current): ~$220-$450/month depending on dose",
@@ -119,7 +119,7 @@ export default function GenericSemaglutidePage() {
               "Timeline to full price impact: 12-24 months after initial availability",
             ].map((f) => (
               <li key={f} className="flex gap-2 text-sm text-gray-900">
-                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#0F6E56" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true" className="mt-0.5 shrink-0">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#1B3A6B" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true" className="mt-0.5 shrink-0">
                   <circle cx="12" cy="12" r="10"/><path d="m9 12 2 2 4-4"/>
                 </svg>
                 {f}
@@ -206,7 +206,7 @@ export default function GenericSemaglutidePage() {
         <h3>Are there more generic approvals coming?</h3>
         <p>Yes. As of mid-2025, Health Canada had multiple additional generic semaglutide submissions under review. Expect further competition - and further price pressure - as additional manufacturers receive approval over the following 12-24 months.</p>
 
-        <div className="bg-gray-50 border border-gray-200 rounded-xl p-5 mt-10 text-xs text-gray-500 leading-relaxed">
+        <div className="bg-gray-50 border border-gray-200 rounded-xl p-5 mt-10 text-xs text-gray-700 leading-relaxed">
           <strong>Note:</strong> Generic availability, pricing, and provincial formulary listings change frequently. This article reflects information as of May 2025. Verify current availability with your pharmacist. Price projections are estimates based on historical generic drug market patterns and may differ from actual outcomes.
         </div>
       </div>

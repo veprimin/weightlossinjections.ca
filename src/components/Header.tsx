@@ -15,16 +15,11 @@ export default function Header() {
 
         {/* Logo */}
         <Link href="/" className="flex items-center gap-2 transition-opacity hover:opacity-80">
-          <div className="flex h-8 w-8 items-center justify-center rounded-lg bg-[#0F6E56]">
-            <svg className="h-4 w-4 text-white" fill="none" stroke="currentColor" strokeWidth={2} strokeLinecap="round" strokeLinejoin="round" viewBox="0 0 24 24" aria-hidden="true">
-              <path d="m10.5 20.5 10-10a4.95 4.95 0 1 0-7-7l-10 10a4.95 4.95 0 1 0 7 7Z"/><path d="m8.5 8.5 7 7"/>
-            </svg>
-          </div>
           <span
             className="text-xl font-bold tracking-tight text-gray-900"
             style={{ fontFamily: "var(--font-playfair, Georgia, serif)" }}
           >
-            Weight Loss<span className="text-[#0F6E56]">Injections.ca</span>
+            Weight Loss<span className="text-[#1B3A6B]">Injections.ca</span>
           </span>
           <span className="ml-2 hidden sm:inline-flex items-center gap-1 rounded border border-gray-300 bg-white px-1.5 py-0.5 text-[10px] font-semibold uppercase tracking-wider text-gray-600">
             🍁 Canada
@@ -39,7 +34,7 @@ export default function Header() {
               href={link.href}
               className={`relative rounded-md px-3 py-2 text-sm font-medium transition-colors ${
                 pathname === link.href
-                  ? "bg-[#E1F5EE] text-[#0F6E56]"
+                  ? "bg-[#E8EFFF] text-[#1B3A6B]"
                   : "text-gray-600 hover:bg-gray-50 hover:text-gray-900"
               }`}
             >
@@ -53,7 +48,7 @@ export default function Header() {
             href={FELIX_LINK}
             target="_blank"
             rel="noopener sponsored"
-            className="hidden sm:inline-flex items-center gap-1.5 rounded-lg bg-[#0F6E56] px-4 py-2 text-[13px] font-semibold text-white transition-colors hover:bg-[#063D2B] whitespace-nowrap"
+            className="hidden sm:inline-flex items-center gap-1.5 rounded-lg bg-[#1B3A6B] px-4 py-2 text-[13px] font-semibold text-white transition-colors hover:bg-[#0F2547] whitespace-nowrap"
           >
             Check Eligibility &rarr;
           </a>
@@ -84,7 +79,7 @@ export default function Header() {
               onClick={() => setOpen(false)}
               className={`rounded-md px-3 py-2 text-sm font-medium transition-colors ${
                 pathname === link.href
-                  ? "bg-[#E1F5EE] text-[#0F6E56]"
+                  ? "bg-[#E8EFFF] text-[#1B3A6B]"
                   : "text-gray-700 hover:bg-gray-50 hover:text-gray-900"
               }`}
             >
@@ -95,7 +90,7 @@ export default function Header() {
             href={FELIX_LINK}
             target="_blank"
             rel="noopener sponsored"
-            className="mt-2 flex items-center justify-center rounded-lg bg-[#0F6E56] px-4 py-2.5 text-sm font-semibold text-white"
+            className="mt-2 flex items-center justify-center rounded-lg bg-[#1B3A6B] px-4 py-2.5 text-sm font-semibold text-white"
           >
             Check Eligibility with Felix &rarr;
           </a>

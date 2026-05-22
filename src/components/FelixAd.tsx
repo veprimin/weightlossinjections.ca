@@ -6,7 +6,7 @@ interface FelixAdProps {
 
 export function FelixBanner() {
   return (
-    <div className="rounded-2xl overflow-hidden" style={{ background: "linear-gradient(135deg,#0F6E56 0%,#1D9E75 60%,#5DCAA5 100%)" }}>
+    <div className="rounded-2xl overflow-hidden" style={{ background: "linear-gradient(135deg,#1B3A6B 0%,#2D5FA8 60%,#4B7EC8 100%)" }}>
       <div className="px-8 py-9 relative overflow-hidden">
         <div className="absolute -right-10 -top-10 w-52 h-52 rounded-full bg-white/5 pointer-events-none" />
         <p className="text-xs font-semibold tracking-widest uppercase text-white/60 mb-2">Sponsored · Felix Health</p>
@@ -20,7 +20,7 @@ export function FelixBanner() {
           href={FELIX_LINK}
           target="_blank"
           rel="noopener sponsored"
-          className="inline-flex items-center gap-2 bg-white text-[#0F6E56] font-semibold text-sm px-6 py-3 rounded-lg hover:bg-[#E1F5EE] transition-colors"
+          className="inline-flex items-center gap-2 bg-white text-[#1B3A6B] font-semibold text-sm px-6 py-3 rounded-lg hover:bg-[#E8EFFF] transition-colors"
         >
           Check if you qualify with Felix →
         </a>
@@ -43,7 +43,7 @@ export function FelixBanner() {
 
 export function FelixSidebar() {
   return (
-    <div className="rounded-xl overflow-hidden relative" style={{ background: "linear-gradient(135deg,#063D2B,#0F6E56)" }}>
+    <div className="rounded-xl overflow-hidden relative" style={{ background: "linear-gradient(135deg,#0F2547,#1B3A6B)" }}>
       <div className="absolute -right-8 -top-8 w-36 h-36 rounded-full bg-white/5 pointer-events-none" />
       <div className="p-5 relative">
         <p className="text-[10px] font-bold tracking-widest uppercase text-white/50 mb-2">Sponsored · Felix Health</p>
@@ -68,7 +68,7 @@ export function FelixSidebar() {
           href={FELIX_LINK}
           target="_blank"
           rel="noopener sponsored"
-          className="flex items-center justify-center gap-1.5 bg-white text-[#0F6E56] font-semibold text-[13.5px] py-2.5 rounded-lg hover:bg-[#E1F5EE] transition-colors"
+          className="flex items-center justify-center gap-1.5 bg-white text-[#1B3A6B] font-semibold text-[13.5px] py-2.5 rounded-lg hover:bg-[#E8EFFF] transition-colors"
         >
           Check eligibility with Felix
         </a>
@@ -81,7 +81,7 @@ export function FelixInline() {
   return (
     <div
       className="rounded-xl p-6 flex flex-col sm:flex-row items-start sm:items-center gap-5 my-8"
-      style={{ background: "linear-gradient(135deg,#063D2B,#0F6E56)" }}
+      style={{ background: "linear-gradient(135deg,#0F2547,#1B3A6B)" }}
     >
       <div className="flex-1">
         <p className="font-semibold mb-1.5 text-[15px]" style={{ color: "#ffffff" }}>Find out if you qualify for GLP-1 treatment</p>
@@ -91,7 +91,7 @@ export function FelixInline() {
         href={FELIX_LINK}
         target="_blank"
         rel="noopener sponsored"
-        className="shrink-0 bg-white text-[#0F6E56] font-semibold text-sm px-5 py-2.5 rounded-lg hover:bg-[#E1F5EE] transition-colors whitespace-nowrap"
+        className="shrink-0 bg-white text-[#1B3A6B] font-semibold text-sm px-5 py-2.5 rounded-lg hover:bg-[#E8EFFF] transition-colors whitespace-nowrap"
       >
         Start free assessment →
       </a>

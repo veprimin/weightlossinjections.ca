@@ -44,7 +44,7 @@ export default function SemaglutidePage() {
         headline="Semaglutide in Canada: The Complete Guide to Ozempic & Wegovy"
         standfirst="Semaglutide has transformed weight management globally. Here is everything Canadians need to know - from the biology to the pharmacy counter."
         heroEmoji="💉"
-        heroGradient="linear-gradient(135deg,#0F6E56,#2DB88A)"
+        heroGradient="linear-gradient(135deg,#1B3A6B,#2DB88A)"
       />
 
       <div className="prose-editorial">
@@ -77,8 +77,8 @@ export default function SemaglutidePage() {
           <li><strong>SELECT trial (2023):</strong> Semaglutide 2.4 mg reduced major cardiovascular events by <strong>20%</strong> in adults with overweight/obesity and established cardiovascular disease - a landmark finding that expanded its clinical relevance far beyond aesthetics</li>
         </ul>
 
-        <div className="bg-[#F2FAF7] border border-[rgba(15,110,86,0.2)] rounded-xl p-5 my-6">
-          <p className="text-[11px] font-bold uppercase tracking-widest text-[#0F6E56] mb-3">Key Clinical Numbers</p>
+        <div className="bg-[#EEF3FF] border border-[rgba(27,58,107,0.2)] rounded-xl p-5 my-6">
+          <p className="text-[11px] font-bold uppercase tracking-widest text-[#1B3A6B] mb-3">Key Clinical Numbers</p>
           <ul className="space-y-2">
             {[
               "~15% average body weight loss over 68 weeks (STEP 1)",
@@ -88,7 +88,7 @@ export default function SemaglutidePage() {
               "Effects are sustained with continued treatment; most weight is regained after stopping",
             ].map((f) => (
               <li key={f} className="flex gap-2 text-sm text-gray-900">
-                <span className="text-[#1D9E75] font-bold shrink-0">✓</span> {f}
+                <span className="text-[#2D5FA8] font-bold shrink-0">✓</span> {f}
               </li>
             ))}
           </ul>
@@ -182,7 +182,7 @@ export default function SemaglutidePage() {
         <h3>Can I use semaglutide while pregnant or breastfeeding?</h3>
         <p>No. Semaglutide is contraindicated in pregnancy. Women of childbearing potential should use effective contraception during treatment and for at least 2 months after the last dose.</p>
 
-        <div className="bg-gray-50 border border-gray-200 rounded-xl p-5 mt-10 text-xs text-gray-500 leading-relaxed">
+        <div className="bg-gray-50 border border-gray-200 rounded-xl p-5 mt-10 text-xs text-gray-700 leading-relaxed">
           <strong>Medical disclaimer:</strong> This article is for informational purposes only and does not constitute medical advice. Semaglutide requires a valid prescription from a licensed healthcare provider. Always consult a qualified clinician before starting or changing any medication.
         </div>
       </div>

@@ -26,7 +26,7 @@ const drugs = [
     weightLoss: "~9–13%",
     cost: "$200–$450/mo",
     oDbCovered: "For T2D (LU code)",
-    heroColor: "#0F6E56",
+    heroColor: "#1B3A6B",
     href: "/semaglutide",
     keyFacts: [
       "Most commonly prescribed GLP-1 in Canada",
@@ -47,7 +47,7 @@ const drugs = [
     weightLoss: "~15%",
     cost: "$385–$430/mo",
     oDbCovered: "Not listed for weight mgmt",
-    heroColor: "#1D9E75",
+    heroColor: "#2D5FA8",
     href: "/semaglutide",
     keyFacts: [
       "Specifically approved for weight management (BMI ≥30 or ≥27 + comorbidity)",
@@ -118,10 +118,10 @@ export default function ComparePage() {
   return (
     <>
       {/* Editorial Page Header */}
-      <div className="border-b border-gray-200 bg-gradient-to-b from-[#E1F5EE]/40 to-white px-4 sm:px-6 py-12">
+      <div className="border-b border-gray-200 bg-gradient-to-b from-[#E8EFFF]/40 to-white px-4 sm:px-6 py-12">
         <div className="max-w-7xl mx-auto">
-          <span className="text-[10.5px] font-bold uppercase tracking-widest text-[#0F6E56]">Drug Comparison</span>
-          <div className="border-l-4 border-[#0F6E56] pl-5 my-4">
+          <span className="text-[10.5px] font-bold uppercase tracking-widest text-[#1B3A6B]">Drug Comparison</span>
+          <div className="border-l-4 border-[#1B3A6B] pl-5 my-4">
             <h1
               className="text-3xl sm:text-4xl font-black text-gray-900 leading-tight"
               style={{ fontFamily: "var(--font-playfair, Georgia, serif)" }}
@@ -132,7 +132,7 @@ export default function ComparePage() {
           <p className="text-lg text-gray-800 font-light max-w-2xl leading-relaxed">
             A complete side-by-side comparison of all major GLP-1 weight loss medications available in Canada - efficacy, cost, dosing, and coverage.
           </p>
-          <div className="flex items-center gap-4 mt-5 text-sm text-gray-500">
+          <div className="flex items-center gap-4 mt-5 text-sm text-gray-700">
             <span>Updated May 2025</span>
             <span className="w-1 h-1 rounded-full bg-gray-300" />
             <span>4 medications compared</span>
@@ -169,28 +169,28 @@ export default function ComparePage() {
                     >
                       {d.name}
                     </h3>
-                    <p className="text-[11px] text-gray-400">{d.generic} &middot; {d.manufacturer}</p>
+                    <p className="text-[11px] text-gray-600">{d.generic} &middot; {d.manufacturer}</p>
                   </div>
                 </div>
                 <div className="space-y-2 mb-4">
                   <div className="flex justify-between text-xs">
-                    <span className="text-gray-500">Form</span>
+                    <span className="text-gray-700">Form</span>
                     <span className="font-medium text-gray-800">{d.form}</span>
                   </div>
                   <div className="flex justify-between text-xs">
-                    <span className="text-gray-500">Frequency</span>
+                    <span className="text-gray-700">Frequency</span>
                     <span className="font-medium text-gray-800">{d.frequency}</span>
                   </div>
                   <div className="flex justify-between text-xs">
-                    <span className="text-gray-500">Weight loss</span>
+                    <span className="text-gray-700">Weight loss</span>
                     <span className="font-bold" style={{ color: d.heroColor }}>{d.weightLoss}</span>
                   </div>
                   <div className="flex justify-between text-xs">
-                    <span className="text-gray-500">Monthly cost</span>
+                    <span className="text-gray-700">Monthly cost</span>
                     <span className="font-medium text-gray-800">{d.cost}</span>
                   </div>
                   <div className="flex justify-between text-xs">
-                    <span className="text-gray-500">Public coverage</span>
+                    <span className="text-gray-700">Public coverage</span>
                     <span className="font-medium text-gray-800 text-right max-w-[130px]">{d.oDbCovered}</span>
                   </div>
                 </div>
@@ -206,7 +206,7 @@ export default function ComparePage() {
                 </ul>
                 <Link
                   href={d.href}
-                  className="flex items-center justify-center gap-1 text-[#0F6E56] border border-[rgba(15,110,86,0.3)] text-xs font-semibold px-4 py-2 rounded-lg hover:bg-[#E1F5EE] transition-colors"
+                  className="flex items-center justify-center gap-1 text-[#1B3A6B] border border-[rgba(15,110,86,0.3)] text-xs font-semibold px-4 py-2 rounded-lg hover:bg-[#E8EFFF] transition-colors"
                 >
                   Full {d.name} guide &rarr;
                 </Link>
@@ -225,7 +225,7 @@ export default function ComparePage() {
         <div className="overflow-x-auto mb-16">
           <table className="w-full text-sm border-collapse border border-gray-200 rounded-xl overflow-hidden">
             <thead>
-              <tr className="text-white" style={{ background: "#0F6E56" }}>
+              <tr className="text-white" style={{ background: "#1B3A6B" }}>
                 <th className="text-left px-4 py-3 text-xs font-semibold w-40">Feature</th>
                 {drugs.map((d) => (
                   <th key={d.name} className="text-left px-4 py-3 text-xs font-semibold">{d.name}</th>
@@ -281,13 +281,13 @@ export default function ComparePage() {
           ].map((s) => (
             <div key={s.condition} className="bg-white border border-gray-200 rounded-xl p-5">
               <div className="flex gap-3 items-start">
-                <span className="flex h-6 w-6 shrink-0 items-center justify-center rounded-full text-[11px] font-bold text-white bg-[#0F6E56]">
+                <span className="flex h-6 w-6 shrink-0 items-center justify-center rounded-full text-[11px] font-bold text-white bg-[#1B3A6B]">
                   {s.num}
                 </span>
                 <div>
-                  <p className="text-xs font-semibold text-gray-500 uppercase tracking-wider mb-1">If:</p>
+                  <p className="text-xs font-semibold text-gray-700 uppercase tracking-wider mb-1">If:</p>
                   <p className="text-sm font-semibold text-gray-900 mb-2">{s.condition}</p>
-                  <p className="text-sm font-bold text-[#0F6E56] mb-1">&rarr; {s.recommendation}</p>
+                  <p className="text-sm font-bold text-[#1B3A6B] mb-1">&rarr; {s.recommendation}</p>
                   <p className="text-xs text-gray-800 leading-relaxed">{s.reasoning}</p>
                 </div>
               </div>
@@ -297,7 +297,7 @@ export default function ComparePage() {
 
         {/* Sponsored Partners */}
         <div className="mb-12">
-          <p className="text-center text-[11px] font-semibold uppercase tracking-widest text-gray-400 mb-5 flex items-center gap-3 before:flex-1 before:h-px before:bg-gray-200 after:flex-1 after:h-px after:bg-gray-200">
+          <p className="text-center text-[11px] font-semibold uppercase tracking-widest text-gray-600 mb-5 flex items-center gap-3 before:flex-1 before:h-px before:bg-gray-200 after:flex-1 after:h-px after:bg-gray-200">
             Recommended Providers
           </p>
           <ProviderCards />

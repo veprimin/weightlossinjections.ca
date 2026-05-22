@@ -21,7 +21,7 @@ body { background: #fff; color: #111827; }
 }
 .prose-editorial strong { color: #111827; font-weight: 600; }
 .prose-editorial a {
-  color: #0F6E56; text-decoration: underline; text-underline-offset: 3px;
-  text-decoration-color: rgba(15,110,86,0.35);
+  color: #1B3A6B; text-decoration: underline; text-underline-offset: 3px;
+  text-decoration-color: rgba(27,58,107,0.35);
 }
-.prose-editorial a:hover { text-decoration-color: #0F6E56; }
+.prose-editorial a:hover { text-decoration-color: #1B3A6B; }
