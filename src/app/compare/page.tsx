@@ -152,9 +152,13 @@ export default function ComparePage() {
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-5 mb-16">
           {drugs.map((d) => (
-            <div key={d.name} className="border border-gray-200 rounded-2xl overflow-hidden hover:shadow-md transition-shadow">
+            <Link
+              key={d.name}
+              href={d.href}
+              className="group block border border-gray-200 rounded-2xl overflow-hidden hover:shadow-md hover:border-gray-300 transition-all"
+            >
               <div className="h-1.5" style={{ background: d.heroColor }} />
-              <div className="p-5">
+              <div className="p-5 flex flex-col h-full">
                 <div className="flex items-center gap-2.5 mb-4">
                   <div
                     className="w-9 h-9 rounded-lg flex items-center justify-center text-white text-sm font-bold shrink-0"
@@ -164,7 +168,7 @@ export default function ComparePage() {
                   </div>
                   <div>
                     <h3
-                      className="text-sm font-bold text-gray-900"
+                      className="text-sm font-bold text-gray-900 group-hover:text-[#1B3A6B] transition-colors"
                       style={{ fontFamily: "var(--font-playfair, Georgia, serif)" }}
                     >
                       {d.name}
@@ -194,24 +198,22 @@ export default function ComparePage() {
                     <span className="font-medium text-gray-800 text-right max-w-[130px]">{d.oDbCovered}</span>
                   </div>
                 </div>
-                <ul className="space-y-1 mb-4">
+                <ul className="space-y-1 mb-5 flex-1">
                   {d.keyFacts.map((f) => (
-                    <li key={f} className="flex gap-1.5 text-xs text-gray-600 leading-snug">
-                      <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke={d.heroColor} strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true" className="mt-0.5 shrink-0">
-                        <circle cx="12" cy="12" r="10"/><path d="m9 12 2 2 4-4"/>
-                      </svg>
+                    <li key={f} className="flex gap-1.5 text-xs text-gray-700 leading-snug">
+                      <span className="mt-0.5 shrink-0 text-xs" style={{ color: d.heroColor }}>&#10003;</span>
                       {f}
                     </li>
                   ))}
                 </ul>
-                <Link
-                  href={d.href}
-                  className="flex items-center justify-center gap-1 text-[#1B3A6B] border border-[rgba(15,110,86,0.3)] text-xs font-semibold px-4 py-2 rounded-lg hover:bg-[#E8EFFF] transition-colors"
+                <span
+                  className="flex items-center justify-center text-white text-xs font-semibold px-4 py-2.5 rounded-lg transition-opacity group-hover:opacity-90"
+                  style={{ background: d.heroColor }}
                 >
                   Full {d.name} guide &rarr;
-                </Link>
+                </span>
               </div>
-            </div>
+            </Link>
           ))}
         </div>
 
