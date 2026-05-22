@@ -60,8 +60,8 @@ export default function ManitobaPage() {
           ].map((s) => (
             <div key={s.label} className="bg-gray-50 border border-gray-200 rounded-xl p-4">
               <p className="text-xl font-bold text-[#1B3A6B]" style={{ fontFamily: "Georgia, serif" }}>{s.value}</p>
-              <p className="text-sm font-medium text-gray-900 mt-1">{s.label}</p>
-              <p className="text-xs text-gray-700 mt-0.5">{s.sub}</p>
+              <p className="text-sm font-medium text-black mt-1">{s.label}</p>
+              <p className="text-xs text-black mt-0.5">{s.sub}</p>
             </div>
           ))}
         </div>
@@ -87,7 +87,7 @@ export default function ManitobaPage() {
 
         <div className="bg-[#EEF3FF] border border-[rgba(27,58,107,0.2)] rounded-xl p-5 my-6">
           <p className="text-xs font-bold uppercase tracking-widest text-[#1B3A6B] mb-2">Manitoba Pharmacare Tip</p>
-          <p className="text-sm text-gray-900">
+          <p className="text-sm text-black">
             If your household income is modest, registering for Manitoba Pharmacare before starting GLP-1 treatment can significantly reduce your costs. Once your deductible is met, Pharmacare covers all listed drugs at 100%. Contact Manitoba Health at 1-800-742-6837 to register and confirm your deductible amount.
           </p>
         </div>
@@ -132,7 +132,7 @@ export default function ManitobaPage() {
         <h3>Is Felix available throughout Manitoba?</h3>
         <p>Yes. Felix Health operates province-wide in Manitoba and can prescribe and arrange delivery to any Manitoba address.</p>
 
-        <div className="bg-gray-50 border border-gray-200 rounded-xl p-5 mt-10 text-xs text-gray-700 leading-relaxed">
+        <div className="bg-gray-50 border border-gray-200 rounded-xl p-5 mt-10 text-xs text-black leading-relaxed">
           Manitoba Pharmacare deductibles and formulary listings change annually. This information reflects policies as of May 2026. Contact Manitoba Health (1-800-742-6837) to verify your current deductible and coverage.
         </div>
       </div>

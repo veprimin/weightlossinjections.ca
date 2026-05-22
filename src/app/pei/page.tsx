@@ -60,8 +60,8 @@ export default function PEIPage() {
           ].map((s) => (
             <div key={s.label} className="bg-gray-50 border border-gray-200 rounded-xl p-4">
               <p className="text-xl font-bold text-[#1B3A6B]" style={{ fontFamily: "Georgia, serif" }}>{s.value}</p>
-              <p className="text-sm font-medium text-gray-900 mt-1">{s.label}</p>
-              <p className="text-xs text-gray-700 mt-0.5">{s.sub}</p>
+              <p className="text-sm font-medium text-black mt-1">{s.label}</p>
+              <p className="text-xs text-black mt-0.5">{s.sub}</p>
             </div>
           ))}
         </div>
@@ -90,7 +90,7 @@ export default function PEIPage() {
 
         <div className="bg-[#EEF3FF] border border-[rgba(27,58,107,0.2)] rounded-xl p-5 my-6">
           <p className="text-xs font-bold uppercase tracking-widest text-[#1B3A6B] mb-2">PEI Access Note</p>
-          <p className="text-sm text-gray-900">
+          <p className="text-sm text-black">
             The Catastrophic Drug Program is particularly valuable on PEI for Islanders who do not qualify for seniors or social assistance programs but face significant drug costs. If you are spending more than a set threshold on drugs relative to your income, contact PEI Health PEI at 1-800-321-5492 to check eligibility.
           </p>
         </div>
@@ -136,7 +136,7 @@ export default function PEIPage() {
         <h3>Is Felix available on Prince Edward Island?</h3>
         <p>Yes. Felix Health serves all of PEI and can arrange delivery to any island address.</p>
 
-        <div className="bg-gray-50 border border-gray-200 rounded-xl p-5 mt-10 text-xs text-gray-700 leading-relaxed">
+        <div className="bg-gray-50 border border-gray-200 rounded-xl p-5 mt-10 text-xs text-black leading-relaxed">
           PEI Pharmacare eligibility and formulary listings change periodically. This information reflects policies as of May 2026. Contact Health PEI (1-800-321-5492) for current program eligibility and drug coverage details.
         </div>
       </div>

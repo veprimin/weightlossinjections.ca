@@ -68,16 +68,16 @@ export default function HomePage() {
               Canada&rsquo;s independent GLP-1 editorial guide
             </p>
             <h1
-              className="text-4xl font-bold tracking-tight text-gray-900 sm:text-5xl lg:text-6xl"
+              className="text-4xl font-bold tracking-tight text-black sm:text-5xl lg:text-6xl"
               style={{ fontFamily: "var(--font-playfair, Georgia, serif)" }}
             >
               Weight Loss Injections in{" "}
               <span className="text-[#1B3A6B]">Canada</span>
             </h1>
-            <p className="mt-3 text-xl font-semibold tracking-tight text-gray-800 sm:text-2xl">
+            <p className="mt-3 text-xl font-semibold tracking-tight text-black sm:text-2xl">
               Ozempic. Wegovy. Mounjaro. Rybelsus.
             </p>
-            <p className="mx-auto mt-4 max-w-xl text-base text-gray-800">
+            <p className="mx-auto mt-4 max-w-xl text-base text-black">
               Independent editorial coverage written for Canadians - real costs, province-by-province access, and clinical evidence without the marketing spin.
             </p>
           </div>
@@ -98,9 +98,9 @@ export default function HomePage() {
           </div>
 
           <div className="mt-6 flex flex-wrap items-center justify-center gap-x-8 gap-y-2">
-            <p className="text-sm text-gray-700">Updated monthly</p>
-            <p className="text-sm text-gray-700">Independent - no pharma funding</p>
-            <p className="text-sm text-gray-700">Canadian content only</p>
+            <p className="text-sm text-black">Updated monthly</p>
+            <p className="text-sm text-black">Independent - no pharma funding</p>
+            <p className="text-sm text-black">Canadian content only</p>
           </div>
         </div>
       </section>
@@ -114,8 +114,8 @@ export default function HomePage() {
               className="flex flex-1 items-start gap-4 rounded-xl border-2 border-[rgba(27,58,107,0.2)] bg-[#E8EFFF]/30 p-5 text-left transition-colors hover:border-[#1B3A6B] hover:bg-[#E8EFFF]/60"
             >
               <div>
-                <p className="text-sm font-bold text-gray-900">Researching your options?</p>
-                <p className="mt-0.5 text-sm text-gray-800">Browse our medication guides below</p>
+                <p className="text-sm font-bold text-black">Researching your options?</p>
+                <p className="mt-0.5 text-sm text-black">Browse our medication guides below</p>
               </div>
             </Link>
             <a
@@ -123,8 +123,8 @@ export default function HomePage() {
               className="flex flex-1 items-start gap-4 rounded-xl border border-[#D9D3C7] bg-[#FAF9F6] p-5 text-left transition-colors hover:bg-[#F5F2EC]"
             >
               <div>
-                <p className="text-sm font-bold text-gray-900">Ready to get a prescription?</p>
-                <p className="mt-0.5 text-sm text-gray-800">See licensed Canadian telehealth providers</p>
+                <p className="text-sm font-bold text-black">Ready to get a prescription?</p>
+                <p className="mt-0.5 text-sm text-black">See licensed Canadian telehealth providers</p>
               </div>
             </a>
           </div>
@@ -143,12 +143,12 @@ export default function HomePage() {
             ].map((s) => (
               <div key={s.label} className="text-center">
                 <span
-                  className="block text-3xl font-bold text-gray-900"
+                  className="block text-3xl font-bold text-black"
                   style={{ fontFamily: "var(--font-playfair, Georgia, serif)" }}
                 >
                   {s.value}
                 </span>
-                <span className="mt-1 block text-xs leading-snug text-gray-700">{s.label}</span>
+                <span className="mt-1 block text-xs leading-snug text-black">{s.label}</span>
               </div>
             ))}
           </div>
@@ -161,12 +161,12 @@ export default function HomePage() {
           <div className="mb-8 flex flex-col items-start justify-between gap-4 sm:flex-row sm:items-end">
             <div>
               <h2
-                className="text-xl font-bold text-gray-900 sm:text-2xl"
+                className="text-xl font-bold text-black sm:text-2xl"
                 style={{ fontFamily: "var(--font-playfair, Georgia, serif)" }}
               >
                 Medication Guides
               </h2>
-              <p className="mt-1 text-sm text-gray-800">
+              <p className="mt-1 text-sm text-black">
                 Evidence-based guides written for Canadians.
               </p>
             </div>
@@ -189,15 +189,15 @@ export default function HomePage() {
                   <span className="text-xs font-bold uppercase tracking-widest" style={{ color: a.accentColor }}>
                     {a.category}
                   </span>
-                  <span className="text-xs text-gray-600">{a.date} &middot; {a.readTime}</span>
+                  <span className="text-xs text-black">{a.date} &middot; {a.readTime}</span>
                 </div>
                 <h3
-                  className="text-base font-bold leading-snug text-gray-900 transition-colors group-hover:text-[#1B3A6B]"
+                  className="text-base font-bold leading-snug text-black transition-colors group-hover:text-[#1B3A6B]"
                   style={{ fontFamily: "var(--font-playfair, Georgia, serif)" }}
                 >
                   {a.title}
                 </h3>
-                <p className="flex-1 text-sm leading-relaxed text-gray-800">{a.excerpt}</p>
+                <p className="flex-1 text-sm leading-relaxed text-black">{a.excerpt}</p>
                 <span className="mt-auto text-sm font-semibold" style={{ color: a.accentColor }}>
                   Read the guide &rarr;
                 </span>
@@ -210,7 +210,7 @@ export default function HomePage() {
       {/* ── Quick Links ──────────────────────────────────────── */}
       <section className="border-b border-gray-100 bg-gray-50/60 py-10 sm:py-12">
         <div className="mx-auto max-w-5xl px-4 sm:px-6 lg:px-8">
-          <h2 className="mb-6 text-xs font-bold uppercase tracking-widest text-gray-700">Quick Guides</h2>
+          <h2 className="mb-6 text-xs font-bold uppercase tracking-widest text-black">Quick Guides</h2>
           <div className="grid grid-cols-2 gap-4 md:grid-cols-4">
             {quickLinks.map((q) => (
               <Link
@@ -218,8 +218,8 @@ export default function HomePage() {
                 href={q.href}
                 className="group flex flex-col gap-1 rounded-xl border border-gray-200 bg-white p-5 transition-all hover:border-[#1B3A6B] hover:shadow-sm"
               >
-                <p className="text-sm font-semibold text-gray-900 group-hover:text-[#1B3A6B] transition-colors">{q.label}</p>
-                <p className="text-xs text-gray-700">{q.sub}</p>
+                <p className="text-sm font-semibold text-black group-hover:text-[#1B3A6B] transition-colors">{q.label}</p>
+                <p className="text-xs text-black">{q.sub}</p>
               </Link>
             ))}
           </div>
@@ -231,12 +231,12 @@ export default function HomePage() {
         <div className="mx-auto max-w-5xl px-4 sm:px-6 lg:px-8">
           <div className="mb-10 text-center">
             <h2
-              className="text-xl font-bold text-gray-900 sm:text-2xl"
+              className="text-xl font-bold text-black sm:text-2xl"
               style={{ fontFamily: "var(--font-playfair, Georgia, serif)" }}
             >
               How it works
             </h2>
-            <p className="mt-1.5 text-sm text-gray-700">From research to prescription, here&rsquo;s the typical path.</p>
+            <p className="mt-1.5 text-sm text-black">From research to prescription, here&rsquo;s the typical path.</p>
           </div>
           <div className="grid gap-8 sm:grid-cols-3">
             {[
@@ -260,8 +260,8 @@ export default function HomePage() {
                 <div className="mx-auto mb-4 flex h-10 w-10 items-center justify-center rounded-full bg-[#1B3A6B] text-white text-base font-bold" style={{ fontFamily: "var(--font-playfair, Georgia, serif)" }}>
                   {item.step}
                 </div>
-                <h3 className="mb-2 text-base font-semibold text-gray-900">{item.title}</h3>
-                <p className="text-sm leading-relaxed text-gray-800">{item.desc}</p>
+                <h3 className="mb-2 text-base font-semibold text-black">{item.title}</h3>
+                <p className="text-sm leading-relaxed text-black">{item.desc}</p>
               </div>
             ))}
           </div>
@@ -275,12 +275,12 @@ export default function HomePage() {
             <div className="flex flex-col gap-5 sm:flex-row sm:items-center">
               <div className="flex-1 min-w-0">
                 <h2
-                  className="text-lg font-bold text-gray-900 sm:text-xl"
+                  className="text-lg font-bold text-black sm:text-xl"
                   style={{ fontFamily: "var(--font-playfair, Georgia, serif)" }}
                 >
                   Generic semaglutide is now available in Canada
                 </h2>
-                <p className="mt-1 text-sm text-gray-800">
+                <p className="mt-1 text-sm text-black">
                   Health Canada has approved 2 manufacturers. Prices expected to drop 45-90% vs. brand-name Ozempic.
                 </p>
               </div>
@@ -304,16 +304,16 @@ export default function HomePage() {
           <div className="mb-8 flex flex-col items-start justify-between gap-4 sm:flex-row sm:items-end">
             <div>
               <h2
-                className="text-xl font-bold text-gray-900 sm:text-2xl"
+                className="text-xl font-bold text-black sm:text-2xl"
                 style={{ fontFamily: "var(--font-playfair, Georgia, serif)" }}
               >
                 Recommended Online Providers
               </h2>
-              <p className="mt-1 text-sm text-gray-800">
+              <p className="mt-1 text-sm text-black">
                 Licensed Canadian telehealth. Prescriptions and delivery included.
               </p>
             </div>
-            <span className="inline-flex items-center rounded-full border border-gray-200 bg-gray-50 px-3 py-1 text-xs font-medium text-gray-700">
+            <span className="inline-flex items-center rounded-full border border-gray-200 bg-gray-50 px-3 py-1 text-xs font-medium text-black">
               Contains sponsored content
             </span>
           </div>

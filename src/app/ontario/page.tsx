@@ -66,8 +66,8 @@ export default function OntarioPage() {
           ].map((s) => (
             <div key={s.label} className="bg-gray-50 border border-gray-200 rounded-xl p-4">
               <p className="text-xl font-bold text-[#1B3A6B]" style={{ fontFamily: "Georgia, serif" }}>{s.value}</p>
-              <p className="text-sm font-medium text-gray-900 mt-1">{s.label}</p>
-              <p className="text-xs text-gray-700 mt-0.5">{s.sub}</p>
+              <p className="text-sm font-medium text-black mt-1">{s.label}</p>
+              <p className="text-xs text-black mt-0.5">{s.sub}</p>
             </div>
           ))}
         </div>
@@ -90,7 +90,7 @@ export default function OntarioPage() {
 
         <div className="bg-[#EEF3FF] border border-[rgba(27,58,107,0.2)] rounded-xl p-5 my-6">
           <p className="text-xs font-bold uppercase tracking-widest text-[#1B3A6B] mb-2">ODB Tip for Ontario Patients</p>
-          <p className="text-sm text-gray-900">
+          <p className="text-sm text-black">
             When your physician submits the Ozempic prescription, they must include the Limited Use code (LU). This is a specific code that tells the ODB system the clinical reason for the prescription. Without it, the claim will be rejected. Make sure your physician knows to include the LU code - your pharmacist can also assist in identifying the correct one.
           </p>
         </div>
@@ -172,7 +172,7 @@ export default function OntarioPage() {
         <h3>Will Ontario ODB cover generic semaglutide for weight loss?</h3>
         <p>There is no indication that ODB will expand coverage to include generic semaglutide for weight management (without diabetes) in the near term. Coverage for generics on ODB is tied to approved indications, which does not yet include weight management alone.</p>
 
-        <div className="bg-gray-50 border border-gray-200 rounded-xl p-5 mt-10 text-xs text-gray-700 leading-relaxed">
+        <div className="bg-gray-50 border border-gray-200 rounded-xl p-5 mt-10 text-xs text-black leading-relaxed">
           Ontario ODB criteria and formulary listings are subject to change. This information reflects publicly available policy as of May 2026. Verify current criteria with your physician, pharmacist, or the Ontario Drug Benefit formulary database.
         </div>
       </div>

@@ -24,7 +24,7 @@ function ProgressBar({ step }: { step: Step }) {
             className="w-6 h-6 rounded-full flex items-center justify-center text-xs font-bold shrink-0"
             style={{
               background: i < idx ? "#1B3A6B" : i === idx ? "#1B3A6B" : "#E5E7EB",
-              color: i <= idx ? "#fff" : "#6B7280",
+              color: i <= idx ? "#fff" : "#000000",
             }}
           >
             {i < idx ? (
@@ -61,8 +61,8 @@ function OptionButton({ label, description, selected, onClick }: { label: string
           {selected && <div className="w-2 h-2 rounded-full" style={{ background: "#1B3A6B" }} />}
         </div>
         <div>
-          <p className="text-sm font-semibold text-gray-900">{label}</p>
-          {description && <p className="text-xs text-gray-700 mt-0.5">{description}</p>}
+          <p className="text-sm font-semibold text-black">{label}</p>
+          {description && <p className="text-xs text-black mt-0.5">{description}</p>}
         </div>
       </div>
     </button>
@@ -193,16 +193,16 @@ function ResultCard({ answers }: { answers: Answers }) {
           <div className="w-3 h-3 rounded-full" style={{ background: sc.dot }} />
           <span className="text-xs font-bold uppercase tracking-wider" style={{ color: sc.dot }}>{sc.label}</span>
         </div>
-        <h3 className="text-xl font-bold text-gray-900 mb-2" style={{ fontFamily: "Georgia, serif" }}>{headline}</h3>
-        <p className="text-sm text-gray-900 leading-relaxed">{body}</p>
+        <h3 className="text-xl font-bold text-black mb-2" style={{ fontFamily: "Georgia, serif" }}>{headline}</h3>
+        <p className="text-sm text-black leading-relaxed">{body}</p>
       </div>
 
       {tips.length > 0 && (
         <div className="mb-6">
-          <h4 className="text-sm font-bold text-gray-900 mb-3 uppercase tracking-wide">Next steps</h4>
+          <h4 className="text-sm font-bold text-black mb-3 uppercase tracking-wide">Next steps</h4>
           <ul className="space-y-2">
             {tips.map((tip, i) => (
-              <li key={i} className="flex items-start gap-2.5 text-sm text-gray-900">
+              <li key={i} className="flex items-start gap-2.5 text-sm text-black">
                 <div className="w-5 h-5 rounded-full flex items-center justify-center text-white text-xs font-bold shrink-0 mt-0.5" style={{ background: "#1B3A6B" }}>
                   {i + 1}
                 </div>
@@ -214,8 +214,8 @@ function ResultCard({ answers }: { answers: Answers }) {
       )}
 
       <div className="rounded-xl border border-gray-200 bg-white p-5 mb-4">
-        <p className="text-sm font-semibold text-gray-900 mb-1">Want expert help navigating coverage?</p>
-        <p className="text-xs text-gray-700 mb-3">Felix Health's licensed Canadian physicians can assess your eligibility, navigate prior authorization, and find the most affordable option for your situation.</p>
+        <p className="text-sm font-semibold text-black mb-1">Want expert help navigating coverage?</p>
+        <p className="text-xs text-black mb-3">Felix Health's licensed Canadian physicians can assess your eligibility, navigate prior authorization, and find the most affordable option for your situation.</p>
         <a
           href={FELIX_LINK}
           target="_blank"
@@ -225,7 +225,7 @@ function ResultCard({ answers }: { answers: Answers }) {
         >
           Start free assessment with Felix →
         </a>
-        <p className="text-xs text-gray-600 mt-2">Sponsored · Felix Health</p>
+        <p className="text-xs text-black mt-2">Sponsored · Felix Health</p>
       </div>
 
       <div className="flex gap-3">
@@ -235,7 +235,7 @@ function ResultCard({ answers }: { answers: Answers }) {
         >
           Full insurance coverage guide
         </Link>
-        <span className="text-gray-400">·</span>
+        <span className="text-black">·</span>
         <Link
           href="/generic-semaglutide"
           className="text-sm font-medium text-[#1B3A6B] underline underline-offset-2"
@@ -277,10 +277,10 @@ export default function InsuranceCheckerClient() {
         {/* Header */}
         <div className="mb-8">
           <p className="text-xs font-bold uppercase tracking-widest text-[#1B3A6B] mb-2">Free Tool</p>
-          <h1 className="text-3xl font-bold text-gray-900 mb-3" style={{ fontFamily: "Georgia, serif" }}>
+          <h1 className="text-3xl font-bold text-black mb-3" style={{ fontFamily: "Georgia, serif" }}>
             GLP-1 Insurance Coverage Checker
           </h1>
-          <p className="text-base text-gray-900">
+          <p className="text-base text-black">
             Answer 4 quick questions to find out if your insurance covers Ozempic, Wegovy, or Mounjaro - and what to do next.
           </p>
         </div>
@@ -290,8 +290,8 @@ export default function InsuranceCheckerClient() {
         {/* Step: Employment */}
         {step === "employment" && (
           <div>
-            <h2 className="text-lg font-bold text-gray-900 mb-1">What is your employment situation?</h2>
-            <p className="text-sm text-gray-700 mb-5">This determines which coverage pathways are available to you.</p>
+            <h2 className="text-lg font-bold text-black mb-1">What is your employment situation?</h2>
+            <p className="text-sm text-black mb-5">This determines which coverage pathways are available to you.</p>
             <div className="space-y-3">
               <OptionButton label="Employed at a large company (50+ employees)" description="You likely have group benefits through an employer plan" selected={answers.employment === "employed-large"} onClick={() => select("employment", "employed-large", "province")} />
               <OptionButton label="Employed at a small business or part-time" description="Benefits may be limited or unavailable" selected={answers.employment === "employed-small"} onClick={() => select("employment", "employed-small", "province")} />
@@ -305,8 +305,8 @@ export default function InsuranceCheckerClient() {
         {/* Step: Province */}
         {step === "province" && (
           <div>
-            <h2 className="text-lg font-bold text-gray-900 mb-1">Which province do you live in?</h2>
-            <p className="text-sm text-gray-700 mb-5">Provincial drug plans vary significantly in what they cover.</p>
+            <h2 className="text-lg font-bold text-black mb-1">Which province do you live in?</h2>
+            <p className="text-sm text-black mb-5">Provincial drug plans vary significantly in what they cover.</p>
             <div className="grid grid-cols-2 gap-3 mb-6">
               {[
                 { value: "on", label: "Ontario" },
@@ -323,7 +323,7 @@ export default function InsuranceCheckerClient() {
                   key={p.value}
                   type="button"
                   onClick={() => select("province", p.value, needsPlanStep ? "plan" : "indication")}
-                  className="rounded-xl border-2 px-4 py-3 text-sm font-semibold text-gray-900 text-left transition-all"
+                  className="rounded-xl border-2 px-4 py-3 text-sm font-semibold text-black text-left transition-all"
                   style={{
                     borderColor: answers.province === p.value ? "#1B3A6B" : "#E5E7EB",
                     background: answers.province === p.value ? "#EEF3FF" : "#fff",
@@ -335,7 +335,7 @@ export default function InsuranceCheckerClient() {
               <button
                 type="button"
                 onClick={() => select("province", "other", needsPlanStep ? "plan" : "indication")}
-                className="rounded-xl border-2 px-4 py-3 text-sm font-semibold text-gray-900 text-left transition-all col-span-2"
+                className="rounded-xl border-2 px-4 py-3 text-sm font-semibold text-black text-left transition-all col-span-2"
                 style={{
                   borderColor: answers.province === "other" ? "#1B3A6B" : "#E5E7EB",
                   background: answers.province === "other" ? "#EEF3FF" : "#fff",
@@ -347,7 +347,7 @@ export default function InsuranceCheckerClient() {
             <button
               type="button"
               onClick={() => setStep("employment")}
-              className="rounded-lg border border-gray-300 px-5 py-2.5 text-sm font-semibold text-gray-900 transition-colors hover:bg-gray-50"
+              className="rounded-lg border border-gray-300 px-5 py-2.5 text-sm font-semibold text-black transition-colors hover:bg-gray-50"
             >
               &larr; Back
             </button>
@@ -357,8 +357,8 @@ export default function InsuranceCheckerClient() {
         {/* Step: Insurance Plan */}
         {step === "plan" && needsPlanStep && (
           <div>
-            <h2 className="text-lg font-bold text-gray-900 mb-1">Do you have private drug insurance?</h2>
-            <p className="text-sm text-gray-700 mb-5">Check your employment contract or ask your HR department if unsure.</p>
+            <h2 className="text-lg font-bold text-black mb-1">Do you have private drug insurance?</h2>
+            <p className="text-sm text-black mb-5">Check your employment contract or ask your HR department if unsure.</p>
             <div className="space-y-3 mb-6">
               <OptionButton label="Yes - comprehensive group plan" description="E.g. Blue Cross, Manulife, Sun Life, Great-West Life, Canada Life" selected={answers.plan === "yes-comprehensive"} onClick={() => select("plan", "yes-comprehensive", "indication")} />
               <OptionButton label="Yes - but it's a basic or limited plan" description="Small employer, minimal benefits, or low annual drug maximum" selected={answers.plan === "yes-limited"} onClick={() => select("plan", "yes-limited", "indication")} />
@@ -367,7 +367,7 @@ export default function InsuranceCheckerClient() {
             <button
               type="button"
               onClick={() => setStep("province")}
-              className="rounded-lg border border-gray-300 px-5 py-2.5 text-sm font-semibold text-gray-900 transition-colors hover:bg-gray-50"
+              className="rounded-lg border border-gray-300 px-5 py-2.5 text-sm font-semibold text-black transition-colors hover:bg-gray-50"
             >
               &larr; Back
             </button>
@@ -377,8 +377,8 @@ export default function InsuranceCheckerClient() {
         {/* Step: Indication */}
         {step === "indication" && (
           <div>
-            <h2 className="text-lg font-bold text-gray-900 mb-1">Why are you seeking GLP-1 treatment?</h2>
-            <p className="text-sm text-gray-700 mb-5">Coverage rules differ significantly based on the medical indication.</p>
+            <h2 className="text-lg font-bold text-black mb-1">Why are you seeking GLP-1 treatment?</h2>
+            <p className="text-sm text-black mb-5">Coverage rules differ significantly based on the medical indication.</p>
             <div className="space-y-3 mb-6">
               <OptionButton label="Type 2 diabetes management" description="Ozempic is widely covered for T2D with prior authorization across Canada" selected={answers.indication === "diabetes"} onClick={() => select("indication", "diabetes", "result")} />
               <OptionButton label="Weight management / obesity" description="Wegovy/Mounjaro for weight - fewer plans cover this indication" selected={answers.indication === "weight"} onClick={() => select("indication", "weight", "result")} />
@@ -387,7 +387,7 @@ export default function InsuranceCheckerClient() {
             <button
               type="button"
               onClick={() => setStep(needsPlanStep ? "plan" : "province")}
-              className="rounded-lg border border-gray-300 px-5 py-2.5 text-sm font-semibold text-gray-900 transition-colors hover:bg-gray-50"
+              className="rounded-lg border border-gray-300 px-5 py-2.5 text-sm font-semibold text-black transition-colors hover:bg-gray-50"
             >
               &larr; Back
             </button>
@@ -398,8 +398,8 @@ export default function InsuranceCheckerClient() {
         {step === "result" && (
           <div>
             <div className="mb-6">
-              <h2 className="text-2xl font-bold text-gray-900 mb-1" style={{ fontFamily: "Georgia, serif" }}>Your coverage assessment</h2>
-              <p className="text-sm text-gray-700">Based on your answers. This is a guide only - verify with your insurer and physician.</p>
+              <h2 className="text-2xl font-bold text-black mb-1" style={{ fontFamily: "Georgia, serif" }}>Your coverage assessment</h2>
+              <p className="text-sm text-black">Based on your answers. This is a guide only - verify with your insurer and physician.</p>
             </div>
             <ResultCard answers={answers} />
             <button
@@ -414,7 +414,7 @@ export default function InsuranceCheckerClient() {
 
         {/* Disclaimer */}
         <div className="mt-10 rounded-lg border border-gray-200 bg-gray-50 px-4 py-3">
-          <p className="text-xs text-gray-700 leading-relaxed">
+          <p className="text-xs text-black leading-relaxed">
             This tool provides general guidance only and does not constitute insurance or medical advice. Coverage eligibility depends on your specific plan documents and individual circumstances. Always verify coverage with your insurer and consult a licensed physician before starting any medication.
           </p>
         </div>

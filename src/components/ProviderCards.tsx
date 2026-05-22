@@ -57,7 +57,7 @@ export default function ProviderCards() {
             >
               {p.rank}
             </span>
-            <span className="text-sm font-bold text-gray-900" style={{ fontFamily: "var(--font-playfair, Georgia, serif)" }}>
+            <span className="text-sm font-bold text-black" style={{ fontFamily: "var(--font-playfair, Georgia, serif)" }}>
               {p.name}
             </span>
             {p.badge && (
@@ -73,10 +73,10 @@ export default function ProviderCards() {
           {/* Card body */}
           <div className="px-5 py-5 sm:flex sm:gap-6 sm:items-start">
             <div className="flex-1 mb-4 sm:mb-0">
-              <p className="mb-3 text-sm font-semibold text-gray-800">{p.tagline}</p>
+              <p className="mb-3 text-sm font-semibold text-black">{p.tagline}</p>
               <ul className="space-y-1.5">
                 {p.features.map((f) => (
-                  <li key={f} className="flex gap-2 text-sm text-gray-800 leading-snug">
+                  <li key={f} className="flex gap-2 text-sm text-black leading-snug">
                     <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke={p.accentColor} strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true" className="mt-0.5 shrink-0">
                       <circle cx="12" cy="12" r="10"/><path d="m9 12 2 2 4-4"/>
                     </svg>
@@ -87,8 +87,8 @@ export default function ProviderCards() {
             </div>
             <div className="shrink-0 flex flex-col items-start sm:items-end gap-3 sm:min-w-[170px]">
               <div className="text-left sm:text-right">
-                <p className="text-base font-bold text-gray-900">{p.startingPrice}</p>
-                <p className="text-xs text-gray-700">prescription included</p>
+                <p className="text-base font-bold text-black">{p.startingPrice}</p>
+                <p className="text-xs text-black">prescription included</p>
               </div>
               <span
                 className="inline-flex items-center justify-center gap-1.5 rounded-lg px-5 py-2.5 text-sm font-semibold text-white shadow-sm whitespace-nowrap"
@@ -100,7 +100,7 @@ export default function ProviderCards() {
           </div>
         </a>
       ))}
-      <p className="text-center text-xs text-gray-700">
+      <p className="text-center text-xs text-black">
         Sponsored partners. Contains affiliate links. A licensed provider will confirm your eligibility.
       </p>
     </div>

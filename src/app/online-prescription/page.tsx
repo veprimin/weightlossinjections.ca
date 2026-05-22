@@ -67,7 +67,7 @@ export default function OnlinePrescriptionPage() {
         </p>
         <div className="flex flex-wrap gap-2 my-5 not-prose">
           {PROVINCES.map((p) => (
-            <span key={p.name} className="inline-flex items-center rounded-full border border-[rgba(15,110,86,0.25)] bg-[#E8EFFF]/50 px-4 py-1.5 text-sm font-medium text-gray-800">
+            <span key={p.name} className="inline-flex items-center rounded-full border border-[rgba(15,110,86,0.25)] bg-[#E8EFFF]/50 px-4 py-1.5 text-sm font-medium text-black">
               <span className="mr-1.5 h-1.5 w-1.5 rounded-full bg-[#2D5FA8]" aria-hidden="true" />
               {p.name}
             </span>
@@ -185,7 +185,7 @@ export default function OnlinePrescriptionPage() {
         <h3>Can I use a virtual prescription with my regular pharmacy?</h3>
         <p>Yes. If you prefer your regular pharmacy, the prescription can be sent electronically or you can bring a printed copy. There is no requirement to use a platform's partner pharmacy.</p>
 
-        <div className="bg-gray-50 border border-gray-200 rounded-xl p-5 mt-10 text-xs text-gray-700 leading-relaxed">
+        <div className="bg-gray-50 border border-gray-200 rounded-xl p-5 mt-10 text-xs text-black leading-relaxed">
           <strong>Affiliate disclosure:</strong> This page contains affiliate links to Felix Health. We may earn a commission when you start a Felix assessment through our links, at no additional cost to you. Felix is our recommended virtual care platform for GLP-1 prescriptions in Canada.
         </div>
       </div>

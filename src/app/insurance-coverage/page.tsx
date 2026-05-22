@@ -72,10 +72,10 @@ export default function InsurancePage() {
                 { drug: "Rybelsus",  ind: "Type 2 diabetes",     prov: "✅ Covered in several provinces",              priv: "✅ Usually covered for diabetes" },
               ].map((row, i) => (
                 <tr key={i} className={i % 2 === 0 ? "bg-white" : "bg-gray-50"}>
-                  <td className="px-4 py-3 font-medium text-gray-900 border-b border-gray-200">{row.drug}</td>
-                  <td className="px-4 py-3 text-gray-900 border-b border-gray-200 text-xs">{row.ind}</td>
-                  <td className="px-4 py-3 text-gray-900 border-b border-gray-200 text-xs">{row.prov}</td>
-                  <td className="px-4 py-3 text-gray-900 border-b border-gray-200 text-xs">{row.priv}</td>
+                  <td className="px-4 py-3 font-medium text-black border-b border-gray-200">{row.drug}</td>
+                  <td className="px-4 py-3 text-black border-b border-gray-200 text-xs">{row.ind}</td>
+                  <td className="px-4 py-3 text-black border-b border-gray-200 text-xs">{row.prov}</td>
+                  <td className="px-4 py-3 text-black border-b border-gray-200 text-xs">{row.priv}</td>
                 </tr>
               ))}
             </tbody>
@@ -183,10 +183,10 @@ export default function InsurancePage() {
                 { prov: "PEI",                   plan: "PEI Pharmacare",     ozempic: "⚠️ Income-based programs",        weight: "❌ Not covered" },
               ].map((row, i) => (
                 <tr key={row.prov} className={i % 2 === 0 ? "bg-white" : "bg-gray-50"}>
-                  <td className="px-4 py-3 font-medium text-gray-900 border-b border-gray-200">{row.prov}</td>
-                  <td className="px-4 py-3 text-gray-900 border-b border-gray-200 text-xs">{row.plan}</td>
-                  <td className="px-4 py-3 text-gray-900 border-b border-gray-200 text-xs">{row.ozempic}</td>
-                  <td className="px-4 py-3 text-gray-900 border-b border-gray-200 text-xs">{row.weight}</td>
+                  <td className="px-4 py-3 font-medium text-black border-b border-gray-200">{row.prov}</td>
+                  <td className="px-4 py-3 text-black border-b border-gray-200 text-xs">{row.plan}</td>
+                  <td className="px-4 py-3 text-black border-b border-gray-200 text-xs">{row.ozempic}</td>
+                  <td className="px-4 py-3 text-black border-b border-gray-200 text-xs">{row.weight}</td>
                 </tr>
               ))}
             </tbody>
@@ -204,7 +204,7 @@ export default function InsurancePage() {
         <h3>Will national pharmacare cover GLP-1 medications?</h3>
         <p>The federal government's pharmacare legislation (Bill C-64) is currently focused on diabetes medications and contraceptives. GLP-1 coverage for weight management under a national plan is not imminent as of 2025, though it is an active advocacy issue.</p>
 
-        <div className="bg-gray-50 border border-gray-200 rounded-xl p-5 mt-10 text-xs text-gray-700 leading-relaxed">
+        <div className="bg-gray-50 border border-gray-200 rounded-xl p-5 mt-10 text-xs text-black leading-relaxed">
           Coverage information reflects general policies as of May 2026. Drug plan formularies change frequently. Confirm coverage with your provincial plan or private insurer before filling a prescription.
         </div>
       </div>

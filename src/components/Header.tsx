@@ -16,7 +16,7 @@ export default function Header() {
         {/* Logo */}
         <Link href="/" className="flex items-center gap-2 transition-opacity hover:opacity-80">
           <span
-            className="text-xl font-bold tracking-tight text-gray-900"
+            className="text-xl font-bold tracking-tight text-black"
             style={{ fontFamily: "var(--font-playfair, Georgia, serif)" }}
           >
             Weight Loss<span className="text-[#1B3A6B]">Injections.ca</span>
@@ -32,7 +32,7 @@ export default function Header() {
               className={`relative rounded-md px-3 py-2 text-sm font-medium transition-colors ${
                 pathname === link.href
                   ? "bg-[#E8EFFF] text-[#1B3A6B]"
-                  : "text-gray-700 hover:bg-gray-50 hover:text-gray-900"
+                  : "text-black hover:bg-gray-50 hover:text-black"
               }`}
             >
               {link.label}
@@ -50,7 +50,7 @@ export default function Header() {
           {/* Mobile hamburger */}
           <button
             type="button"
-            className="inline-flex items-center justify-center rounded-md p-2.5 text-gray-700 hover:bg-gray-100 hover:text-gray-900 lg:hidden"
+            className="inline-flex items-center justify-center rounded-md p-2.5 text-black hover:bg-gray-100 hover:text-black lg:hidden"
             onClick={() => setOpen(!open)}
             aria-label="Toggle navigation"
             aria-expanded={open}
@@ -75,7 +75,7 @@ export default function Header() {
               className={`rounded-md px-3 py-2 text-sm font-medium transition-colors ${
                 pathname === link.href
                   ? "bg-[#E8EFFF] text-[#1B3A6B]"
-                  : "text-gray-700 hover:bg-gray-50 hover:text-gray-900"
+                  : "text-black hover:bg-gray-50 hover:text-black"
               }`}
             >
               {link.label}

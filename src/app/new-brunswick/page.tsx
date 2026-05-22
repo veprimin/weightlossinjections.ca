@@ -60,8 +60,8 @@ export default function NewBrunswickPage() {
           ].map((s) => (
             <div key={s.label} className="bg-gray-50 border border-gray-200 rounded-xl p-4">
               <p className="text-xl font-bold text-[#1B3A6B]" style={{ fontFamily: "Georgia, serif" }}>{s.value}</p>
-              <p className="text-sm font-medium text-gray-900 mt-1">{s.label}</p>
-              <p className="text-xs text-gray-700 mt-0.5">{s.sub}</p>
+              <p className="text-sm font-medium text-black mt-1">{s.label}</p>
+              <p className="text-xs text-black mt-0.5">{s.sub}</p>
             </div>
           ))}
         </div>
@@ -85,7 +85,7 @@ export default function NewBrunswickPage() {
 
         <div className="bg-[#EEF3FF] border border-[rgba(27,58,107,0.2)] rounded-xl p-5 my-6">
           <p className="text-xs font-bold uppercase tracking-widest text-[#1B3A6B] mb-2">Bilingual Access Note</p>
-          <p className="text-sm text-gray-900">
+          <p className="text-sm text-black">
             All NB PDP services and prior authorization processes are available in both English and French. Virtual care platforms including Felix Health can serve both francophone and anglophone New Brunswickers through their bilingual assessment process.
           </p>
         </div>
@@ -130,7 +130,7 @@ export default function NewBrunswickPage() {
         <h3>Is Felix available in French in New Brunswick?</h3>
         <p>Yes. Felix Health provides services in both English and French, making it accessible to francophone New Brunswickers throughout the province.</p>
 
-        <div className="bg-gray-50 border border-gray-200 rounded-xl p-5 mt-10 text-xs text-gray-700 leading-relaxed">
+        <div className="bg-gray-50 border border-gray-200 rounded-xl p-5 mt-10 text-xs text-black leading-relaxed">
           NB PDP criteria and formulary listings change periodically. This information reflects policies as of May 2026. Contact NB Prescription Drug Program (1-800-332-3692 / Service bilingue disponible) for current eligibility and coverage.
         </div>
       </div>

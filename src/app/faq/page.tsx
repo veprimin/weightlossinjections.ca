@@ -181,10 +181,10 @@ export default function FaqPage() {
             <table className="w-full text-sm border-collapse">
               <thead>
                 <tr className="border-b border-[rgba(27,58,107,0.2)]">
-                  <th className="text-left py-2 pr-4 text-xs font-bold text-gray-900">Medication</th>
-                  <th className="text-left py-2 pr-4 text-xs font-bold text-gray-900">Molecule</th>
-                  <th className="text-left py-2 pr-4 text-xs font-bold text-gray-900">Frequency</th>
-                  <th className="text-left py-2 text-xs font-bold text-gray-900">Avg. Weight Loss</th>
+                  <th className="text-left py-2 pr-4 text-xs font-bold text-black">Medication</th>
+                  <th className="text-left py-2 pr-4 text-xs font-bold text-black">Molecule</th>
+                  <th className="text-left py-2 pr-4 text-xs font-bold text-black">Frequency</th>
+                  <th className="text-left py-2 text-xs font-bold text-black">Avg. Weight Loss</th>
                 </tr>
               </thead>
               <tbody>
@@ -196,9 +196,9 @@ export default function FaqPage() {
                   { drug: "Saxenda",   mol: "Liraglutide",  freq: "Daily",      wl: "~8%" },
                 ].map((row, i) => (
                   <tr key={row.drug} className={i % 2 === 0 ? "" : "bg-[rgba(27,58,107,0.04)]"}>
-                    <td className="py-2 pr-4 text-xs font-semibold text-gray-900">{row.drug}</td>
-                    <td className="py-2 pr-4 text-xs text-gray-700">{row.mol}</td>
-                    <td className="py-2 pr-4 text-xs text-gray-700">{row.freq}</td>
+                    <td className="py-2 pr-4 text-xs font-semibold text-black">{row.drug}</td>
+                    <td className="py-2 pr-4 text-xs text-black">{row.mol}</td>
+                    <td className="py-2 pr-4 text-xs text-black">{row.freq}</td>
                     <td className="py-2 text-xs font-bold text-[#1B3A6B]">{row.wl}</td>
                   </tr>
                 ))}
@@ -211,7 +211,7 @@ export default function FaqPage() {
           For detailed dosing schedules, see our <Link href="/dosing">GLP-1 dosing guide</Link>. For a full side-by-side comparison, see the <Link href="/compare">medication comparison page</Link>.
         </p>
 
-        <div className="bg-gray-50 border border-gray-200 rounded-xl p-5 mt-10 text-xs text-gray-500 leading-relaxed">
+        <div className="bg-gray-50 border border-gray-200 rounded-xl p-5 mt-10 text-xs text-black leading-relaxed">
           <strong>Medical disclaimer:</strong> This FAQ is for informational purposes only and does not constitute medical advice, diagnosis, or treatment. GLP-1 medications require a valid prescription from a licensed Canadian healthcare provider. Always consult a qualified clinician before starting, changing, or stopping any medication.
         </div>
       </div>

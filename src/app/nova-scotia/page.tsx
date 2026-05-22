@@ -60,8 +60,8 @@ export default function NovaScotiaPage() {
           ].map((s) => (
             <div key={s.label} className="bg-gray-50 border border-gray-200 rounded-xl p-4">
               <p className="text-xl font-bold text-[#1B3A6B]" style={{ fontFamily: "Georgia, serif" }}>{s.value}</p>
-              <p className="text-sm font-medium text-gray-900 mt-1">{s.label}</p>
-              <p className="text-xs text-gray-700 mt-0.5">{s.sub}</p>
+              <p className="text-sm font-medium text-black mt-1">{s.label}</p>
+              <p className="text-xs text-black mt-0.5">{s.sub}</p>
             </div>
           ))}
         </div>
@@ -90,7 +90,7 @@ export default function NovaScotiaPage() {
 
         <div className="bg-[#EEF3FF] border border-[rgba(27,58,107,0.2)] rounded-xl p-5 my-6">
           <p className="text-xs font-bold uppercase tracking-widest text-[#1B3A6B] mb-2">Nova Scotia Coverage Note</p>
-          <p className="text-sm text-gray-900">
+          <p className="text-sm text-black">
             Nova Scotia announced plans to expand pharmacare coverage in 2024-2025. Check the NS Health website for the most current program eligibility updates, as coverage for working-age low-income Nova Scotians may expand. Call 1-800-387-6665 for the NS Pharmacare information line.
           </p>
         </div>
@@ -136,7 +136,7 @@ export default function NovaScotiaPage() {
         <h3>Is Felix available throughout Nova Scotia?</h3>
         <p>Yes. Felix Health operates province-wide in Nova Scotia including rural areas, and can arrange delivery to any NS address.</p>
 
-        <div className="bg-gray-50 border border-gray-200 rounded-xl p-5 mt-10 text-xs text-gray-700 leading-relaxed">
+        <div className="bg-gray-50 border border-gray-200 rounded-xl p-5 mt-10 text-xs text-black leading-relaxed">
           NS Pharmacare eligibility and formulary listings change periodically. This information reflects policies as of May 2026. Contact NS Pharmacare (1-800-387-6665) for current eligibility and coverage details.
         </div>
       </div>

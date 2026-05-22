@@ -45,7 +45,7 @@ function DosingTable({ rows, headers }: { rows: string[][]; headers: string[] })
           {rows.map((row, i) => (
             <tr key={i} className={i % 2 === 0 ? "bg-white" : "bg-gray-50"}>
               {row.map((cell, j) => (
-                <td key={j} className={`px-4 py-3 text-gray-900 ${j === 0 ? "font-medium" : ""}`}>{cell}</td>
+                <td key={j} className={`px-4 py-3 text-black ${j === 0 ? "font-medium" : ""}`}>{cell}</td>
               ))}
             </tr>
           ))}
@@ -77,7 +77,7 @@ export default function DosingPage() {
 
         <div className="bg-[#EEF3FF] border border-[rgba(27,58,107,0.2)] rounded-xl p-5 my-6">
           <p className="text-xs font-bold uppercase tracking-widest text-[#1B3A6B] mb-2">Important</p>
-          <p className="text-sm text-gray-900">
+          <p className="text-sm text-black">
             Never increase your dose faster than your physician's schedule. If you experience significant nausea at a dose level, staying there for an additional 4 weeks is always appropriate. The titration schedule shown below is the minimum time at each dose, not the maximum.
           </p>
         </div>
@@ -162,7 +162,7 @@ export default function DosingPage() {
           <li>Keep pens away from direct sunlight and heat</li>
         </ul>
 
-        <div className="bg-gray-50 border border-gray-200 rounded-xl p-5 mt-10 text-xs text-gray-700 leading-relaxed">
+        <div className="bg-gray-50 border border-gray-200 rounded-xl p-5 mt-10 text-xs text-black leading-relaxed">
           Dosing information reflects Health Canada-approved product monographs as of May 2026. Always follow the specific instructions provided by your physician and pharmacist. Dosing protocols may differ for individual patients based on clinical factors.
         </div>
       </div>

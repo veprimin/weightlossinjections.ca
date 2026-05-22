@@ -25,7 +25,7 @@ export default function PartnersSidebar() {
   return (
     <div className="rounded-xl border border-gray-200 overflow-hidden bg-white">
       <div className="px-4 py-3 bg-gray-50 border-b border-gray-200">
-        <p className="text-xs font-bold uppercase tracking-widest text-gray-600">
+        <p className="text-xs font-bold uppercase tracking-widest text-black">
           Sponsored Partners
         </p>
       </div>
@@ -45,12 +45,12 @@ export default function PartnersSidebar() {
               >
                 {p.rank}
               </span>
-              <span className="text-sm font-bold text-gray-900">{p.name}</span>
+              <span className="text-sm font-bold text-black">{p.name}</span>
               <span className="ml-auto text-xs font-semibold" style={{ color: p.accentColor }}>
                 {p.price}
               </span>
             </div>
-            <p className="text-xs text-gray-800 mb-2.5 leading-snug">{p.tagline}</p>
+            <p className="text-xs text-black mb-2.5 leading-snug">{p.tagline}</p>
             <span
               className="flex items-center justify-center text-white text-xs font-semibold px-3 py-2 rounded-lg"
               style={{ background: p.accentColor }}

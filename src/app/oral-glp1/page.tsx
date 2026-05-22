@@ -79,7 +79,7 @@ export default function OralGlp1Page() {
               "Swallow tablet whole - do not crush, chew, or split",
               "Consistent daily timing improves effectiveness",
             ].map((f) => (
-              <li key={f} className="flex gap-2 text-sm text-gray-900">
+              <li key={f} className="flex gap-2 text-sm text-black">
                 <span className="text-amber-600 font-bold shrink-0">•</span> {f}
               </li>
             ))}
@@ -165,7 +165,7 @@ export default function OralGlp1Page() {
         <h3>Is there a generic oral semaglutide?</h3>
         <p>Not as of mid-2025. The Health Canada approvals for generic semaglutide announced in 2025 are for injectable formulations only. Generic oral semaglutide is likely years away.</p>
 
-        <div className="bg-gray-50 border border-gray-200 rounded-xl p-5 mt-10 text-xs text-gray-700 leading-relaxed">
+        <div className="bg-gray-50 border border-gray-200 rounded-xl p-5 mt-10 text-xs text-black leading-relaxed">
           <strong>Medical disclaimer:</strong> This article is for informational purposes only and does not constitute medical advice. Rybelsus requires a prescription from a licensed healthcare provider.
         </div>
       </div>

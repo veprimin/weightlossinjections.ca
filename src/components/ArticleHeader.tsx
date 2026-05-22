@@ -16,14 +16,14 @@ export default function ArticleHeader({
       <div className="flex items-center gap-3 mb-5">
         <span className="text-xs font-bold uppercase tracking-widest text-[#1B3A6B]">{category}</span>
         <span className="w-1 h-1 rounded-full bg-gray-300" />
-        <span className="text-xs text-gray-600">{date}</span>
+        <span className="text-xs text-black">{date}</span>
         <span className="w-1 h-1 rounded-full bg-gray-300" />
-        <span className="text-xs text-gray-600">{readTime} read</span>
+        <span className="text-xs text-black">{readTime} read</span>
       </div>
 
       <div className="border-l-4 border-[#1B3A6B] pl-5 mb-6">
         <h1
-          className="text-3xl sm:text-4xl font-black text-gray-900 leading-tight"
+          className="text-3xl sm:text-4xl font-black text-black leading-tight"
           style={{ fontFamily: "var(--font-playfair, Georgia, serif)", letterSpacing: "-0.01em" }}
         >
           {headline}
@@ -31,13 +31,13 @@ export default function ArticleHeader({
       </div>
 
       <p
-        className="text-xl text-gray-900 leading-relaxed mb-6 max-w-2xl"
+        className="text-xl text-black leading-relaxed mb-6 max-w-2xl"
         style={{ fontFamily: "var(--font-source-serif, Georgia, serif)", fontWeight: 300 }}
       >
         {standfirst}
       </p>
 
-      <div className="flex items-center gap-3 text-sm text-gray-700">
+      <div className="flex items-center gap-3 text-sm text-black">
         <span>By the editorial team at WeightLossInjections.ca</span>
         <span className="w-1 h-1 rounded-full bg-gray-300" />
         <span>Medically reviewed</span>

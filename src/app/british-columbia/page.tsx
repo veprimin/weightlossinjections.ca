@@ -61,8 +61,8 @@ export default function BritishColumbiaPage() {
           ].map((s) => (
             <div key={s.label} className="bg-gray-50 border border-gray-200 rounded-xl p-4">
               <p className="text-xl font-bold text-[#1B3A6B]" style={{ fontFamily: "Georgia, serif" }}>{s.value}</p>
-              <p className="text-sm font-medium text-gray-900 mt-1">{s.label}</p>
-              <p className="text-xs text-gray-700 mt-0.5">{s.sub}</p>
+              <p className="text-sm font-medium text-black mt-1">{s.label}</p>
+              <p className="text-xs text-black mt-0.5">{s.sub}</p>
             </div>
           ))}
         </div>
@@ -102,7 +102,7 @@ export default function BritishColumbiaPage() {
 
         <div className="bg-[#EEF3FF] border border-[rgba(27,58,107,0.2)] rounded-xl p-5 my-6">
           <p className="text-xs font-bold uppercase tracking-widest text-[#1B3A6B] mb-2">BC PharmaCare Tip</p>
-          <p className="text-sm text-gray-900">
+          <p className="text-sm text-black">
             BC PharmaCare's Fair PharmaCare plan automatically registers BC residents when they file their taxes. If you have not checked your PharmaCare deductible and coverage level recently, you can verify your status at the BC government's Health Insurance BC (HIBC) portal or by calling 1-800-663-7100.
           </p>
         </div>
@@ -170,7 +170,7 @@ export default function BritishColumbiaPage() {
         <h3>Will BC PharmaCare cover generic semaglutide?</h3>
         <p>Generic semaglutide (Plosbrio and Poviztra) approved by Health Canada in 2025 will eventually be listed on the BC PharmaCare formulary for type 2 diabetes, subject to the same Special Authority criteria as Ozempic. Formulary listing typically follows Health Canada approval within 6–18 months.</p>
 
-        <div className="bg-gray-50 border border-gray-200 rounded-xl p-5 mt-10 text-xs text-gray-700 leading-relaxed">
+        <div className="bg-gray-50 border border-gray-200 rounded-xl p-5 mt-10 text-xs text-black leading-relaxed">
           BC PharmaCare criteria and formulary listings are subject to change. This information reflects publicly available policy as of May 2026. Verify current Special Authority criteria with your physician, pharmacist, or BC PharmaCare (1-800-663-7100).
         </div>
       </div>

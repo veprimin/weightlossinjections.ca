@@ -1,25 +1,25 @@
 @import "tailwindcss";
 
 html { scroll-behavior: smooth; }
-body { background: #fff; color: #111827; }
+body { background: #ffffff; color: #000000; }
 
 /* Article prose */
 .prose-editorial h2 {
-  font-size: 1.6rem; font-weight: 700; color: #111827;
+  font-size: 1.6rem; font-weight: 700; color: #000000;
   margin-top: 2.5rem; margin-bottom: 1rem; line-height: 1.3;
 }
 .prose-editorial h3 {
-  font-size: 1.2rem; font-weight: 700; color: #111827;
+  font-size: 1.2rem; font-weight: 700; color: #000000;
   margin-top: 2rem; margin-bottom: 0.75rem;
 }
 .prose-editorial p {
-  font-size: 1.0625rem; line-height: 1.8; color: #111827; margin-bottom: 1.35rem;
+  font-size: 1.0625rem; line-height: 1.8; color: #000000; margin-bottom: 1.35rem;
 }
 .prose-editorial ul, .prose-editorial ol { margin: 0 0 1.35rem 1.5rem; }
 .prose-editorial li {
-  font-size: 1.0625rem; line-height: 1.75; color: #111827; margin-bottom: 0.4rem;
+  font-size: 1.0625rem; line-height: 1.75; color: #000000; margin-bottom: 0.4rem;
 }
-.prose-editorial strong { color: #111827; font-weight: 600; }
+.prose-editorial strong { color: #000000; font-weight: 600; }
 .prose-editorial a {
   color: #1B3A6B; text-decoration: underline; text-underline-offset: 3px;
   text-decoration-color: rgba(27,58,107,0.35);

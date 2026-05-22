@@ -120,7 +120,7 @@ export default function AboutPage() {
 
         <div className="bg-[#EEF3FF] border border-[rgba(27,58,107,0.2)] rounded-xl p-5 my-6">
           <p className="text-xs font-bold uppercase tracking-widest text-[#1B3A6B] mb-2">Contact</p>
-          <p className="text-sm text-gray-900">
+          <p className="text-sm text-black">
             For factual corrections or editorial feedback, please reach out via our{" "}
             <a href="https://github.com" target="_blank" rel="noopener noreferrer">GitHub Issues</a>{" "}
             or by email at{" "}
@@ -129,7 +129,7 @@ export default function AboutPage() {
           </p>
         </div>
 
-        <div className="bg-gray-50 border border-gray-200 rounded-xl p-5 mt-10 text-xs text-gray-500 leading-relaxed">
+        <div className="bg-gray-50 border border-gray-200 rounded-xl p-5 mt-10 text-xs text-black leading-relaxed">
           <strong>Medical disclaimer:</strong> Content on WeightLossInjections.ca is for informational purposes only and does not constitute medical advice, diagnosis, or treatment. GLP-1 medications require a valid prescription from a licensed Canadian healthcare provider. Always consult a qualified clinician before starting, changing, or stopping any medication. See our full <Link href="/disclaimer">medical disclaimer</Link>.
         </div>
       </div>

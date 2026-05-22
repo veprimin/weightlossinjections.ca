@@ -68,7 +68,7 @@ export default function WegovyVsMounjaroPage() {
           ].map((stat) => (
             <div key={stat.label} className="bg-gray-50 border border-gray-200 rounded-xl p-4 text-center">
               <p className="text-2xl font-black text-[#1B3A6B]" style={{ fontFamily: "var(--font-playfair, Georgia, serif)" }}>{stat.value}</p>
-              <p className="text-xs text-gray-700 mt-1 leading-snug">{stat.label}</p>
+              <p className="text-xs text-black mt-1 leading-snug">{stat.label}</p>
             </div>
           ))}
         </div>
@@ -89,7 +89,7 @@ export default function WegovyVsMounjaroPage() {
 
         <div className="bg-[#EEF3FF] border border-[rgba(27,58,107,0.2)] rounded-xl p-5 my-6">
           <p className="text-xs font-bold uppercase tracking-widest text-[#1B3A6B] mb-2">The Efficacy Gap</p>
-          <p className="text-sm text-gray-900 leading-relaxed">
+          <p className="text-sm text-black leading-relaxed">
             Both drugs represent a step change over older weight-loss medications. Mounjaro's advantage of roughly 5-6 percentage points of body weight over Wegovy is clinically meaningful - but Wegovy remains highly effective. A patient who responds well to semaglutide may achieve outcomes that rival average tirzepatide results.
           </p>
         </div>
@@ -120,9 +120,9 @@ export default function WegovyVsMounjaroPage() {
                 ["Nausea/GI side effects",       "Common; improves with titration","Similar; slightly better tolerated per some data"],
               ].map(([feature, wegovy, mounjaro], i) => (
                 <tr key={feature} className={i % 2 === 0 ? "bg-white" : "bg-gray-50"}>
-                  <td className="px-4 py-3 text-xs font-semibold text-gray-700 border-b border-gray-200 align-top">{feature}</td>
-                  <td className="px-4 py-3 text-xs text-gray-700 border-b border-gray-200 align-top">{wegovy}</td>
-                  <td className="px-4 py-3 text-xs text-gray-700 border-b border-gray-200 align-top">{mounjaro}</td>
+                  <td className="px-4 py-3 text-xs font-semibold text-black border-b border-gray-200 align-top">{feature}</td>
+                  <td className="px-4 py-3 text-xs text-black border-b border-gray-200 align-top">{wegovy}</td>
+                  <td className="px-4 py-3 text-xs text-black border-b border-gray-200 align-top">{mounjaro}</td>
                 </tr>
               ))}
             </tbody>
@@ -144,7 +144,7 @@ export default function WegovyVsMounjaroPage() {
 
         <div className="bg-[#EEF3FF] border border-[rgba(27,58,107,0.2)] rounded-xl p-5 my-6">
           <p className="text-xs font-bold uppercase tracking-widest text-[#1B3A6B] mb-2">Generic Consideration</p>
-          <p className="text-sm text-gray-900 leading-relaxed">
+          <p className="text-sm text-black leading-relaxed">
             Generic semaglutide (approved 2025) will likely be 45-90% cheaper than brand-name Wegovy. For budget-conscious patients, generic semaglutide plus the modest additional efficacy gap may represent better value than paying full price for Mounjaro. Your physician and pharmacist can advise on current generic pricing in your province.
           </p>
         </div>
@@ -196,7 +196,7 @@ export default function WegovyVsMounjaroPage() {
           Weight loss plateaus on GLP-1 medications are common at 12-18 months as the body adapts. Options include: dose optimization (confirming you are at the full 2.4 mg dose), adding lifestyle interventions, switching to tirzepatide for its dual mechanism, or discussing combination approaches with your physician. Plateaus are not a reason to stop medication - most people maintain reduced weight on continued therapy even without additional loss.
         </p>
 
-        <div className="bg-gray-50 border border-gray-200 rounded-xl p-5 mt-10 text-xs text-gray-500 leading-relaxed">
+        <div className="bg-gray-50 border border-gray-200 rounded-xl p-5 mt-10 text-xs text-black leading-relaxed">
           <strong>Medical disclaimer:</strong> This article is for informational purposes only and does not constitute medical advice. Drug costs, coverage criteria, and approval status reflect information available as of May 2026. Always consult a licensed Canadian physician or pharmacist before starting, switching, or stopping any prescription medication.
         </div>
       </div>

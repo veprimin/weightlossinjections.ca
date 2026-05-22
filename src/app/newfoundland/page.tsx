@@ -60,8 +60,8 @@ export default function NewfoundlandPage() {
           ].map((s) => (
             <div key={s.label} className="bg-gray-50 border border-gray-200 rounded-xl p-4">
               <p className="text-xl font-bold text-[#1B3A6B]" style={{ fontFamily: "Georgia, serif" }}>{s.value}</p>
-              <p className="text-sm font-medium text-gray-900 mt-1">{s.label}</p>
-              <p className="text-xs text-gray-700 mt-0.5">{s.sub}</p>
+              <p className="text-sm font-medium text-black mt-1">{s.label}</p>
+              <p className="text-xs text-black mt-0.5">{s.sub}</p>
             </div>
           ))}
         </div>
@@ -82,7 +82,7 @@ export default function NewfoundlandPage() {
 
         <div className="bg-[#EEF3FF] border border-[rgba(27,58,107,0.2)] rounded-xl p-5 my-6">
           <p className="text-xs font-bold uppercase tracking-widest text-[#1B3A6B] mb-2">NL Virtual Care Note</p>
-          <p className="text-sm text-gray-900">
+          <p className="text-sm text-black">
             Many NL communities - particularly on the island and in Labrador - face significant physician shortage challenges. Virtual care platforms like Felix Health are especially valuable in NL, allowing residents in rural and remote communities to access GLP-1 assessments and prescriptions without the barrier of finding a local prescriber. Delivery is available province-wide.
           </p>
         </div>
@@ -128,7 +128,7 @@ export default function NewfoundlandPage() {
         <h3>Is Felix available in rural Newfoundland and Labrador?</h3>
         <p>Yes. Felix Health serves all NL communities with internet access. The online assessment requires no local physician, and medication can be delivered by mail to any NL address - including rural and remote communities.</p>
 
-        <div className="bg-gray-50 border border-gray-200 rounded-xl p-5 mt-10 text-xs text-gray-700 leading-relaxed">
+        <div className="bg-gray-50 border border-gray-200 rounded-xl p-5 mt-10 text-xs text-black leading-relaxed">
           NL PDP eligibility and formulary listings change periodically. This information reflects policies as of May 2026. Contact NL Health Services (1-888-687-2657) for current eligibility and Access Plan criteria.
         </div>
       </div>

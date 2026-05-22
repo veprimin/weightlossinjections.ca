@@ -65,7 +65,7 @@ export default function OzempicVsMounjaroPage() {
           ].map((stat) => (
             <div key={stat.label} className="bg-gray-50 border border-gray-200 rounded-xl p-4 text-center">
               <p className="text-2xl font-black text-[#1B3A6B]" style={{ fontFamily: "var(--font-playfair, Georgia, serif)" }}>{stat.value}</p>
-              <p className="text-xs text-gray-700 mt-1 leading-snug">{stat.label}</p>
+              <p className="text-xs text-black mt-1 leading-snug">{stat.label}</p>
             </div>
           ))}
         </div>
@@ -85,7 +85,7 @@ export default function OzempicVsMounjaroPage() {
 
         <div className="bg-[#EEF3FF] border border-[rgba(27,58,107,0.2)] rounded-xl p-5 my-6">
           <p className="text-xs font-bold uppercase tracking-widest text-[#1B3A6B] mb-2">Trial Highlight</p>
-          <p className="text-sm text-gray-900 leading-relaxed">
+          <p className="text-sm text-black leading-relaxed">
             In SURMOUNT-1, participants on tirzepatide 15 mg lost an average of 20.9% of body weight - comparable to outcomes historically associated with bariatric surgery. No other approved weekly injectable had achieved this before.
           </p>
         </div>
@@ -118,9 +118,9 @@ export default function OzempicVsMounjaroPage() {
                 ["Availability",            "Widely stocked nationally",       "Occasional shortages reported"],
               ].map(([feature, ozempic, mounjaro], i) => (
                 <tr key={feature} className={i % 2 === 0 ? "bg-white" : "bg-gray-50"}>
-                  <td className="px-4 py-3 text-xs font-semibold text-gray-700 border-b border-gray-200 align-top">{feature}</td>
-                  <td className="px-4 py-3 text-xs text-gray-700 border-b border-gray-200 align-top">{ozempic}</td>
-                  <td className="px-4 py-3 text-xs text-gray-700 border-b border-gray-200 align-top">{mounjaro}</td>
+                  <td className="px-4 py-3 text-xs font-semibold text-black border-b border-gray-200 align-top">{feature}</td>
+                  <td className="px-4 py-3 text-xs text-black border-b border-gray-200 align-top">{ozempic}</td>
+                  <td className="px-4 py-3 text-xs text-black border-b border-gray-200 align-top">{mounjaro}</td>
                 </tr>
               ))}
             </tbody>
@@ -153,9 +153,9 @@ export default function OzempicVsMounjaroPage() {
             { category: "GI tolerability",      winner: "Roughly equal", detail: "Both cause similar GI side effects. Mounjaro may be marginally better tolerated at equivalent weight-loss doses, though evidence is limited." },
           ].map((row) => (
             <div key={row.category} className="bg-white border border-gray-200 rounded-xl p-5">
-              <p className="text-xs font-bold uppercase tracking-widest text-gray-700 mb-1">{row.category}</p>
+              <p className="text-xs font-bold uppercase tracking-widest text-black mb-1">{row.category}</p>
               <p className="text-base font-black text-[#1B3A6B] mb-2" style={{ fontFamily: "var(--font-playfair, Georgia, serif)" }}>{row.winner}</p>
-              <p className="text-xs text-gray-700 leading-relaxed">{row.detail}</p>
+              <p className="text-xs text-black leading-relaxed">{row.detail}</p>
             </div>
           ))}
         </div>
@@ -191,7 +191,7 @@ export default function OzempicVsMounjaroPage() {
           Both have cardiovascular outcome data. Ozempic's SELECT trial (2023) showed a 20% reduction in major adverse cardiovascular events in adults with overweight/obesity and established cardiovascular disease. Mounjaro's SURPASS-CVOT trial results are anticipated but had not been fully published as of this writing. For patients with established cardiovascular disease, semaglutide currently has stronger evidence.
         </p>
 
-        <div className="bg-gray-50 border border-gray-200 rounded-xl p-5 mt-10 text-xs text-gray-500 leading-relaxed">
+        <div className="bg-gray-50 border border-gray-200 rounded-xl p-5 mt-10 text-xs text-black leading-relaxed">
           <strong>Medical disclaimer:</strong> This article is for informational purposes only and does not constitute medical advice. Drug costs, coverage criteria, and clinical data reflect information available as of May 2026. Always consult a licensed Canadian physician or pharmacist before starting, switching, or stopping any prescription medication.
         </div>
       </div>

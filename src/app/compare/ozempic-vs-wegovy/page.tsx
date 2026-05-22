@@ -63,7 +63,7 @@ export default function OzempicVsWegovyPage() {
           ].map((s) => (
             <div key={s.label} className="bg-white rounded-lg border border-gray-200 p-4 text-center">
               <span className="block text-2xl font-black text-[#1B3A6B] mb-1" style={{ fontFamily: "Georgia, serif" }}>{s.value}</span>
-              <span className="block text-xs text-gray-700 font-medium">{s.label}</span>
+              <span className="block text-xs text-black font-medium">{s.label}</span>
             </div>
           ))}
         </div>
@@ -97,9 +97,9 @@ export default function OzempicVsWegovyPage() {
                 ["Generic available?",     "Yes (Plosbrio, Poviztra 2025)",  "Yes (same generics apply)"],
               ].map(([feature, ozempic, wegovy], i) => (
                 <tr key={feature} className={i % 2 === 0 ? "bg-white" : "bg-gray-50"}>
-                  <td className="px-4 py-3 text-xs font-semibold text-gray-700 border-b border-gray-200">{feature}</td>
-                  <td className="px-4 py-3 text-xs text-gray-700 border-b border-gray-200">{ozempic}</td>
-                  <td className="px-4 py-3 text-xs text-gray-700 border-b border-gray-200">{wegovy}</td>
+                  <td className="px-4 py-3 text-xs font-semibold text-black border-b border-gray-200">{feature}</td>
+                  <td className="px-4 py-3 text-xs text-black border-b border-gray-200">{ozempic}</td>
+                  <td className="px-4 py-3 text-xs text-black border-b border-gray-200">{wegovy}</td>
                 </tr>
               ))}
             </tbody>
@@ -133,7 +133,7 @@ export default function OzempicVsWegovyPage() {
 
         <div className="bg-[#EEF3FF] border border-[rgba(27,58,107,0.2)] rounded-xl p-5 my-6">
           <p className="text-xs font-bold uppercase tracking-widest text-[#1B3A6B] mb-2">Coverage Note</p>
-          <p className="text-sm text-gray-900 leading-relaxed">
+          <p className="text-sm text-black leading-relaxed">
             If you have T2D, Ozempic is almost always the better financial choice. If you do not have T2D, ask your insurer specifically whether Wegovy is listed under your drug plan before assuming it will be covered. See our full <Link href="/insurance-coverage" className="underline text-[#1B3A6B]">insurance coverage guide</Link> for province-by-province details.
           </p>
         </div>
@@ -172,7 +172,7 @@ export default function OzempicVsWegovyPage() {
 
       <div className="not-prose bg-[#EEF3FF] border border-[rgba(27,58,107,0.2)] rounded-xl p-5 my-6">
         <p className="text-xs font-bold uppercase tracking-widest text-[#1B3A6B] mb-2">Medical Disclaimer</p>
-        <p className="text-sm text-gray-900 leading-relaxed">
+        <p className="text-sm text-black leading-relaxed">
           This article is for informational purposes only and does not constitute medical advice. Drug availability, coverage criteria, and pricing change frequently. Always consult a licensed Canadian physician or pharmacist before starting, switching, or stopping any prescription medication. Felix Health (sponsored) can connect you with a licensed provider for an online assessment.
         </p>
       </div>

@@ -80,11 +80,11 @@ export default function GenericSemaglutidePage() {
                   {g.brand.charAt(0)}
                 </div>
                 <div>
-                  <h3 className="text-sm font-bold text-gray-900" style={{ fontFamily: "Georgia, serif" }}>{g.brand}</h3>
-                  <p className="text-xs text-gray-700">{g.manufacturer} &middot; {g.origin}</p>
+                  <h3 className="text-sm font-bold text-black" style={{ fontFamily: "Georgia, serif" }}>{g.brand}</h3>
+                  <p className="text-xs text-black">{g.manufacturer} &middot; {g.origin}</p>
                 </div>
               </div>
-              <p className="text-sm text-gray-800 leading-relaxed">{g.note}</p>
+              <p className="text-sm text-black leading-relaxed">{g.note}</p>
             </div>
           ))}
         </div>
@@ -118,7 +118,7 @@ export default function GenericSemaglutidePage() {
               "Health Canada's own estimate: 45-90% below brand price",
               "Timeline to full price impact: 12-24 months after initial availability",
             ].map((f) => (
-              <li key={f} className="flex gap-2 text-sm text-gray-900">
+              <li key={f} className="flex gap-2 text-sm text-black">
                 <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#1B3A6B" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true" className="mt-0.5 shrink-0">
                   <circle cx="12" cy="12" r="10"/><path d="m9 12 2 2 4-4"/>
                 </svg>
@@ -206,7 +206,7 @@ export default function GenericSemaglutidePage() {
         <h3>Are there more generic approvals coming?</h3>
         <p>Yes. As of mid-2025, Health Canada had multiple additional generic semaglutide submissions under review. Expect further competition - and further price pressure - as additional manufacturers receive approval over the following 12-24 months.</p>
 
-        <div className="bg-gray-50 border border-gray-200 rounded-xl p-5 mt-10 text-xs text-gray-700 leading-relaxed">
+        <div className="bg-gray-50 border border-gray-200 rounded-xl p-5 mt-10 text-xs text-black leading-relaxed">
           <strong>Note:</strong> Generic availability, pricing, and provincial formulary listings change frequently. This article reflects information as of May 2026. Verify current availability with your pharmacist. Price projections are estimates based on historical generic drug market patterns and may differ from actual outcomes.
         </div>
       </div>

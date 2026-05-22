@@ -55,8 +55,8 @@ export default function SaxendaPage() {
           ].map((s) => (
             <div key={s.label} className="bg-[#EEF3FF] border border-[rgba(27,58,107,0.2)] rounded-xl p-4">
               <p className="text-xs font-bold uppercase tracking-widest text-[#1B3A6B] mb-1">{s.label}</p>
-              <p className="text-base font-bold text-gray-900">{s.value}</p>
-              <p className="text-xs text-gray-700 mt-0.5">{s.sub}</p>
+              <p className="text-base font-bold text-black">{s.value}</p>
+              <p className="text-xs text-black mt-0.5">{s.sub}</p>
             </div>
           ))}
         </div>
@@ -103,18 +103,18 @@ export default function SaxendaPage() {
                 { drug: "Mounjaro",  mol: "Tirzepatide",           freq: "Weekly", wl: "~20-22%", cost: "$400-600+" },
               ].map((row) => (
                 <tr key={row.drug}>
-                  <td className="p-3 font-semibold text-gray-900 border border-[rgba(27,58,107,0.08)]">{row.drug}</td>
-                  <td className="p-3 text-gray-700 border border-[rgba(27,58,107,0.08)]">{row.mol}</td>
-                  <td className="p-3 text-gray-700 border border-[rgba(27,58,107,0.08)]">{row.freq}</td>
+                  <td className="p-3 font-semibold text-black border border-[rgba(27,58,107,0.08)]">{row.drug}</td>
+                  <td className="p-3 text-black border border-[rgba(27,58,107,0.08)]">{row.mol}</td>
+                  <td className="p-3 text-black border border-[rgba(27,58,107,0.08)]">{row.freq}</td>
                   <td className="p-3 font-semibold text-[#1B3A6B] border border-[rgba(27,58,107,0.08)]">{row.wl}</td>
-                  <td className="p-3 text-gray-700 border border-[rgba(27,58,107,0.08)]">{row.cost}</td>
+                  <td className="p-3 text-black border border-[rgba(27,58,107,0.08)]">{row.cost}</td>
                 </tr>
               ))}
             </tbody>
           </table>
         </div>
 
-        <p className="text-xs text-gray-700">
+        <p className="text-xs text-black">
           Costs without insurance. Weight loss figures from pivotal clinical trials at approved doses. Individual results vary.
         </p>
 
@@ -172,7 +172,7 @@ export default function SaxendaPage() {
                 { week: "Week 5+", dose: "3.0 mg once daily (target dose)" },
               ].map((row) => (
                 <tr key={row.week}>
-                  <td className="p-3 font-medium text-gray-900 border border-[rgba(27,58,107,0.08)]">{row.week}</td>
+                  <td className="p-3 font-medium text-black border border-[rgba(27,58,107,0.08)]">{row.week}</td>
                   <td className="p-3 font-semibold text-[#1B3A6B] border border-[rgba(27,58,107,0.08)]">{row.dose}</td>
                 </tr>
               ))}
@@ -204,7 +204,7 @@ export default function SaxendaPage() {
           They contain the same active ingredient - liraglutide - but at different doses and with different indications. Victoza (1.2 mg or 1.8 mg) is approved for type 2 diabetes. Saxenda (3 mg) is approved for chronic weight management. The injection devices look similar but are different products with different DINs and dosing. Do not use Victoza pens for weight management dosing.
         </p>
 
-        <div className="bg-gray-50 border border-gray-200 rounded-xl p-5 mt-10 text-xs text-gray-500 leading-relaxed">
+        <div className="bg-gray-50 border border-gray-200 rounded-xl p-5 mt-10 text-xs text-black leading-relaxed">
           <strong>Medical disclaimer:</strong> This article is for informational purposes only and does not constitute medical advice. Saxenda requires a valid prescription from a licensed Canadian healthcare provider. Discuss the appropriateness of any medication with your prescribing physician. See our <Link href="/disclaimer">full medical disclaimer</Link>.
         </div>
       </div>

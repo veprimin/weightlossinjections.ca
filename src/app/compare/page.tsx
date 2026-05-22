@@ -123,16 +123,16 @@ export default function ComparePage() {
           <span className="text-xs font-bold uppercase tracking-widest text-[#1B3A6B]">Drug Comparison</span>
           <div className="border-l-4 border-[#1B3A6B] pl-5 my-4">
             <h1
-              className="text-3xl sm:text-4xl font-black text-gray-900 leading-tight"
+              className="text-3xl sm:text-4xl font-black text-black leading-tight"
               style={{ fontFamily: "var(--font-playfair, Georgia, serif)" }}
             >
               Ozempic vs. Wegovy vs. Mounjaro vs. Rybelsus
             </h1>
           </div>
-          <p className="text-lg text-gray-800 font-light max-w-2xl leading-relaxed">
+          <p className="text-lg text-black font-light max-w-2xl leading-relaxed">
             A complete side-by-side comparison of all major GLP-1 weight loss medications available in Canada - efficacy, cost, dosing, and coverage.
           </p>
-          <div className="flex items-center gap-4 mt-5 text-sm text-gray-700">
+          <div className="flex items-center gap-4 mt-5 text-sm text-black">
             <span>Updated May 2026</span>
             <span className="w-1 h-1 rounded-full bg-gray-300" />
             <span>4 medications compared</span>
@@ -145,7 +145,7 @@ export default function ComparePage() {
       {/* Drug Cards */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 py-12">
         <h2
-          className="text-xl font-bold text-gray-900 mb-6 pb-3 border-b border-gray-200"
+          className="text-xl font-bold text-black mb-6 pb-3 border-b border-gray-200"
           style={{ fontFamily: "var(--font-playfair, Georgia, serif)" }}
         >
           Medication Profiles
@@ -168,39 +168,39 @@ export default function ComparePage() {
                   </div>
                   <div>
                     <h3
-                      className="text-sm font-bold text-gray-900 group-hover:text-[#1B3A6B] transition-colors"
+                      className="text-sm font-bold text-black group-hover:text-[#1B3A6B] transition-colors"
                       style={{ fontFamily: "var(--font-playfair, Georgia, serif)" }}
                     >
                       {d.name}
                     </h3>
-                    <p className="text-xs text-gray-600">{d.generic} &middot; {d.manufacturer}</p>
+                    <p className="text-xs text-black">{d.generic} &middot; {d.manufacturer}</p>
                   </div>
                 </div>
                 <div className="space-y-2 mb-4">
                   <div className="flex justify-between text-xs">
-                    <span className="text-gray-700">Form</span>
-                    <span className="font-medium text-gray-800">{d.form}</span>
+                    <span className="text-black">Form</span>
+                    <span className="font-medium text-black">{d.form}</span>
                   </div>
                   <div className="flex justify-between text-xs">
-                    <span className="text-gray-700">Frequency</span>
-                    <span className="font-medium text-gray-800">{d.frequency}</span>
+                    <span className="text-black">Frequency</span>
+                    <span className="font-medium text-black">{d.frequency}</span>
                   </div>
                   <div className="flex justify-between text-xs">
-                    <span className="text-gray-700">Weight loss</span>
+                    <span className="text-black">Weight loss</span>
                     <span className="font-bold" style={{ color: d.heroColor }}>{d.weightLoss}</span>
                   </div>
                   <div className="flex justify-between text-xs">
-                    <span className="text-gray-700">Monthly cost</span>
-                    <span className="font-medium text-gray-800">{d.cost}</span>
+                    <span className="text-black">Monthly cost</span>
+                    <span className="font-medium text-black">{d.cost}</span>
                   </div>
                   <div className="flex justify-between text-xs">
-                    <span className="text-gray-700">Public coverage</span>
-                    <span className="font-medium text-gray-800 text-right max-w-[130px]">{d.oDbCovered}</span>
+                    <span className="text-black">Public coverage</span>
+                    <span className="font-medium text-black text-right max-w-[130px]">{d.oDbCovered}</span>
                   </div>
                 </div>
                 <ul className="space-y-1 mb-5 flex-1">
                   {d.keyFacts.map((f) => (
-                    <li key={f} className="flex gap-1.5 text-xs text-gray-700 leading-snug">
+                    <li key={f} className="flex gap-1.5 text-xs text-black leading-snug">
                       <span className="mt-0.5 shrink-0 text-xs" style={{ color: d.heroColor }}>&#10003;</span>
                       {f}
                     </li>
@@ -210,7 +210,7 @@ export default function ComparePage() {
                   className="flex items-center justify-center text-white text-xs font-semibold px-4 py-2.5 rounded-lg transition-opacity group-hover:opacity-90"
                   style={{ background: d.heroColor }}
                 >
-                  Full {d.name} guide &rarr;
+                  {`Full ${d.name} guide →`}
                 </span>
               </div>
             </Link>
@@ -219,7 +219,7 @@ export default function ComparePage() {
 
         {/* Comparison Table */}
         <h2
-          className="text-xl font-bold text-gray-900 mb-6 pb-3 border-b border-gray-200"
+          className="text-xl font-bold text-black mb-6 pb-3 border-b border-gray-200"
           style={{ fontFamily: "var(--font-playfair, Georgia, serif)" }}
         >
           Side-by-Side Comparison
@@ -237,9 +237,9 @@ export default function ComparePage() {
             <tbody>
               {comparisonRows.map((row, i) => (
                 <tr key={row.label} className={i % 2 === 0 ? "bg-white" : "bg-gray-50"}>
-                  <td className="px-4 py-3 text-xs font-semibold text-gray-700 border-b border-gray-200 align-top">{row.label}</td>
+                  <td className="px-4 py-3 text-xs font-semibold text-black border-b border-gray-200 align-top">{row.label}</td>
                   {row.values.map((v, j) => (
-                    <td key={j} className="px-4 py-3 text-xs text-gray-700 border-b border-gray-200 align-top">{v}</td>
+                    <td key={j} className="px-4 py-3 text-xs text-black border-b border-gray-200 align-top">{v}</td>
                   ))}
                 </tr>
               ))}
@@ -249,7 +249,7 @@ export default function ComparePage() {
 
         {/* Which Is Right For You */}
         <h2
-          className="text-xl font-bold text-gray-900 mb-6 pb-3 border-b border-gray-200"
+          className="text-xl font-bold text-black mb-6 pb-3 border-b border-gray-200"
           style={{ fontFamily: "var(--font-playfair, Georgia, serif)" }}
         >
           Which Should You Choose?
@@ -287,10 +287,10 @@ export default function ComparePage() {
                   {s.num}
                 </span>
                 <div>
-                  <p className="text-xs font-semibold text-gray-700 uppercase tracking-wider mb-1">If:</p>
-                  <p className="text-sm font-semibold text-gray-900 mb-2">{s.condition}</p>
+                  <p className="text-xs font-semibold text-black uppercase tracking-wider mb-1">If:</p>
+                  <p className="text-sm font-semibold text-black mb-2">{s.condition}</p>
                   <p className="text-sm font-bold text-[#1B3A6B] mb-1">&rarr; {s.recommendation}</p>
-                  <p className="text-xs text-gray-800 leading-relaxed">{s.reasoning}</p>
+                  <p className="text-xs text-black leading-relaxed">{s.reasoning}</p>
                 </div>
               </div>
             </div>
@@ -299,7 +299,7 @@ export default function ComparePage() {
 
         {/* Sponsored Partners */}
         <div className="mb-12">
-          <p className="text-center text-xs font-semibold uppercase tracking-widest text-gray-600 mb-5 flex items-center gap-3 before:flex-1 before:h-px before:bg-gray-200 after:flex-1 after:h-px after:bg-gray-200">
+          <p className="text-center text-xs font-semibold uppercase tracking-widest text-black mb-5 flex items-center gap-3 before:flex-1 before:h-px before:bg-gray-200 after:flex-1 after:h-px after:bg-gray-200">
             Recommended Providers
           </p>
           <ProviderCards />

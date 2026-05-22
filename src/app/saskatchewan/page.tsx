@@ -60,8 +60,8 @@ export default function SaskatchewanPage() {
           ].map((s) => (
             <div key={s.label} className="bg-gray-50 border border-gray-200 rounded-xl p-4">
               <p className="text-xl font-bold text-[#1B3A6B]" style={{ fontFamily: "Georgia, serif" }}>{s.value}</p>
-              <p className="text-sm font-medium text-gray-900 mt-1">{s.label}</p>
-              <p className="text-xs text-gray-700 mt-0.5">{s.sub}</p>
+              <p className="text-sm font-medium text-black mt-1">{s.label}</p>
+              <p className="text-xs text-black mt-0.5">{s.sub}</p>
             </div>
           ))}
         </div>
@@ -85,7 +85,7 @@ export default function SaskatchewanPage() {
 
         <div className="bg-[#EEF3FF] border border-[rgba(27,58,107,0.2)] rounded-xl p-5 my-6">
           <p className="text-xs font-bold uppercase tracking-widest text-[#1B3A6B] mb-2">Saskatchewan Note</p>
-          <p className="text-sm text-gray-900">
+          <p className="text-sm text-black">
             Saskatchewan also has the Family Health Benefits program for low-income families with children who do not qualify for social assistance but have low household income. This program includes drug coverage and may apply to some residents seeking GLP-1 coverage. Contact SK Health Authority to determine eligibility.
           </p>
         </div>
@@ -130,7 +130,7 @@ export default function SaskatchewanPage() {
         <h3>Is Felix available throughout Saskatchewan?</h3>
         <p>Yes. Felix Health operates province-wide in Saskatchewan and can prescribe GLP-1 medications and arrange delivery to any Saskatchewan address.</p>
 
-        <div className="bg-gray-50 border border-gray-200 rounded-xl p-5 mt-10 text-xs text-gray-700 leading-relaxed">
+        <div className="bg-gray-50 border border-gray-200 rounded-xl p-5 mt-10 text-xs text-black leading-relaxed">
           SK Drug Plan criteria change periodically. This information reflects policies as of May 2026. Verify current special authorization criteria at saskatchewandrug plan.ca or by calling 1-800-667-7581.
         </div>
       </div>

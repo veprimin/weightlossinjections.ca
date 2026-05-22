@@ -56,8 +56,8 @@ export default function OzempicVsRybelsusPage() {
           ].map((s) => (
             <div key={s.label} className="bg-gray-50 border border-gray-200 rounded-xl p-4">
               <p className="text-xl font-bold text-[#1B3A6B]" style={{ fontFamily: "Georgia, serif" }}>{s.value}</p>
-              <p className="text-sm font-medium text-gray-900 mt-1">{s.label}</p>
-              <p className="text-xs text-gray-700 mt-0.5">{s.sub}</p>
+              <p className="text-sm font-medium text-black mt-1">{s.label}</p>
+              <p className="text-xs text-black mt-0.5">{s.sub}</p>
             </div>
           ))}
         </div>
@@ -95,9 +95,9 @@ export default function OzempicVsRybelsusPage() {
                 ["Public plan coverage", "Yes (with PA, T2D)", "Varies by province"],
               ].map(([feature, ozempic, rybelsus], i) => (
                 <tr key={feature} className={i % 2 === 0 ? "bg-white" : "bg-gray-50"}>
-                  <td className="px-4 py-3 font-medium text-gray-900">{feature}</td>
-                  <td className="px-4 py-3 text-gray-900">{ozempic}</td>
-                  <td className="px-4 py-3 text-gray-900">{rybelsus}</td>
+                  <td className="px-4 py-3 font-medium text-black">{feature}</td>
+                  <td className="px-4 py-3 text-black">{ozempic}</td>
+                  <td className="px-4 py-3 text-black">{rybelsus}</td>
                 </tr>
               ))}
             </tbody>
@@ -116,7 +116,7 @@ export default function OzempicVsRybelsusPage() {
 
         <div className="bg-[#EEF3FF] border border-[rgba(27,58,107,0.2)] rounded-xl p-5 my-6">
           <p className="text-xs font-bold uppercase tracking-widest text-[#1B3A6B] mb-2">Rybelsus Fasting Requirement</p>
-          <p className="text-sm text-gray-900">
+          <p className="text-sm text-black">
             Rybelsus must be taken first thing in the morning with a maximum 120mL of water, at least 30 minutes before any food, beverage (other than plain water), or other medications. Taking Rybelsus with food reduces drug exposure by up to 75%.
           </p>
         </div>
@@ -125,7 +125,7 @@ export default function OzempicVsRybelsusPage() {
         <div className="not-prose grid sm:grid-cols-2 gap-4 my-6">
           <div className="rounded-xl border-2 border-[#1B3A6B] bg-[#EEF3FF] p-5">
             <p className="text-xs font-bold uppercase tracking-wider text-[#1B3A6B] mb-2">Choose Ozempic if:</p>
-            <ul className="space-y-2 text-sm text-gray-900">
+            <ul className="space-y-2 text-sm text-black">
               <li>Maximum efficacy for T2D or weight management is your priority</li>
               <li>You are comfortable with weekly self-injection</li>
               <li>Your provincial drug plan covers Ozempic</li>
@@ -133,8 +133,8 @@ export default function OzempicVsRybelsusPage() {
             </ul>
           </div>
           <div className="rounded-xl border-2 border-gray-300 bg-white p-5">
-            <p className="text-xs font-bold uppercase tracking-wider text-gray-700 mb-2">Choose Rybelsus if:</p>
-            <ul className="space-y-2 text-sm text-gray-900">
+            <p className="text-xs font-bold uppercase tracking-wider text-black mb-2">Choose Rybelsus if:</p>
+            <ul className="space-y-2 text-sm text-black">
               <li>You have needle phobia or cannot self-inject</li>
               <li>You can reliably take a daily fasting pill</li>
               <li>Your insurance covers Rybelsus but not Ozempic</li>
@@ -154,7 +154,7 @@ export default function OzempicVsRybelsusPage() {
         <h3>Is there a generic version of Rybelsus?</h3>
         <p>No generic oral semaglutide is available in Canada as of 2025. Generic injectable semaglutide (Plosbrio and Poviztra) is available and significantly cheaper than brand-name Ozempic. See our <Link href="/generic-semaglutide">generic semaglutide guide</Link>.</p>
 
-        <div className="bg-gray-50 border border-gray-200 rounded-xl p-5 mt-10 text-xs text-gray-700 leading-relaxed">
+        <div className="bg-gray-50 border border-gray-200 rounded-xl p-5 mt-10 text-xs text-black leading-relaxed">
           Drug pricing and formulary listings change periodically. This information reflects the situation as of May 2026. Consult your physician and pharmacist for current coverage and pricing.
         </div>
       </div>

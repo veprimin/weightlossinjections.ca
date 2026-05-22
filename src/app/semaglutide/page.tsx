@@ -87,7 +87,7 @@ export default function SemaglutidePage() {
               "Blood pressure, cholesterol, and HbA1c improvements alongside weight loss",
               "Effects are sustained with continued treatment; most weight is regained after stopping",
             ].map((f) => (
-              <li key={f} className="flex gap-2 text-sm text-gray-900">
+              <li key={f} className="flex gap-2 text-sm text-black">
                 <span className="text-[#2D5FA8] font-bold shrink-0">✓</span> {f}
               </li>
             ))}
@@ -182,7 +182,7 @@ export default function SemaglutidePage() {
         <h3>Can I use semaglutide while pregnant or breastfeeding?</h3>
         <p>No. Semaglutide is contraindicated in pregnancy. Women of childbearing potential should use effective contraception during treatment and for at least 2 months after the last dose.</p>
 
-        <div className="bg-gray-50 border border-gray-200 rounded-xl p-5 mt-10 text-xs text-gray-700 leading-relaxed">
+        <div className="bg-gray-50 border border-gray-200 rounded-xl p-5 mt-10 text-xs text-black leading-relaxed">
           <strong>Medical disclaimer:</strong> This article is for informational purposes only and does not constitute medical advice. Semaglutide requires a valid prescription from a licensed healthcare provider. Always consult a qualified clinician before starting or changing any medication.
         </div>
       </div>

@@ -58,8 +58,8 @@ export default function SideEffectsPage() {
           ].map((s) => (
             <div key={s.label} className="bg-gray-50 border border-gray-200 rounded-xl p-4">
               <p className="text-xl font-bold text-[#1B3A6B]" style={{ fontFamily: "Georgia, serif" }}>{s.value}</p>
-              <p className="text-sm font-medium text-gray-900 mt-1">{s.label}</p>
-              <p className="text-xs text-gray-700 mt-0.5">{s.sub}</p>
+              <p className="text-sm font-medium text-black mt-1">{s.label}</p>
+              <p className="text-xs text-black mt-0.5">{s.sub}</p>
             </div>
           ))}
         </div>
@@ -95,7 +95,7 @@ export default function SideEffectsPage() {
 
         <div className="bg-[#EEF3FF] border border-[rgba(27,58,107,0.2)] rounded-xl p-5 my-6">
           <p className="text-xs font-bold uppercase tracking-widest text-[#1B3A6B] mb-2">Key Principle</p>
-          <p className="text-sm text-gray-900">
+          <p className="text-sm text-black">
             The titration schedule is medicine's way of letting your body adjust. Never skip doses and never rush to the next level if you are experiencing significant nausea. Slow titration produces the same long-term results with far fewer side effects.
           </p>
         </div>
@@ -125,17 +125,17 @@ export default function SideEffectsPage() {
                 ["Injection site",  "Mild",   "Mild", "Mild",   "Mild"  ],
               ].map(([effect, ozempic, wegovy, mounjaro, saxenda], i) => (
                 <tr key={effect} className={i % 2 === 0 ? "bg-white" : "bg-gray-50"}>
-                  <td className="px-4 py-3 font-medium text-gray-900">{effect}</td>
-                  <td className="px-4 py-3 text-gray-900">{ozempic}</td>
-                  <td className="px-4 py-3 text-gray-900">{wegovy}</td>
-                  <td className="px-4 py-3 text-gray-900">{mounjaro}</td>
-                  <td className="px-4 py-3 text-gray-900">{saxenda}</td>
+                  <td className="px-4 py-3 font-medium text-black">{effect}</td>
+                  <td className="px-4 py-3 text-black">{ozempic}</td>
+                  <td className="px-4 py-3 text-black">{wegovy}</td>
+                  <td className="px-4 py-3 text-black">{mounjaro}</td>
+                  <td className="px-4 py-3 text-black">{saxenda}</td>
                 </tr>
               ))}
             </tbody>
           </table>
         </div>
-        <p className="text-xs text-gray-700">Percentages from respective pivotal clinical trials. Rates vary across dose levels and follow-up periods.</p>
+        <p className="text-xs text-black">Percentages from respective pivotal clinical trials. Rates vary across dose levels and follow-up periods.</p>
 
         <h2 id="serious">Serious but Rare Side Effects</h2>
         <h3>Pancreatitis</h3>
@@ -164,7 +164,7 @@ export default function SideEffectsPage() {
           <li><strong>Severe fatigue or weakness</strong> in combination with any other concerning symptoms</li>
         </ul>
 
-        <div className="bg-gray-50 border border-gray-200 rounded-xl p-5 mt-10 text-xs text-gray-700 leading-relaxed">
+        <div className="bg-gray-50 border border-gray-200 rounded-xl p-5 mt-10 text-xs text-black leading-relaxed">
           This information is for educational purposes only. Always consult your prescribing physician about side effects specific to your situation and health history. GLP-1 medications require a valid prescription from a licensed Canadian physician.
         </div>
       </div>
