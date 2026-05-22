@@ -6,7 +6,7 @@ import Link from "next/link";
 import { SITE_URL } from "@/lib/constants";
 
 export const metadata: Metadata = {
-  title: "Weight Loss Injections in Manitoba - Manitoba Pharmacare & Access Guide 2025",
+  title: "Weight Loss Injections in Manitoba - Manitoba Pharmacare & Access Guide 2026",
   description:
     "Complete guide to Ozempic, Wegovy, and Mounjaro in Manitoba: Manitoba Pharmacare coverage, private insurance, virtual care, and how to get GLP-1 medications in Manitoba.",
   alternates: {

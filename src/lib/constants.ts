@@ -21,7 +21,7 @@ export const NAV_LINKS = [
   { label: "Cost", href: "/cost" },
   { label: "Insurance Checker", href: "/insurance-checker" },
   { label: "Compare", href: "/compare" },
-  { label: "Provinces", href: "/ontario" },
+  { label: "Ontario", href: "/ontario" },
 ];
 
 export const PROVINCES = [

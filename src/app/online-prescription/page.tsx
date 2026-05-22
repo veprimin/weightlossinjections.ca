@@ -3,10 +3,10 @@ import ArticleLayout from "@/components/ArticleLayout";
 import ArticleHeader from "@/components/ArticleHeader";
 import { FelixInline } from "@/components/FelixAd";
 import Link from "next/link";
-import { SITE_URL, FELIX_LINK, PROVINCES } from "@/lib/constants";
+import { SITE_URL, PROVINCES } from "@/lib/constants";
 
 export const metadata: Metadata = {
-  title: "How to Get a GLP-1 Prescription Online in Canada (2025 Guide)",
+  title: "How to Get a GLP-1 Prescription Online in Canada (2026 Guide)",
   description:
     "A step-by-step guide to getting Ozempic, Wegovy, or Mounjaro prescribed online in Canada - how virtual care works, which provinces are covered, what to expect, and how home delivery works.",
   alternates: {
@@ -67,7 +67,7 @@ export default function OnlinePrescriptionPage() {
         </p>
         <div className="flex flex-wrap gap-2 my-5 not-prose">
           {PROVINCES.map((p) => (
-            <span key={p.name} className="inline-flex items-center rounded-full border border-[rgba(15,110,86,0.25)] bg-[#E8EFFF]/50 px-4 py-1.5 text-sm font-medium text-black">
+            <span key={p.name} className="inline-flex items-center rounded-full border border-[rgba(27,58,107,0.2)] bg-[#E8EFFF]/50 px-4 py-1.5 text-sm font-medium text-black">
               <span className="mr-1.5 h-1.5 w-1.5 rounded-full bg-[#2D5FA8]" aria-hidden="true" />
               {p.name}
             </span>

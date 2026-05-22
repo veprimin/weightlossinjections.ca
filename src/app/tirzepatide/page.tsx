@@ -6,7 +6,7 @@ import Link from "next/link";
 import { SITE_URL } from "@/lib/constants";
 
 export const metadata: Metadata = {
-  title: "Tirzepatide (Mounjaro) in Canada - Complete Guide 2025",
+  title: "Tirzepatide (Mounjaro) in Canada - Complete Guide 2026",
   description:
     "Everything Canadians need to know about tirzepatide (Mounjaro & Zepbound): how the dual GLP-1/GIP mechanism works, clinical evidence, cost, availability, and how to get a prescription.",
   alternates: {

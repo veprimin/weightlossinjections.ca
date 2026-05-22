@@ -6,7 +6,7 @@ import Link from "next/link";
 import { SITE_URL } from "@/lib/constants";
 
 export const metadata: Metadata = {
-  title: "Wegovy vs Mounjaro Canada - Weight Loss Efficacy & Cost Comparison 2025",
+  title: "Wegovy vs Mounjaro Canada - Weight Loss Efficacy & Cost Comparison 2026",
   description:
     "Wegovy (semaglutide 2.4mg) vs Mounjaro (tirzepatide 15mg) for weight management in Canada - efficacy, cost, and which to choose.",
   alternates: {

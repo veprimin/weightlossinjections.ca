@@ -3,10 +3,10 @@ import ArticleLayout from "@/components/ArticleLayout";
 import ArticleHeader from "@/components/ArticleHeader";
 import { FelixInline } from "@/components/FelixAd";
 import Link from "next/link";
-import { SITE_URL } from "@/lib/constants";
+import { SITE_URL, FELIX_LINK } from "@/lib/constants";
 
 export const metadata: Metadata = {
-  title: "How Much Do Weight Loss Injections Cost in Canada? (2025 Province Guide)",
+  title: "How Much Do Weight Loss Injections Cost in Canada? (2026 Province Guide)",
   description:
     "Province-by-province breakdown of Ozempic, Wegovy, and Mounjaro costs in Canada, including insurance coverage, out-of-pocket estimates, and what generic semaglutide will mean for prices.",
   alternates: {
@@ -172,7 +172,7 @@ export default function CostPage() {
           One of the most practical recent developments: <strong>home delivery of semaglutide is now available at the same price as picking up from a pharmacy</strong> in most provinces. This is enabled through the Novo Nordisk Care Rx program and pharmacy delivery services.
         </p>
         <p>
-          Virtual care platforms like <a href="https://afflat3e1.com/trk/lnk/9AC89778-AF07-4236-94B8-94E9519B0116/?o=29537&c=918271&a=776838&k=9244A3303B13F605EF0D210C5B870AF8&l=33492" target="_blank" rel="noopener sponsored">Felix Health</a> coordinate the entire process - assessment, prescription, and delivery - from a single platform at no premium over standard dispensing prices.
+          Virtual care platforms like <a href={FELIX_LINK} target="_blank" rel="noopener sponsored">Felix Health</a> coordinate the entire process - assessment, prescription, and delivery - from a single platform at no premium over standard dispensing prices.
         </p>
 
         <div className="bg-gray-50 border border-gray-200 rounded-xl p-5 mt-10 text-xs text-black leading-relaxed">

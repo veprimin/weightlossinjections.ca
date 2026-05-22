@@ -3,10 +3,10 @@ import ArticleLayout from "@/components/ArticleLayout";
 import ArticleHeader from "@/components/ArticleHeader";
 import { FelixInline } from "@/components/FelixAd";
 import Link from "next/link";
-import { SITE_URL } from "@/lib/constants";
+import { SITE_URL, FELIX_LINK } from "@/lib/constants";
 
 export const metadata: Metadata = {
-  title: "GLP-1 Medications FAQ Canada - Ozempic, Wegovy, Mounjaro Questions Answered 2025",
+  title: "GLP-1 Medications FAQ Canada - Ozempic, Wegovy, Mounjaro Questions Answered 2026",
   description:
     "Answers to the most common questions about GLP-1 weight loss medications in Canada - how to get a prescription, costs, insurance, side effects, and more.",
   alternates: {
@@ -62,7 +62,7 @@ export default function FaqPage() {
 
         <h3>How do I get a GLP-1 prescription in Canada?</h3>
         <p>
-          There are three main pathways. The first is through your family physician - the traditional route. If your GP is comfortable prescribing GLP-1 medications, this can be seamless, though wait times vary significantly by region. The second is through an obesity specialist or endocrinologist, typically by GP referral, which offers more comprehensive metabolic management but involves longer waits. The third is through a virtual care platform like <a href="https://afflat3e1.com/trk/lnk/9AC89778-AF07-4236-94B8-94E9519B0116/?o=29537&c=918271&a=776838&k=9244A3303B13F605EF0D210C5B870AF8&l=33492" target="_blank" rel="noopener sponsored">Felix Health</a>, where a licensed Canadian physician reviews your intake form online and can issue a prescription within hours, delivered to your home.
+          There are three main pathways. The first is through your family physician - the traditional route. If your GP is comfortable prescribing GLP-1 medications, this can be seamless, though wait times vary significantly by region. The second is through an obesity specialist or endocrinologist, typically by GP referral, which offers more comprehensive metabolic management but involves longer waits. The third is through a virtual care platform like <a href={FELIX_LINK} target="_blank" rel="noopener sponsored">Felix Health</a>, where a licensed Canadian physician reviews your intake form online and can issue a prescription within hours, delivered to your home.
         </p>
 
         <h3>Am I eligible for GLP-1 treatment?</h3>

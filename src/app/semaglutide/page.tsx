@@ -3,7 +3,7 @@ import ArticleLayout from "@/components/ArticleLayout";
 import ArticleHeader from "@/components/ArticleHeader";
 import { FelixInline } from "@/components/FelixAd";
 import Link from "next/link";
-import { SITE_URL } from "@/lib/constants";
+import { SITE_URL, FELIX_LINK } from "@/lib/constants";
 
 export const metadata: Metadata = {
   title: "Semaglutide in Canada - Complete Guide to Ozempic & Wegovy",
@@ -138,7 +138,7 @@ export default function SemaglutidePage() {
         <p>Three main pathways exist:</p>
         <ol>
           <li><strong>Your family physician:</strong> The traditional route - potentially the most seamless if your GP is familiar with GLP-1 medications and comfortable prescribing them. Wait times and prescribing habits vary widely by physician and province.</li>
-          <li><strong>Online virtual care:</strong> Platforms like <a href="https://afflat3e1.com/trk/lnk/9AC89778-AF07-4236-94B8-94E9519B0116/?o=29537&c=918271&a=776838&k=9244A3303B13F605EF0D210C5B870AF8&l=33492" target="_blank" rel="noopener sponsored">Felix Health</a> connect you with a licensed Canadian physician online. You complete a medical intake form, a physician reviews and responds within hours, and if appropriate, issues a prescription that can be delivered to your home. Many patients find this significantly faster and more convenient.</li>
+          <li><strong>Online virtual care:</strong> Platforms like <a href={FELIX_LINK} target="_blank" rel="noopener sponsored">Felix Health</a> connect you with a licensed Canadian physician online. You complete a medical intake form, a physician reviews and responds within hours, and if appropriate, issues a prescription that can be delivered to your home. Many patients find this significantly faster and more convenient.</li>
           <li><strong>Obesity specialist / endocrinologist:</strong> For complex cases or when a GP referral is required. Often involves a longer wait but provides more comprehensive metabolic management.</li>
         </ol>
 

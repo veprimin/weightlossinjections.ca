@@ -6,7 +6,7 @@ import AnnouncementBanner from "@/components/AnnouncementBanner";
 import { SITE_URL } from "@/lib/constants";
 
 export const metadata: Metadata = {
-  title: "Weight Loss Injections Canada 2025 - Ozempic, Wegovy, Mounjaro Guide",
+  title: "Weight Loss Injections Canada 2026 - Ozempic, Wegovy, Mounjaro Guide",
   description:
     "Canada's independent editorial guide to GLP-1 weight loss injections. Expert coverage of Ozempic, Wegovy, Mounjaro, and generic semaglutide - province-by-province access, cost, and eligibility.",
   alternates: {
@@ -132,7 +132,7 @@ export default function HomePage() {
       </section>
 
       {/* ── Key Stats ────────────────────────────────────────── */}
-      <section className="border-b border-gray-100 bg-gray-50/60 py-8">
+      <section className="border-b border-gray-100 bg-white py-8">
         <div className="mx-auto max-w-5xl px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-2 gap-6 sm:grid-cols-4">
             {[
@@ -208,7 +208,7 @@ export default function HomePage() {
       </section>
 
       {/* ── Quick Links ──────────────────────────────────────── */}
-      <section className="border-b border-gray-100 bg-gray-50/60 py-10 sm:py-12">
+      <section className="border-b border-gray-100 bg-white py-10 sm:py-12">
         <div className="mx-auto max-w-5xl px-4 sm:px-6 lg:px-8">
           <h2 className="mb-6 text-xs font-bold uppercase tracking-widest text-black">Quick Guides</h2>
           <div className="grid grid-cols-2 gap-4 md:grid-cols-4">
@@ -323,42 +323,23 @@ export default function HomePage() {
 
       {/* ── Stay Informed ────────────────────────────────────── */}
       <section className="bg-[#0F2547] py-14 sm:py-20">
-        <div className="mx-auto max-w-xl px-4 sm:px-6 lg:px-8">
-          <div className="mb-2 text-center">
-            <p className="text-sm font-medium text-[#4B7EC8]">Stay up to date</p>
-          </div>
-          <div className="rounded-xl border border-white/10 bg-white/5 px-6 py-8 sm:px-8">
-            <div className="mb-6 text-center">
-              <h2
-                className="text-xl font-bold text-white sm:text-2xl"
-                style={{ fontFamily: "var(--font-playfair, Georgia, serif)" }}
-              >
-                Get notified about GLP-1 access changes in Canada
-              </h2>
-              <p className="mt-2 text-sm text-white/70">
-                Generic approvals, coverage changes, pricing updates - when it matters. No spam.
-              </p>
-            </div>
-            <form className="space-y-3">
-              <div>
-                <label htmlFor="newsletter-email" className="sr-only">Email address</label>
-                <input
-                  id="newsletter-email"
-                  type="email"
-                  required
-                  placeholder="your.email@example.com"
-                  className="w-full rounded-lg border border-white/15 bg-white/10 px-4 py-3 text-sm text-white placeholder:text-white/35 outline-none focus:border-white/40 focus:ring-1 focus:ring-white/20 transition-colors"
-                />
-              </div>
-              <button
-                type="submit"
-                className="flex w-full items-center justify-center rounded-lg bg-[#1B3A6B] px-4 py-3.5 text-sm font-semibold text-white shadow-sm transition-colors hover:bg-[#2D5FA8]"
-              >
-                Subscribe - It&rsquo;s Free
-              </button>
-              <p className="text-center text-xs text-white/50">We only email about important GLP-1 updates. Unsubscribe anytime.</p>
-            </form>
-          </div>
+        <div className="mx-auto max-w-xl px-4 sm:px-6 lg:px-8 text-center">
+          <p className="text-sm font-medium text-[#4B7EC8] mb-3">Questions or corrections?</p>
+          <h2
+            className="text-xl font-bold text-white sm:text-2xl mb-3"
+            style={{ fontFamily: "var(--font-playfair, Georgia, serif)" }}
+          >
+            We take accuracy seriously
+          </h2>
+          <p className="text-sm text-white/70 mb-6 leading-relaxed">
+            Coverage rules, drug approvals, and pricing change frequently. If you spot an error or have a correction, we want to know.
+          </p>
+          <a
+            href="mailto:editorial@weightlossinjections.ca"
+            className="inline-flex items-center justify-center rounded-lg border border-white/20 bg-white/10 px-6 py-3 text-sm font-semibold text-white transition-colors hover:bg-white/20"
+          >
+            editorial@weightlossinjections.ca
+          </a>
         </div>
       </section>
     </>

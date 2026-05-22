@@ -6,7 +6,7 @@ import Link from "next/link";
 import { SITE_URL } from "@/lib/constants";
 
 export const metadata: Metadata = {
-  title: "GLP-1 Side Effects Canada - Ozempic, Wegovy, Mounjaro Complete Guide 2025",
+  title: "GLP-1 Side Effects Canada - Ozempic, Wegovy, Mounjaro Complete Guide 2026",
   description: "Complete guide to GLP-1 medication side effects in Canada - what to expect with Ozempic, Wegovy, Mounjaro, and how to manage nausea, vomiting, and other reactions.",
   alternates: {
     canonical: `${SITE_URL}/side-effects`,

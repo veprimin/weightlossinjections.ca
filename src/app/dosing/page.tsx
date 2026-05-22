@@ -6,7 +6,7 @@ import Link from "next/link";
 import { SITE_URL } from "@/lib/constants";
 
 export const metadata: Metadata = {
-  title: "GLP-1 Dosing Guide Canada - Ozempic, Wegovy, Mounjaro Titration Schedules 2025",
+  title: "GLP-1 Dosing Guide Canada - Ozempic, Wegovy, Mounjaro Titration Schedules 2026",
   description: "Complete dosing and titration schedules for Ozempic, Wegovy, Mounjaro, and Rybelsus in Canada. How to start, titrate, and what to do if you miss a dose.",
   alternates: {
     canonical: `${SITE_URL}/dosing`,

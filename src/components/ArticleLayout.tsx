@@ -4,7 +4,7 @@ import Link from "next/link";
 interface RelatedArticle {
   href: string;
   title: string;
-  emoji: React.ReactNode;
+  emoji?: React.ReactNode;
   date: string;
 }
 
@@ -42,8 +42,8 @@ export default function ArticleLayout({ children, toc, related }: ArticleLayoutP
             <p className="text-xs font-bold uppercase tracking-widest text-black mb-3 pb-2.5 border-b border-gray-200">Related Articles</p>
             <div className="space-y-4">
               {related.map((r) => (
-                <Link key={r.href} href={r.href} className="flex gap-3 group">
-                  <div className="w-12 h-12 rounded-lg bg-[#E8EFFF] flex items-center justify-center text-xl shrink-0">{r.emoji}</div>
+                <Link key={r.href} href={r.href} className="flex gap-3 group items-start">
+                  <div className="w-1 self-stretch rounded-full bg-[#E8EFFF] group-hover:bg-[#1B3A6B] transition-colors shrink-0" />
                   <div>
                     <p className="text-sm font-medium text-black leading-snug group-hover:text-[#1B3A6B] transition-colors">{r.title}</p>
                     <p className="text-xs text-black mt-0.5">{r.date}</p>

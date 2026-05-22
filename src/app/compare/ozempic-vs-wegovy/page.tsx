@@ -6,7 +6,7 @@ import Link from "next/link";
 import { SITE_URL } from "@/lib/constants";
 
 export const metadata: Metadata = {
-  title: "Ozempic vs Wegovy Canada - Same Molecule, Different Uses & Coverage 2025",
+  title: "Ozempic vs Wegovy Canada - Same Molecule, Different Uses & Coverage 2026",
   description:
     "Ozempic and Wegovy are both semaglutide - but their indications, doses, and insurance coverage differ significantly. Complete Canadian comparison guide.",
   alternates: {

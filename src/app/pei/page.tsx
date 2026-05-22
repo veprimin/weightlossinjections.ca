@@ -6,7 +6,7 @@ import Link from "next/link";
 import { SITE_URL } from "@/lib/constants";
 
 export const metadata: Metadata = {
-  title: "Weight Loss Injections in PEI - Prince Edward Island Drug Plan & Access Guide 2025",
+  title: "Weight Loss Injections in PEI - Prince Edward Island Drug Plan & Access Guide 2026",
   description:
     "Complete guide to Ozempic, Wegovy, and Mounjaro in Prince Edward Island: PEI Pharmacare coverage, private insurance, virtual care access, and how to get GLP-1 medications on PEI.",
   alternates: {

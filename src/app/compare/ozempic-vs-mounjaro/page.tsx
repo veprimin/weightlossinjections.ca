@@ -6,7 +6,7 @@ import Link from "next/link";
 import { SITE_URL } from "@/lib/constants";
 
 export const metadata: Metadata = {
-  title: "Ozempic vs Mounjaro Canada - Which GLP-1 Works Better for Weight Loss? 2025",
+  title: "Ozempic vs Mounjaro Canada - Which GLP-1 Works Better for Weight Loss? 2026",
   description:
     "Mounjaro (tirzepatide) vs Ozempic (semaglutide) - we compare efficacy, cost, insurance coverage, and availability in Canada.",
   alternates: {
@@ -140,7 +140,7 @@ export default function OzempicVsMounjaroPage() {
           <strong>Mounjaro</strong> was approved by Health Canada in 2023 for type 2 diabetes, but formulary listing varies considerably by province. Some provincial plans have added it with prior authorization requirements; others have not. Private plans cover it variably, and premiums and co-pays can be substantial given its higher list price. No generic tirzepatide exists as of mid-2025.
         </p>
         <p>
-          Without insurance, Mounjaro costs roughly $250-200 more per month than Ozempic, depending on dose. Over a year of treatment, the cost differential can reach $2,400-3,000.
+          Without insurance, Mounjaro costs roughly $200-250 more per month than Ozempic, depending on dose. Over a year of treatment, the cost differential can reach $2,400-3,000.
         </p>
 
         <h2 id="who-wins">Category Winners</h2>
@@ -173,7 +173,7 @@ export default function OzempicVsMounjaroPage() {
 
         <h3>Is Mounjaro worth the extra cost?</h3>
         <p>
-          For patients without insurance, the monthly premium of $250-200 over Ozempic is significant. Whether it is "worth it" depends on how much additional weight loss matters to you and your health goals. Patients who have plateaued on semaglutide or who need 20%+ weight loss to achieve meaningful metabolic benefit may find the extra cost justified. For many others, semaglutide at a lower price point - especially generic semaglutide - achieves clinically meaningful results.
+          For patients without insurance, the monthly premium of $200-250 over Ozempic is significant. Whether it is "worth it" depends on how much additional weight loss matters to you and your health goals. Patients who have plateaued on semaglutide or who need 20%+ weight loss to achieve meaningful metabolic benefit may find the extra cost justified. For many others, semaglutide at a lower price point - especially generic semaglutide - achieves clinically meaningful results.
         </p>
 
         <h3>Can I switch between Ozempic and Mounjaro?</h3>

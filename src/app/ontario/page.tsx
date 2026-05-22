@@ -3,10 +3,10 @@ import ArticleLayout from "@/components/ArticleLayout";
 import ArticleHeader from "@/components/ArticleHeader";
 import { FelixInline } from "@/components/FelixAd";
 import Link from "next/link";
-import { SITE_URL } from "@/lib/constants";
+import { SITE_URL, FELIX_LINK } from "@/lib/constants";
 
 export const metadata: Metadata = {
-  title: "Weight Loss Injections in Ontario - ODB, OHIP+ & Access Guide 2025",
+  title: "Weight Loss Injections in Ontario - ODB, OHIP+ & Access Guide 2026",
   description:
     "Ontario's complete guide to Ozempic, Wegovy, and Mounjaro: ODB coverage criteria, private insurance, virtual care access, and how to get GLP-1 medications delivered to your home in Ontario.",
   alternates: {
@@ -124,7 +124,7 @@ export default function OntarioPage() {
           Ontario has a well-established virtual care ecosystem, and GLP-1 prescriptions are routinely provided via telemedicine for eligible patients.
         </p>
         <p>
-          The process with a platform like <a href="https://afflat3e1.com/trk/lnk/9AC89778-AF07-4236-94B8-94E9519B0116/?o=29537&c=918271&a=776838&k=9244A3303B13F605EF0D210C5B870AF8&l=33492" target="_blank" rel="noopener sponsored">Felix Health</a>:
+          The process with a platform like <a href={FELIX_LINK} target="_blank" rel="noopener sponsored">Felix Health</a>:
         </p>
         <ol>
           <li>Complete an online medical assessment (5–10 minutes) including your health history, current medications, and weight goals</li>

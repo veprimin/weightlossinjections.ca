@@ -3,10 +3,10 @@ import ArticleLayout from "@/components/ArticleLayout";
 import ArticleHeader from "@/components/ArticleHeader";
 import { FelixInline } from "@/components/FelixAd";
 import Link from "next/link";
-import { SITE_URL } from "@/lib/constants";
+import { SITE_URL, FELIX_LINK } from "@/lib/constants";
 
 export const metadata: Metadata = {
-  title: "Weight Loss Injections in British Columbia - BC PharmaCare & Access Guide 2025",
+  title: "Weight Loss Injections in British Columbia - BC PharmaCare & Access Guide 2026",
   description:
     "Complete guide to Ozempic, Wegovy, and Mounjaro in British Columbia: BC PharmaCare Special Authority coverage, private insurance, virtual care, and home delivery options for BC residents.",
   alternates: {
@@ -133,7 +133,7 @@ export default function BritishColumbiaPage() {
           BC has a mature virtual care ecosystem regulated by the College of Physicians and Surgeons of BC (CPSBC). GLP-1 prescriptions via telemedicine are routine for eligible patients.
         </p>
         <p>
-          The process through a platform like <a href="https://afflat3e1.com/trk/lnk/9AC89778-AF07-4236-94B8-94E9519B0116/?o=29537&c=918271&a=776838&k=9244A3303B13F605EF0D210C5B870AF8&l=33492" target="_blank" rel="noopener sponsored">Felix Health</a>:
+          The process through a platform like <a href={FELIX_LINK} target="_blank" rel="noopener sponsored">Felix Health</a>:
         </p>
         <ol>
           <li>Complete an online medical assessment (5–10 minutes) with your health history and weight goals</li>

@@ -3,10 +3,10 @@ import ArticleLayout from "@/components/ArticleLayout";
 import ArticleHeader from "@/components/ArticleHeader";
 import { FelixInline } from "@/components/FelixAd";
 import Link from "next/link";
-import { SITE_URL } from "@/lib/constants";
+import { SITE_URL, FELIX_LINK } from "@/lib/constants";
 
 export const metadata: Metadata = {
-  title: "Weight Loss Injections in Alberta - Alberta Blue Cross & Access Guide 2025",
+  title: "Weight Loss Injections in Alberta - Alberta Blue Cross & Access Guide 2026",
   description:
     "Complete guide to Ozempic, Wegovy, and Mounjaro in Alberta: Alberta Blue Cross coverage, private insurance, virtual care access, and home delivery for Alberta residents.",
   alternates: {
@@ -119,7 +119,7 @@ export default function AlbertaPage() {
           Alberta has a well-developed virtual care framework. The College of Physicians and Surgeons of Alberta (CPSA) permits physicians to provide telehealth services to Alberta residents, making it straightforward to obtain a GLP-1 assessment and prescription online.
         </p>
         <p>
-          Through <a href="https://afflat3e1.com/trk/lnk/9AC89778-AF07-4236-94B8-94E9519B0116/?o=29537&c=918271&a=776838&k=9244A3303B13F605EF0D210C5B870AF8&l=33492" target="_blank" rel="noopener sponsored">Felix Health</a>:
+          Through <a href={FELIX_LINK} target="_blank" rel="noopener sponsored">Felix Health</a>:
         </p>
         <ol>
           <li>Complete an online medical intake (5–10 minutes) from any device</li>

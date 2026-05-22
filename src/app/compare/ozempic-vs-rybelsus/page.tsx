@@ -6,7 +6,7 @@ import Link from "next/link";
 import { SITE_URL } from "@/lib/constants";
 
 export const metadata: Metadata = {
-  title: "Ozempic vs Rybelsus Canada - Injectable vs Oral Semaglutide Comparison 2025",
+  title: "Ozempic vs Rybelsus Canada - Injectable vs Oral Semaglutide Comparison 2026",
   description: "Ozempic (weekly injection) vs Rybelsus (daily pill) - both semaglutide but very different. Compare efficacy, cost, and convenience for Canadian patients.",
   alternates: {
     canonical: `${SITE_URL}/compare/ozempic-vs-rybelsus`,

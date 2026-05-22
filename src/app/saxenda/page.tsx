@@ -6,7 +6,7 @@ import Link from "next/link";
 import { SITE_URL } from "@/lib/constants";
 
 export const metadata: Metadata = {
-  title: "Saxenda (Liraglutide) in Canada - Guide to GLP-1 Weight Loss Injections 2025",
+  title: "Saxenda (Liraglutide) in Canada - Guide to GLP-1 Weight Loss Injections 2026",
   description:
     "Complete guide to Saxenda (liraglutide) in Canada - how it works, cost, insurance coverage, and how it compares to semaglutide and tirzepatide.",
   alternates: {

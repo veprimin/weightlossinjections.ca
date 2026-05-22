@@ -103,7 +103,7 @@ export default function DisclaimerPage() {
             <h2 className="text-xl font-bold text-black mb-3" style={{ fontFamily: "Georgia, serif" }}>
               Province &amp; Territory Availability
             </h2>
-            <div className="bg-[#E8EFFF] border border-[rgba(15,110,86,0.25)] rounded-xl p-5 mb-5">
+            <div className="bg-[#E8EFFF] border border-[rgba(27,58,107,0.2)] rounded-xl p-5 mb-5">
               <p className="text-[#0F2547] text-sm leading-relaxed">{PROVINCE_DISCLAIMER}</p>
             </div>
             <p className="text-black leading-relaxed mb-4">

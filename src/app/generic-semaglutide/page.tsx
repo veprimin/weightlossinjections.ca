@@ -6,7 +6,7 @@ import Link from "next/link";
 import { SITE_URL } from "@/lib/constants";
 
 export const metadata: Metadata = {
-  title: "Generic Semaglutide in Canada: Plosbrio & Poviztra Guide (2025)",
+  title: "Generic Semaglutide in Canada: Plosbrio & Poviztra Guide (2026)",
   description:
     "Canada was the first G7 nation to approve generic semaglutide. Here is everything you need to know about Plosbrio and Poviztra - the approved generics, pricing, availability, and how to access them.",
   alternates: {

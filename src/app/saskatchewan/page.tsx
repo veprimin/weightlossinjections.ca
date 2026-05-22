@@ -6,7 +6,7 @@ import Link from "next/link";
 import { SITE_URL } from "@/lib/constants";
 
 export const metadata: Metadata = {
-  title: "Weight Loss Injections in Saskatchewan - SK Drug Plan & Access Guide 2025",
+  title: "Weight Loss Injections in Saskatchewan - SK Drug Plan & Access Guide 2026",
   description:
     "Complete guide to Ozempic, Wegovy, and Mounjaro in Saskatchewan: Saskatchewan Drug Plan coverage, private insurance, virtual care, and how to access GLP-1 medications in Saskatchewan.",
   alternates: {

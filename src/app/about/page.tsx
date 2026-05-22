@@ -95,7 +95,7 @@ export default function AboutPage() {
           All affiliate links on the site are marked with <code>rel="sponsored"</code> in the HTML and are clearly labelled in the visible text. We do not accept payment for editorial coverage, do not publish advertorials without prominent labelling, and do not adjust editorial conclusions based on commercial considerations.
         </p>
         <p>
-          Felix Health is our only current commercial partner. We have no financial relationship with Novo Nordisk, Eli Lilly, Apotex, Dr. Reddy's, or any other pharmaceutical company.
+          Felix Health and Direct Meds are our current commercial partners. We have no financial relationship with Novo Nordisk, Eli Lilly, Apotex, Dr. Reddy's, or any other pharmaceutical company.
         </p>
 
         <h2 id="data-sources">Our Data Sources</h2>
@@ -122,9 +122,8 @@ export default function AboutPage() {
           <p className="text-xs font-bold uppercase tracking-widest text-[#1B3A6B] mb-2">Contact</p>
           <p className="text-sm text-black">
             For factual corrections or editorial feedback, please reach out via our{" "}
-            <a href="https://github.com" target="_blank" rel="noopener noreferrer">GitHub Issues</a>{" "}
-            or by email at{" "}
-            <a href="mailto:charminp2@gmail.com">charminp2@gmail.com</a>.
+            email at{" "}
+            <a href="mailto:editorial@weightlossinjections.ca">editorial@weightlossinjections.ca</a>.
             We take accuracy seriously and will update content promptly when corrections are warranted.
           </p>
         </div>

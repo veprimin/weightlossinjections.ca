@@ -6,7 +6,7 @@ import Link from "next/link";
 import { SITE_URL } from "@/lib/constants";
 
 export const metadata: Metadata = {
-  title: "Weight Loss Injections in New Brunswick - NB Drug Plan & Access Guide 2025",
+  title: "Weight Loss Injections in New Brunswick - NB Drug Plan & Access Guide 2026",
   description:
     "Complete guide to Ozempic, Wegovy, and Mounjaro in New Brunswick: NB Prescription Drug Program coverage, private insurance, virtual care, and how to get GLP-1 medications in New Brunswick.",
   alternates: {
