@@ -10,7 +10,7 @@ export const metadata: Metadata = {
     "Side-by-side comparison of all major GLP-1 weight loss medications available in Canada: Ozempic, Wegovy, Mounjaro, Rybelsus, and generic semaglutide. Compare efficacy, cost, dosing, and approval status.",
   alternates: {
     canonical: `${SITE_URL}/compare`,
-    languages: { "en-CA": `${SITE_URL}/compare` },
+    languages: { "en-CA": `${SITE_URL}/compare`, "x-default": `${SITE_URL}/compare` },
   },
 };
 

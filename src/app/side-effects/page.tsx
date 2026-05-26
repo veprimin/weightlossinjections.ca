@@ -10,7 +10,7 @@ export const metadata: Metadata = {
   description: "Complete guide to GLP-1 medication side effects in Canada - what to expect with Ozempic, Wegovy, Mounjaro, and how to manage nausea, vomiting, and other reactions.",
   alternates: {
     canonical: `${SITE_URL}/side-effects`,
-    languages: { "en-CA": `${SITE_URL}/side-effects` },
+    languages: { "en-CA": `${SITE_URL}/side-effects`, "x-default": `${SITE_URL}/side-effects` },
   },
 };
 

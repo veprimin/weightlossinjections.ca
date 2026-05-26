@@ -11,7 +11,7 @@ export const metadata: Metadata = {
     "Complete guide to Ozempic, Wegovy, and Mounjaro in New Brunswick: NB Prescription Drug Program coverage, private insurance, virtual care, and how to get GLP-1 medications in New Brunswick.",
   alternates: {
     canonical: `${SITE_URL}/new-brunswick`,
-    languages: { "en-CA": `${SITE_URL}/new-brunswick` },
+    languages: { "en-CA": `${SITE_URL}/new-brunswick`, "x-default": `${SITE_URL}/new-brunswick` },
   },
 };
 

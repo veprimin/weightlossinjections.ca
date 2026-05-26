@@ -8,7 +8,7 @@ export const metadata: Metadata = {
     "Free interactive tool: find out if your Canadian insurance covers Ozempic, Wegovy, or Mounjaro. Answer 4 questions to get a personalized coverage assessment and next steps.",
   alternates: {
     canonical: `${SITE_URL}/insurance-checker`,
-    languages: { "en-CA": `${SITE_URL}/insurance-checker` },
+    languages: { "en-CA": `${SITE_URL}/insurance-checker`, "x-default": `${SITE_URL}/insurance-checker` },
   },
 };
 

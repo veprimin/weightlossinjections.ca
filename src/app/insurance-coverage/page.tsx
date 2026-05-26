@@ -11,7 +11,7 @@ export const metadata: Metadata = {
     "A complete guide to Canadian insurance coverage for GLP-1 weight loss medications - provincial drug plans, private employer benefits, prior authorization, and tips for getting coverage approved.",
   alternates: {
     canonical: `${SITE_URL}/insurance-coverage`,
-    languages: { "en-CA": `${SITE_URL}/insurance-coverage` },
+    languages: { "en-CA": `${SITE_URL}/insurance-coverage`, "x-default": `${SITE_URL}/insurance-coverage` },
   },
 };
 

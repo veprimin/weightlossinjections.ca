@@ -11,7 +11,7 @@ export const metadata: Metadata = {
     "Ontario's complete guide to Ozempic, Wegovy, and Mounjaro: ODB coverage criteria, private insurance, virtual care access, and how to get GLP-1 medications delivered to your home in Ontario.",
   alternates: {
     canonical: `${SITE_URL}/ontario`,
-    languages: { "en-CA": `${SITE_URL}/ontario` },
+    languages: { "en-CA": `${SITE_URL}/ontario`, "x-default": `${SITE_URL}/ontario` },
   },
 };
 

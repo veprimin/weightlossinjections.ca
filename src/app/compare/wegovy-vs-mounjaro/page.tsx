@@ -11,7 +11,7 @@ export const metadata: Metadata = {
     "Wegovy (semaglutide 2.4mg) vs Mounjaro (tirzepatide 15mg) for weight management in Canada - efficacy, cost, and which to choose.",
   alternates: {
     canonical: `${SITE_URL}/compare/wegovy-vs-mounjaro`,
-    languages: { "en-CA": `${SITE_URL}/compare/wegovy-vs-mounjaro` },
+    languages: { "en-CA": `${SITE_URL}/compare/wegovy-vs-mounjaro`, "x-default": `${SITE_URL}/compare/wegovy-vs-mounjaro` },
   },
 };
 

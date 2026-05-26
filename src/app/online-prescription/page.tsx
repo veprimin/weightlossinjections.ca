@@ -11,7 +11,7 @@ export const metadata: Metadata = {
     "A step-by-step guide to getting Ozempic, Wegovy, or Mounjaro prescribed online in Canada - how virtual care works, which provinces are covered, what to expect, and how home delivery works.",
   alternates: {
     canonical: `${SITE_URL}/online-prescription`,
-    languages: { "en-CA": `${SITE_URL}/online-prescription` },
+    languages: { "en-CA": `${SITE_URL}/online-prescription`, "x-default": `${SITE_URL}/online-prescription` },
   },
 };
 

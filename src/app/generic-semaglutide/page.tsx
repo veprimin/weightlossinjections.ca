@@ -11,7 +11,7 @@ export const metadata: Metadata = {
     "Canada was the first G7 nation to approve generic semaglutide. Here is everything you need to know about Plosbrio and Poviztra - the approved generics, pricing, availability, and how to access them.",
   alternates: {
     canonical: `${SITE_URL}/generic-semaglutide`,
-    languages: { "en-CA": `${SITE_URL}/generic-semaglutide` },
+    languages: { "en-CA": `${SITE_URL}/generic-semaglutide`, "x-default": `${SITE_URL}/generic-semaglutide` },
   },
 };
 

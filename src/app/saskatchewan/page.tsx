@@ -11,7 +11,7 @@ export const metadata: Metadata = {
     "Complete guide to Ozempic, Wegovy, and Mounjaro in Saskatchewan: Saskatchewan Drug Plan coverage, private insurance, virtual care, and how to access GLP-1 medications in Saskatchewan.",
   alternates: {
     canonical: `${SITE_URL}/saskatchewan`,
-    languages: { "en-CA": `${SITE_URL}/saskatchewan` },
+    languages: { "en-CA": `${SITE_URL}/saskatchewan`, "x-default": `${SITE_URL}/saskatchewan` },
   },
 };
 

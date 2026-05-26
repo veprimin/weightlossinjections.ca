@@ -11,7 +11,7 @@ export const metadata: Metadata = {
     "Complete guide to Saxenda (liraglutide) in Canada - how it works, cost, insurance coverage, and how it compares to semaglutide and tirzepatide.",
   alternates: {
     canonical: `${SITE_URL}/saxenda`,
-    languages: { "en-CA": `${SITE_URL}/saxenda` },
+    languages: { "en-CA": `${SITE_URL}/saxenda`, "x-default": `${SITE_URL}/saxenda` },
   },
 };
 

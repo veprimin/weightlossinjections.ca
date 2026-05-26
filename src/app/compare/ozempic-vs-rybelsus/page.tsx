@@ -10,7 +10,7 @@ export const metadata: Metadata = {
   description: "Ozempic (weekly injection) vs Rybelsus (daily pill) - both semaglutide but very different. Compare efficacy, cost, and convenience for Canadian patients.",
   alternates: {
     canonical: `${SITE_URL}/compare/ozempic-vs-rybelsus`,
-    languages: { "en-CA": `${SITE_URL}/compare/ozempic-vs-rybelsus` },
+    languages: { "en-CA": `${SITE_URL}/compare/ozempic-vs-rybelsus`, "x-default": `${SITE_URL}/compare/ozempic-vs-rybelsus` },
   },
 };
 

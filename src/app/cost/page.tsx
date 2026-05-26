@@ -11,7 +11,7 @@ export const metadata: Metadata = {
     "Province-by-province breakdown of Ozempic, Wegovy, and Mounjaro costs in Canada, including insurance coverage, out-of-pocket estimates, and what generic semaglutide will mean for prices.",
   alternates: {
     canonical: `${SITE_URL}/cost`,
-    languages: { "en-CA": `${SITE_URL}/cost` },
+    languages: { "en-CA": `${SITE_URL}/cost`, "x-default": `${SITE_URL}/cost` },
   },
 };
 

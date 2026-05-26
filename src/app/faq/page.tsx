@@ -11,7 +11,7 @@ export const metadata: Metadata = {
     "Answers to the most common questions about GLP-1 weight loss medications in Canada - how to get a prescription, costs, insurance, side effects, and more.",
   alternates: {
     canonical: `${SITE_URL}/faq`,
-    languages: { "en-CA": `${SITE_URL}/faq` },
+    languages: { "en-CA": `${SITE_URL}/faq`, "x-default": `${SITE_URL}/faq` },
   },
 };
 

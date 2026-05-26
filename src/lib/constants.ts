@@ -4,7 +4,7 @@ export const FELIX_LINK =
 export const DIRECT_MEDS_LINK =
   "https://ca.directmeds.com/dm-lb-ca-hp/?oid=7&affid=659&source_id=explore_treatments_com_canada";
 
-export const SITE_URL = "https://weightlossinjections.ca";
+export const SITE_URL = "https://www.weightlossinjections.ca";
 export const SITE_NAME = "WeightLossInjections.ca";
 export const SITE_DESCRIPTION =
   "Canada's independent editorial guide to GLP-1 weight loss injections - Ozempic, Wegovy, Mounjaro, and more.";

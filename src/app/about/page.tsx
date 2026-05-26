@@ -11,7 +11,7 @@ export const metadata: Metadata = {
     "Learn about WeightLossInjections.ca - Canada's independent editorial guide to GLP-1 medications. Our editorial standards, research methodology, and affiliate disclosures.",
   alternates: {
     canonical: `${SITE_URL}/about`,
-    languages: { "en-CA": `${SITE_URL}/about` },
+    languages: { "en-CA": `${SITE_URL}/about`, "x-default": `${SITE_URL}/about` },
   },
 };
 

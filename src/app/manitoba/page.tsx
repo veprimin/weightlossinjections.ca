@@ -11,7 +11,7 @@ export const metadata: Metadata = {
     "Complete guide to Ozempic, Wegovy, and Mounjaro in Manitoba: Manitoba Pharmacare coverage, private insurance, virtual care, and how to get GLP-1 medications in Manitoba.",
   alternates: {
     canonical: `${SITE_URL}/manitoba`,
-    languages: { "en-CA": `${SITE_URL}/manitoba` },
+    languages: { "en-CA": `${SITE_URL}/manitoba`, "x-default": `${SITE_URL}/manitoba` },
   },
 };
 

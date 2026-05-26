@@ -11,7 +11,7 @@ export const metadata: Metadata = {
     "Complete guide to Ozempic, Wegovy, and Mounjaro in Prince Edward Island: PEI Pharmacare coverage, private insurance, virtual care access, and how to get GLP-1 medications on PEI.",
   alternates: {
     canonical: `${SITE_URL}/pei`,
-    languages: { "en-CA": `${SITE_URL}/pei` },
+    languages: { "en-CA": `${SITE_URL}/pei`, "x-default": `${SITE_URL}/pei` },
   },
 };
 
