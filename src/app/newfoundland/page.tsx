@@ -11,7 +11,7 @@ export const metadata: Metadata = {
     "Complete guide to Ozempic, Wegovy, and Mounjaro in Newfoundland & Labrador: NL Prescription Drug Program coverage, private insurance, virtual care, and GLP-1 access in NL.",
   alternates: {
     canonical: `${SITE_URL}/newfoundland`,
-    languages: { "en-CA": `${SITE_URL}/newfoundland` },
+    languages: { "en-CA": `${SITE_URL}/newfoundland`, "x-default": `${SITE_URL}/newfoundland` },
   },
 };
 

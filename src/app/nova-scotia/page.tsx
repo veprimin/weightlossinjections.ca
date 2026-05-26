@@ -11,7 +11,7 @@ export const metadata: Metadata = {
     "Complete guide to Ozempic, Wegovy, and Mounjaro in Nova Scotia: Nova Scotia Pharmacare coverage, private insurance, virtual care access, and how to get GLP-1 medications in NS.",
   alternates: {
     canonical: `${SITE_URL}/nova-scotia`,
-    languages: { "en-CA": `${SITE_URL}/nova-scotia` },
+    languages: { "en-CA": `${SITE_URL}/nova-scotia`, "x-default": `${SITE_URL}/nova-scotia` },
   },
 };
 

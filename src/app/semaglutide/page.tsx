@@ -11,7 +11,7 @@ export const metadata: Metadata = {
     "Everything Canadians need to know about semaglutide: how Ozempic and Wegovy work, eligibility, cost by province, side effects, and how to get a prescription online.",
   alternates: {
     canonical: `${SITE_URL}/semaglutide`,
-    languages: { "en-CA": `${SITE_URL}/semaglutide` },
+    languages: { "en-CA": `${SITE_URL}/semaglutide`, "x-default": `${SITE_URL}/semaglutide` },
   },
 };
 

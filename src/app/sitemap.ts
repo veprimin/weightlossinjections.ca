@@ -35,14 +35,17 @@ const routes: { path: string; priority: number; changeFrequency: MetadataRoute.S
 ];
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const now = new Date("2026-05-22");
+  const now = new Date("2026-05-26");
   return routes.map((route) => ({
     url: `${SITE_URL}${route.path}`,
     lastModified: now,
     changeFrequency: route.changeFrequency,
     priority: route.priority,
     alternates: {
-      languages: { "en-CA": `${SITE_URL}${route.path}` },
+      languages: {
+          "en-CA": `${SITE_URL}${route.path}`,
+          "x-default": `${SITE_URL}${route.path}`,
+        },
     },
   }));
 }

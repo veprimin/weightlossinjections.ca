@@ -11,7 +11,7 @@ export const metadata: Metadata = {
     "Canada became the first G7 country to approve generic semaglutide in April 2026. Felix Health is now dispensing Apo-Semaglutide at $149 CAD per month - a reduction of more than 50% from brand-name Ozempic pricing.",
   alternates: {
     canonical: `${SITE_URL}/semaglutide-price-drop`,
-    languages: { "en-CA": `${SITE_URL}/semaglutide-price-drop` },
+    languages: { "en-CA": `${SITE_URL}/semaglutide-price-drop`, "x-default": `${SITE_URL}/semaglutide-price-drop` },
   },
 };
 

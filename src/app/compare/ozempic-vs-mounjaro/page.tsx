@@ -11,7 +11,7 @@ export const metadata: Metadata = {
     "Mounjaro (tirzepatide) vs Ozempic (semaglutide) - we compare efficacy, cost, insurance coverage, and availability in Canada.",
   alternates: {
     canonical: `${SITE_URL}/compare/ozempic-vs-mounjaro`,
-    languages: { "en-CA": `${SITE_URL}/compare/ozempic-vs-mounjaro` },
+    languages: { "en-CA": `${SITE_URL}/compare/ozempic-vs-mounjaro`, "x-default": `${SITE_URL}/compare/ozempic-vs-mounjaro` },
   },
 };
 

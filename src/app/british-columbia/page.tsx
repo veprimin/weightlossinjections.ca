@@ -11,7 +11,7 @@ export const metadata: Metadata = {
     "Complete guide to Ozempic, Wegovy, and Mounjaro in British Columbia: BC PharmaCare Special Authority coverage, private insurance, virtual care, and home delivery options for BC residents.",
   alternates: {
     canonical: `${SITE_URL}/british-columbia`,
-    languages: { "en-CA": `${SITE_URL}/british-columbia` },
+    languages: { "en-CA": `${SITE_URL}/british-columbia`, "x-default": `${SITE_URL}/british-columbia` },
   },
 };
 

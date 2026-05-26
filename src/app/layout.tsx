@@ -129,8 +129,6 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html lang="en-CA" className={`${playfair.variable} ${sourceSerif.variable} ${inter.variable}`}>
       <head>
-        <link rel="alternate" hrefLang="en-CA" href={SITE_URL} />
-        <link rel="alternate" hrefLang="x-default" href={SITE_URL} />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationSchema) }}

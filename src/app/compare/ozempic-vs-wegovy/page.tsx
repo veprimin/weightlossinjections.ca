@@ -11,7 +11,7 @@ export const metadata: Metadata = {
     "Ozempic and Wegovy are both semaglutide - but their indications, doses, and insurance coverage differ significantly. Complete Canadian comparison guide.",
   alternates: {
     canonical: `${SITE_URL}/compare/ozempic-vs-wegovy`,
-    languages: { "en-CA": `${SITE_URL}/compare/ozempic-vs-wegovy` },
+    languages: { "en-CA": `${SITE_URL}/compare/ozempic-vs-wegovy`, "x-default": `${SITE_URL}/compare/ozempic-vs-wegovy` },
   },
 };
 

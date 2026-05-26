@@ -11,7 +11,7 @@ export const metadata: Metadata = {
     "Everything Canadians need to know about tirzepatide (Mounjaro & Zepbound): how the dual GLP-1/GIP mechanism works, clinical evidence, cost, availability, and how to get a prescription.",
   alternates: {
     canonical: `${SITE_URL}/tirzepatide`,
-    languages: { "en-CA": `${SITE_URL}/tirzepatide` },
+    languages: { "en-CA": `${SITE_URL}/tirzepatide`, "x-default": `${SITE_URL}/tirzepatide` },
   },
 };
 

@@ -10,7 +10,7 @@ export const metadata: Metadata = {
   description: "Complete dosing and titration schedules for Ozempic, Wegovy, Mounjaro, and Rybelsus in Canada. How to start, titrate, and what to do if you miss a dose.",
   alternates: {
     canonical: `${SITE_URL}/dosing`,
-    languages: { "en-CA": `${SITE_URL}/dosing` },
+    languages: { "en-CA": `${SITE_URL}/dosing`, "x-default": `${SITE_URL}/dosing` },
   },
 };
 

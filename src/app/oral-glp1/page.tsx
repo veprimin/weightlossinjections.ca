@@ -11,7 +11,7 @@ export const metadata: Metadata = {
     "A complete guide to oral GLP-1 medications in Canada, including Rybelsus (oral semaglutide), how it compares to injectable options, who it's best for, and what it costs.",
   alternates: {
     canonical: `${SITE_URL}/oral-glp1`,
-    languages: { "en-CA": `${SITE_URL}/oral-glp1` },
+    languages: { "en-CA": `${SITE_URL}/oral-glp1`, "x-default": `${SITE_URL}/oral-glp1` },
   },
 };
 

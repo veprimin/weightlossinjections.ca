@@ -8,7 +8,7 @@ export const metadata: Metadata = {
     "Full medical disclaimer, affiliate disclosure, editorial standards, and province availability notice for WeightLossInjections.ca.",
   alternates: {
     canonical: `${SITE_URL}/disclaimer`,
-    languages: { "en-CA": `${SITE_URL}/disclaimer` },
+    languages: { "en-CA": `${SITE_URL}/disclaimer`, "x-default": `${SITE_URL}/disclaimer` },
   },
   robots: { index: true, follow: true },
 };

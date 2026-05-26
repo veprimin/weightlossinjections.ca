@@ -11,7 +11,7 @@ export const metadata: Metadata = {
     "Complete guide to Ozempic, Wegovy, and Mounjaro in Alberta: Alberta Blue Cross coverage, private insurance, virtual care access, and home delivery for Alberta residents.",
   alternates: {
     canonical: `${SITE_URL}/alberta`,
-    languages: { "en-CA": `${SITE_URL}/alberta` },
+    languages: { "en-CA": `${SITE_URL}/alberta`, "x-default": `${SITE_URL}/alberta` },
   },
 };
 
