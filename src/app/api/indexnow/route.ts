@@ -6,16 +6,29 @@ const INDEXNOW_ENDPOINT = "https://api.indexnow.org/IndexNow";
 
 const URL_PATHS = [
   "/",
+  // Medication guides
   "/semaglutide",
   "/tirzepatide",
+  "/oral-glp1",
+  "/saxenda",
+  "/generic-semaglutide",
+  "/best-generic-semaglutide-canada",
+  // Comparisons
   "/compare",
   "/compare/ozempic-vs-wegovy",
   "/compare/ozempic-vs-mounjaro",
   "/compare/wegovy-vs-mounjaro",
   "/compare/ozempic-vs-rybelsus",
+  // Cost & insurance
   "/cost",
   "/insurance-coverage",
   "/insurance-checker",
+  // Clinical info
+  "/dosing",
+  "/side-effects",
+  "/online-prescription",
+  "/faq",
+  // Province guides
   "/ontario",
   "/british-columbia",
   "/alberta",
@@ -25,14 +38,10 @@ const URL_PATHS = [
   "/new-brunswick",
   "/newfoundland",
   "/pei",
-  "/oral-glp1",
-  "/generic-semaglutide",
+  // News / affiliate
   "/semaglutide-price-drop",
-  "/online-prescription",
-  "/side-effects",
-  "/dosing",
-  "/saxenda",
-  "/faq",
+  "/felix-semaglutide-149",
+  // Site pages
   "/about",
   "/disclaimer",
 ];

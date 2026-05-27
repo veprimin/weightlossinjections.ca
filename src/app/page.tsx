@@ -295,6 +295,87 @@ export default function HomePage() {
         </div>
       </section>
 
+      {/* ── Latest Updates ───────────────────────────────────── */}
+      <section className="border-b border-gray-100 bg-white py-10 sm:py-12">
+        <div className="mx-auto max-w-5xl px-4 sm:px-6 lg:px-8">
+          <div className="mb-6 flex flex-col items-start justify-between gap-4 sm:flex-row sm:items-end">
+            <div>
+              <h2
+                className="text-xl font-bold text-black sm:text-2xl"
+                style={{ fontFamily: "var(--font-playfair, Georgia, serif)" }}
+              >
+                Latest Coverage
+              </h2>
+              <p className="mt-1 text-sm text-black">Recent updates on pricing, approvals, and access.</p>
+            </div>
+          </div>
+          <div className="grid gap-4 sm:grid-cols-3">
+            {[
+              {
+                href: "/semaglutide-price-drop",
+                date: "May 2026",
+                category: "Pricing",
+                title: "Generic Semaglutide Price Drop: What Canadians Can Expect",
+              },
+              {
+                href: "/felix-semaglutide-149",
+                date: "May 2026",
+                category: "News",
+                title: "Felix Health Launches Generic Semaglutide at $149/month",
+              },
+              {
+                href: "/best-generic-semaglutide-canada",
+                date: "May 2026",
+                category: "Comparison",
+                title: "Best Generic Semaglutide Provider in Canada 2026",
+              },
+            ].map((a) => (
+              <Link
+                key={a.href}
+                href={a.href}
+                className="group flex flex-col gap-2 rounded-xl border border-gray-200 bg-white p-5 transition-all hover:border-gray-300 hover:shadow-sm"
+              >
+                <div className="flex items-center gap-2">
+                  <span className="text-xs font-bold uppercase tracking-widest text-[#1B3A6B]">{a.category}</span>
+                  <span className="text-xs text-black">{a.date}</span>
+                </div>
+                <h3
+                  className="text-sm font-bold leading-snug text-black transition-colors group-hover:text-[#1B3A6B]"
+                  style={{ fontFamily: "var(--font-playfair, Georgia, serif)" }}
+                >
+                  {a.title}
+                </h3>
+                <span className="mt-auto text-sm font-semibold text-[#1B3A6B]">Read &rarr;</span>
+              </Link>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* ── More Guides ──────────────────────────────────────── */}
+      <section className="border-b border-gray-100 bg-white py-10 sm:py-12">
+        <div className="mx-auto max-w-5xl px-4 sm:px-6 lg:px-8">
+          <h2 className="mb-6 text-xs font-bold uppercase tracking-widest text-black">Clinical Guides</h2>
+          <div className="grid grid-cols-2 gap-4 md:grid-cols-4">
+            {[
+              { href: "/faq",          label: "FAQ",             sub: "20+ questions answered"     },
+              { href: "/side-effects", label: "Side Effects",    sub: "What to expect"             },
+              { href: "/dosing",       label: "Dosing Guide",    sub: "Titration schedules"        },
+              { href: "/saxenda",      label: "Saxenda Guide",   sub: "Liraglutide option"         },
+            ].map((q) => (
+              <Link
+                key={q.href}
+                href={q.href}
+                className="group flex flex-col gap-1 rounded-xl border border-gray-200 bg-white p-5 transition-all hover:border-[#1B3A6B] hover:shadow-sm"
+              >
+                <p className="text-sm font-semibold text-black group-hover:text-[#1B3A6B] transition-colors">{q.label}</p>
+                <p className="text-xs text-black">{q.sub}</p>
+              </Link>
+            ))}
+          </div>
+        </div>
+      </section>
+
       {/* ── Province Grid ────────────────────────────────────── */}
       <ProvinceGrid />
 
