@@ -32,6 +32,7 @@ const routes: { path: string; priority: number; changeFrequency: MetadataRoute.S
   { path: "/saxenda",               priority: 0.7, changeFrequency: "monthly" },
   { path: "/faq",                   priority: 0.7, changeFrequency: "monthly" },
   { path: "/best-generic-semaglutide-canada", priority: 0.9, changeFrequency: "weekly"  },
+  { path: "/felix-generic-semaglutide",       priority: 0.9, changeFrequency: "weekly"  },
   { path: "/about",                 priority: 0.5, changeFrequency: "yearly"  },
   { path: "/disclaimer",            priority: 0.4, changeFrequency: "yearly"  },
 ];
