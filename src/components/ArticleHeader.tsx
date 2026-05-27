@@ -2,7 +2,7 @@ interface ArticleHeaderProps {
   category: string;
   readTime: string;
   headline: string;
-  standfirst: string;
+  standfirst?: string;
   date: string;
   heroEmoji?: string;
   heroGradient?: string;
@@ -30,18 +30,22 @@ export default function ArticleHeader({
         </h1>
       </div>
 
-      <p
-        className="text-xl text-black leading-relaxed mb-6 max-w-2xl"
-        style={{ fontFamily: "var(--font-source-serif, Georgia, serif)", fontWeight: 300 }}
-      >
-        {standfirst}
-      </p>
+      {standfirst && (
+        <>
+          <p
+            className="text-xl text-black leading-relaxed mb-6 max-w-2xl"
+            style={{ fontFamily: "var(--font-source-serif, Georgia, serif)", fontWeight: 300 }}
+          >
+            {standfirst}
+          </p>
 
-      <div className="flex items-center gap-3 text-sm text-black">
-        <span>By the editorial team at WeightLossInjections.ca</span>
-        <span className="w-1 h-1 rounded-full bg-gray-300" />
-        <span>Medically reviewed</span>
-      </div>
+          <div className="flex items-center gap-3 text-sm text-black">
+            <span>By the editorial team at WeightLossInjections.ca</span>
+            <span className="w-1 h-1 rounded-full bg-gray-300" />
+            <span>Medically reviewed</span>
+          </div>
+        </>
+      )}
     </header>
   );
 }

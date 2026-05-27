@@ -351,16 +351,7 @@ export default function BestGenericSemaglutideCanadaPage() {
         readTime="9 min"
         date="May 2026"
         headline="Best Generic Semaglutide Provider in Canada (2026)"
-        standfirst="Canada has approved generic semaglutide - and a wave of telehealth providers now offer it starting at $124.99 per month. Here is how Felix Health, Phoenix, Raven, MedExpress, and Hims Canada compare on price, fees, service quality, and what really sets each apart."
       />
-
-      {/* ── Provider Cards - first thing after header ── */}
-      <div className="mt-8 mb-4">
-        <h2 id="ranked" className="text-2xl font-bold text-black mb-2" style={{ fontFamily: "var(--font-playfair)" }}>Ranked: Best Generic Semaglutide Providers in Canada</h2>
-        <p className="text-sm text-black mb-2">
-          Each provider below was assessed on price, service breadth, clinical infrastructure, shipping speed, and ongoing care quality. Felix Health is our sponsored partner - a ranking we stand behind editorially, but we disclose the commercial relationship transparently. The remaining providers are ranked by our editorial assessment with no financial consideration.
-        </p>
-      </div>
 
       <div className="space-y-6 mb-12">
         {providers.map((p) => (
