@@ -30,8 +30,100 @@ const related = [
   { href: "/side-effects",      emoji: "📋", title: "GLP-1 Side Effects Complete Guide",      date: "May 2026" },
 ];
 
+const faqSchema = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  mainEntity: [
+    {
+      "@type": "Question",
+      name: "What is a GLP-1 medication?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "GLP-1 medications are a class of drugs that mimic glucagon-like peptide-1, a hormone naturally produced in the gut after eating. They suppress appetite, slow gastric emptying, and stimulate insulin release. The class includes semaglutide (Ozempic, Wegovy, Rybelsus), liraglutide (Saxenda), and tirzepatide (Mounjaro).",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "Do I need a prescription for Ozempic or Wegovy in Canada?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "Yes, always. Ozempic, Wegovy, Mounjaro, Rybelsus, and Saxenda are all Schedule F prescription drugs in Canada. They cannot be legally dispensed without a valid prescription from a licensed Canadian physician or nurse practitioner.",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "How do I get a GLP-1 prescription in Canada?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "There are three main pathways: through your family physician, through an obesity specialist or endocrinologist (by referral), or through a virtual care platform like Felix Health where a licensed Canadian physician reviews your intake form online and can issue a prescription within hours.",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "Am I eligible for GLP-1 treatment?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "For type 2 diabetes (Ozempic, Rybelsus, Mounjaro): diagnosed T2D inadequately controlled on other medications. For weight management (Wegovy): BMI of 30 or higher, or BMI 27+ with at least one weight-related condition (hypertension, sleep apnea, dyslipidemia, cardiovascular disease). Absolute contraindications include personal or family history of medullary thyroid carcinoma or MEN2, current pregnancy, and known hypersensitivity.",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "How much does Ozempic cost without insurance in Canada?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "Ozempic typically costs approximately $235-$420 per month without insurance, varying by dose and province. Wegovy (semaglutide 2.4 mg) runs approximately $385-$430 per month. Generic semaglutide options approved in 2025 may cost 45-90% less.",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "Does provincial health insurance cover Ozempic?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "For type 2 diabetes, most provincial drug plans cover Ozempic subject to specific eligibility criteria and prior authorization. For weight management alone, provincial drug plans generally do not cover Ozempic or Wegovy as of 2025. Coverage varies significantly by province.",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "What is the difference between Ozempic and Wegovy?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "Ozempic and Wegovy contain the same active ingredient - semaglutide - but are different products. Ozempic (up to 2 mg weekly) was approved for type 2 diabetes in 2018. Wegovy (up to 2.4 mg weekly) was approved in 2021 specifically for chronic weight management. Wegovy produces greater average weight loss (~15% vs ~9-13%).",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "Is there a generic version of Ozempic in Canada?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "Yes. Health Canada approved generic semaglutide in 2024-2025: Plosbrio by Dr. Reddy's Laboratories and Poviztra by Apotex. Generic medications typically cost 45-90% less than brand-name equivalents.",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "What are the most common side effects of GLP-1 medications?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "The most common side effects are gastrointestinal and dose-dependent: nausea (30-44% of patients), diarrhea (15-20%), constipation (10-15%), vomiting (10-14%), and abdominal discomfort (5-10%). These are most intense during dose titration and improve significantly for most patients after weeks 4-8.",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "What happens if I stop taking GLP-1 medications?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "Weight regain is common and expected when GLP-1 medications are discontinued. The STEP 4 trial found that patients who stopped semaglutide regained approximately two-thirds of their lost weight within one year. Many clinicians now approach GLP-1 medications as long-term maintenance therapy.",
+      },
+    },
+  ],
+};
+
 export default function FaqPage() {
   return (
+    <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
+      />
     <ArticleLayout toc={toc} related={related}>
       <ArticleHeader
         category="FAQ"
@@ -216,5 +308,6 @@ export default function FaqPage() {
         </div>
       </div>
     </ArticleLayout>
+    </>
   );
 }

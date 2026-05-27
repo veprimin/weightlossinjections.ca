@@ -297,6 +297,58 @@ export default function ComparePage() {
           ))}
         </div>
 
+        {/* Detailed Head-to-Head Comparisons */}
+        <h2
+          className="text-xl font-bold text-black mb-2 pb-3 border-b border-gray-200"
+          style={{ fontFamily: "var(--font-playfair, Georgia, serif)" }}
+        >
+          Head-to-Head Comparisons
+        </h2>
+        <p className="text-sm text-black mb-6">Deep-dive articles comparing two medications at a time - efficacy, cost, side effects, and who each is best suited for.</p>
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-16">
+          {[
+            {
+              href: "/compare/ozempic-vs-wegovy",
+              title: "Ozempic vs Wegovy",
+              sub: "Both are semaglutide - what actually differs?",
+              color: "#1B3A6B",
+            },
+            {
+              href: "/compare/ozempic-vs-mounjaro",
+              title: "Ozempic vs Mounjaro",
+              sub: "GLP-1 vs dual GIP + GLP-1 - which wins on weight loss?",
+              color: "#0F766E",
+            },
+            {
+              href: "/compare/wegovy-vs-mounjaro",
+              title: "Wegovy vs Mounjaro",
+              sub: "The two top weight-loss drugs compared side by side.",
+              color: "#3730A3",
+            },
+            {
+              href: "/compare/ozempic-vs-rybelsus",
+              title: "Ozempic vs Rybelsus",
+              sub: "Injectable vs oral semaglutide - same drug, different delivery.",
+              color: "#7C3AED",
+            },
+          ].map((c) => (
+            <Link
+              key={c.href}
+              href={c.href}
+              className="group flex flex-col gap-2 rounded-xl border border-gray-200 bg-white p-5 transition-all hover:border-gray-300 hover:shadow-sm"
+            >
+              <h3
+                className="text-base font-bold text-black transition-colors group-hover:text-[#1B3A6B]"
+                style={{ fontFamily: "var(--font-playfair, Georgia, serif)" }}
+              >
+                {c.title}
+              </h3>
+              <p className="text-sm text-black leading-relaxed">{c.sub}</p>
+              <span className="mt-auto text-sm font-semibold" style={{ color: c.color }}>Read comparison &rarr;</span>
+            </Link>
+          ))}
+        </div>
+
         {/* Sponsored Partners */}
         <div className="mb-12">
           <p className="text-center text-xs font-semibold uppercase tracking-widest text-black mb-5 flex items-center gap-3 before:flex-1 before:h-px before:bg-gray-200 after:flex-1 after:h-px after:bg-gray-200">
