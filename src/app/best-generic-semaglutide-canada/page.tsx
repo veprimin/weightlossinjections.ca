@@ -1,13 +1,12 @@
 import type { Metadata } from "next";
-import ArticleLayout from "@/components/ArticleLayout";
 import ArticleHeader from "@/components/ArticleHeader";
 import Link from "next/link";
-import { SITE_URL, FELIX_LINK, DIRECT_MEDS_LINK } from "@/lib/constants";
+import { SITE_URL, FELIX_LINK } from "@/lib/constants";
 
 export const metadata: Metadata = {
   title: "Best Generic Semaglutide Provider in Canada (2026) - Compared",
   description:
-    "Comparing the top Canadian providers for generic semaglutide in 2026 - Felix Health, DirectMeds, Phoenix Health, Raven, MedExpress, and Hims Canada. Pricing, fees, and what sets each apart.",
+    "Comparing the top Canadian providers for generic semaglutide in 2026 - Felix Health, Phoenix Health, Raven, MedExpress, and Hims Canada. Pricing, fees, and what sets each apart.",
   alternates: {
     canonical: `${SITE_URL}/best-generic-semaglutide-canada`,
     languages: {
@@ -17,26 +16,17 @@ export const metadata: Metadata = {
   },
 };
 
-const toc = [
-  { id: "overview",       label: "Market Overview" },
-  { id: "comparison",     label: "Side-by-Side Comparison" },
-  { id: "ranked",         label: "Ranked Provider Cards" },
-  { id: "how-to-choose",  label: "How to Choose" },
-  { id: "faq",            label: "FAQ" },
-];
-
 const related = [
-  { href: "/generic-semaglutide",    emoji: "", title: "Generic Semaglutide in Canada: Complete Guide",  date: "May 2026" },
-  { href: "/semaglutide-price-drop", emoji: "", title: "Semaglutide Price Drops Over 50%",              date: "May 2026" },
-  { href: "/cost",                   emoji: "", title: "Province-by-Province Cost Guide",                date: "May 2026" },
-  { href: "/insurance-coverage",     emoji: "", title: "Insurance Coverage Guide",                       date: "May 2026" },
+  { href: "/generic-semaglutide",    title: "Generic Semaglutide in Canada: Complete Guide",  date: "May 2026" },
+  { href: "/semaglutide-price-drop", title: "Semaglutide Price Drops Over 50%",              date: "May 2026" },
+  { href: "/cost",                   title: "Province-by-Province Cost Guide",                date: "May 2026" },
+  { href: "/insurance-coverage",     title: "Insurance Coverage Guide",                       date: "May 2026" },
 ];
 
 /* ------------------------------------------------------------------ */
 /*  Provider data                                                       */
 /* ------------------------------------------------------------------ */
 const ACCENT_GREEN = "#0F6E56";
-const ACCENT_NAVY  = "#1B4F9E";
 
 type ProviderData = {
   rank: number;
@@ -81,27 +71,6 @@ const providers: ProviderData[] = [
   },
   {
     rank: 2,
-    name: "DirectMeds",
-    logo: "https://assets.efusercontent.com/2994/assets/logo/57f89939-7407-2795-30d5-b694919d50d3.png",
-    tagline: "Lowest entry price - brand-name and generic GLP-1 options available",
-    features: [
-      "Generic semaglutide from $99/month - lowest entry price reviewed",
-      "Brand-name Ozempic, Wegovy, and Mounjaro also stocked",
-      "Free shipping in 1-2 business days - no insurance required",
-    ],
-    rating: 9.5,
-    userVotes: 3204,
-    price: "From $99/month",
-    badge: "Best Value",
-    accentColor: ACCENT_NAVY,
-    url: DIRECT_MEDS_LINK,
-    sponsored: true,
-    assessmentFee: "$0",
-    followUp: "Included",
-    shipping: "Free (1-2 days)",
-  },
-  {
-    rank: 3,
     name: "Phoenix Health",
     logo: "",
     tagline: "Canadian-owned. Unlimited doctor follow-ups included.",
@@ -122,7 +91,7 @@ const providers: ProviderData[] = [
     shipping: "Free",
   },
   {
-    rank: 4,
+    rank: 3,
     name: "Raven Health",
     logo: "",
     tagline: "Women-focused. Ongoing check-ins included.",
@@ -143,7 +112,7 @@ const providers: ProviderData[] = [
     shipping: "Free (2-3 days)",
   },
   {
-    rank: 5,
+    rank: 4,
     name: "MedExpress Canada",
     logo: "",
     tagline: "Clinical-first. Global network of 1.5M+ patients.",
@@ -164,7 +133,7 @@ const providers: ProviderData[] = [
     shipping: "Free / discreet",
   },
   {
-    rank: 6,
+    rank: 5,
     name: "Hims Canada",
     logo: "",
     tagline: "Next-day delivery. 2.4M+ global subscribers.",
@@ -232,7 +201,7 @@ function scoreWording(s: number) {
 }
 
 /* ------------------------------------------------------------------ */
-/*  Provider card (NadProviderCard visual pattern)                     */
+/*  Provider card                                                       */
 /* ------------------------------------------------------------------ */
 function CardShell({
   p,
@@ -243,7 +212,7 @@ function CardShell({
 }) {
   const cardStyle = {
     borderRadius: 4,
-    border: `1px solid ${p.rank <= 2 ? p.accentColor + "55" : "#e5e7eb"}`,
+    border: `1px solid ${p.rank === 1 ? p.accentColor + "55" : "#e5e7eb"}`,
   } as const;
   const cardClass = "block bg-white transition-shadow duration-200 hover:shadow-md";
 
@@ -264,7 +233,7 @@ function CardShell({
 function ProviderCard({ p }: { p: ProviderData }) {
   return (
     <div className="relative mt-5">
-      {/* Rank badge - top-left corner, overlapping card edge */}
+      {/* Rank badge */}
       <div
         className="absolute top-0 left-0 -translate-x-1/2 -translate-y-1/2 z-10 w-9 h-9 rounded-full flex items-center justify-center text-sm font-bold shadow-sm"
         style={{ backgroundColor: p.accentColor, color: "#fff", border: "2px solid white" }}
@@ -273,7 +242,7 @@ function ProviderCard({ p }: { p: ProviderData }) {
         {p.rank}
       </div>
 
-      {/* Ribbon label - top 2 only */}
+      {/* Ribbon label */}
       {p.badge && (
         <div
           className="absolute top-0 left-5 -translate-y-1/2 z-10 flex items-center gap-1 px-3 py-1 text-xs font-bold text-white"
@@ -289,9 +258,7 @@ function ProviderCard({ p }: { p: ProviderData }) {
         </div>
       )}
 
-      {/* Card */}
       <CardShell p={p}>
-        {/* Body - two-column */}
         <div className="flex gap-3 px-5 pt-7 pb-3">
           {/* Left: logo + tagline + features */}
           <div className="flex-1 min-w-0">
@@ -348,9 +315,9 @@ function ProviderCard({ p }: { p: ProviderData }) {
           </div>
         </div>
 
-        {/* CTA button area */}
-        <div className="px-5 pb-4 pt-1">
-          {p.url ? (
+        {/* CTA - only shown when there is an affiliate link */}
+        {p.url && (
+          <div className="px-5 pb-4 pt-1">
             <div
               className="w-full flex items-center justify-center gap-2 text-white text-sm font-bold py-2.5 rounded-full"
               style={{ backgroundColor: p.accentColor }}
@@ -360,20 +327,13 @@ function ProviderCard({ p }: { p: ProviderData }) {
                 <path d="M16.6875 8.71875L11.6875 13.7188C11.3125 14.125 10.6562 14.125 10.2812 13.7188C9.875 13.3438 9.875 12.6875 10.2812 12.3125L13.5625 9H4C3.4375 9 3 8.5625 3 8C3 7.46875 3.4375 7 4 7H13.5625L10.2812 3.71875C9.875 3.34375 9.875 2.6875 10.2812 2.3125C10.6562 1.90625 11.3125 1.90625 11.6875 2.3125L16.6875 7.3125C17.0938 7.6875 17.0938 8.34375 16.6875 8.71875Z" fill="#fff" />
               </svg>
             </div>
-          ) : (
-            <div
-              className="w-full flex items-center justify-center text-sm font-semibold py-2.5 rounded-full"
-              style={{ border: "1px solid #d1d5db", color: "#6b7280", background: "#f9fafb" }}
-            >
-              No affiliate link - listed for comparison
-            </div>
-          )}
-          {p.sponsored && (
-            <p className="text-center text-xs mt-2" style={{ color: p.accentColor }}>
-              Sponsored partner - affiliate link
-            </p>
-          )}
-        </div>
+            {p.sponsored && (
+              <p className="text-center text-xs mt-2" style={{ color: p.accentColor }}>
+                Sponsored partner - affiliate link
+              </p>
+            )}
+          </div>
+        )}
       </CardShell>
     </div>
   );
@@ -384,44 +344,32 @@ function ProviderCard({ p }: { p: ProviderData }) {
 /* ------------------------------------------------------------------ */
 export default function BestGenericSemaglutideCanadaPage() {
   return (
-    <ArticleLayout toc={toc} related={related}>
+    <main className="max-w-7xl mx-auto px-4 sm:px-6 py-12">
+
       <ArticleHeader
         category="Provider Comparison"
         readTime="9 min"
         date="May 2026"
         headline="Best Generic Semaglutide Provider in Canada (2026)"
-        standfirst="Canada has approved generic semaglutide - and a wave of telehealth providers now offer it starting at $124.99 per month. Here is how Felix Health, DirectMeds, Phoenix, Raven, MedExpress, and Hims Canada compare on price, fees, service quality, and what really sets each apart."
+        standfirst="Canada has approved generic semaglutide - and a wave of telehealth providers now offer it starting at $124.99 per month. Here is how Felix Health, Phoenix, Raven, MedExpress, and Hims Canada compare on price, fees, service quality, and what really sets each apart."
       />
 
-      <div className="prose-editorial">
-
-        {/* Market context callout */}
-        <div className="bg-[#E1F5EE] border-l-4 border-[#0F6E56] rounded-r-xl px-5 py-4 mb-8 not-prose">
-          <p className="text-xs font-bold uppercase tracking-widest text-[#063D2B] mb-1">Market Update - May 2026</p>
-          <p className="text-sm text-[#063D2B] leading-relaxed">
-            Health Canada approved two generic semaglutide products in April-May 2026 - one from Dr. Reddy&apos;s Laboratories and Apo-Semaglutide from Apotex. The Canadian market has quickly organized into two price tiers: <strong>$124.99/month</strong> from challengers Phoenix and Raven, and <strong>$149/month</strong> from the established platforms Felix Health and Hims Canada.
-          </p>
-        </div>
-
-        <h2 id="overview">Market Overview</h2>
-        <p>
-          The approval of generic semaglutide in Canada triggered an immediate competitive response from virtual healthcare providers. Within weeks, a half-dozen platforms announced pricing for the new Health Canada-authorized generics - and a clear market structure began to emerge.
-        </p>
-        <p>
-          Two price tiers dominate the current market. At <strong>$124.99 per month</strong>, Phoenix Health and Raven Health are competing on price, bundling $0 assessment fees, unlimited follow-up care, and free shipping into a single monthly rate. At <strong>$149 per month</strong>, Felix Health and Hims Canada are positioning on brand trust, user experience, and established patient networks - Felix with direct insurance billing and Hims with next-day delivery.
-        </p>
-        <p>
-          MedExpress Canada occupies a hybrid position: $124.99 per pen with a separate program fee (currently waived with a promotional code) and a clinical-first brand identity drawn from its global operations. DirectMeds offers the most competitive starting price among all providers we reviewed, beginning at $99 per month.
-        </p>
-
-        <h2 id="comparison">Side-by-Side Comparison</h2>
-        <p>
-          The table below covers all six providers currently offering generic semaglutide prescriptions to Canadians online. Pricing and promotional offers may change - confirm directly with each provider before starting treatment.
+      {/* ── Provider Cards - first thing after header ── */}
+      <div className="mt-8 mb-4">
+        <h2 id="ranked" className="text-2xl font-bold text-black mb-2" style={{ fontFamily: "var(--font-playfair)" }}>Ranked: Best Generic Semaglutide Providers in Canada</h2>
+        <p className="text-sm text-black mb-2">
+          Each provider below was assessed on price, service breadth, clinical infrastructure, shipping speed, and ongoing care quality. Felix Health is our sponsored partner - a ranking we stand behind editorially, but we disclose the commercial relationship transparently. The remaining providers are ranked by our editorial assessment with no financial consideration.
         </p>
       </div>
 
-      {/* Comparison Table */}
-      <div className="overflow-x-auto my-8 rounded-xl border border-gray-200 not-prose">
+      <div className="space-y-6 mb-12">
+        {providers.map((p) => (
+          <ProviderCard key={p.name} p={p} />
+        ))}
+      </div>
+
+      {/* ── Comparison Table ── */}
+      <div className="overflow-x-auto mt-10 mb-2 rounded-xl border border-gray-200">
         <table className="w-full text-sm border-collapse">
           <thead>
             <tr style={{ background: "#0F6E56" }} className="text-white">
@@ -463,34 +411,41 @@ export default function BestGenericSemaglutideCanadaPage() {
           </tbody>
         </table>
       </div>
+      <p className="text-xs text-black mb-10">
+        Prices as of May 2026. Promotional rates and program fees may vary. Felix Health is an affiliate partner of WeightLossInjections.ca.
+      </p>
 
-      <div className="prose-editorial">
-        <p className="text-xs text-black not-prose mb-10">
-          Prices as of May 2026. Promotional rates and program fees may vary. Felix Health and DirectMeds are affiliate partners of WeightLossInjections.ca.
-        </p>
+      {/* ── Guide content ── */}
+      <div className="max-w-3xl">
+        <div className="prose-editorial">
 
-        {/* Ranked Provider Cards */}
-        <h2 id="ranked">Ranked: Best Generic Semaglutide Providers in Canada</h2>
-        <p>
-          Each provider below was assessed on price, service breadth, clinical infrastructure, shipping speed, and ongoing care quality. Our two sponsored partners (Felix Health and DirectMeds) are ranked first and second - a ranking we stand behind editorially, but we disclose the commercial relationship transparently. The remaining four providers are ranked by our editorial assessment with no financial consideration.
-        </p>
-      </div>
+          {/* Market context callout */}
+          <div className="bg-[#E1F5EE] border-l-4 border-[#0F6E56] rounded-r-xl px-5 py-4 mb-8 not-prose">
+            <p className="text-xs font-bold uppercase tracking-widest text-[#063D2B] mb-1">Market Update - May 2026</p>
+            <p className="text-sm text-[#063D2B] leading-relaxed">
+              Health Canada approved two generic semaglutide products in April-May 2026 - one from Dr. Reddy&apos;s Laboratories and Apo-Semaglutide from Apotex. The Canadian market has quickly organized into two price tiers: <strong>$124.99/month</strong> from challengers Phoenix and Raven, and <strong>$149/month</strong> from the established platforms Felix Health and Hims Canada.
+            </p>
+          </div>
 
-      {/* Provider Cards */}
-      <div className="space-y-6 my-8 not-prose">
-        {providers.map((p) => (
-          <ProviderCard key={p.name} p={p} />
-        ))}
-      </div>
+          <h2 id="overview">Market Overview</h2>
+          <p>
+            The approval of generic semaglutide in Canada triggered an immediate competitive response from virtual healthcare providers. Within weeks, a half-dozen platforms announced pricing for the new Health Canada-authorized generics - and a clear market structure began to emerge.
+          </p>
+          <p>
+            Two price tiers dominate the current market. At <strong>$124.99 per month</strong>, Phoenix Health and Raven Health are competing on price, bundling $0 assessment fees, unlimited follow-up care, and free shipping into a single monthly rate. At <strong>$149 per month</strong>, Felix Health and Hims Canada are positioning on brand trust, user experience, and established patient networks - Felix with direct insurance billing and Hims with next-day delivery.
+          </p>
+          <p>
+            MedExpress Canada occupies a hybrid position: $124.99 per pen with a separate program fee (currently waived with a promotional code) and a clinical-first brand identity drawn from its global operations.
+          </p>
 
-      <div className="prose-editorial">
-        {/* How to choose */}
-        <h2 id="how-to-choose">How to Choose the Right Provider</h2>
-        <p>
-          The right provider depends on what matters most to you. Here is a practical decision framework:
-        </p>
+          {/* How to choose */}
+          <h2 id="how-to-choose">How to Choose the Right Provider</h2>
+          <p>
+            The right provider depends on what matters most to you. Here is a practical decision framework:
+          </p>
+        </div>
 
-        <div className="not-prose grid grid-cols-1 sm:grid-cols-2 gap-4 my-6">
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 my-6">
           {[
             {
               num: "1",
@@ -501,8 +456,8 @@ export default function BestGenericSemaglutideCanadaPage() {
             {
               num: "2",
               condition: "You want the lowest upfront cost",
-              rec: "Compare DirectMeds and Phoenix Health",
-              reason: "DirectMeds starts from $99/month. Phoenix Health offers $124.99/month with unlimited follow-ups included. Both are well below the $149 tier.",
+              rec: "Compare Phoenix Health and Raven Health",
+              reason: "Both Phoenix Health and Raven Health offer $124.99/month with $0 assessment fees and unlimited follow-ups included.",
             },
             {
               num: "3",
@@ -535,13 +490,13 @@ export default function BestGenericSemaglutideCanadaPage() {
 
         {/* Inline CTA */}
         <div
-          className="rounded-xl p-6 flex flex-col sm:flex-row items-start sm:items-center gap-5 my-8 not-prose"
+          className="rounded-xl p-6 flex flex-col sm:flex-row items-start sm:items-center gap-5 my-8"
           style={{ background: "linear-gradient(135deg,#0F2547,#1B3A6B)" }}
         >
           <div className="flex-1">
             <p className="text-sm font-semibold mb-1.5 text-white">Ready to get started with generic semaglutide?</p>
             <p className="text-sm leading-relaxed text-white/85">
-              Felix Health offers direct insurance billing. DirectMeds starts from $99/month. Both are licensed Canadian virtual clinics with free shipping.
+              Felix Health offers direct insurance billing and serves 1.5 million+ Canadians. Licensed virtual clinic with free shipping.
             </p>
           </div>
           <div className="flex flex-col sm:flex-row gap-2 shrink-0">
@@ -553,48 +508,59 @@ export default function BestGenericSemaglutideCanadaPage() {
             >
               Felix Health &rarr;
             </a>
-            <a
-              href={DIRECT_MEDS_LINK}
-              target="_blank"
-              rel="noopener sponsored"
-              className="bg-transparent text-white font-semibold text-sm px-5 py-2.5 rounded-lg hover:bg-white/10 transition-colors border border-white whitespace-nowrap"
-            >
-              DirectMeds &rarr;
-            </a>
           </div>
         </div>
 
-        <h2 id="faq">Frequently Asked Questions</h2>
+        <div className="prose-editorial">
+          <h2 id="faq">Frequently Asked Questions</h2>
 
-        <h3>Is generic semaglutide the same as Ozempic?</h3>
-        <p>
-          Yes, clinically. Health Canada requires generic medications to demonstrate bioequivalence to the reference brand - meaning the same active ingredient (semaglutide) is delivered into the bloodstream at the same rate and to the same extent. The device, packaging, and manufacturer differ, but the clinical effect is the same. Both Health Canada-approved generics (from Dr. Reddy&apos;s and Apotex) have received a Notice of Compliance confirming this equivalence.
-        </p>
+          <h3>Is generic semaglutide the same as Ozempic?</h3>
+          <p>
+            Yes, clinically. Health Canada requires generic medications to demonstrate bioequivalence to the reference brand - meaning the same active ingredient (semaglutide) is delivered into the bloodstream at the same rate and to the same extent. The device, packaging, and manufacturer differ, but the clinical effect is the same. Both Health Canada-approved generics (from Dr. Reddy&apos;s and Apotex) have received a Notice of Compliance confirming this equivalence.
+          </p>
 
-        <h3>Why is there a $25 price gap between the $124.99 and $149 tiers?</h3>
-        <p>
-          The market has quickly organized into two price tiers. The $124.99 tier (Phoenix, Raven, MedExpress) reflects competitive pressure from newer entrants positioning on price. The $149 tier (Felix, Hims) reflects established platforms charging for additional services - Felix for direct insurance billing and its patient infrastructure, Hims for next-day delivery and brand recognition. The effective out-of-pocket cost through Felix can be lower than $124.99 for patients with private insurance.
-        </p>
+          <h3>Why is there a $25 price gap between the $124.99 and $149 tiers?</h3>
+          <p>
+            The market has quickly organized into two price tiers. The $124.99 tier (Phoenix, Raven, MedExpress) reflects competitive pressure from newer entrants positioning on price. The $149 tier (Felix, Hims) reflects established platforms charging for additional services - Felix for direct insurance billing and its patient infrastructure, Hims for next-day delivery and brand recognition. The effective out-of-pocket cost through Felix can be lower than $124.99 for patients with private insurance.
+          </p>
 
-        <h3>Can I switch providers if I am already on semaglutide?</h3>
-        <p>
-          Yes. Switching providers does not require restarting your dose titration. You will need a new prescription from the new provider, which typically involves completing a new online assessment. Your current dose level and injection schedule continue unchanged. There is no clinical reason to restart at the lowest dose when switching between bioequivalent products.
-        </p>
+          <h3>Can I switch providers if I am already on semaglutide?</h3>
+          <p>
+            Yes. Switching providers does not require restarting your dose titration. You will need a new prescription from the new provider, which typically involves completing a new online assessment. Your current dose level and injection schedule continue unchanged. There is no clinical reason to restart at the lowest dose when switching between bioequivalent products.
+          </p>
 
-        <h3>Which provinces are covered?</h3>
-        <p>
-          Felix Health and DirectMeds serve AB, BC, MB, NB, NL, NS, ON, PE, and SK - the nine provinces covered by our site. Phoenix Health and Raven Health serve the same nine provinces. MedExpress Canada and Hims Canada serve multiple provinces but confirm coverage during the eligibility check. None of these providers serve Quebec, Northwest Territories, Nunavut, or Yukon.
-        </p>
+          <h3>Which provinces are covered?</h3>
+          <p>
+            Felix Health serves AB, BC, MB, NB, NL, NS, ON, PE, and SK - the nine provinces covered by our site. Phoenix Health and Raven Health serve the same nine provinces. MedExpress Canada and Hims Canada serve multiple provinces but confirm coverage during the eligibility check. None of these providers serve Quebec, Northwest Territories, Nunavut, or Yukon.
+          </p>
 
-        <h3>How many more generic approvals are coming?</h3>
-        <p>
-          Health Canada has confirmed seven additional generic semaglutide submissions are currently under review. Each new approval increases competition and applies further downward pressure on price. See our <Link href="/generic-semaglutide">generic semaglutide guide</Link> for the full analysis of Canada&apos;s pricing trajectory.
-        </p>
+          <h3>How many more generic approvals are coming?</h3>
+          <p>
+            Health Canada has confirmed seven additional generic semaglutide submissions are currently under review. Each new approval increases competition and applies further downward pressure on price. See our <Link href="/generic-semaglutide">generic semaglutide guide</Link> for the full analysis of Canada&apos;s pricing trajectory.
+          </p>
 
-        <div className="bg-gray-50 border border-gray-200 rounded-xl p-5 mt-10 text-xs text-black leading-relaxed not-prose">
-          <strong>Editorial transparency:</strong> Felix Health and DirectMeds are affiliate partners of WeightLossInjections.ca - we earn a commission if you use our links. Phoenix Health, Raven Health, MedExpress Canada, and Hims Canada are not affiliate partners and are included for editorial completeness. Our ranking reflects market position, service breadth, and reader utility alongside the commercial relationship. Prices accurate as of May 2026 - confirm current pricing with each provider. This content does not constitute medical advice.
+          <div className="bg-gray-50 border border-gray-200 rounded-xl p-5 mt-10 text-xs text-black leading-relaxed not-prose">
+            <strong>Editorial transparency:</strong> Felix Health is an affiliate partner of WeightLossInjections.ca - we earn a commission if you use our link. Phoenix Health, Raven Health, MedExpress Canada, and Hims Canada are not affiliate partners and are included for editorial completeness. Our ranking reflects market position, service breadth, and reader utility alongside the commercial relationship. Prices accurate as of May 2026 - confirm current pricing with each provider. This content does not constitute medical advice.
+          </div>
+        </div>
+
+        {/* Related articles */}
+        <div className="mt-12 border-t border-gray-200 pt-8">
+          <p className="text-xs font-bold uppercase tracking-widest text-black mb-4">Related Articles</p>
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+            {related.map((r) => (
+              <Link key={r.href} href={r.href} className="flex gap-3 group items-start">
+                <div className="w-1 self-stretch rounded-full bg-[#E8EFFF] group-hover:bg-[#1B3A6B] transition-colors shrink-0" />
+                <div>
+                  <p className="text-sm font-medium text-black leading-snug group-hover:text-[#1B3A6B] transition-colors">{r.title}</p>
+                  <p className="text-xs text-black mt-0.5">{r.date}</p>
+                </div>
+              </Link>
+            ))}
+          </div>
         </div>
       </div>
-    </ArticleLayout>
+
+    </main>
   );
 }
